@@ -1,0 +1,124 @@
+04:39:50.688 INFO  Scanner configuration file: <LOCAL_PATH>/OneDrive\Documents\Conferences\research\tools\sonar-scanner-8.1.0.6389-windows-x64\bin\..\conf\sonar-scanner.properties
+04:39:50.691 INFO  Project root configuration file: NONE
+04:39:50.702 INFO  SonarScanner CLI 8.1.0.6389
+04:39:50.708 INFO  Windows 11 10.0 amd64
+04:39:53.182 INFO  Communicating with SonarQube Community Build 26.9.0.129388
+04:39:53.183 INFO  JRE provisioning: os[windows], arch[amd64]
+04:39:53.576 INFO  Starting SonarScanner Engine...
+04:39:53.576 INFO  Java 21.0.11 Eclipse Adoptium (64-bit)
+04:39:56.470 INFO  Load global settings
+04:39:56.575 INFO  Load global settings (done) | time=103ms
+04:39:56.579 INFO  Server id: 147B411E-AaCseIXKLwHTWvrBJNod
+04:39:56.588 INFO  Loading required plugins
+04:39:56.588 INFO  Load plugins index
+04:39:56.600 INFO  Load plugins index (done) | time=13ms
+04:39:56.600 INFO  Load/download plugins
+04:39:56.632 INFO  Load/download plugins (done) | time=32ms
+04:39:56.971 INFO  Process project properties
+04:39:56.995 INFO  Process project properties (done) | time=24ms
+04:39:57.010 INFO  Project key: cc-javascript-earendil-works__pi
+04:39:57.010 INFO  Base dir: <LOCAL_PATH>/OneDrive\Documents\Conferences\research\data\raw_repos\earendil-works__pi
+04:39:57.010 INFO  Working dir: <LOCAL_PATH>/OneDrive\Documents\Conferences\research\data\raw_repos\earendil-works__pi\.scannerwork
+04:39:57.020 INFO  Load project settings for component key: 'cc-javascript-earendil-works__pi'
+04:39:57.055 INFO  Load quality profiles
+04:39:57.106 INFO  Load quality profiles (done) | time=51ms
+04:39:57.148 INFO  Load active rules
+04:39:57.353 INFO  Load active rules (done) | time=203ms
+04:39:57.361 INFO  Load analysis cache
+04:39:57.368 INFO  Load analysis cache (404) | time=6ms
+04:39:57.665 INFO  Preprocessing files...
+04:39:59.482 INFO  2 languages detected in 1448 preprocessed files (done) | time=1817ms
+04:39:59.482 INFO  301 files ignored because of inclusion/exclusion patterns
+04:39:59.482 INFO  1 directory skipped because of exclusion patterns (content not counted)
+04:39:59.483 INFO  Loading plugins for detected languages
+04:39:59.484 INFO  Load/download plugins
+04:39:59.488 INFO  Load/download plugins (done) | time=5ms
+04:39:59.614 INFO  Load project repositories
+04:39:59.619 INFO  Load project repositories (done) | time=5ms
+04:39:59.645 INFO  Indexing files...
+04:39:59.645 INFO  Project configuration:
+04:39:59.645 INFO    Included sources: **/*.js, **/*.jsx, **/*.mjs, **/*.cjs, **/*.ts, **/*.tsx
+04:39:59.645 INFO    Excluded sources: **/node_modules/**, **/vendor/**, **/third_party/**, **/*.min.js
+04:39:59.646 INFO    Excluded sources for duplication: **/*
+04:39:59.798 INFO  1445 files indexed (done) | time=153ms
+04:39:59.799 INFO  Quality profile for js: cc-study-js
+04:39:59.799 INFO  Quality profile for ts: cc-study-ts
+04:39:59.799 INFO  ------------- Run sensors on module cc-javascript-earendil-works__pi
+04:39:59.836 INFO  Load metrics repository
+04:39:59.853 INFO  Load metrics repository (done) | time=16ms
+04:40:00.274 INFO  Reflections took 90 ms to scan 1 urls, producing 30 keys and 295 values
+04:40:00.450 INFO  Sensor IaC YAML File Type Classification Sensor [iac]
+04:40:00.481 INFO  Sensor IaC YAML File Type Classification Sensor [iac] (done) | time=31ms
+04:40:00.481 INFO  Sensor IaC hadolint report Sensor [iac]
+04:40:00.482 INFO  Sensor IaC hadolint report Sensor [iac] (done) | time=1ms
+04:40:00.483 INFO  Sensor Java Config Sensor [iac]
+04:40:00.484 INFO  There are no files to be analyzed for the Java language
+04:40:00.485 INFO  Sensor Java Config Sensor [iac] (done) | time=2ms
+04:40:00.486 INFO  Sensor IaC Docker Sensor [iac]
+04:40:00.522 INFO  There are no files to be analyzed for the Docker language
+04:40:00.522 INFO  Sensor IaC Docker Sensor [iac] (done) | time=36ms
+04:40:00.522 INFO  Sensor HTML [web]
+04:40:00.538 INFO  Sensor HTML [web] (done) | time=15ms
+04:40:00.538 INFO  Sensor JavaScript/TypeScript module configuration [javascript]
+04:40:00.543 INFO  Sensor JavaScript/TypeScript module configuration [javascript] (done) | time=6ms
+04:40:00.543 INFO  Sensor TextAndSecretsSensor [text]
+04:40:00.626 INFO  Available processors: 24
+04:40:00.626 INFO  Using 24 threads for analysis.
+04:40:00.987 INFO  The property "sonar.tests" is not set. To improve the analysis accuracy, we categorize a file as a test file if any of the following is true:
+  * The filename starts with "test"
+  * The filename contains "test." or "tests."
+  * Any directory in the file path is named: "doc", "docs", "test", "tests", "mock" or "mocks"
+  * Any directory in the file path has a name ending in "test" or "tests"
+
+04:40:01.053 INFO  Start fetching files for the text and secrets analysis
+04:40:01.179 INFO  Using Git CLI to retrieve dirty files
+04:40:01.447 INFO  Retrieving language associated files and files included via "sonar.text.inclusions" that are tracked by git
+04:40:01.448 INFO  Starting the text and secrets analysis
+04:40:01.449 INFO  1445 source files to be analyzed for the text and secrets analysis
+04:40:02.563 WARN  Invalid character encountered in file <LOCAL_PATH>/OneDrive/Documents/Conferences/research/data/raw_repos/earendil-works__pi/packages/agent/src/harness/utils/truncate.ts at line 102 for encoding UTF-8. Please fix file content or configure the encoding to be used using property 'sonar.sourceEncoding'.
+04:40:02.631 WARN  Invalid character encountered in file <LOCAL_PATH>/OneDrive/Documents/Conferences/research/data/raw_repos/earendil-works__pi/packages/agent/test/harness/text-line-reader.test.ts at line 69 for encoding UTF-8. Please fix file content or configure the encoding to be used using property 'sonar.sourceEncoding'.
+04:40:03.020 INFO  1445/1445 source files have been analyzed for the text and secrets analysis
+04:40:03.020 INFO  Skipped 625 file(s) in the secrets analysis due to automatic test file detection
+04:40:03.023 INFO  Sensor TextAndSecretsSensor [text] (done) | time=2480ms
+04:40:03.027 INFO  ------------- Run sensors on project
+04:40:03.312 INFO  Sensor JavaScript/TypeScript/CSS analysis [javascript]
+04:40:04.184 INFO  Detected os: Windows 11 arch: amd64 alpine: false. Platform: WIN_X64
+04:40:04.185 INFO  Deploy location <LOCAL_PATH>/.sonar\js\node-runtime, tagetRuntime: <LOCAL_PATH>/.sonar\js\node-runtime\node.exe,  version: <LOCAL_PATH>/.sonar\js\node-runtime\version.txt
+04:40:04.226 INFO  Configured Node.js --max-old-space-size=8192.
+04:40:04.226 INFO  Using embedded Node.js runtime.
+04:40:04.227 INFO  Using Node.js executable: '<LOCAL_PATH>/.sonar\js\node-runtime\node.exe'.
+04:40:09.038 INFO  Memory configuration: OS (32127 MB), Node.js (8384 MB).
+04:40:09.049 INFO  gRPC analyze-project server listening on 127.0.0.1:50099
+04:40:09.158 INFO  Plugin version: [13.8.0.44569]
+04:40:43.316 INFO  Found 3 tsconfig.json file(s): [<LOCAL_PATH>/OneDrive/Documents/Conferences/research/data/raw_repos/earendil-works__pi/packages/agent/benchmark/tsconfig.json, <LOCAL_PATH>/OneDrive/Documents/Conferences/research/data/raw_repos/earendil-works__pi/packages/evals/tsconfig.json, <LOCAL_PATH>/OneDrive/Documents/Conferences/research/data/raw_repos/earendil-works__pi/tsconfig.json]
+04:40:43.317 INFO  1444 source files to be analyzed
+04:40:43.317 INFO  Creating TypeScript(6.0.3) program with configuration file <LOCAL_PATH>/OneDrive/Documents/Conferences/research/data/raw_repos/earendil-works__pi/packages/agent/benchmark/tsconfig.json [lib: lib.es2022.d.ts]
+04:40:43.317 INFO  Analyzing 154 file(s) from tsconfig <LOCAL_PATH>/OneDrive/Documents/Conferences/research/data/raw_repos/earendil-works__pi/packages/agent/benchmark/tsconfig.json (396 total files in program)
+04:40:43.317 INFO  Creating TypeScript(6.0.3) program with configuration file <LOCAL_PATH>/OneDrive/Documents/Conferences/research/data/raw_repos/earendil-works__pi/packages/evals/tsconfig.json [lib: lib.es2022.d.ts]
+04:40:43.317 INFO  Analyzing 390 file(s) from tsconfig <LOCAL_PATH>/OneDrive/Documents/Conferences/research/data/raw_repos/earendil-works__pi/packages/evals/tsconfig.json (819 total files in program)
+04:40:43.320 INFO  Creating TypeScript(6.0.3) program with configuration file <LOCAL_PATH>/OneDrive/Documents/Conferences/research/data/raw_repos/earendil-works__pi/tsconfig.json [lib: lib.es2022.d.ts]
+04:40:43.320 INFO  Analyzing 815 file(s) from tsconfig <LOCAL_PATH>/OneDrive/Documents/Conferences/research/data/raw_repos/earendil-works__pi/tsconfig.json (1640 total files in program)
+04:40:43.324 INFO  Analyzing 85 file(s) using merged compiler options [lib: lib.es2024.d.ts, lib.dom.d.ts]
+04:40:43.324 INFO  1444/1444 source files have been analyzed
+04:40:43.340 INFO  Hit the cache for 0 out of 1445
+04:40:43.340 INFO  Miss the cache for 1445 out of 1445: ANALYSIS_MODE_INELIGIBLE [1445/1445]
+04:40:43.340 INFO  Sensor JavaScript/TypeScript/CSS analysis [javascript] (done) | time=40029ms
+04:40:43.342 INFO  Sensor IaC Project Sensor [iac]
+04:40:43.342 INFO  Sensor IaC Project Sensor [iac] (done) | time=2ms
+04:40:43.343 INFO  Sensor Zero Coverage Sensor
+04:40:44.043 INFO  Sensor Zero Coverage Sensor (done) | time=700ms
+04:40:44.043 INFO  ------------- Gather SCA dependencies on project
+04:40:44.065 INFO  Dependency analysis skipped
+04:40:44.067 INFO  SCM Publisher is disabled
+04:40:44.068 INFO  CPD Executor Calculating CPD for 0 files
+04:40:44.069 INFO  CPD Executor CPD calculation finished (done) | time=0ms
+04:40:46.372 INFO  Analysis report generated in 1894ms, dir size=41.9 MB
+04:41:42.439 INFO  Analysis report compressed in 56067ms, zip size=21.6 MB
+04:41:42.789 INFO  Analysis report uploaded in 350ms
+04:41:42.791 INFO  ANALYSIS SUCCESSFUL, you can find the results at: http://localhost:9000/dashboard?id=cc-javascript-earendil-works__pi
+04:41:42.792 INFO  Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+04:41:42.792 INFO  More about the report processing at http://localhost:9000/api/ce/task?id=fd287eb1-7f23-4dbc-a6b5-365e60369765
+04:41:45.152 INFO  Analysis total time: 1:48.471 s
+04:41:45.198 INFO  SonarScanner Engine completed successfully
+04:41:45.268 INFO  EXECUTION SUCCESS
+04:41:45.270 INFO  Total time: 1:54.583s

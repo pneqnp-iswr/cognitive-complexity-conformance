@@ -1,0 +1,16 @@
+tool,category,target,n_disagreements
+codemetrics,reference,GO-ERRNIL,4857
+codemetrics,reference,B1.8d,282
+codemetrics,ambiguity,B1.2,126
+codemetrics,tool,B1.8d2,80
+codemetrics,reference,B1.8m,37
+codemetrics,reference,B1.6,27
+codemetrics,unexplained,,5
+gocognit,reference,GO-ERRNIL,4414
+gocognit,tool,B2.1,622
+gocognit,reference,B1.8d,246
+gocognit,ambiguity,B1.2,118
+gocognit,tool,B1.8d2,71
+gocognit,tool,B1.8m,23
+gocognit,reference,B1.6,16
+gocognit,unexplained,,5

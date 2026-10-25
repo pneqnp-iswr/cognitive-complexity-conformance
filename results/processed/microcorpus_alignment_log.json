@@ -1,0 +1,119 @@
+{
+ "codemetrics": {
+  "unaligned": 0,
+  "dups": 0,
+  "examples": []
+ },
+ "cognitive-complexity-ts": {
+  "unaligned": 1,
+  "dups": 1,
+  "examples": [
+   [
+    "micro.ts",
+    509,
+    "*",
+    1
+   ]
+  ]
+ },
+ "cognitive-java": {
+  "unaligned": 0,
+  "dups": 0,
+  "examples": []
+ },
+ "cognitive_complexity": {
+  "unaligned": 0,
+  "dups": 0,
+  "examples": []
+ },
+ "cogplexity": {
+  "unaligned": 2,
+  "dups": 1,
+  "examples": [
+   [
+    "micro.ts",
+    360,
+    "bar.myFun",
+    1
+   ],
+   [
+    "micro.ts",
+    375,
+    "bar.myFun",
+    2
+   ]
+  ]
+ },
+ "complexipy": {
+  "unaligned": 0,
+  "dups": 0,
+  "examples": []
+ },
+ "eslint-plugin-maintainability": {
+  "unaligned": 2,
+  "dups": 1,
+  "examples": [
+   [
+    "micro.ts",
+    360,
+    "myFun",
+    1
+   ],
+   [
+    "micro.ts",
+    375,
+    "myFun",
+    1
+   ]
+  ]
+ },
+ "eslint-plugin-sonarjs-4.2.1": {
+  "unaligned": 0,
+  "dups": 0,
+  "examples": []
+ },
+ "gocognit": {
+  "unaligned": 0,
+  "dups": 0,
+  "examples": []
+ },
+ "oxlint-plugin-complexity": {
+  "unaligned": 3,
+  "dups": 0,
+  "examples": [
+   [
+    "micro.ts",
+    360,
+    "anonymous_51",
+    1
+   ],
+   [
+    "micro.ts",
+    375,
+    "anonymous_53",
+    1
+   ],
+   [
+    "micro.ts",
+    534,
+    "x",
+    0
+   ]
+  ]
+ },
+ "pmd": {
+  "unaligned": 0,
+  "dups": 0,
+  "examples": []
+ },
+ "rust-code-analysis": {
+  "unaligned": 0,
+  "dups": 1,
+  "examples": []
+ },
+ "sonarqube": {
+  "unaligned": 0,
+  "dups": 0,
+  "examples": []
+ }
+}

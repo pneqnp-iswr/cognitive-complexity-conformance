@@ -1,0 +1,963 @@
+{
+ "retrieved_utc": "2026-09-17T00:01:01.951063+00:00",
+ "query": "language:TypeScript stars:>=5000 archived:false fork:false pushed:>=2026-01-01 sort=stars",
+ "criteria": {
+  "gh": "TypeScript",
+  "ext": [
+   ".cjs",
+   ".js",
+   ".jsx",
+   ".mjs",
+   ".ts",
+   ".tsx"
+  ],
+  "lo": 20000,
+  "hi": 400000
+ },
+ "snapshot_order": [
+  {
+   "full_name": "freeCodeCamp/freeCodeCamp",
+   "stargazers_count": 455618,
+   "size": 580935,
+   "pushed_at": "2026-09-16T15:21:58Z",
+   "default_branch": "main",
+   "license": {
+    "key": "bsd-3-clause",
+    "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+    "spdx_id": "BSD-3-Clause",
+    "url": "https://api.github.com/licenses/bsd-3-clause",
+    "node_id": "MDc6TGljZW5zZTU="
+   },
+   "html_url": "https://github.com/freeCodeCamp/freeCodeCamp",
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "openclaw/openclaw",
+   "stargazers_count": 389898,
+   "size": 4979465,
+   "pushed_at": "2026-09-16T23:48:46Z",
+   "default_branch": "main",
+   "license": {
+    "key": "other",
+    "name": "Other",
+    "spdx_id": "NOASSERTION",
+    "url": null,
+    "node_id": "MDc6TGljZW5zZTA="
+   },
+   "html_url": "https://github.com/openclaw/openclaw",
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "nilbuild/developer-roadmap",
+   "stargazers_count": 367443,
+   "size": 362899,
+   "pushed_at": "2026-09-16T10:45:56Z",
+   "default_branch": "master",
+   "license": {
+    "key": "other",
+    "name": "Other",
+    "spdx_id": "NOASSERTION",
+    "url": null,
+    "node_id": "MDc6TGljZW5zZTA="
+   },
+   "html_url": "https://github.com/nilbuild/developer-roadmap",
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "deepseek-ai/deepseek-harness",
+   "stargazers_count": 226597,
+   "size": 195483,
+   "pushed_at": "2026-09-15T04:51:11Z",
+   "default_branch": "master",
+   "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+   },
+   "html_url": "https://github.com/deepseek-ai/deepseek-harness",
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "anomalyco/opencode",
+   "stargazers_count": 207914,
+   "size": 519867,
+   "pushed_at": "2026-09-16T23:47:00Z",
+   "default_branch": "dev",
+   "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+   },
+   "html_url": "https://github.com/anomalyco/opencode",
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "n8n-io/n8n",
+   "stargazers_count": 204657,
+   "size": 615610,
+   "pushed_at": "2026-09-16T23:35:50Z",
+   "default_branch": "master",
+   "license": {
+    "key": "other",
+    "name": "Other",
+    "spdx_id": "NOASSERTION",
+    "url": null,
+    "node_id": "MDc6TGljZW5zZTA="
+   },
+   "html_url": "https://github.com/n8n-io/n8n",
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "microsoft/vscode",
+   "stargazers_count": 192619,
+   "size": 1463568,
+   "pushed_at": "2026-09-16T23:36:30Z",
+   "default_branch": "main",
+   "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+   },
+   "html_url": "https://github.com/microsoft/vscode",
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "firecrawl/firecrawl",
+   "stargazers_count": 181296,
+   "size": 179388,
+   "pushed_at": "2026-09-16T23:45:05Z",
+   "default_branch": "main",
+   "license": {
+    "key": "agpl-3.0",
+    "name": "GNU Affero General Public License v3.0",
+    "spdx_id": "AGPL-3.0",
+    "url": "https://api.github.com/licenses/agpl-3.0",
+    "node_id": "MDc6TGljZW5zZTE="
+   },
+   "html_url": "https://github.com/firecrawl/firecrawl",
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "langgenius/dify",
+   "stargazers_count": 156002,
+   "size": 547449,
+   "pushed_at": "2026-09-16T14:25:29Z",
+   "default_branch": "main",
+   "license": {
+    "key": "other",
+    "name": "Other",
+    "spdx_id": "NOASSERTION",
+    "url": null,
+    "node_id": "MDc6TGljZW5zZTA="
+   },
+   "html_url": "https://github.com/langgenius/dify",
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "anthropics/claude-code",
+   "stargazers_count": 145480,
+   "size": 30919,
+   "pushed_at": "2026-09-16T18:56:57Z",
+   "default_branch": "main",
+   "license": null,
+   "html_url": "https://github.com/anthropics/claude-code",
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "yangshun/tech-interview-handbook",
+   "stargazers_count": 142776,
+   "size": 33702,
+   "pushed_at": "2026-08-07T12:06:42Z",
+   "default_branch": "main",
+   "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+   },
+   "html_url": "https://github.com/yangshun/tech-interview-handbook",
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "iptv-org/iptv",
+   "stargazers_count": 138799,
+   "size": 1362640,
+   "pushed_at": "2026-09-16T07:13:38Z",
+   "default_branch": "master",
+   "license": {
+    "key": "unlicense",
+    "name": "The Unlicense",
+    "spdx_id": "Unlicense",
+    "url": "https://api.github.com/licenses/unlicense",
+    "node_id": "MDc6TGljZW5zZTE1"
+   },
+   "html_url": "https://github.com/iptv-org/iptv",
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "garrytan/gstack",
+   "stargazers_count": 133360,
+   "size": 138004,
+   "pushed_at": "2026-09-16T04:35:11Z",
+   "default_branch": "main",
+   "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+   },
+   "html_url": "https://github.com/garrytan/gstack",
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "excalidraw/excalidraw",
+   "stargazers_count": 132145,
+   "size": 104564,
+   "pushed_at": "2026-09-16T20:00:09Z",
+   "default_branch": "master",
+   "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+   },
+   "html_url": "https://github.com/excalidraw/excalidraw",
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "shadcn-ui/ui",
+   "stargazers_count": 124047,
+   "size": 70675,
+   "pushed_at": "2026-09-16T12:41:12Z",
+   "default_branch": "main",
+   "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+   },
+   "html_url": "https://github.com/shadcn-ui/ui",
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "immich-app/immich",
+   "stargazers_count": 114450,
+   "size": 313180,
+   "pushed_at": "2026-09-16T20:30:23Z",
+   "default_branch": "main",
+   "license": {
+    "key": "agpl-3.0",
+    "name": "GNU Affero General Public License v3.0",
+    "spdx_id": "AGPL-3.0",
+    "url": "https://api.github.com/licenses/agpl-3.0",
+    "node_id": "MDc6TGljZW5zZTE="
+   },
+   "html_url": "https://github.com/immich-app/immich",
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "supabase/supabase",
+   "stargazers_count": 109697,
+   "size": 2465305,
+   "pushed_at": "2026-09-16T23:39:05Z",
+   "default_branch": "master",
+   "license": {
+    "key": "apache-2.0",
+    "name": "Apache License 2.0",
+    "spdx_id": "Apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "node_id": "MDc6TGljZW5zZTI="
+   },
+   "html_url": "https://github.com/supabase/supabase",
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "google-gemini/gemini-cli",
+   "stargazers_count": 107020,
+   "size": 103048,
+   "pushed_at": "2026-09-16T01:28:52Z",
+   "default_branch": "main",
+   "license": {
+    "key": "apache-2.0",
+    "name": "Apache License 2.0",
+    "spdx_id": "Apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "node_id": "MDc6TGljZW5zZTI="
+   },
+   "html_url": "https://github.com/google-gemini/gemini-cli",
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "earendil-works/pi",
+   "stargazers_count": 106294,
+   "size": 73176,
+   "pushed_at": "2026-09-16T21:35:12Z",
+   "default_branch": "main",
+   "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+   },
+   "html_url": "https://github.com/earendil-works/pi",
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "angular/angular",
+   "stargazers_count": 101007,
+   "size": 658590,
+   "pushed_at": "2026-09-16T19:12:09Z",
+   "default_branch": "main",
+   "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+   },
+   "html_url": "https://github.com/angular/angular",
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "ant-design/ant-design",
+   "stargazers_count": 99517,
+   "size": 277678,
+   "pushed_at": "2026-09-16T22:42:11Z",
+   "default_branch": "master",
+   "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+   },
+   "html_url": "https://github.com/ant-design/ant-design",
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "tailwindlabs/tailwindcss",
+   "stargazers_count": 97581,
+   "size": 114049,
+   "pushed_at": "2026-09-08T17:15:40Z",
+   "default_branch": "main",
+   "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+   },
+   "html_url": "https://github.com/tailwindlabs/tailwindcss",
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "nexu-io/open-design",
+   "stargazers_count": 96573,
+   "size": 3199366,
+   "pushed_at": "2026-09-16T18:07:14Z",
+   "default_branch": "main",
+   "license": {
+    "key": "apache-2.0",
+    "name": "Apache License 2.0",
+    "spdx_id": "Apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "node_id": "MDc6TGljZW5zZTI="
+   },
+   "html_url": "https://github.com/nexu-io/open-design",
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "microsoft/playwright",
+   "stargazers_count": 96228,
+   "size": 242049,
+   "pushed_at": "2026-09-16T23:14:46Z",
+   "default_branch": "main",
+   "license": {
+    "key": "apache-2.0",
+    "name": "Apache License 2.0",
+    "spdx_id": "Apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "node_id": "MDc6TGljZW5zZTI="
+   },
+   "html_url": "https://github.com/microsoft/playwright",
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "puppeteer/puppeteer",
+   "stargazers_count": 95586,
+   "size": 1551793,
+   "pushed_at": "2026-09-16T09:55:50Z",
+   "default_branch": "main",
+   "license": {
+    "key": "apache-2.0",
+    "name": "Apache License 2.0",
+    "spdx_id": "Apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "node_id": "MDc6TGljZW5zZTI="
+   },
+   "html_url": "https://github.com/puppeteer/puppeteer",
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "thedotmack/claude-mem",
+   "stargazers_count": 94051,
+   "size": 481852,
+   "pushed_at": "2026-09-16T19:26:53Z",
+   "default_branch": "main",
+   "license": {
+    "key": "apache-2.0",
+    "name": "Apache License 2.0",
+    "spdx_id": "Apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "node_id": "MDc6TGljZW5zZTI="
+   },
+   "html_url": "https://github.com/thedotmack/claude-mem",
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "Stirling-Tools/Stirling-PDF",
+   "stargazers_count": 92368,
+   "size": 493215,
+   "pushed_at": "2026-09-16T23:15:54Z",
+   "default_branch": "main",
+   "license": {
+    "key": "other",
+    "name": "Other",
+    "spdx_id": "NOASSERTION",
+    "url": null,
+    "node_id": "MDc6TGljZW5zZTA="
+   },
+   "html_url": "https://github.com/Stirling-Tools/Stirling-PDF",
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "storybookjs/storybook",
+   "stargazers_count": 91078,
+   "size": 1114290,
+   "pushed_at": "2026-09-16T23:47:07Z",
+   "default_branch": "next",
+   "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+   },
+   "html_url": "https://github.com/storybookjs/storybook",
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "modelcontextprotocol/servers",
+   "stargazers_count": 90395,
+   "size": 29654,
+   "pushed_at": "2026-09-03T01:42:26Z",
+   "default_branch": "main",
+   "license": {
+    "key": "other",
+    "name": "Other",
+    "spdx_id": "NOASSERTION",
+    "url": null,
+    "node_id": "MDc6TGljZW5zZTA="
+   },
+   "html_url": "https://github.com/modelcontextprotocol/servers",
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "mermaid-js/mermaid",
+   "stargazers_count": 90269,
+   "size": 279844,
+   "pushed_at": "2026-09-15T12:39:28Z",
+   "default_branch": "develop",
+   "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+   },
+   "html_url": "https://github.com/mermaid-js/mermaid",
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "OpenCut-app/OpenCut",
+   "stargazers_count": 89613,
+   "size": 28268,
+   "pushed_at": "2026-08-10T16:38:36Z",
+   "default_branch": "main",
+   "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+   },
+   "html_url": "https://github.com/OpenCut-app/OpenCut",
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "ChatGPTNextWeb/NextChat",
+   "stargazers_count": 88775,
+   "size": 21025,
+   "pushed_at": "2026-08-11T02:07:25Z",
+   "default_branch": "main",
+   "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+   },
+   "html_url": "https://github.com/ChatGPTNextWeb/NextChat",
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "OpenHands/OpenHands",
+   "stargazers_count": 88177,
+   "size": 430827,
+   "pushed_at": "2026-09-16T21:58:59Z",
+   "default_branch": "main",
+   "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+   },
+   "html_url": "https://github.com/OpenHands/OpenHands",
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "koala73/worldmonitor",
+   "stargazers_count": 86646,
+   "size": 228518,
+   "pushed_at": "2026-09-16T19:08:36Z",
+   "default_branch": "main",
+   "license": {
+    "key": "agpl-3.0",
+    "name": "GNU Affero General Public License v3.0",
+    "spdx_id": "AGPL-3.0",
+    "url": "https://api.github.com/licenses/agpl-3.0",
+    "node_id": "MDc6TGljZW5zZTE="
+   },
+   "html_url": "https://github.com/koala73/worldmonitor",
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "realworld-apps/realworld",
+   "stargazers_count": 84212,
+   "size": 35605,
+   "pushed_at": "2026-08-26T06:00:45Z",
+   "default_branch": "main",
+   "license": {
+    "key": "other",
+    "name": "Other",
+    "spdx_id": "NOASSERTION",
+    "url": null,
+    "node_id": "MDc6TGljZW5zZTA="
+   },
+   "html_url": "https://github.com/realworld-apps/realworld",
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "Egonex-AI/Understand-Anything",
+   "stargazers_count": 83072,
+   "size": 35385,
+   "pushed_at": "2026-09-12T05:31:43Z",
+   "default_branch": "main",
+   "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+   },
+   "html_url": "https://github.com/Egonex-AI/Understand-Anything",
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "vitejs/vite",
+   "stargazers_count": 82847,
+   "size": 74565,
+   "pushed_at": "2026-09-16T22:23:19Z",
+   "default_branch": "main",
+   "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+   },
+   "html_url": "https://github.com/vitejs/vite",
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "lobehub/lobehub",
+   "stargazers_count": 82541,
+   "size": 934129,
+   "pushed_at": "2026-09-16T21:38:42Z",
+   "default_branch": "canary",
+   "license": {
+    "key": "other",
+    "name": "Other",
+    "spdx_id": "NOASSERTION",
+    "url": null,
+    "node_id": "MDc6TGljZW5zZTA="
+   },
+   "html_url": "https://github.com/lobehub/lobehub",
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "paperclipai/paperclip",
+   "stargazers_count": 80868,
+   "size": 270210,
+   "pushed_at": "2026-09-16T23:03:44Z",
+   "default_branch": "master",
+   "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+   },
+   "html_url": "https://github.com/paperclipai/paperclip",
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "hoppscotch/hoppscotch",
+   "stargazers_count": 80322,
+   "size": 99920,
+   "pushed_at": "2026-09-16T15:34:42Z",
+   "default_branch": "main",
+   "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+   },
+   "html_url": "https://github.com/hoppscotch/hoppscotch",
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "coder/code-server",
+   "stargazers_count": 79316,
+   "size": 55079,
+   "pushed_at": "2026-09-16T16:18:33Z",
+   "default_branch": "main",
+   "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+   },
+   "html_url": "https://github.com/coder/code-server",
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "grafana/grafana",
+   "stargazers_count": 76775,
+   "size": 1992595,
+   "pushed_at": "2026-09-16T23:40:27Z",
+   "default_branch": "main",
+   "license": {
+    "key": "agpl-3.0",
+    "name": "GNU Affero General Public License v3.0",
+    "spdx_id": "AGPL-3.0",
+    "url": "https://api.github.com/licenses/agpl-3.0",
+    "node_id": "MDc6TGljZW5zZTE="
+   },
+   "html_url": "https://github.com/grafana/grafana",
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "nestjs/nest",
+   "stargazers_count": 76731,
+   "size": 488119,
+   "pushed_at": "2026-09-16T22:09:59Z",
+   "default_branch": "master",
+   "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+   },
+   "html_url": "https://github.com/nestjs/nest",
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "Eugeny/tabby",
+   "stargazers_count": 74517,
+   "size": 100090,
+   "pushed_at": "2026-09-16T04:03:20Z",
+   "default_branch": "master",
+   "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+   },
+   "html_url": "https://github.com/Eugeny/tabby",
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "strapi/strapi",
+   "stargazers_count": 73177,
+   "size": 685813,
+   "pushed_at": "2026-09-16T16:48:46Z",
+   "default_branch": "develop",
+   "license": {
+    "key": "other",
+    "name": "Other",
+    "spdx_id": "NOASSERTION",
+    "url": null,
+    "node_id": "MDc6TGljZW5zZTA="
+   },
+   "html_url": "https://github.com/strapi/strapi",
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "toeverything/AFFiNE",
+   "stargazers_count": 72689,
+   "size": 453948,
+   "pushed_at": "2026-09-15T09:38:38Z",
+   "default_branch": "canary",
+   "license": {
+    "key": "other",
+    "name": "Other",
+    "spdx_id": "NOASSERTION",
+    "url": null,
+    "node_id": "MDc6TGljZW5zZTA="
+   },
+   "html_url": "https://github.com/toeverything/AFFiNE",
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "ruvnet/ruflo",
+   "stargazers_count": 72636,
+   "size": 555837,
+   "pushed_at": "2026-09-16T16:46:13Z",
+   "default_branch": "main",
+   "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+   },
+   "html_url": "https://github.com/ruvnet/ruflo",
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "stablyai/orca",
+   "stargazers_count": 70277,
+   "size": 813271,
+   "pushed_at": "2026-09-16T23:48:32Z",
+   "default_branch": "main",
+   "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+   },
+   "html_url": "https://github.com/stablyai/orca",
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "code-yeongyu/oh-my-openagent",
+   "stargazers_count": 69113,
+   "size": 199052,
+   "pushed_at": "2026-09-16T20:03:31Z",
+   "default_branch": "dev",
+   "license": {
+    "key": "other",
+    "name": "Other",
+    "spdx_id": "NOASSERTION",
+    "url": null,
+    "node_id": "MDc6TGljZW5zZTA="
+   },
+   "html_url": "https://github.com/code-yeongyu/oh-my-openagent",
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "Fission-AI/OpenSpec",
+   "stargazers_count": 68531,
+   "size": 9774,
+   "pushed_at": "2026-09-16T23:46:20Z",
+   "default_branch": "main",
+   "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+   },
+   "html_url": "https://github.com/Fission-AI/OpenSpec",
+   "language": "TypeScript"
+  }
+ ],
+ "accepted": [
+  {
+   "repo": "freeCodeCamp/freeCodeCamp",
+   "sha": "ad0bd29beb67863afd6cba2f38e98ec786a40f84",
+   "stars": 455618,
+   "license": "BSD-3-Clause",
+   "files": 1178,
+   "loc": 204668,
+   "default_branch": "main",
+   "clone_dir": "data\\raw_repos\\freeCodeCamp__freeCodeCamp"
+  },
+  {
+   "repo": "firecrawl/firecrawl",
+   "sha": "c563a66ff9b00c7c138be34d22c3d8d04dfbd0c5",
+   "stars": 181296,
+   "license": "AGPL-3.0",
+   "files": 945,
+   "loc": 230511,
+   "default_branch": "main",
+   "clone_dir": "data\\raw_repos\\firecrawl__firecrawl"
+  },
+  {
+   "repo": "yangshun/tech-interview-handbook",
+   "sha": "e1d28e8886c0b6ff3e50da991ce0e895134ddc59",
+   "stars": 142776,
+   "license": "MIT",
+   "files": 317,
+   "loc": 33510,
+   "default_branch": "main",
+   "clone_dir": "data\\raw_repos\\yangshun__tech-interview-handbook"
+  },
+  {
+   "repo": "garrytan/gstack",
+   "sha": "a6b3a57512ca6d5c6aa5b68f74f736195021f96e",
+   "stars": 133360,
+   "license": "MIT",
+   "files": 1350,
+   "loc": 297191,
+   "default_branch": "main",
+   "clone_dir": "data\\raw_repos\\garrytan__gstack"
+  },
+  {
+   "repo": "excalidraw/excalidraw",
+   "sha": "c0ad61c6743aef7623e641cd1460d757cc6cacf3",
+   "stars": 132145,
+   "license": "MIT",
+   "files": 666,
+   "loc": 185952,
+   "default_branch": "master",
+   "clone_dir": "data\\raw_repos\\excalidraw__excalidraw"
+  },
+  {
+   "repo": "immich-app/immich",
+   "sha": "efbbd32e55067eb02a51030c5c948ae617484f8b",
+   "stars": 114450,
+   "license": "AGPL-3.0",
+   "files": 1070,
+   "loc": 144295,
+   "default_branch": "main",
+   "clone_dir": "data\\raw_repos\\immich-app__immich"
+  },
+  {
+   "repo": "earendil-works/pi",
+   "sha": "e4c75a73222ae2c72abb5f5314fa35ee8effc508",
+   "stars": 106294,
+   "license": "MIT",
+   "files": 1431,
+   "loc": 298706,
+   "default_branch": "main",
+   "clone_dir": "data\\raw_repos\\earendil-works__pi"
+  },
+  {
+   "repo": "ant-design/ant-design",
+   "sha": "745b6d11a132573a5127eaf19860b8a5f2f6d263",
+   "stars": 99517,
+   "license": "MIT",
+   "files": 2874,
+   "loc": 231714,
+   "default_branch": "master",
+   "clone_dir": "data\\raw_repos\\ant-design__ant-design"
+  }
+ ],
+ "skipped": [
+  {
+   "repo": "openclaw/openclaw",
+   "reason": "repo size 4979465 KB > 1.5 GB"
+  },
+  {
+   "repo": "nilbuild/developer-roadmap",
+   "reason": "LOC 692 outside [20000, 400000]",
+   "files": 9,
+   "loc": 692
+  },
+  {
+   "repo": "deepseek-ai/deepseek-harness",
+   "reason": "LOC 823407 outside [20000, 400000]",
+   "files": 3915,
+   "loc": 823407
+  },
+  {
+   "repo": "anomalyco/opencode",
+   "reason": "LOC 595875 outside [20000, 400000]",
+   "files": 3209,
+   "loc": 595875
+  },
+  {
+   "repo": "n8n-io/n8n",
+   "reason": "clone failed: Command '['git', 'clone', '--depth', '1', '--quiet', 'https://github.com/n8n-io/n8n.git', '<LOCAL_PATH>/OneDrive\\\\Documents\\\\Conferences\\\\research\\\\data\\\\raw_repos\\\\n8n-io__n8n']' returned non-zero exit status 128."
+  },
+  {
+   "repo": "microsoft/vscode",
+   "reason": "clone failed: Command '['git', 'clone', '--depth', '1', '--quiet', 'https://github.com/microsoft/vscode.git', '<LOCAL_PATH>/OneDrive\\\\Documents\\\\Conferences\\\\research\\\\data\\\\raw_repos\\\\microsoft__vscode']' returned non-zero exit status 128."
+  },
+  {
+   "repo": "langgenius/dify",
+   "reason": "LOC 1058586 outside [20000, 400000]",
+   "files": 6969,
+   "loc": 1058586
+  },
+  {
+   "repo": "anthropics/claude-code",
+   "reason": "LOC 12972 outside [20000, 400000]",
+   "files": 693,
+   "loc": 12972
+  },
+  {
+   "repo": "iptv-org/iptv",
+   "reason": "LOC 6606 outside [20000, 400000]",
+   "files": 64,
+   "loc": 6606
+  },
+  {
+   "repo": "shadcn-ui/ui",
+   "reason": "LOC 527094 outside [20000, 400000]",
+   "files": 3780,
+   "loc": 527094
+  },
+  {
+   "repo": "supabase/supabase",
+   "reason": "repo size 2465305 KB > 1.5 GB"
+  },
+  {
+   "repo": "google-gemini/gemini-cli",
+   "reason": "clone failed: Command '['git', 'clone', '--depth', '1', '--quiet', 'https://github.com/google-gemini/gemini-cli.git', '<LOCAL_PATH>/OneDrive\\\\Documents\\\\Conferences\\\\research\\\\data\\\\raw_repos\\\\google-gemini__gemini-cli']' returned non-zero exit status 128."
+  },
+  {
+   "repo": "angular/angular",
+   "reason": "clone failed: Command '['git', 'clone', '--depth', '1', '--quiet', 'https://github.com/angular/angular.git', '<LOCAL_PATH>/OneDrive\\\\Documents\\\\Conferences\\\\research\\\\data\\\\raw_repos\\\\angular__angular']' returned non-zero exit status 128."
+  }
+ ]
+}

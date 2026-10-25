@@ -1,0 +1,14 @@
+tool,units_all,primary_pop,primary_with_value,primary_missing,root_with_nested,nested_units
+cog__sonarqube,124115,26039,26038,1,14209,83867
+cog__codemetrics,124115,26039,15165,10874,14209,83867
+cog__cognitive-complexity-ts,124115,26039,25483,556,14209,83867
+cog__cogplexity,124115,26039,25756,283,14209,83867
+cog__eslint-plugin-maintainability,124115,26039,26039,0,14209,83867
+cog__eslint-plugin-sonarjs-4.2.1,124115,26039,26039,0,14209,83867
+cog__oxlint-plugin-complexity,124115,26039,25628,411,14209,83867
+cog__rust-code-analysis,124115,26039,25796,243,14209,83867
+cyc__sonarqube,124115,26039,26038,1,14209,83867
+cyc__codemetrics,124115,26039,15165,10874,14209,83867
+cyc__lizard,124115,26039,20106,5933,14209,83867
+cyc__oxlint-plugin-complexity,124115,26039,25628,411,14209,83867
+cyc__rust-code-analysis,124115,26039,25796,243,14209,83867

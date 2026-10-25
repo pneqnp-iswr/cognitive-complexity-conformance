@@ -1,0 +1,1971 @@
+[
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 7,
+  "end_line": null,
+  "name": "c01_empty(int)",
+  "value": 1,
+  "metric": "cyclomatic",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 11,
+  "end_line": null,
+  "name": "c02_if(boolean)",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 11,
+  "end_line": null,
+  "name": "c02_if(boolean)",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 18,
+  "end_line": null,
+  "name": "c03_if_else(boolean)",
+  "value": 2,
+  "metric": "cognitive",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 18,
+  "end_line": null,
+  "name": "c03_if_else(boolean)",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 26,
+  "end_line": null,
+  "name": "c04_if_elseif_elseif_else(int)",
+  "value": 4,
+  "metric": "cognitive",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 26,
+  "end_line": null,
+  "name": "c04_if_elseif_elseif_else(int)",
+  "value": 4,
+  "metric": "cyclomatic",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 38,
+  "end_line": null,
+  "name": "c05_ternary(boolean)",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 38,
+  "end_line": null,
+  "name": "c05_ternary(boolean)",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 42,
+  "end_line": null,
+  "name": "c06_switch(int)",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 42,
+  "end_line": null,
+  "name": "c06_switch(int)",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 53,
+  "end_line": null,
+  "name": "c06b_switch_expression(int)",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 53,
+  "end_line": null,
+  "name": "c06b_switch_expression(int)",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 61,
+  "end_line": null,
+  "name": "c07_for(List<Integer>)",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "pmd",
+  "extra": {
+   "col": 10
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 61,
+  "end_line": null,
+  "name": "c07_for(List<Integer>)",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "pmd",
+  "extra": {
+   "col": 10
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 67,
+  "end_line": null,
+  "name": "c07b_foreach(List<Integer>)",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "pmd",
+  "extra": {
+   "col": 10
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 67,
+  "end_line": null,
+  "name": "c07b_foreach(List<Integer>)",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "pmd",
+  "extra": {
+   "col": 10
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 73,
+  "end_line": null,
+  "name": "c08_while(int)",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 73,
+  "end_line": null,
+  "name": "c08_while(int)",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 80,
+  "end_line": null,
+  "name": "c08b_do_while(int)",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 80,
+  "end_line": null,
+  "name": "c08b_do_while(int)",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 87,
+  "end_line": null,
+  "name": "c09_try_catch(String)",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 87,
+  "end_line": null,
+  "name": "c09_try_catch(String)",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 95,
+  "end_line": null,
+  "name": "c10_try_two_catches(String)",
+  "value": 2,
+  "metric": "cognitive",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 95,
+  "end_line": null,
+  "name": "c10_try_two_catches(String)",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 105,
+  "end_line": null,
+  "name": "c11_multi_catch(String)",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 105,
+  "end_line": null,
+  "name": "c11_multi_catch(String)",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 113,
+  "end_line": null,
+  "name": "c12_try_finally(String)",
+  "value": 1,
+  "metric": "cyclomatic",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 121,
+  "end_line": null,
+  "name": "c13_try_catch_finally(String)",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 121,
+  "end_line": null,
+  "name": "c13_try_catch_finally(String)",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 131,
+  "end_line": null,
+  "name": "c14_if_in_if(boolean, boolean)",
+  "value": 3,
+  "metric": "cognitive",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 131,
+  "end_line": null,
+  "name": "c14_if_in_if(boolean, boolean)",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 140,
+  "end_line": null,
+  "name": "c15_if_in_for_in_while(int, List<Integer>)",
+  "value": 6,
+  "metric": "cognitive",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 140,
+  "end_line": null,
+  "name": "c15_if_in_for_in_while(int, List<Integer>)",
+  "value": 4,
+  "metric": "cyclomatic",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 151,
+  "end_line": null,
+  "name": "c16_if_in_catch(String)",
+  "value": 3,
+  "metric": "cognitive",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 151,
+  "end_line": null,
+  "name": "c16_if_in_catch(String)",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 162,
+  "end_line": null,
+  "name": "c17_if_in_try(boolean)",
+  "value": 2,
+  "metric": "cognitive",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 162,
+  "end_line": null,
+  "name": "c17_if_in_try(boolean)",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 173,
+  "end_line": null,
+  "name": "c18_if_in_else(boolean, boolean)",
+  "value": 4,
+  "metric": "cognitive",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 173,
+  "end_line": null,
+  "name": "c18_if_in_else(boolean, boolean)",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 184,
+  "end_line": null,
+  "name": "c19_if_in_elseif(boolean, boolean)",
+  "value": 4,
+  "metric": "cognitive",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 184,
+  "end_line": null,
+  "name": "c19_if_in_elseif(boolean, boolean)",
+  "value": 4,
+  "metric": "cyclomatic",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 195,
+  "end_line": null,
+  "name": "c20_nested_ternary(boolean, boolean)",
+  "value": 3,
+  "metric": "cognitive",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 195,
+  "end_line": null,
+  "name": "c20_nested_ternary(boolean, boolean)",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 199,
+  "end_line": null,
+  "name": "c21_ternary_in_if_condition(boolean, boolean)",
+  "value": 2,
+  "metric": "cognitive",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 199,
+  "end_line": null,
+  "name": "c21_ternary_in_if_condition(boolean, boolean)",
+  "value": 5,
+  "metric": "cyclomatic",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 206,
+  "end_line": null,
+  "name": "c22_ternary_in_while_condition(int, boolean)",
+  "value": 3,
+  "metric": "cognitive",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 206,
+  "end_line": null,
+  "name": "c22_ternary_in_while_condition(int, boolean)",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 213,
+  "end_line": null,
+  "name": "c23_and(boolean, boolean)",
+  "value": 2,
+  "metric": "cognitive",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 213,
+  "end_line": null,
+  "name": "c23_and(boolean, boolean)",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 220,
+  "end_line": null,
+  "name": "c24_and_and(boolean, boolean, boolean)",
+  "value": 2,
+  "metric": "cognitive",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 220,
+  "end_line": null,
+  "name": "c24_and_and(boolean, boolean, boolean)",
+  "value": 4,
+  "metric": "cyclomatic",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 227,
+  "end_line": null,
+  "name": "c25_or(boolean, boolean)",
+  "value": 2,
+  "metric": "cognitive",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 227,
+  "end_line": null,
+  "name": "c25_or(boolean, boolean)",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 234,
+  "end_line": null,
+  "name": "c26_and_or(boolean, boolean, boolean)",
+  "value": 3,
+  "metric": "cognitive",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 234,
+  "end_line": null,
+  "name": "c26_and_or(boolean, boolean, boolean)",
+  "value": 4,
+  "metric": "cyclomatic",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 241,
+  "end_line": null,
+  "name": "c27_or_and_or(boolean, boolean, boolean, boolean)",
+  "value": 3,
+  "metric": "cognitive",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 241,
+  "end_line": null,
+  "name": "c27_or_and_or(boolean, boolean, boolean, boolean)",
+  "value": 5,
+  "metric": "cyclomatic",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 248,
+  "end_line": null,
+  "name": "c28_and_not_paren_and(boolean, boolean, boolean)",
+  "value": 3,
+  "metric": "cognitive",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 248,
+  "end_line": null,
+  "name": "c28_and_not_paren_and(boolean, boolean, boolean)",
+  "value": 4,
+  "metric": "cyclomatic",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 255,
+  "end_line": null,
+  "name": "c29_and_paren_or(boolean, boolean, boolean)",
+  "value": 3,
+  "metric": "cognitive",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 255,
+  "end_line": null,
+  "name": "c29_and_paren_or(boolean, boolean, boolean)",
+  "value": 4,
+  "metric": "cyclomatic",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 262,
+  "end_line": null,
+  "name": "c30_and_paren_and(boolean, boolean, boolean)",
+  "value": 2,
+  "metric": "cognitive",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 262,
+  "end_line": null,
+  "name": "c30_and_paren_and(boolean, boolean, boolean)",
+  "value": 4,
+  "metric": "cyclomatic",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 269,
+  "end_line": null,
+  "name": "c31_bool_in_assignment(boolean, boolean)",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "pmd",
+  "extra": {
+   "col": 13
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 269,
+  "end_line": null,
+  "name": "c31_bool_in_assignment(boolean, boolean)",
+  "value": 1,
+  "metric": "cyclomatic",
+  "tool": "pmd",
+  "extra": {
+   "col": 13
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 274,
+  "end_line": null,
+  "name": "c32_bool_in_return(boolean, boolean)",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "pmd",
+  "extra": {
+   "col": 13
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 274,
+  "end_line": null,
+  "name": "c32_bool_in_return(boolean, boolean)",
+  "value": 1,
+  "metric": "cyclomatic",
+  "tool": "pmd",
+  "extra": {
+   "col": 13
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 278,
+  "end_line": null,
+  "name": "c33_bool_in_call(boolean, boolean)",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "pmd",
+  "extra": {
+   "col": 13
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 278,
+  "end_line": null,
+  "name": "c33_bool_in_call(boolean, boolean)",
+  "value": 1,
+  "metric": "cyclomatic",
+  "tool": "pmd",
+  "extra": {
+   "col": 13
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 282,
+  "end_line": null,
+  "name": "c35_and_or_and(boolean, boolean, boolean, boolean)",
+  "value": 3,
+  "metric": "cognitive",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 282,
+  "end_line": null,
+  "name": "c35_and_or_and(boolean, boolean, boolean, boolean)",
+  "value": 5,
+  "metric": "cyclomatic",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 289,
+  "end_line": null,
+  "name": "c36_unlabeled_break_continue(List<Integer>)",
+  "value": 5,
+  "metric": "cognitive",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 289,
+  "end_line": null,
+  "name": "c36_unlabeled_break_continue(List<Integer>)",
+  "value": 4,
+  "metric": "cyclomatic",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 301,
+  "end_line": null,
+  "name": "c37_early_return(boolean)",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 301,
+  "end_line": null,
+  "name": "c37_early_return(boolean)",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 309,
+  "end_line": null,
+  "name": "c38_recursion_direct(int)",
+  "value": 2,
+  "metric": "cognitive",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 309,
+  "end_line": null,
+  "name": "c38_recursion_direct(int)",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 316,
+  "end_line": null,
+  "name": "c39_recursion_indirect_a(int)",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 316,
+  "end_line": null,
+  "name": "c39_recursion_indirect_a(int)",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 323,
+  "end_line": null,
+  "name": "c39_recursion_indirect_b(int)",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 323,
+  "end_line": null,
+  "name": "c39_recursion_indirect_b(int)",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 330,
+  "end_line": null,
+  "name": "c40_lambda_with_ternary(List<Integer>)",
+  "value": 2,
+  "metric": "cognitive",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 330,
+  "end_line": null,
+  "name": "c40_lambda_with_ternary(List<Integer>)",
+  "value": 1,
+  "metric": "cyclomatic",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 335,
+  "end_line": null,
+  "name": "c41_lambda_with_if(boolean)",
+  "value": 2,
+  "metric": "cognitive",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 335,
+  "end_line": null,
+  "name": "c41_lambda_with_if(boolean)",
+  "value": 1,
+  "metric": "cyclomatic",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 345,
+  "end_line": null,
+  "name": "c43_lambda_inside_if(boolean)",
+  "value": 4,
+  "metric": "cognitive",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 345,
+  "end_line": null,
+  "name": "c43_lambda_inside_if(boolean)",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 357,
+  "end_line": null,
+  "name": "c47_anonymous_class_method_if(boolean)",
+  "value": 2,
+  "metric": "cognitive",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 357,
+  "end_line": null,
+  "name": "c47_anonymous_class_method_if(boolean)",
+  "value": 1,
+  "metric": "cyclomatic",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 360,
+  "end_line": null,
+  "name": "run()",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "pmd",
+  "extra": {
+   "col": 25
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 360,
+  "end_line": null,
+  "name": "run()",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "pmd",
+  "extra": {
+   "col": 25
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 370,
+  "end_line": null,
+  "name": "c55_deep_nesting_4(boolean, boolean, boolean, boolean)",
+  "value": 10,
+  "metric": "cognitive",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 370,
+  "end_line": null,
+  "name": "c55_deep_nesting_4(boolean, boolean, boolean, boolean)",
+  "value": 5,
+  "metric": "cyclomatic",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 383,
+  "end_line": null,
+  "name": "c56_for_in_catch_in_for(List<String>)",
+  "value": 6,
+  "metric": "cognitive",
+  "tool": "pmd",
+  "extra": {
+   "col": 10
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 383,
+  "end_line": null,
+  "name": "c56_for_in_catch_in_for(List<String>)",
+  "value": 4,
+  "metric": "cyclomatic",
+  "tool": "pmd",
+  "extra": {
+   "col": 10
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 395,
+  "end_line": null,
+  "name": "c57_two_sequential_ifs(boolean, boolean)",
+  "value": 2,
+  "metric": "cognitive",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 395,
+  "end_line": null,
+  "name": "c57_two_sequential_ifs(boolean, boolean)",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 405,
+  "end_line": null,
+  "name": "c58_elseif_nested_if(boolean, boolean, boolean)",
+  "value": 5,
+  "metric": "cognitive",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 405,
+  "end_line": null,
+  "name": "c58_elseif_nested_if(boolean, boolean, boolean)",
+  "value": 4,
+  "metric": "cyclomatic",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 418,
+  "end_line": null,
+  "name": "c63_labeled_continue(int)",
+  "value": 7,
+  "metric": "cognitive",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 418,
+  "end_line": null,
+  "name": "c63_labeled_continue(int)",
+  "value": 4,
+  "metric": "cyclomatic",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 432,
+  "end_line": null,
+  "name": "c64_labeled_break_to_enclosing(List<Integer>)",
+  "value": 4,
+  "metric": "cognitive",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 432,
+  "end_line": null,
+  "name": "c64_labeled_break_to_enclosing(List<Integer>)",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 442,
+  "end_line": null,
+  "name": "c71_synchronized(boolean)",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 442,
+  "end_line": null,
+  "name": "c71_synchronized(boolean)",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 451,
+  "end_line": null,
+  "name": "c72_try_with_resources(String)",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 451,
+  "end_line": null,
+  "name": "c72_try_with_resources(String)",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 459,
+  "end_line": null,
+  "name": "c73_throw_in_if(boolean)",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 459,
+  "end_line": null,
+  "name": "c73_throw_in_if(boolean)",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 466,
+  "end_line": null,
+  "name": "c74_switch_with_nested_if(int, boolean)",
+  "value": 3,
+  "metric": "cognitive",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 466,
+  "end_line": null,
+  "name": "c74_switch_with_nested_if(int, boolean)",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 478,
+  "end_line": null,
+  "name": "c75_bitwise_and_on_booleans(boolean, boolean)",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 478,
+  "end_line": null,
+  "name": "c75_bitwise_and_on_booleans(boolean, boolean)",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 485,
+  "end_line": null,
+  "name": "c76_lambda_in_lambda(boolean)",
+  "value": 3,
+  "metric": "cognitive",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 485,
+  "end_line": null,
+  "name": "c76_lambda_in_lambda(boolean)",
+  "value": 1,
+  "metric": "cyclomatic",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 495,
+  "end_line": null,
+  "name": "c77_instanceof_pattern(Object)",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 495,
+  "end_line": null,
+  "name": "c77_instanceof_pattern(Object)",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 502,
+  "end_line": null,
+  "name": "c78_recursion_via_this(int)",
+  "value": 2,
+  "metric": "cognitive",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 502,
+  "end_line": null,
+  "name": "c78_recursion_via_this(int)",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 509,
+  "end_line": null,
+  "name": "c79_or_not_paren_or(boolean, boolean, boolean)",
+  "value": 3,
+  "metric": "cognitive",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 509,
+  "end_line": null,
+  "name": "c79_or_not_paren_or(boolean, boolean, boolean)",
+  "value": 4,
+  "metric": "cyclomatic",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 516,
+  "end_line": null,
+  "name": "c80_bool_and_ternary_top_level(boolean, boolean)",
+  "value": 2,
+  "metric": "cognitive",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 516,
+  "end_line": null,
+  "name": "c80_bool_and_ternary_top_level(boolean, boolean)",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 522,
+  "end_line": null,
+  "name": "c103_recursion_two_calls(int)",
+  "value": 3,
+  "metric": "cognitive",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 522,
+  "end_line": null,
+  "name": "c103_recursion_two_calls(int)",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 530,
+  "end_line": null,
+  "name": "equals(Object)",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "pmd",
+  "extra": {
+   "col": 20
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 530,
+  "end_line": null,
+  "name": "equals(Object)",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "pmd",
+  "extra": {
+   "col": 20
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 538,
+  "end_line": null,
+  "name": "hashCode()",
+  "value": 1,
+  "metric": "cyclomatic",
+  "tool": "pmd",
+  "extra": {
+   "col": 16
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 546,
+  "end_line": null,
+  "name": "overriddenSymbolFrom(ClassJavaType)",
+  "value": 19,
+  "metric": "cognitive",
+  "tool": "pmd",
+  "extra": {
+   "col": 20
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 546,
+  "end_line": null,
+  "name": "overriddenSymbolFrom(ClassJavaType)",
+  "value": 10,
+  "metric": "cyclomatic",
+  "tool": "pmd",
+  "extra": {
+   "col": 20
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 575,
+  "end_line": null,
+  "name": "addVersion(Entry, Transaction)",
+  "value": 35,
+  "metric": "cognitive",
+  "tool": "pmd",
+  "extra": {
+   "col": 18
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 575,
+  "end_line": null,
+  "name": "addVersion(Entry, Transaction)",
+  "value": 20,
+  "metric": "cyclomatic",
+  "tool": "pmd",
+  "extra": {
+   "col": 18
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 621,
+  "end_line": null,
+  "name": "toRegexp(String, String)",
+  "value": 20,
+  "metric": "cognitive",
+  "tool": "pmd",
+  "extra": {
+   "col": 27
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 621,
+  "end_line": null,
+  "name": "toRegexp(String, String)",
+  "value": 12,
+  "metric": "cyclomatic",
+  "tool": "pmd",
+  "extra": {
+   "col": 27
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 659,
+  "end_line": null,
+  "name": "sumOfPrimes(int)",
+  "value": 7,
+  "metric": "cognitive",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 659,
+  "end_line": null,
+  "name": "sumOfPrimes(int)",
+  "value": 4,
+  "metric": "cyclomatic",
+  "tool": "pmd",
+  "extra": {
+   "col": 9
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 673,
+  "end_line": null,
+  "name": "getWords(int)",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "pmd",
+  "extra": {
+   "col": 12
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 673,
+  "end_line": null,
+  "name": "getWords(int)",
+  "value": 4,
+  "metric": "cyclomatic",
+  "tool": "pmd",
+  "extra": {
+   "col": 12
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 687,
+  "end_line": null,
+  "name": "myMethod(boolean, boolean)",
+  "value": 9,
+  "metric": "cognitive",
+  "tool": "pmd",
+  "extra": {
+   "col": 10
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 687,
+  "end_line": null,
+  "name": "myMethod(boolean, boolean)",
+  "value": 6,
+  "metric": "cyclomatic",
+  "tool": "pmd",
+  "extra": {
+   "col": 10
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 700,
+  "end_line": null,
+  "name": "myMethod2(boolean)",
+  "value": 2,
+  "metric": "cognitive",
+  "tool": "pmd",
+  "extra": {
+   "col": 10
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 700,
+  "end_line": null,
+  "name": "myMethod2(boolean)",
+  "value": 1,
+  "metric": "cyclomatic",
+  "tool": "pmd",
+  "extra": {
+   "col": 10
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 711,
+  "end_line": null,
+  "name": "isSlash(char)",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "pmd",
+  "extra": {
+   "col": 20
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 711,
+  "end_line": null,
+  "name": "isSlash(char)",
+  "value": 1,
+  "metric": "cyclomatic",
+  "tool": "pmd",
+  "extra": {
+   "col": 20
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 712,
+  "end_line": null,
+  "name": "canOverride(MethodJavaSymbol)",
+  "value": 1,
+  "metric": "cyclomatic",
+  "tool": "pmd",
+  "extra": {
+   "col": 13
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 713,
+  "end_line": null,
+  "name": "checkOverridingParameters(MethodJavaSymbol, ClassJavaType)",
+  "value": 1,
+  "metric": "cyclomatic",
+  "tool": "pmd",
+  "extra": {
+   "col": 13
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 715,
+  "end_line": null,
+  "name": "isKind(int)",
+  "value": 1,
+  "metric": "cyclomatic",
+  "tool": "pmd",
+  "extra": {
+   "col": 65
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 715,
+  "end_line": null,
+  "name": "isStatic()",
+  "value": 1,
+  "metric": "cyclomatic",
+  "tool": "pmd",
+  "extra": {
+   "col": 104
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 717,
+  "end_line": null,
+  "name": "isUnknown()",
+  "value": 1,
+  "metric": "cyclomatic",
+  "tool": "pmd",
+  "extra": {
+   "col": 42
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 717,
+  "end_line": null,
+  "name": "getSymbol()",
+  "value": 1,
+  "metric": "cyclomatic",
+  "tool": "pmd",
+  "extra": {
+   "col": 78
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 718,
+  "end_line": null,
+  "name": "members()",
+  "value": 1,
+  "metric": "cyclomatic",
+  "tool": "pmd",
+  "extra": {
+   "col": 32
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 718,
+  "end_line": null,
+  "name": "lookup(String)",
+  "value": 1,
+  "metric": "cyclomatic",
+  "tool": "pmd",
+  "extra": {
+   "col": 76
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 719,
+  "end_line": null,
+  "name": "getVersion()",
+  "value": 1,
+  "metric": "cyclomatic",
+  "tool": "pmd",
+  "extra": {
+   "col": 31
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 719,
+  "end_line": null,
+  "name": "getPrevious()",
+  "value": 1,
+  "metric": "cyclomatic",
+  "tool": "pmd",
+  "extra": {
+   "col": 64
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 719,
+  "end_line": null,
+  "name": "setPrevious(Entry)",
+  "value": 1,
+  "metric": "cyclomatic",
+  "tool": "pmd",
+  "extra": {
+   "col": 100
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 720,
+  "end_line": null,
+  "name": "isActive()",
+  "value": 1,
+  "metric": "cyclomatic",
+  "tool": "pmd",
+  "extra": {
+   "col": 40
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 720,
+  "end_line": null,
+  "name": "getTransactionStatus()",
+  "value": 1,
+  "metric": "cyclomatic",
+  "tool": "pmd",
+  "extra": {
+   "col": 75
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 721,
+  "end_line": null,
+  "name": "wwDependency(long, Object, long)",
+  "value": 1,
+  "metric": "cyclomatic",
+  "tool": "pmd",
+  "extra": {
+   "col": 42
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 722,
+  "end_line": null,
+  "name": "getTransactionIndex()",
+  "value": 1,
+  "metric": "cyclomatic",
+  "tool": "pmd",
+  "extra": {
+   "col": 47
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 725,
+  "end_line": null,
+  "name": "WWRetryException(long)",
+  "value": 1,
+  "metric": "cyclomatic",
+  "tool": "pmd",
+  "extra": {
+   "col": 55
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 725,
+  "end_line": null,
+  "name": "getVersionHandle()",
+  "value": 1,
+  "metric": "cyclomatic",
+  "tool": "pmd",
+  "extra": {
+   "col": 89
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 726,
+  "end_line": null,
+  "name": "PersistitInterruptedException(Exception)",
+  "value": 1,
+  "metric": "cyclomatic",
+  "tool": "pmd",
+  "extra": {
+   "col": 68
+  }
+ },
+ {
+  "file": "",
+  "line": null,
+  "end_line": null,
+  "name": "",
+  "value": null,
+  "metric": "meta",
+  "tool": "pmd",
+  "extra": {
+   "processingErrors": [],
+   "n_processing_errors": 0
+  }
+ }
+]

@@ -1,0 +1,950 @@
+{
+ "retrieved_utc": "2026-09-16T23:35:52.766278+00:00",
+ "query": "language:Python stars:>=5000 archived:false fork:false pushed:>=2026-01-01 sort=stars",
+ "criteria": {
+  "gh": "Python",
+  "ext": [
+   ".py"
+  ],
+  "lo": 20000,
+  "hi": 400000
+ },
+ "snapshot_order": [
+  {
+   "full_name": "public-apis/public-apis",
+   "stargazers_count": 480937,
+   "size": 8220,
+   "pushed_at": "2026-09-15T12:21:13Z",
+   "default_branch": "master",
+   "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+   },
+   "html_url": "https://github.com/public-apis/public-apis",
+   "language": "Python"
+  },
+  {
+   "full_name": "EbookFoundation/free-programming-books",
+   "stargazers_count": 396989,
+   "size": 21870,
+   "pushed_at": "2026-09-15T15:54:40Z",
+   "default_branch": "main",
+   "license": {
+    "key": "cc-by-4.0",
+    "name": "Creative Commons Attribution 4.0 International",
+    "spdx_id": "CC-BY-4.0",
+    "url": "https://api.github.com/licenses/cc-by-4.0",
+    "node_id": "MDc6TGljZW5zZTI1"
+   },
+   "html_url": "https://github.com/EbookFoundation/free-programming-books",
+   "language": "Python"
+  },
+  {
+   "full_name": "donnemartin/system-design-primer",
+   "stargazers_count": 370399,
+   "size": 11273,
+   "pushed_at": "2026-09-15T01:10:09Z",
+   "default_branch": "master",
+   "license": {
+    "key": "other",
+    "name": "Other",
+    "spdx_id": "NOASSERTION",
+    "url": null,
+    "node_id": "MDc6TGljZW5zZTA="
+   },
+   "html_url": "https://github.com/donnemartin/system-design-primer",
+   "language": "Python"
+  },
+  {
+   "full_name": "vinta/awesome-python",
+   "stargazers_count": 321097,
+   "size": 6104,
+   "pushed_at": "2026-09-15T16:48:04Z",
+   "default_branch": "master",
+   "license": {
+    "key": "other",
+    "name": "Other",
+    "spdx_id": "NOASSERTION",
+    "url": null,
+    "node_id": "MDc6TGljZW5zZTA="
+   },
+   "html_url": "https://github.com/vinta/awesome-python",
+   "language": "Python"
+  },
+  {
+   "full_name": "practical-tutorials/project-based-learning",
+   "stargazers_count": 283570,
+   "size": 469,
+   "pushed_at": "2026-09-14T07:10:04Z",
+   "default_branch": "master",
+   "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+   },
+   "html_url": "https://github.com/practical-tutorials/project-based-learning",
+   "language": "Python"
+  },
+  {
+   "full_name": "NousResearch/hermes-agent",
+   "stargazers_count": 246189,
+   "size": 977295,
+   "pushed_at": "2026-09-16T22:47:55Z",
+   "default_branch": "main",
+   "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+   },
+   "html_url": "https://github.com/NousResearch/hermes-agent",
+   "language": "Python"
+  },
+  {
+   "full_name": "TheAlgorithms/Python",
+   "stargazers_count": 224646,
+   "size": 17635,
+   "pushed_at": "2026-09-16T21:40:12Z",
+   "default_branch": "master",
+   "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+   },
+   "html_url": "https://github.com/TheAlgorithms/Python",
+   "language": "Python"
+  },
+  {
+   "full_name": "yt-dlp/yt-dlp",
+   "stargazers_count": 191633,
+   "size": 64838,
+   "pushed_at": "2026-09-16T07:48:51Z",
+   "default_branch": "master",
+   "license": {
+    "key": "unlicense",
+    "name": "The Unlicense",
+    "spdx_id": "Unlicense",
+    "url": "https://api.github.com/licenses/unlicense",
+    "node_id": "MDc6TGljZW5zZTE1"
+   },
+   "html_url": "https://github.com/yt-dlp/yt-dlp",
+   "language": "Python"
+  },
+  {
+   "full_name": "Significant-Gravitas/AutoGPT",
+   "stargazers_count": 187396,
+   "size": 622865,
+   "pushed_at": "2026-09-16T23:01:10Z",
+   "default_branch": "master",
+   "license": {
+    "key": "other",
+    "name": "Other",
+    "spdx_id": "NOASSERTION",
+    "url": null,
+    "node_id": "MDc6TGljZW5zZTA="
+   },
+   "html_url": "https://github.com/Significant-Gravitas/AutoGPT",
+   "language": "Python"
+  },
+  {
+   "full_name": "microsoft/markitdown",
+   "stargazers_count": 184806,
+   "size": 4758,
+   "pushed_at": "2026-09-16T17:23:11Z",
+   "default_branch": "main",
+   "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+   },
+   "html_url": "https://github.com/microsoft/markitdown",
+   "language": "Python"
+  },
+  {
+   "full_name": "521xueweihan/HelloGitHub",
+   "stargazers_count": 176921,
+   "size": 9332,
+   "pushed_at": "2026-08-28T00:38:12Z",
+   "default_branch": "master",
+   "license": null,
+   "html_url": "https://github.com/521xueweihan/HelloGitHub",
+   "language": "Python"
+  },
+  {
+   "full_name": "anthropics/skills",
+   "stargazers_count": 176710,
+   "size": 4697,
+   "pushed_at": "2026-09-10T19:44:11Z",
+   "default_branch": "main",
+   "license": null,
+   "html_url": "https://github.com/anthropics/skills",
+   "language": "Python"
+  },
+  {
+   "full_name": "huggingface/transformers",
+   "stargazers_count": 166258,
+   "size": 515886,
+   "pushed_at": "2026-09-16T23:33:46Z",
+   "default_branch": "main",
+   "license": {
+    "key": "apache-2.0",
+    "name": "Apache License 2.0",
+    "spdx_id": "Apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "node_id": "MDc6TGljZW5zZTI="
+   },
+   "html_url": "https://github.com/huggingface/transformers",
+   "language": "Python"
+  },
+  {
+   "full_name": "AUTOMATIC1111/stable-diffusion-webui",
+   "stargazers_count": 164978,
+   "size": 36552,
+   "pushed_at": "2026-03-02T07:00:53Z",
+   "default_branch": "master",
+   "license": {
+    "key": "agpl-3.0",
+    "name": "GNU Affero General Public License v3.0",
+    "spdx_id": "AGPL-3.0",
+    "url": "https://api.github.com/licenses/agpl-3.0",
+    "node_id": "MDc6TGljZW5zZTE="
+   },
+   "html_url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+   "language": "Python"
+  },
+  {
+   "full_name": "langflow-ai/langflow",
+   "stargazers_count": 154897,
+   "size": 1538391,
+   "pushed_at": "2026-09-16T23:04:12Z",
+   "default_branch": "main",
+   "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+   },
+   "html_url": "https://github.com/langflow-ai/langflow",
+   "language": "Python"
+  },
+  {
+   "full_name": "open-webui/open-webui",
+   "stargazers_count": 152303,
+   "size": 427798,
+   "pushed_at": "2026-09-16T19:59:25Z",
+   "default_branch": "main",
+   "license": {
+    "key": "other",
+    "name": "Other",
+    "spdx_id": "NOASSERTION",
+    "url": null,
+    "node_id": "MDc6TGljZW5zZTA="
+   },
+   "html_url": "https://github.com/open-webui/open-webui",
+   "language": "Python"
+  },
+  {
+   "full_name": "langchain-ai/langchain",
+   "stargazers_count": 146471,
+   "size": 597116,
+   "pushed_at": "2026-09-16T19:58:47Z",
+   "default_branch": "master",
+   "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+   },
+   "html_url": "https://github.com/langchain-ai/langchain",
+   "language": "Python"
+  },
+  {
+   "full_name": "ytdl-org/youtube-dl",
+   "stargazers_count": 141253,
+   "size": 65510,
+   "pushed_at": "2026-02-19T16:45:25Z",
+   "default_branch": "master",
+   "license": {
+    "key": "unlicense",
+    "name": "The Unlicense",
+    "spdx_id": "Unlicense",
+    "url": "https://api.github.com/licenses/unlicense",
+    "node_id": "MDc6TGljZW5zZTE1"
+   },
+   "html_url": "https://github.com/ytdl-org/youtube-dl",
+   "language": "Python"
+  },
+  {
+   "full_name": "Shubhamsaboo/awesome-llm-apps",
+   "stargazers_count": 138513,
+   "size": 220973,
+   "pushed_at": "2026-09-16T04:08:39Z",
+   "default_branch": "main",
+   "license": {
+    "key": "apache-2.0",
+    "name": "Apache License 2.0",
+    "spdx_id": "Apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "node_id": "MDc6TGljZW5zZTI="
+   },
+   "html_url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+   "language": "Python"
+  },
+  {
+   "full_name": "github/spec-kit",
+   "stargazers_count": 137373,
+   "size": 17586,
+   "pushed_at": "2026-09-16T21:13:46Z",
+   "default_branch": "main",
+   "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+   },
+   "html_url": "https://github.com/github/spec-kit",
+   "language": "Python"
+  },
+  {
+   "full_name": "Comfy-Org/ComfyUI",
+   "stargazers_count": 133538,
+   "size": 98544,
+   "pushed_at": "2026-09-16T20:46:18Z",
+   "default_branch": "master",
+   "license": {
+    "key": "gpl-3.0",
+    "name": "GNU General Public License v3.0",
+    "spdx_id": "GPL-3.0",
+    "url": "https://api.github.com/licenses/gpl-3.0",
+    "node_id": "MDc6TGljZW5zZTk="
+   },
+   "html_url": "https://github.com/Comfy-Org/ComfyUI",
+   "language": "Python"
+  },
+  {
+   "full_name": "nextlevelbuilder/ui-ux-pro-max-skill",
+   "stargazers_count": 128187,
+   "size": 8134,
+   "pushed_at": "2026-09-15T09:29:30Z",
+   "default_branch": "main",
+   "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+   },
+   "html_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+   "language": "Python"
+  },
+  {
+   "full_name": "harry0703/MoneyPrinterTurbo",
+   "stargazers_count": 124268,
+   "size": 537867,
+   "pushed_at": "2026-09-16T09:43:26Z",
+   "default_branch": "main",
+   "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+   },
+   "html_url": "https://github.com/harry0703/MoneyPrinterTurbo",
+   "language": "Python"
+  },
+  {
+   "full_name": "Graphify-Labs/graphify",
+   "stargazers_count": 118441,
+   "size": 17952,
+   "pushed_at": "2026-09-16T19:41:40Z",
+   "default_branch": "v8",
+   "license": {
+    "key": "apache-2.0",
+    "name": "Apache License 2.0",
+    "spdx_id": "Apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "node_id": "MDc6TGljZW5zZTI="
+   },
+   "html_url": "https://github.com/Graphify-Labs/graphify",
+   "language": "Python"
+  },
+  {
+   "full_name": "browser-use/browser-use",
+   "stargazers_count": 114836,
+   "size": 36701,
+   "pushed_at": "2026-09-15T22:49:04Z",
+   "default_branch": "main",
+   "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+   },
+   "html_url": "https://github.com/browser-use/browser-use",
+   "language": "Python"
+  },
+  {
+   "full_name": "openai/whisper",
+   "stargazers_count": 109221,
+   "size": 12797,
+   "pushed_at": "2026-08-31T17:19:19Z",
+   "default_branch": "main",
+   "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+   },
+   "html_url": "https://github.com/openai/whisper",
+   "language": "Python"
+  },
+  {
+   "full_name": "TauricResearch/TradingAgents",
+   "stargazers_count": 107003,
+   "size": 5582,
+   "pushed_at": "2026-09-16T21:45:09Z",
+   "default_branch": "main",
+   "license": {
+    "key": "apache-2.0",
+    "name": "Apache License 2.0",
+    "spdx_id": "Apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "node_id": "MDc6TGljZW5zZTI="
+   },
+   "html_url": "https://github.com/TauricResearch/TradingAgents",
+   "language": "Python"
+  },
+  {
+   "full_name": "pytorch/pytorch",
+   "stargazers_count": 103055,
+   "size": 1579625,
+   "pushed_at": "2026-09-16T23:35:00Z",
+   "default_branch": "main",
+   "license": {
+    "key": "other",
+    "name": "Other",
+    "spdx_id": "NOASSERTION",
+    "url": null,
+    "node_id": "MDc6TGljZW5zZTA="
+   },
+   "html_url": "https://github.com/pytorch/pytorch",
+   "language": "Python"
+  },
+  {
+   "full_name": "fastapi/fastapi",
+   "stargazers_count": 102369,
+   "size": 53807,
+   "pushed_at": "2026-09-14T18:49:48Z",
+   "default_branch": "master",
+   "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+   },
+   "html_url": "https://github.com/fastapi/fastapi",
+   "language": "Python"
+  },
+  {
+   "full_name": "hacksider/Deep-Live-Cam",
+   "stargazers_count": 96677,
+   "size": 156232,
+   "pushed_at": "2026-09-15T11:05:04Z",
+   "default_branch": "main",
+   "license": {
+    "key": "agpl-3.0",
+    "name": "GNU Affero General Public License v3.0",
+    "spdx_id": "AGPL-3.0",
+    "url": "https://api.github.com/licenses/agpl-3.0",
+    "node_id": "MDc6TGljZW5zZTE="
+   },
+   "html_url": "https://github.com/hacksider/Deep-Live-Cam",
+   "language": "Python"
+  },
+  {
+   "full_name": "karpathy/autoresearch",
+   "stargazers_count": 96123,
+   "size": 530,
+   "pushed_at": "2026-03-26T00:07:37Z",
+   "default_branch": "master",
+   "license": null,
+   "html_url": "https://github.com/karpathy/autoresearch",
+   "language": "Python"
+  },
+  {
+   "full_name": "3b1b/manim",
+   "stargazers_count": 93978,
+   "size": 77331,
+   "pushed_at": "2026-09-09T16:23:48Z",
+   "default_branch": "master",
+   "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+   },
+   "html_url": "https://github.com/3b1b/manim",
+   "language": "Python"
+  },
+  {
+   "full_name": "vllm-project/vllm",
+   "stargazers_count": 91941,
+   "size": 294830,
+   "pushed_at": "2026-09-16T23:11:27Z",
+   "default_branch": "main",
+   "license": {
+    "key": "apache-2.0",
+    "name": "Apache License 2.0",
+    "spdx_id": "Apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "node_id": "MDc6TGljZW5zZTI="
+   },
+   "html_url": "https://github.com/vllm-project/vllm",
+   "language": "Python"
+  },
+  {
+   "full_name": "sherlock-project/sherlock",
+   "stargazers_count": 91840,
+   "size": 19063,
+   "pushed_at": "2026-09-16T05:17:48Z",
+   "default_branch": "master",
+   "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+   },
+   "html_url": "https://github.com/sherlock-project/sherlock",
+   "language": "Python"
+  },
+  {
+   "full_name": "django/django",
+   "stargazers_count": 91081,
+   "size": 282869,
+   "pushed_at": "2026-09-16T09:59:07Z",
+   "default_branch": "main",
+   "license": {
+    "key": "bsd-3-clause",
+    "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+    "spdx_id": "BSD-3-Clause",
+    "url": "https://api.github.com/licenses/bsd-3-clause",
+    "node_id": "MDc6TGljZW5zZTU="
+   },
+   "html_url": "https://github.com/django/django",
+   "language": "Python"
+  },
+  {
+   "full_name": "home-assistant/core",
+   "stargazers_count": 90573,
+   "size": 897682,
+   "pushed_at": "2026-09-16T19:48:18Z",
+   "default_branch": "dev",
+   "license": {
+    "key": "apache-2.0",
+    "name": "Apache License 2.0",
+    "spdx_id": "Apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "node_id": "MDc6TGljZW5zZTI="
+   },
+   "html_url": "https://github.com/home-assistant/core",
+   "language": "Python"
+  },
+  {
+   "full_name": "PaddlePaddle/PaddleOCR",
+   "stargazers_count": 89659,
+   "size": 1970859,
+   "pushed_at": "2026-09-16T03:31:50Z",
+   "default_branch": "main",
+   "license": {
+    "key": "apache-2.0",
+    "name": "Apache License 2.0",
+    "spdx_id": "Apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "node_id": "MDc6TGljZW5zZTI="
+   },
+   "html_url": "https://github.com/PaddlePaddle/PaddleOCR",
+   "language": "Python"
+  },
+  {
+   "full_name": "odysseus-dev/odysseus",
+   "stargazers_count": 87325,
+   "size": 35090,
+   "pushed_at": "2026-09-13T21:53:34Z",
+   "default_branch": "dev",
+   "license": {
+    "key": "agpl-3.0",
+    "name": "GNU Affero General Public License v3.0",
+    "spdx_id": "AGPL-3.0",
+    "url": "https://api.github.com/licenses/agpl-3.0",
+    "node_id": "MDc6TGljZW5zZTE="
+   },
+   "html_url": "https://github.com/odysseus-dev/odysseus",
+   "language": "Python"
+  },
+  {
+   "full_name": "unclecode/crawl4ai",
+   "stargazers_count": 83696,
+   "size": 151265,
+   "pushed_at": "2026-09-16T07:49:01Z",
+   "default_branch": "main",
+   "license": {
+    "key": "apache-2.0",
+    "name": "Apache License 2.0",
+    "spdx_id": "Apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "node_id": "MDc6TGljZW5zZTI="
+   },
+   "html_url": "https://github.com/unclecode/crawl4ai",
+   "language": "Python"
+  },
+  {
+   "full_name": "bytedance/deer-flow",
+   "stargazers_count": 82548,
+   "size": 65227,
+   "pushed_at": "2026-09-16T15:57:39Z",
+   "default_branch": "main",
+   "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+   },
+   "html_url": "https://github.com/bytedance/deer-flow",
+   "language": "Python"
+  },
+  {
+   "full_name": "Panniantong/Agent-Reach",
+   "stargazers_count": 82511,
+   "size": 2024,
+   "pushed_at": "2026-09-15T16:16:24Z",
+   "default_branch": "main",
+   "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+   },
+   "html_url": "https://github.com/Panniantong/Agent-Reach",
+   "language": "Python"
+  },
+  {
+   "full_name": "D4Vinci/Scrapling",
+   "stargazers_count": 81479,
+   "size": 10036,
+   "pushed_at": "2026-09-14T19:47:52Z",
+   "default_branch": "main",
+   "license": {
+    "key": "bsd-3-clause",
+    "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+    "spdx_id": "BSD-3-Clause",
+    "url": "https://api.github.com/licenses/bsd-3-clause",
+    "node_id": "MDc6TGljZW5zZTU="
+   },
+   "html_url": "https://github.com/D4Vinci/Scrapling",
+   "language": "Python"
+  },
+  {
+   "full_name": "swisskyrepo/PayloadsAllTheThings",
+   "stargazers_count": 80916,
+   "size": 23345,
+   "pushed_at": "2026-08-27T07:52:21Z",
+   "default_branch": "master",
+   "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+   },
+   "html_url": "https://github.com/swisskyrepo/PayloadsAllTheThings",
+   "language": "Python"
+  },
+  {
+   "full_name": "opendatalab/MinerU",
+   "stargazers_count": 80051,
+   "size": 186264,
+   "pushed_at": "2026-09-16T14:32:29Z",
+   "default_branch": "master",
+   "license": {
+    "key": "other",
+    "name": "Other",
+    "spdx_id": "NOASSERTION",
+    "url": null,
+    "node_id": "MDc6TGljZW5zZTA="
+   },
+   "html_url": "https://github.com/opendatalab/MinerU",
+   "language": "Python"
+  },
+  {
+   "full_name": "Z4nzu/hackingtool",
+   "stargazers_count": 79563,
+   "size": 6457,
+   "pushed_at": "2026-08-23T16:54:04Z",
+   "default_branch": "master",
+   "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+   },
+   "html_url": "https://github.com/Z4nzu/hackingtool",
+   "language": "Python"
+  },
+  {
+   "full_name": "datawhalechina/hello-agents",
+   "stargazers_count": 79389,
+   "size": 236258,
+   "pushed_at": "2026-09-04T09:03:14Z",
+   "default_branch": "main",
+   "license": {
+    "key": "other",
+    "name": "Other",
+    "spdx_id": "NOASSERTION",
+    "url": null,
+    "node_id": "MDc6TGljZW5zZTA="
+   },
+   "html_url": "https://github.com/datawhalechina/hello-agents",
+   "language": "Python"
+  },
+  {
+   "full_name": "abi/screenshot-to-code",
+   "stargazers_count": 79058,
+   "size": 11142,
+   "pushed_at": "2026-09-09T17:27:34Z",
+   "default_branch": "main",
+   "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+   },
+   "html_url": "https://github.com/abi/screenshot-to-code",
+   "language": "Python"
+  },
+  {
+   "full_name": "tensorflow/models",
+   "stargazers_count": 77657,
+   "size": 660290,
+   "pushed_at": "2026-09-16T18:51:07Z",
+   "default_branch": "master",
+   "license": {
+    "key": "other",
+    "name": "Other",
+    "spdx_id": "NOASSERTION",
+    "url": null,
+    "node_id": "MDc6TGljZW5zZTA="
+   },
+   "html_url": "https://github.com/tensorflow/models",
+   "language": "Python"
+  },
+  {
+   "full_name": "python/cpython",
+   "stargazers_count": 77204,
+   "size": 875587,
+   "pushed_at": "2026-09-16T21:52:10Z",
+   "default_branch": "main",
+   "license": {
+    "key": "other",
+    "name": "Other",
+    "spdx_id": "NOASSERTION",
+    "url": null,
+    "node_id": "MDc6TGljZW5zZTA="
+   },
+   "html_url": "https://github.com/python/cpython",
+   "language": "Python"
+  },
+  {
+   "full_name": "shareAI-lab/learn-claude-code",
+   "stargazers_count": 76963,
+   "size": 6035,
+   "pushed_at": "2026-08-26T16:38:22Z",
+   "default_branch": "main",
+   "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+   },
+   "html_url": "https://github.com/shareAI-lab/learn-claude-code",
+   "language": "Python"
+  }
+ ],
+ "accepted": [
+  {
+   "repo": "TheAlgorithms/Python",
+   "sha": "78d335823dd8aa854faae6b6558e5f3ebcbd9630",
+   "stars": 224646,
+   "license": "MIT",
+   "files": 1534,
+   "loc": 115727,
+   "default_branch": "master",
+   "clone_dir": "data\\raw_repos\\TheAlgorithms__Python"
+  },
+  {
+   "repo": "yt-dlp/yt-dlp",
+   "sha": "c7fb478d21e9e59524befbe23f7801bb267fb880",
+   "stars": 191633,
+   "license": "Unlicense",
+   "files": 1114,
+   "loc": 222466,
+   "default_branch": "master",
+   "clone_dir": "data\\raw_repos\\yt-dlp__yt-dlp"
+  },
+  {
+   "repo": "AUTOMATIC1111/stable-diffusion-webui",
+   "sha": "82a973c04367123ae98bd9abdf80d9eda9b910e2",
+   "stars": 164978,
+   "license": "AGPL-3.0",
+   "files": 213,
+   "loc": 34008,
+   "default_branch": "master",
+   "clone_dir": "data\\raw_repos\\AUTOMATIC1111__stable-diffusion-webui"
+  },
+  {
+   "repo": "open-webui/open-webui",
+   "sha": "0a7c15832fb30b1903753e83f81dc7d27e5b0944",
+   "stars": 152303,
+   "license": "NOASSERTION",
+   "files": 261,
+   "loc": 96142,
+   "default_branch": "main",
+   "clone_dir": "data\\raw_repos\\open-webui__open-webui"
+  },
+  {
+   "repo": "langchain-ai/langchain",
+   "sha": "5c1f28271295bb13034f4cf8964f74c117357d40",
+   "stars": 146471,
+   "license": "MIT",
+   "files": 2575,
+   "loc": 339757,
+   "default_branch": "master",
+   "clone_dir": "data\\raw_repos\\langchain-ai__langchain"
+  },
+  {
+   "repo": "ytdl-org/youtube-dl",
+   "sha": "956b8c585591b401a543e409accb163eeaaa1193",
+   "stars": 141253,
+   "license": "Unlicense",
+   "files": 902,
+   "loc": 150327,
+   "default_branch": "master",
+   "clone_dir": "data\\raw_repos\\ytdl-org__youtube-dl"
+  },
+  {
+   "repo": "Shubhamsaboo/awesome-llm-apps",
+   "sha": "f163bb5a92111cee4610ac98e5dce4c6a2a09c26",
+   "stars": 138513,
+   "license": "Apache-2.0",
+   "files": 546,
+   "loc": 72433,
+   "default_branch": "main",
+   "clone_dir": "data\\raw_repos\\Shubhamsaboo__awesome-llm-apps"
+  },
+  {
+   "repo": "github/spec-kit",
+   "sha": "d743a695e46d6decfeb48fb2a641913ff5ab9ac5",
+   "stars": 137373,
+   "license": "MIT",
+   "files": 322,
+   "loc": 153662,
+   "default_branch": "main",
+   "clone_dir": "data\\raw_repos\\github__spec-kit"
+  }
+ ],
+ "skipped": [
+  {
+   "repo": "public-apis/public-apis",
+   "reason": "LOC 880 outside [20000, 400000]",
+   "files": 6,
+   "loc": 880
+  },
+  {
+   "repo": "EbookFoundation/free-programming-books",
+   "reason": "LOC 476 outside [20000, 400000]",
+   "files": 1,
+   "loc": 476
+  },
+  {
+   "repo": "donnemartin/system-design-primer",
+   "reason": "LOC 766 outside [20000, 400000]",
+   "files": 26,
+   "loc": 766
+  },
+  {
+   "repo": "vinta/awesome-python",
+   "reason": "LOC 3029 outside [20000, 400000]",
+   "files": 9,
+   "loc": 3029
+  },
+  {
+   "repo": "practical-tutorials/project-based-learning",
+   "reason": "LOC 1016 outside [20000, 400000]",
+   "files": 1,
+   "loc": 1016
+  },
+  {
+   "repo": "NousResearch/hermes-agent",
+   "reason": "LOC 1576869 outside [20000, 400000]",
+   "files": 6471,
+   "loc": 1576869
+  },
+  {
+   "repo": "Significant-Gravitas/AutoGPT",
+   "reason": "LOC 495826 outside [20000, 400000]",
+   "files": 1572,
+   "loc": 495826
+  },
+  {
+   "repo": "microsoft/markitdown",
+   "reason": "LOC 18124 outside [20000, 400000]",
+   "files": 106,
+   "loc": 18124
+  },
+  {
+   "repo": "521xueweihan/HelloGitHub",
+   "reason": "LOC 261 outside [20000, 400000]",
+   "files": 2,
+   "loc": 261
+  },
+  {
+   "repo": "anthropics/skills",
+   "reason": "LOC 12516 outside [20000, 400000]",
+   "files": 70,
+   "loc": 12516
+  },
+  {
+   "repo": "huggingface/transformers",
+   "reason": "LOC 1497455 outside [20000, 400000]",
+   "files": 4882,
+   "loc": 1497455
+  },
+  {
+   "repo": "langflow-ai/langflow",
+   "reason": "repo size 1538391 KB > 1.5 GB"
+  }
+ ]
+}

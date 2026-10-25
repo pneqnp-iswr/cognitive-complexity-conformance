@@ -1,0 +1,3122 @@
+[
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 6,
+  "end_line": 7,
+  "name": "c01_empty",
+  "value": 1,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 10,
+  "end_line": 13,
+  "name": "c02_if",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 16,
+  "end_line": 20,
+  "name": "c03_if_else",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 23,
+  "end_line": 31,
+  "name": "c04_if_elif_elif_else",
+  "value": 4,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 34,
+  "end_line": 35,
+  "name": "c05_ternary",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 38,
+  "end_line": 45,
+  "name": "c06_match",
+  "value": 4,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 48,
+  "end_line": 50,
+  "name": "c07_for",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 53,
+  "end_line": 56,
+  "name": "c08_while",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 59,
+  "end_line": 63,
+  "name": "c09_try_except",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 66,
+  "end_line": 72,
+  "name": "c10_try_two_excepts",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 75,
+  "end_line": 79,
+  "name": "c11_except_tuple",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 82,
+  "end_line": 86,
+  "name": "c12_try_finally",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 89,
+  "end_line": 95,
+  "name": "c13_try_except_finally",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 98,
+  "end_line": 102,
+  "name": "c14_if_in_if",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 105,
+  "end_line": 110,
+  "name": "c15_if_in_for_in_while",
+  "value": 4,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 113,
+  "end_line": 119,
+  "name": "c16_if_in_except",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 122,
+  "end_line": 128,
+  "name": "c17_if_in_try",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 131,
+  "end_line": 137,
+  "name": "c18_if_in_else",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 140,
+  "end_line": 146,
+  "name": "c19_if_in_elif",
+  "value": 4,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 149,
+  "end_line": 150,
+  "name": "c20_nested_ternary",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 153,
+  "end_line": 156,
+  "name": "c21_ternary_in_if_condition",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 159,
+  "end_line": 162,
+  "name": "c22_ternary_in_while_condition",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 165,
+  "end_line": 168,
+  "name": "c23_and",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 171,
+  "end_line": 174,
+  "name": "c24_and_and",
+  "value": 4,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 177,
+  "end_line": 180,
+  "name": "c25_or",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 183,
+  "end_line": 186,
+  "name": "c26_and_or",
+  "value": 4,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 189,
+  "end_line": 192,
+  "name": "c27_or_and_or",
+  "value": 5,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 195,
+  "end_line": 198,
+  "name": "c28_and_not_paren_and",
+  "value": 4,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 201,
+  "end_line": 204,
+  "name": "c29_and_paren_or",
+  "value": 4,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 207,
+  "end_line": 210,
+  "name": "c30_and_paren_and",
+  "value": 4,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 213,
+  "end_line": 215,
+  "name": "c31_bool_in_assignment",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 218,
+  "end_line": 219,
+  "name": "c32_bool_in_return",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 222,
+  "end_line": 223,
+  "name": "c33_bool_in_call",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 226,
+  "end_line": 228,
+  "name": "c34_or_default_idiom",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 231,
+  "end_line": 234,
+  "name": "c35_and_or_and",
+  "value": 5,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 237,
+  "end_line": 243,
+  "name": "c36_unlabeled_break_continue",
+  "value": 4,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 246,
+  "end_line": 250,
+  "name": "c37_early_return",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 253,
+  "end_line": 256,
+  "name": "c38_recursion_direct",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 259,
+  "end_line": 262,
+  "name": "c39_recursion_indirect_a",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 265,
+  "end_line": 268,
+  "name": "c39_recursion_indirect_b",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 271,
+  "end_line": 273,
+  "name": "c40_lambda_with_ternary",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 277,
+  "end_line": 280,
+  "name": "c41_nested_def_with_if.inner",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 276,
+  "end_line": 281,
+  "name": "c41_nested_def_with_if",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 285,
+  "end_line": 288,
+  "name": "c42_nested_def_only.inner",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 284,
+  "end_line": 289,
+  "name": "c42_nested_def_only",
+  "value": 1,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 294,
+  "end_line": 297,
+  "name": "c43_nested_def_inside_if.inner",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 292,
+  "end_line": 299,
+  "name": "c43_nested_def_inside_if",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 303,
+  "end_line": 306,
+  "name": "c44_decorator.inner",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 302,
+  "end_line": 307,
+  "name": "c44_decorator",
+  "value": 1,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 312,
+  "end_line": 315,
+  "name": "c45_not_a_decorator.inner",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 310,
+  "end_line": 316,
+  "name": "c45_not_a_decorator",
+  "value": 1,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 321,
+  "end_line": 324,
+  "name": "c46_decorator_generator.c46_decorator_generator.generator.decorator",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 320,
+  "end_line": 325,
+  "name": "c46_decorator_generator.generator",
+  "value": 1,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 319,
+  "end_line": 326,
+  "name": "c46_decorator_generator",
+  "value": 1,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 331,
+  "end_line": 334,
+  "name": "c47_nested_class_method_if.m",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 329,
+  "end_line": 335,
+  "name": "c47_nested_class_method_if",
+  "value": 1,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 338,
+  "end_line": 339,
+  "name": "c48_comprehension_if",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 342,
+  "end_line": 343,
+  "name": "c49_comprehension_plain",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 346,
+  "end_line": 352,
+  "name": "c50_for_else",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 355,
+  "end_line": 360,
+  "name": "c51_while_else",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 363,
+  "end_line": 369,
+  "name": "c52_try_else",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 372,
+  "end_line": 374,
+  "name": "c53_with",
+  "value": 1,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 377,
+  "end_line": 380,
+  "name": "c54_walrus",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 383,
+  "end_line": 389,
+  "name": "c55_deep_nesting_4",
+  "value": 5,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 392,
+  "end_line": 399,
+  "name": "c56_for_in_except_in_for",
+  "value": 4,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 402,
+  "end_line": 407,
+  "name": "c57_two_sequential_ifs",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 410,
+  "end_line": 418,
+  "name": "c58_else_if_nested_if",
+  "value": 4,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 421,
+  "end_line": 422,
+  "name": "c59_bool_inside_comprehension",
+  "value": 4,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 425,
+  "end_line": 427,
+  "name": "c60_bool_and_ternary_top_level",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 430,
+  "end_line": 431,
+  "name": "c61_async_await",
+  "value": 1,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 434,
+  "end_line": 436,
+  "name": "c62_async_for",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 440,
+  "end_line": 443,
+  "name": "c63_method_if",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 445,
+  "end_line": 448,
+  "name": "c64_method_recursion",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 451,
+  "end_line": 454,
+  "name": "c65_static_and_or",
+  "value": 4,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 457,
+  "end_line": 460,
+  "name": "c66_lambda_in_for",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 463,
+  "end_line": 465,
+  "name": "c67_lambda_with_bool",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 468,
+  "end_line": 471,
+  "name": "c68_raise_in_if",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 474,
+  "end_line": 476,
+  "name": "c69_assert",
+  "value": 1,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 479,
+  "end_line": 480,
+  "name": "c70_generator_expression_if",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 484,
+  "end_line": 487,
+  "name": "c103_recursion_two_calls",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 7,
+  "end_line": 9,
+  "name": "Micro::c01_empty",
+  "value": 1,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 11,
+  "end_line": 16,
+  "name": "Micro::c02_if",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 18,
+  "end_line": 24,
+  "name": "Micro::c03_if_else",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 26,
+  "end_line": 36,
+  "name": "Micro::c04_if_elseif_elseif_else",
+  "value": 4,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 38,
+  "end_line": 40,
+  "name": "Micro::c05_ternary",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 42,
+  "end_line": 51,
+  "name": "Micro::c06_switch",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 53,
+  "end_line": 59,
+  "name": "Micro::c06b_switch_expression",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 61,
+  "end_line": 65,
+  "name": "Micro::c07_for",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 67,
+  "end_line": 71,
+  "name": "Micro::c07b_foreach",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 73,
+  "end_line": 78,
+  "name": "Micro::c08_while",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 80,
+  "end_line": 85,
+  "name": "Micro::c08b_do_while",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 87,
+  "end_line": 93,
+  "name": "Micro::c09_try_catch",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 95,
+  "end_line": 103,
+  "name": "Micro::c10_try_two_catches",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 105,
+  "end_line": 111,
+  "name": "Micro::c11_multi_catch",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 113,
+  "end_line": 119,
+  "name": "Micro::c12_try_finally",
+  "value": 1,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 121,
+  "end_line": 129,
+  "name": "Micro::c13_try_catch_finally",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 131,
+  "end_line": 138,
+  "name": "Micro::c14_if_in_if",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 140,
+  "end_line": 149,
+  "name": "Micro::c15_if_in_for_in_while",
+  "value": 4,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 151,
+  "end_line": 160,
+  "name": "Micro::c16_if_in_catch",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 162,
+  "end_line": 171,
+  "name": "Micro::c17_if_in_try",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 173,
+  "end_line": 182,
+  "name": "Micro::c18_if_in_else",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 184,
+  "end_line": 193,
+  "name": "Micro::c19_if_in_elseif",
+  "value": 4,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 195,
+  "end_line": 197,
+  "name": "Micro::c20_nested_ternary",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 199,
+  "end_line": 204,
+  "name": "Micro::c21_ternary_in_if_condition",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 206,
+  "end_line": 211,
+  "name": "Micro::c22_ternary_in_while_condition",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 213,
+  "end_line": 218,
+  "name": "Micro::c23_and",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 220,
+  "end_line": 225,
+  "name": "Micro::c24_and_and",
+  "value": 4,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 227,
+  "end_line": 232,
+  "name": "Micro::c25_or",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 234,
+  "end_line": 239,
+  "name": "Micro::c26_and_or",
+  "value": 4,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 241,
+  "end_line": 246,
+  "name": "Micro::c27_or_and_or",
+  "value": 5,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 248,
+  "end_line": 253,
+  "name": "Micro::c28_and_not_paren_and",
+  "value": 4,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 255,
+  "end_line": 260,
+  "name": "Micro::c29_and_paren_or",
+  "value": 4,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 262,
+  "end_line": 267,
+  "name": "Micro::c30_and_paren_and",
+  "value": 4,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 269,
+  "end_line": 272,
+  "name": "Micro::c31_bool_in_assignment",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 274,
+  "end_line": 276,
+  "name": "Micro::c32_bool_in_return",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 278,
+  "end_line": 280,
+  "name": "Micro::c33_bool_in_call",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 282,
+  "end_line": 287,
+  "name": "Micro::c35_and_or_and",
+  "value": 5,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 289,
+  "end_line": 299,
+  "name": "Micro::c36_unlabeled_break_continue",
+  "value": 4,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 301,
+  "end_line": 307,
+  "name": "Micro::c37_early_return",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 309,
+  "end_line": 314,
+  "name": "Micro::c38_recursion_direct",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 316,
+  "end_line": 321,
+  "name": "Micro::c39_recursion_indirect_a",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 323,
+  "end_line": 328,
+  "name": "Micro::c39_recursion_indirect_b",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 330,
+  "end_line": 333,
+  "name": "Micro::c40_lambda_with_ternary",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 335,
+  "end_line": 343,
+  "name": "Micro::c41_lambda_with_if",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 345,
+  "end_line": 355,
+  "name": "Micro::c43_lambda_inside_if",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 360,
+  "end_line": 364,
+  "name": "(anonymous)::run",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 357,
+  "end_line": 368,
+  "name": "Micro::c47_anonymous_class_method_if",
+  "value": 1,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 370,
+  "end_line": 381,
+  "name": "Micro::c55_deep_nesting_4",
+  "value": 5,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 383,
+  "end_line": 393,
+  "name": "Micro::c56_for_in_catch_in_for",
+  "value": 4,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 395,
+  "end_line": 403,
+  "name": "Micro::c57_two_sequential_ifs",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 405,
+  "end_line": 416,
+  "name": "Micro::c58_elseif_nested_if",
+  "value": 4,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 418,
+  "end_line": 430,
+  "name": "Micro::c63_labeled_continue",
+  "value": 4,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 432,
+  "end_line": 440,
+  "name": "Micro::c64_labeled_break_to_enclosing",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 442,
+  "end_line": 449,
+  "name": "Micro::c71_synchronized",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 451,
+  "end_line": 457,
+  "name": "Micro::c72_try_with_resources",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 459,
+  "end_line": 464,
+  "name": "Micro::c73_throw_in_if",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 466,
+  "end_line": 476,
+  "name": "Micro::c74_switch_with_nested_if",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 478,
+  "end_line": 483,
+  "name": "Micro::c75_bitwise_and_on_booleans",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 485,
+  "end_line": 493,
+  "name": "Micro::c76_lambda_in_lambda",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 495,
+  "end_line": 500,
+  "name": "Micro::c77_instanceof_pattern",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 502,
+  "end_line": 507,
+  "name": "Micro::c78_recursion_via_this",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 509,
+  "end_line": 514,
+  "name": "Micro::c79_or_not_paren_or",
+  "value": 4,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 516,
+  "end_line": 519,
+  "name": "Micro::c80_bool_and_ternary_top_level",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 522,
+  "end_line": 527,
+  "name": "Micro::c103_recursion_two_calls",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 530,
+  "end_line": 535,
+  "name": "Micro::equals",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 538,
+  "end_line": 540,
+  "name": "Micro::hashCode",
+  "value": 1,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 546,
+  "end_line": 572,
+  "name": "AppendixC::overriddenSymbolFrom",
+  "value": 10,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 575,
+  "end_line": 618,
+  "name": "AppendixC::addVersion",
+  "value": 14,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 621,
+  "end_line": 656,
+  "name": "AppendixC::toRegexp",
+  "value": 12,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 659,
+  "end_line": 670,
+  "name": "AppendixC::sumOfPrimes",
+  "value": 4,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 673,
+  "end_line": 684,
+  "name": "AppendixC::getWords",
+  "value": 4,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 687,
+  "end_line": 697,
+  "name": "AppendixC::myMethod",
+  "value": 6,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 700,
+  "end_line": 705,
+  "name": "AppendixC::myMethod2",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 711,
+  "end_line": 711,
+  "name": "AppendixC::isSlash",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 712,
+  "end_line": 712,
+  "name": "AppendixC::canOverride",
+  "value": 1,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 713,
+  "end_line": 713,
+  "name": "AppendixC::checkOverridingParameters",
+  "value": 1,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 715,
+  "end_line": 715,
+  "name": "JavaSymbol::isKind",
+  "value": 1,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 715,
+  "end_line": 715,
+  "name": "JavaSymbol::isStatic",
+  "value": 1,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 717,
+  "end_line": 717,
+  "name": "ClassJavaType::isUnknown",
+  "value": 1,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 717,
+  "end_line": 717,
+  "name": "ClassJavaType::getSymbol",
+  "value": 1,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 718,
+  "end_line": 718,
+  "name": "Scope::members",
+  "value": 1,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 718,
+  "end_line": 718,
+  "name": "Scope::lookup",
+  "value": 1,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 719,
+  "end_line": 719,
+  "name": "Entry::getVersion",
+  "value": 1,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 719,
+  "end_line": 719,
+  "name": "Entry::getPrevious",
+  "value": 1,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 719,
+  "end_line": 719,
+  "name": "Entry::setPrevious",
+  "value": 1,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 720,
+  "end_line": 720,
+  "name": "Transaction::isActive",
+  "value": 1,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 720,
+  "end_line": 720,
+  "name": "Transaction::getTransactionStatus",
+  "value": 1,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 721,
+  "end_line": 721,
+  "name": "TransactionIndex::wwDependency",
+  "value": 1,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 722,
+  "end_line": 722,
+  "name": "Persistit::getTransactionIndex",
+  "value": 1,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 725,
+  "end_line": 725,
+  "name": "WWRetryException::WWRetryException",
+  "value": 1,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 725,
+  "end_line": 725,
+  "name": "WWRetryException::getVersionHandle",
+  "value": 1,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 726,
+  "end_line": 726,
+  "name": "PersistitInterruptedException::PersistitInterruptedException",
+  "value": 1,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 4,
+  "end_line": 8,
+  "name": "c01_empty",
+  "value": 1,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 8,
+  "end_line": 15,
+  "name": "c02_if",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 15,
+  "end_line": 23,
+  "name": "c03_if_else",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 23,
+  "end_line": 35,
+  "name": "c04_if_elseif_elseif_else",
+  "value": 4,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 35,
+  "end_line": 39,
+  "name": "c05_ternary",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 39,
+  "end_line": 50,
+  "name": "c06_switch",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 50,
+  "end_line": 56,
+  "name": "c07_for",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 56,
+  "end_line": 62,
+  "name": "c07b_for_of",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 62,
+  "end_line": 68,
+  "name": "c07c_for_in",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 68,
+  "end_line": 75,
+  "name": "c08_while",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 75,
+  "end_line": 82,
+  "name": "c08b_do_while",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 82,
+  "end_line": 90,
+  "name": "c09_try_catch",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 90,
+  "end_line": 98,
+  "name": "c09b_optional_catch_binding",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 98,
+  "end_line": 106,
+  "name": "c12_try_finally",
+  "value": 1,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 106,
+  "end_line": 116,
+  "name": "c13_try_catch_finally",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 116,
+  "end_line": 125,
+  "name": "c14_if_in_if",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 125,
+  "end_line": 136,
+  "name": "c15_if_in_for_in_while",
+  "value": 4,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 136,
+  "end_line": 147,
+  "name": "c16_if_in_catch",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 147,
+  "end_line": 158,
+  "name": "c17_if_in_try",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 158,
+  "end_line": 169,
+  "name": "c18_if_in_else",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 169,
+  "end_line": 180,
+  "name": "c19_if_in_elseif",
+  "value": 4,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 180,
+  "end_line": 184,
+  "name": "c20_nested_ternary",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 184,
+  "end_line": 191,
+  "name": "c21_ternary_in_if_condition",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 191,
+  "end_line": 198,
+  "name": "c22_ternary_in_while_condition",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 198,
+  "end_line": 205,
+  "name": "c23_and",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 205,
+  "end_line": 212,
+  "name": "c24_and_and",
+  "value": 4,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 212,
+  "end_line": 219,
+  "name": "c25_or",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 219,
+  "end_line": 226,
+  "name": "c26_and_or",
+  "value": 4,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 226,
+  "end_line": 233,
+  "name": "c27_or_and_or",
+  "value": 5,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 233,
+  "end_line": 240,
+  "name": "c28_and_not_paren_and",
+  "value": 4,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 240,
+  "end_line": 247,
+  "name": "c29_and_paren_or",
+  "value": 4,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 247,
+  "end_line": 254,
+  "name": "c30_and_paren_and",
+  "value": 4,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 254,
+  "end_line": 259,
+  "name": "c31_bool_in_assignment",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 259,
+  "end_line": 263,
+  "name": "c32_bool_in_return",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 263,
+  "end_line": 267,
+  "name": "c33_bool_in_call",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 267,
+  "end_line": 272,
+  "name": "c34_or_default_idiom",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 272,
+  "end_line": 279,
+  "name": "c35_and_or_and",
+  "value": 5,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 279,
+  "end_line": 291,
+  "name": "c36_unlabeled_break_continue",
+  "value": 4,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 291,
+  "end_line": 299,
+  "name": "c37_early_return",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 299,
+  "end_line": 306,
+  "name": "c38_recursion_direct",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 306,
+  "end_line": 313,
+  "name": "c39_recursion_indirect_a",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 313,
+  "end_line": 320,
+  "name": "c39_recursion_indirect_b",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 321,
+  "end_line": 321,
+  "name": "f",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 320,
+  "end_line": 325,
+  "name": "c40_arrow_with_ternary",
+  "value": 1,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 326,
+  "end_line": 330,
+  "name": "r",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 325,
+  "end_line": 335,
+  "name": "c41_arrow_with_if",
+  "value": 1,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 336,
+  "end_line": 342,
+  "name": "inner",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 335,
+  "end_line": 345,
+  "name": "c42_nested_function_only",
+  "value": 1,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 347,
+  "end_line": 351,
+  "name": "r",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 345,
+  "end_line": 357,
+  "name": "c43_arrow_inside_if",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 360,
+  "end_line": 365,
+  "name": "bar.myFun",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 357,
+  "end_line": 369,
+  "name": "c44_declarative_outer",
+  "value": 1,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 375,
+  "end_line": 380,
+  "name": "bar.myFun",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 369,
+  "end_line": 384,
+  "name": "c45_non_declarative_outer",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 384,
+  "end_line": 397,
+  "name": "c55_deep_nesting_4",
+  "value": 5,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 397,
+  "end_line": 409,
+  "name": "c56_for_in_catch_in_for",
+  "value": 4,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 409,
+  "end_line": 419,
+  "name": "c57_two_sequential_ifs",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 419,
+  "end_line": 432,
+  "name": "c58_elseif_nested_if",
+  "value": 4,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 432,
+  "end_line": 445,
+  "name": "c63_labeled_continue",
+  "value": 4,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 445,
+  "end_line": 454,
+  "name": "c64_labeled_break_to_enclosing",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 454,
+  "end_line": 466,
+  "name": "c74_switch_with_nested_if",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 467,
+  "end_line": 472,
+  "name": "f",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 466,
+  "end_line": 476,
+  "name": "c76_arrow_in_arrow",
+  "value": 1,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 476,
+  "end_line": 483,
+  "name": "c79_or_not_paren_or",
+  "value": 4,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 483,
+  "end_line": 488,
+  "name": "c80_bool_and_ternary_top_level",
+  "value": 1,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 488,
+  "end_line": 492,
+  "name": "c81_nullish_coalescing",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 492,
+  "end_line": 496,
+  "name": "c82_optional_chaining",
+  "value": 1,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 496,
+  "end_line": 500,
+  "name": "c83_nullish_then_or",
+  "value": 4,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 501,
+  "end_line": 501,
+  "name": "(anonymous)",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 500,
+  "end_line": 504,
+  "name": "c84_and_in_jsx_like_callback",
+  "value": 1,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 504,
+  "end_line": 507,
+  "name": "c85_async_await",
+  "value": 1,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 509,
+  "end_line": 513,
+  "name": "c86_generator",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 516,
+  "end_line": 521,
+  "name": "c87_method_if",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 523,
+  "end_line": 525,
+  "name": "get c88_getter_ternary",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 527,
+  "end_line": 532,
+  "name": "c89_method_recursion",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 537,
+  "end_line": 542,
+  "name": "c90_arrow_const",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 544,
+  "end_line": 552,
+  "name": "c91_typeof_guard",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 560,
+  "end_line": 585,
+  "name": "(anonymous)",
+  "value": 8,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 553,
+  "end_line": 587,
+  "name": "save",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 591,
+  "end_line": 596,
+  "name": "c103_recursion_two_calls",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 6,
+  "end_line": 8,
+  "name": "c01_empty",
+  "value": 1,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 10,
+  "end_line": 15,
+  "name": "c02_if",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 17,
+  "end_line": 23,
+  "name": "c03_if_else",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 25,
+  "end_line": 35,
+  "name": "c04_if_elseif_elseif_else",
+  "value": 4,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 37,
+  "end_line": 46,
+  "name": "c06_switch",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 48,
+  "end_line": 57,
+  "name": "c06b_switch_no_tag",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 59,
+  "end_line": 67,
+  "name": "c06c_type_switch",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 70,
+  "end_line": 77,
+  "name": "c06d_select",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 79,
+  "end_line": 83,
+  "name": "c07_for",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 85,
+  "end_line": 89,
+  "name": "c07b_for_range",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 91,
+  "end_line": 96,
+  "name": "c08_for_condition_only",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 98,
+  "end_line": 106,
+  "name": "c08b_for_infinite",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 108,
+  "end_line": 115,
+  "name": "c14_if_in_if",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 117,
+  "end_line": 126,
+  "name": "c15_if_in_for_in_for",
+  "value": 4,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 128,
+  "end_line": 137,
+  "name": "c18_if_in_else",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 139,
+  "end_line": 148,
+  "name": "c19_if_in_elseif",
+  "value": 4,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 150,
+  "end_line": 155,
+  "name": "c19b_if_with_init",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 157,
+  "end_line": 162,
+  "name": "c23_and",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 164,
+  "end_line": 169,
+  "name": "c24_and_and",
+  "value": 4,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 171,
+  "end_line": 176,
+  "name": "c25_or",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 178,
+  "end_line": 183,
+  "name": "c26_and_or",
+  "value": 4,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 185,
+  "end_line": 190,
+  "name": "c27_or_and_or",
+  "value": 5,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 192,
+  "end_line": 197,
+  "name": "c28_and_not_paren_and",
+  "value": 4,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 199,
+  "end_line": 204,
+  "name": "c29_and_paren_or",
+  "value": 4,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 206,
+  "end_line": 211,
+  "name": "c30_and_paren_and",
+  "value": 4,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 213,
+  "end_line": 216,
+  "name": "c31_bool_in_assignment",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 218,
+  "end_line": 220,
+  "name": "c32_bool_in_return",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 222,
+  "end_line": 224,
+  "name": "c33_bool_in_call",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 226,
+  "end_line": 231,
+  "name": "c35_and_or_and",
+  "value": 5,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 233,
+  "end_line": 243,
+  "name": "c36_unlabeled_break_continue",
+  "value": 4,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 245,
+  "end_line": 251,
+  "name": "c37_early_return",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 253,
+  "end_line": 258,
+  "name": "c38_recursion_direct",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 260,
+  "end_line": 265,
+  "name": "c39_recursion_indirect_a",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 267,
+  "end_line": 272,
+  "name": "c39_recursion_indirect_b",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 275,
+  "end_line": 279,
+  "name": "",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 274,
+  "end_line": 282,
+  "name": "c41_func_literal_with_if",
+  "value": 1,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 286,
+  "end_line": 290,
+  "name": "",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 284,
+  "end_line": 294,
+  "name": "c43_func_literal_inside_if",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 296,
+  "end_line": 307,
+  "name": "c55_deep_nesting_4",
+  "value": 5,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 309,
+  "end_line": 317,
+  "name": "c57_two_sequential_ifs",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 319,
+  "end_line": 330,
+  "name": "c58_elseif_nested_if",
+  "value": 4,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 332,
+  "end_line": 344,
+  "name": "c63_labeled_continue",
+  "value": 4,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 346,
+  "end_line": 354,
+  "name": "c64_labeled_break_to_enclosing",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 356,
+  "end_line": 365,
+  "name": "c65_goto",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 367,
+  "end_line": 377,
+  "name": "c74_switch_with_nested_if",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 381,
+  "end_line": 386,
+  "name": "",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 380,
+  "end_line": 387,
+  "name": "",
+  "value": 1,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 379,
+  "end_line": 389,
+  "name": "c76_func_literal_in_func_literal",
+  "value": 1,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 391,
+  "end_line": 396,
+  "name": "c79_or_not_paren_or",
+  "value": 4,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 398,
+  "end_line": 402,
+  "name": "c92_defer_and_go",
+  "value": 1,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 404,
+  "end_line": 413,
+  "name": "c93_switch_with_fallthrough",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 415,
+  "end_line": 424,
+  "name": "c94_labeled_break_out_of_switch_in_loop",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 435,
+  "end_line": 440,
+  "name": "",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 442,
+  "end_line": 448,
+  "name": "c97_bool_and_ternary_like",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 453,
+  "end_line": 459,
+  "name": "c98_if_err_not_nil_return",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 461,
+  "end_line": 470,
+  "name": "c99_if_err_check_nested_if",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 472,
+  "end_line": 480,
+  "name": "c100_two_err_checks",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 482,
+  "end_line": 489,
+  "name": "c101_err_check_with_else",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 491,
+  "end_line": 497,
+  "name": "c102_err_named_e",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 500,
+  "end_line": 505,
+  "name": "c103_recursion_two_calls",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "lizard",
+  "extra": {}
+ }
+]

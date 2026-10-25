@@ -1,0 +1,4034 @@
+{
+ "meta": {
+  "project_key": "micro-java",
+  "source_dir": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java",
+  "lang": "java",
+  "scan_seconds": 10.1,
+  "analysis_id": "58e9760e-34c5-48a1-b1b4-b82983c3e1b6",
+  "server_version": "26.9.0.129388",
+  "n_issues": 158,
+  "n_cognitive": 68,
+  "n_cyclomatic": 90
+ },
+ "rows": [
+  {
+   "file": "Micro.java",
+   "rule": "java:S3776",
+   "kind": "cognitive",
+   "line": 522,
+   "start_line": 522,
+   "start_col": 8,
+   "end_line": 522,
+   "value": 1,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 1 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 523,
+     "col": 8,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S1541",
+   "kind": "cyclomatic",
+   "line": 522,
+   "start_line": 522,
+   "start_col": 8,
+   "end_line": 522,
+   "value": null,
+   "message": "The Cyclomatic Complexity of this method \"c103_recursion_two_calls\" is 2 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 522,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 523,
+     "col": 8,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S1541",
+   "kind": "cyclomatic",
+   "line": 7,
+   "start_line": 7,
+   "start_col": 8,
+   "end_line": 7,
+   "value": null,
+   "message": "The Cyclomatic Complexity of this method \"c01_empty\" is 1 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 7,
+     "col": 8,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S1541",
+   "kind": "cyclomatic",
+   "line": 11,
+   "start_line": 11,
+   "start_col": 8,
+   "end_line": 11,
+   "value": null,
+   "message": "The Cyclomatic Complexity of this method \"c02_if\" is 2 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 11,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 12,
+     "col": 8,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S3776",
+   "kind": "cognitive",
+   "line": 11,
+   "start_line": 11,
+   "start_col": 8,
+   "end_line": 11,
+   "value": 1,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 1 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 12,
+     "col": 8,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S1541",
+   "kind": "cyclomatic",
+   "line": 18,
+   "start_line": 18,
+   "start_col": 8,
+   "end_line": 18,
+   "value": null,
+   "message": "The Cyclomatic Complexity of this method \"c03_if_else\" is 2 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 18,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 19,
+     "col": 8,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S3776",
+   "kind": "cognitive",
+   "line": 18,
+   "start_line": 18,
+   "start_col": 8,
+   "end_line": 18,
+   "value": 2,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 2 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 19,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 21,
+     "col": 10,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S1541",
+   "kind": "cyclomatic",
+   "line": 26,
+   "start_line": 26,
+   "start_col": 8,
+   "end_line": 26,
+   "value": null,
+   "message": "The Cyclomatic Complexity of this method \"c04_if_elseif_elseif_else\" is 4 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 26,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 27,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 29,
+     "col": 15,
+     "msg": "+1"
+    },
+    {
+     "line": 31,
+     "col": 15,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S3776",
+   "kind": "cognitive",
+   "line": 26,
+   "start_line": 26,
+   "start_col": 8,
+   "end_line": 26,
+   "value": 4,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 4 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 27,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 29,
+     "col": 15,
+     "msg": "+1"
+    },
+    {
+     "line": 31,
+     "col": 15,
+     "msg": "+1"
+    },
+    {
+     "line": 33,
+     "col": 10,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S1541",
+   "kind": "cyclomatic",
+   "line": 38,
+   "start_line": 38,
+   "start_col": 8,
+   "end_line": 38,
+   "value": null,
+   "message": "The Cyclomatic Complexity of this method \"c05_ternary\" is 2 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 38,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 39,
+     "col": 17,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S3776",
+   "kind": "cognitive",
+   "line": 38,
+   "start_line": 38,
+   "start_col": 8,
+   "end_line": 38,
+   "value": 1,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 1 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 39,
+     "col": 17,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S1541",
+   "kind": "cyclomatic",
+   "line": 42,
+   "start_line": 42,
+   "start_col": 8,
+   "end_line": 42,
+   "value": null,
+   "message": "The Cyclomatic Complexity of this method \"c06_switch\" is 3 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 42,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 44,
+     "col": 12,
+     "msg": "+1"
+    },
+    {
+     "line": 46,
+     "col": 12,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S3776",
+   "kind": "cognitive",
+   "line": 42,
+   "start_line": 42,
+   "start_col": 8,
+   "end_line": 42,
+   "value": 1,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 1 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 43,
+     "col": 8,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S1541",
+   "kind": "cyclomatic",
+   "line": 53,
+   "start_line": 53,
+   "start_col": 8,
+   "end_line": 53,
+   "value": null,
+   "message": "The Cyclomatic Complexity of this method \"c06b_switch_expression\" is 3 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 53,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 55,
+     "col": 12,
+     "msg": "+1"
+    },
+    {
+     "line": 56,
+     "col": 12,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S1541",
+   "kind": "cyclomatic",
+   "line": 61,
+   "start_line": 61,
+   "start_col": 9,
+   "end_line": 61,
+   "value": null,
+   "message": "The Cyclomatic Complexity of this method \"c07_for\" is 2 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 61,
+     "col": 9,
+     "msg": "+1"
+    },
+    {
+     "line": 62,
+     "col": 8,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S3776",
+   "kind": "cognitive",
+   "line": 61,
+   "start_line": 61,
+   "start_col": 9,
+   "end_line": 61,
+   "value": 1,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 1 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 62,
+     "col": 8,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S1541",
+   "kind": "cyclomatic",
+   "line": 67,
+   "start_line": 67,
+   "start_col": 9,
+   "end_line": 67,
+   "value": null,
+   "message": "The Cyclomatic Complexity of this method \"c07b_foreach\" is 2 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 67,
+     "col": 9,
+     "msg": "+1"
+    },
+    {
+     "line": 68,
+     "col": 8,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S3776",
+   "kind": "cognitive",
+   "line": 67,
+   "start_line": 67,
+   "start_col": 9,
+   "end_line": 67,
+   "value": 1,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 1 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 68,
+     "col": 8,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S3776",
+   "kind": "cognitive",
+   "line": 73,
+   "start_line": 73,
+   "start_col": 8,
+   "end_line": 73,
+   "value": 1,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 1 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 74,
+     "col": 8,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S1541",
+   "kind": "cyclomatic",
+   "line": 73,
+   "start_line": 73,
+   "start_col": 8,
+   "end_line": 73,
+   "value": null,
+   "message": "The Cyclomatic Complexity of this method \"c08_while\" is 2 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 73,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 74,
+     "col": 8,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S3776",
+   "kind": "cognitive",
+   "line": 80,
+   "start_line": 80,
+   "start_col": 8,
+   "end_line": 80,
+   "value": 1,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 1 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 81,
+     "col": 8,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S1541",
+   "kind": "cyclomatic",
+   "line": 80,
+   "start_line": 80,
+   "start_col": 8,
+   "end_line": 80,
+   "value": null,
+   "message": "The Cyclomatic Complexity of this method \"c08b_do_while\" is 2 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 80,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 81,
+     "col": 8,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S3776",
+   "kind": "cognitive",
+   "line": 87,
+   "start_line": 87,
+   "start_col": 8,
+   "end_line": 87,
+   "value": 1,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 1 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 90,
+     "col": 10,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S1541",
+   "kind": "cyclomatic",
+   "line": 87,
+   "start_line": 87,
+   "start_col": 8,
+   "end_line": 87,
+   "value": null,
+   "message": "The Cyclomatic Complexity of this method \"c09_try_catch\" is 1 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 87,
+     "col": 8,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S3776",
+   "kind": "cognitive",
+   "line": 95,
+   "start_line": 95,
+   "start_col": 8,
+   "end_line": 95,
+   "value": 2,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 2 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 98,
+     "col": 10,
+     "msg": "+1"
+    },
+    {
+     "line": 100,
+     "col": 10,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S1541",
+   "kind": "cyclomatic",
+   "line": 95,
+   "start_line": 95,
+   "start_col": 8,
+   "end_line": 95,
+   "value": null,
+   "message": "The Cyclomatic Complexity of this method \"c10_try_two_catches\" is 1 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 95,
+     "col": 8,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S3776",
+   "kind": "cognitive",
+   "line": 105,
+   "start_line": 105,
+   "start_col": 8,
+   "end_line": 105,
+   "value": 1,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 1 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 108,
+     "col": 10,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S1541",
+   "kind": "cyclomatic",
+   "line": 105,
+   "start_line": 105,
+   "start_col": 8,
+   "end_line": 105,
+   "value": null,
+   "message": "The Cyclomatic Complexity of this method \"c11_multi_catch\" is 1 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 105,
+     "col": 8,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S1541",
+   "kind": "cyclomatic",
+   "line": 113,
+   "start_line": 113,
+   "start_col": 8,
+   "end_line": 113,
+   "value": null,
+   "message": "The Cyclomatic Complexity of this method \"c12_try_finally\" is 1 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 113,
+     "col": 8,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S3776",
+   "kind": "cognitive",
+   "line": 121,
+   "start_line": 121,
+   "start_col": 8,
+   "end_line": 121,
+   "value": 1,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 1 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 124,
+     "col": 10,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S1541",
+   "kind": "cyclomatic",
+   "line": 121,
+   "start_line": 121,
+   "start_col": 8,
+   "end_line": 121,
+   "value": null,
+   "message": "The Cyclomatic Complexity of this method \"c13_try_catch_finally\" is 1 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 121,
+     "col": 8,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S3776",
+   "kind": "cognitive",
+   "line": 131,
+   "start_line": 131,
+   "start_col": 8,
+   "end_line": 131,
+   "value": 3,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 3 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 132,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 133,
+     "col": 12,
+     "msg": "+2 (incl 1 for nesting)"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S1541",
+   "kind": "cyclomatic",
+   "line": 131,
+   "start_line": 131,
+   "start_col": 8,
+   "end_line": 131,
+   "value": null,
+   "message": "The Cyclomatic Complexity of this method \"c14_if_in_if\" is 3 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 131,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 132,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 133,
+     "col": 12,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S1541",
+   "kind": "cyclomatic",
+   "line": 140,
+   "start_line": 140,
+   "start_col": 8,
+   "end_line": 140,
+   "value": null,
+   "message": "The Cyclomatic Complexity of this method \"c15_if_in_for_in_while\" is 4 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 140,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 141,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 142,
+     "col": 12,
+     "msg": "+1"
+    },
+    {
+     "line": 143,
+     "col": 16,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S3776",
+   "kind": "cognitive",
+   "line": 140,
+   "start_line": 140,
+   "start_col": 8,
+   "end_line": 140,
+   "value": 6,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 6 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 141,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 142,
+     "col": 12,
+     "msg": "+2 (incl 1 for nesting)"
+    },
+    {
+     "line": 143,
+     "col": 16,
+     "msg": "+3 (incl 2 for nesting)"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S3776",
+   "kind": "cognitive",
+   "line": 151,
+   "start_line": 151,
+   "start_col": 8,
+   "end_line": 151,
+   "value": 3,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 3 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 154,
+     "col": 10,
+     "msg": "+1"
+    },
+    {
+     "line": 155,
+     "col": 12,
+     "msg": "+2 (incl 1 for nesting)"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S1541",
+   "kind": "cyclomatic",
+   "line": 151,
+   "start_line": 151,
+   "start_col": 8,
+   "end_line": 151,
+   "value": null,
+   "message": "The Cyclomatic Complexity of this method \"c16_if_in_catch\" is 2 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 151,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 155,
+     "col": 12,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S3776",
+   "kind": "cognitive",
+   "line": 162,
+   "start_line": 162,
+   "start_col": 8,
+   "end_line": 162,
+   "value": 2,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 2 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 164,
+     "col": 12,
+     "msg": "+1"
+    },
+    {
+     "line": 167,
+     "col": 10,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S1541",
+   "kind": "cyclomatic",
+   "line": 162,
+   "start_line": 162,
+   "start_col": 8,
+   "end_line": 162,
+   "value": null,
+   "message": "The Cyclomatic Complexity of this method \"c17_if_in_try\" is 2 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 162,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 164,
+     "col": 12,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S3776",
+   "kind": "cognitive",
+   "line": 173,
+   "start_line": 173,
+   "start_col": 8,
+   "end_line": 173,
+   "value": 4,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 4 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 174,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 176,
+     "col": 10,
+     "msg": "+1"
+    },
+    {
+     "line": 177,
+     "col": 12,
+     "msg": "+2 (incl 1 for nesting)"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S1541",
+   "kind": "cyclomatic",
+   "line": 173,
+   "start_line": 173,
+   "start_col": 8,
+   "end_line": 173,
+   "value": null,
+   "message": "The Cyclomatic Complexity of this method \"c18_if_in_else\" is 3 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 173,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 174,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 177,
+     "col": 12,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S1541",
+   "kind": "cyclomatic",
+   "line": 184,
+   "start_line": 184,
+   "start_col": 8,
+   "end_line": 184,
+   "value": null,
+   "message": "The Cyclomatic Complexity of this method \"c19_if_in_elseif\" is 4 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 184,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 185,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 187,
+     "col": 15,
+     "msg": "+1"
+    },
+    {
+     "line": 188,
+     "col": 12,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S3776",
+   "kind": "cognitive",
+   "line": 184,
+   "start_line": 184,
+   "start_col": 8,
+   "end_line": 184,
+   "value": 4,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 4 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 185,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 187,
+     "col": 15,
+     "msg": "+1"
+    },
+    {
+     "line": 188,
+     "col": 12,
+     "msg": "+2 (incl 1 for nesting)"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S3776",
+   "kind": "cognitive",
+   "line": 195,
+   "start_line": 195,
+   "start_col": 8,
+   "end_line": 195,
+   "value": 3,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 3 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 196,
+     "col": 17,
+     "msg": "+1"
+    },
+    {
+     "line": 196,
+     "col": 26,
+     "msg": "+2 (incl 1 for nesting)"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S1541",
+   "kind": "cyclomatic",
+   "line": 195,
+   "start_line": 195,
+   "start_col": 8,
+   "end_line": 195,
+   "value": null,
+   "message": "The Cyclomatic Complexity of this method \"c20_nested_ternary\" is 3 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 195,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 196,
+     "col": 17,
+     "msg": "+1"
+    },
+    {
+     "line": 196,
+     "col": 26,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S3776",
+   "kind": "cognitive",
+   "line": 199,
+   "start_line": 199,
+   "start_col": 8,
+   "end_line": 199,
+   "value": 2,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 2 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 200,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 200,
+     "col": 14,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S1541",
+   "kind": "cyclomatic",
+   "line": 199,
+   "start_line": 199,
+   "start_col": 8,
+   "end_line": 199,
+   "value": null,
+   "message": "The Cyclomatic Complexity of this method \"c21_ternary_in_if_condition\" is 3 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 199,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 200,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 200,
+     "col": 14,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S3776",
+   "kind": "cognitive",
+   "line": 206,
+   "start_line": 206,
+   "start_col": 8,
+   "end_line": 206,
+   "value": 3,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 3 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 207,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 207,
+     "col": 18,
+     "msg": "+2 (incl 1 for nesting)"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S1541",
+   "kind": "cyclomatic",
+   "line": 206,
+   "start_line": 206,
+   "start_col": 8,
+   "end_line": 206,
+   "value": null,
+   "message": "The Cyclomatic Complexity of this method \"c22_ternary_in_while_condition\" is 3 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 206,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 207,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 207,
+     "col": 18,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S3776",
+   "kind": "cognitive",
+   "line": 213,
+   "start_line": 213,
+   "start_col": 8,
+   "end_line": 213,
+   "value": 2,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 2 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 214,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 214,
+     "col": 14,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S1541",
+   "kind": "cyclomatic",
+   "line": 213,
+   "start_line": 213,
+   "start_col": 8,
+   "end_line": 213,
+   "value": null,
+   "message": "The Cyclomatic Complexity of this method \"c23_and\" is 3 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 213,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 214,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 214,
+     "col": 14,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S1541",
+   "kind": "cyclomatic",
+   "line": 220,
+   "start_line": 220,
+   "start_col": 8,
+   "end_line": 220,
+   "value": null,
+   "message": "The Cyclomatic Complexity of this method \"c24_and_and\" is 4 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 220,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 221,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 221,
+     "col": 19,
+     "msg": "+1"
+    },
+    {
+     "line": 221,
+     "col": 14,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S3776",
+   "kind": "cognitive",
+   "line": 220,
+   "start_line": 220,
+   "start_col": 8,
+   "end_line": 220,
+   "value": 2,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 2 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 221,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 221,
+     "col": 14,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S3776",
+   "kind": "cognitive",
+   "line": 227,
+   "start_line": 227,
+   "start_col": 8,
+   "end_line": 227,
+   "value": 2,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 2 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 228,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 228,
+     "col": 14,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S1541",
+   "kind": "cyclomatic",
+   "line": 227,
+   "start_line": 227,
+   "start_col": 8,
+   "end_line": 227,
+   "value": null,
+   "message": "The Cyclomatic Complexity of this method \"c25_or\" is 3 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 227,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 228,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 228,
+     "col": 14,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S1541",
+   "kind": "cyclomatic",
+   "line": 234,
+   "start_line": 234,
+   "start_col": 8,
+   "end_line": 234,
+   "value": null,
+   "message": "The Cyclomatic Complexity of this method \"c26_and_or\" is 4 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 234,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 235,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 235,
+     "col": 19,
+     "msg": "+1"
+    },
+    {
+     "line": 235,
+     "col": 14,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S3776",
+   "kind": "cognitive",
+   "line": 234,
+   "start_line": 234,
+   "start_col": 8,
+   "end_line": 234,
+   "value": 3,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 3 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 235,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 235,
+     "col": 14,
+     "msg": "+1"
+    },
+    {
+     "line": 235,
+     "col": 19,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S1541",
+   "kind": "cyclomatic",
+   "line": 241,
+   "start_line": 241,
+   "start_col": 8,
+   "end_line": 241,
+   "value": null,
+   "message": "The Cyclomatic Complexity of this method \"c27_or_and_or\" is 5 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 241,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 242,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 242,
+     "col": 24,
+     "msg": "+1"
+    },
+    {
+     "line": 242,
+     "col": 14,
+     "msg": "+1"
+    },
+    {
+     "line": 242,
+     "col": 19,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S3776",
+   "kind": "cognitive",
+   "line": 241,
+   "start_line": 241,
+   "start_col": 8,
+   "end_line": 241,
+   "value": 4,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 4 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 242,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 242,
+     "col": 14,
+     "msg": "+1"
+    },
+    {
+     "line": 242,
+     "col": 19,
+     "msg": "+1"
+    },
+    {
+     "line": 242,
+     "col": 24,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S3776",
+   "kind": "cognitive",
+   "line": 248,
+   "start_line": 248,
+   "start_col": 8,
+   "end_line": 248,
+   "value": 3,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 3 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 249,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 249,
+     "col": 14,
+     "msg": "+1"
+    },
+    {
+     "line": 249,
+     "col": 21,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S1541",
+   "kind": "cyclomatic",
+   "line": 248,
+   "start_line": 248,
+   "start_col": 8,
+   "end_line": 248,
+   "value": null,
+   "message": "The Cyclomatic Complexity of this method \"c28_and_not_paren_and\" is 4 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 248,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 249,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 249,
+     "col": 14,
+     "msg": "+1"
+    },
+    {
+     "line": 249,
+     "col": 21,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S3776",
+   "kind": "cognitive",
+   "line": 255,
+   "start_line": 255,
+   "start_col": 8,
+   "end_line": 255,
+   "value": 3,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 3 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 256,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 256,
+     "col": 14,
+     "msg": "+1"
+    },
+    {
+     "line": 256,
+     "col": 20,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S1541",
+   "kind": "cyclomatic",
+   "line": 255,
+   "start_line": 255,
+   "start_col": 8,
+   "end_line": 255,
+   "value": null,
+   "message": "The Cyclomatic Complexity of this method \"c29_and_paren_or\" is 4 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 255,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 256,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 256,
+     "col": 14,
+     "msg": "+1"
+    },
+    {
+     "line": 256,
+     "col": 20,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S1541",
+   "kind": "cyclomatic",
+   "line": 262,
+   "start_line": 262,
+   "start_col": 8,
+   "end_line": 262,
+   "value": null,
+   "message": "The Cyclomatic Complexity of this method \"c30_and_paren_and\" is 4 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 262,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 263,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 263,
+     "col": 14,
+     "msg": "+1"
+    },
+    {
+     "line": 263,
+     "col": 20,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S3776",
+   "kind": "cognitive",
+   "line": 262,
+   "start_line": 262,
+   "start_col": 8,
+   "end_line": 262,
+   "value": 2,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 2 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 263,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 263,
+     "col": 14,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S1541",
+   "kind": "cyclomatic",
+   "line": 269,
+   "start_line": 269,
+   "start_col": 12,
+   "end_line": 269,
+   "value": null,
+   "message": "The Cyclomatic Complexity of this method \"c31_bool_in_assignment\" is 2 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 269,
+     "col": 12,
+     "msg": "+1"
+    },
+    {
+     "line": 270,
+     "col": 22,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S3776",
+   "kind": "cognitive",
+   "line": 269,
+   "start_line": 269,
+   "start_col": 12,
+   "end_line": 269,
+   "value": 1,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 1 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 270,
+     "col": 22,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S3776",
+   "kind": "cognitive",
+   "line": 274,
+   "start_line": 274,
+   "start_col": 12,
+   "end_line": 274,
+   "value": 1,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 1 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 275,
+     "col": 17,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S1541",
+   "kind": "cyclomatic",
+   "line": 274,
+   "start_line": 274,
+   "start_col": 12,
+   "end_line": 274,
+   "value": null,
+   "message": "The Cyclomatic Complexity of this method \"c32_bool_in_return\" is 2 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 274,
+     "col": 12,
+     "msg": "+1"
+    },
+    {
+     "line": 275,
+     "col": 17,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S3776",
+   "kind": "cognitive",
+   "line": 278,
+   "start_line": 278,
+   "start_col": 12,
+   "end_line": 278,
+   "value": 1,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 1 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 279,
+     "col": 33,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S1541",
+   "kind": "cyclomatic",
+   "line": 278,
+   "start_line": 278,
+   "start_col": 12,
+   "end_line": 278,
+   "value": null,
+   "message": "The Cyclomatic Complexity of this method \"c33_bool_in_call\" is 2 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 278,
+     "col": 12,
+     "msg": "+1"
+    },
+    {
+     "line": 279,
+     "col": 33,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S3776",
+   "kind": "cognitive",
+   "line": 282,
+   "start_line": 282,
+   "start_col": 8,
+   "end_line": 282,
+   "value": 4,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 4 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 283,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 283,
+     "col": 14,
+     "msg": "+1"
+    },
+    {
+     "line": 283,
+     "col": 19,
+     "msg": "+1"
+    },
+    {
+     "line": 283,
+     "col": 24,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S1541",
+   "kind": "cyclomatic",
+   "line": 282,
+   "start_line": 282,
+   "start_col": 8,
+   "end_line": 282,
+   "value": null,
+   "message": "The Cyclomatic Complexity of this method \"c35_and_or_and\" is 5 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 282,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 283,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 283,
+     "col": 19,
+     "msg": "+1"
+    },
+    {
+     "line": 283,
+     "col": 14,
+     "msg": "+1"
+    },
+    {
+     "line": 283,
+     "col": 24,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S3776",
+   "kind": "cognitive",
+   "line": 289,
+   "start_line": 289,
+   "start_col": 8,
+   "end_line": 289,
+   "value": 5,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 5 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 290,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 291,
+     "col": 12,
+     "msg": "+2 (incl 1 for nesting)"
+    },
+    {
+     "line": 294,
+     "col": 12,
+     "msg": "+2 (incl 1 for nesting)"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S1541",
+   "kind": "cyclomatic",
+   "line": 289,
+   "start_line": 289,
+   "start_col": 8,
+   "end_line": 289,
+   "value": null,
+   "message": "The Cyclomatic Complexity of this method \"c36_unlabeled_break_continue\" is 4 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 289,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 290,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 291,
+     "col": 12,
+     "msg": "+1"
+    },
+    {
+     "line": 294,
+     "col": 12,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S1541",
+   "kind": "cyclomatic",
+   "line": 301,
+   "start_line": 301,
+   "start_col": 8,
+   "end_line": 301,
+   "value": null,
+   "message": "The Cyclomatic Complexity of this method \"c37_early_return\" is 2 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 301,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 302,
+     "col": 8,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S3776",
+   "kind": "cognitive",
+   "line": 301,
+   "start_line": 301,
+   "start_col": 8,
+   "end_line": 301,
+   "value": 1,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 1 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 302,
+     "col": 8,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S1541",
+   "kind": "cyclomatic",
+   "line": 309,
+   "start_line": 309,
+   "start_col": 8,
+   "end_line": 309,
+   "value": null,
+   "message": "The Cyclomatic Complexity of this method \"c38_recursion_direct\" is 2 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 309,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 310,
+     "col": 8,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S3776",
+   "kind": "cognitive",
+   "line": 309,
+   "start_line": 309,
+   "start_col": 8,
+   "end_line": 309,
+   "value": 1,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 1 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 310,
+     "col": 8,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S1541",
+   "kind": "cyclomatic",
+   "line": 316,
+   "start_line": 316,
+   "start_col": 8,
+   "end_line": 316,
+   "value": null,
+   "message": "The Cyclomatic Complexity of this method \"c39_recursion_indirect_a\" is 2 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 316,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 317,
+     "col": 8,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S3776",
+   "kind": "cognitive",
+   "line": 316,
+   "start_line": 316,
+   "start_col": 8,
+   "end_line": 316,
+   "value": 1,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 1 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 317,
+     "col": 8,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S3776",
+   "kind": "cognitive",
+   "line": 323,
+   "start_line": 323,
+   "start_col": 8,
+   "end_line": 323,
+   "value": 1,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 1 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 324,
+     "col": 8,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S1541",
+   "kind": "cyclomatic",
+   "line": 323,
+   "start_line": 323,
+   "start_col": 8,
+   "end_line": 323,
+   "value": null,
+   "message": "The Cyclomatic Complexity of this method \"c39_recursion_indirect_b\" is 2 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 323,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 324,
+     "col": 8,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S3776",
+   "kind": "cognitive",
+   "line": 330,
+   "start_line": 330,
+   "start_col": 8,
+   "end_line": 330,
+   "value": 2,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 2 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 331,
+     "col": 50,
+     "msg": "+2 (incl 1 for nesting)"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S1541",
+   "kind": "cyclomatic",
+   "line": 330,
+   "start_line": 330,
+   "start_col": 8,
+   "end_line": 330,
+   "value": null,
+   "message": "The Cyclomatic Complexity of this method \"c40_lambda_with_ternary\" is 1 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 330,
+     "col": 8,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S1541",
+   "kind": "cyclomatic",
+   "line": 335,
+   "start_line": 335,
+   "start_col": 8,
+   "end_line": 335,
+   "value": null,
+   "message": "The Cyclomatic Complexity of this method \"c41_lambda_with_if\" is 1 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 335,
+     "col": 8,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S3776",
+   "kind": "cognitive",
+   "line": 335,
+   "start_line": 335,
+   "start_col": 8,
+   "end_line": 335,
+   "value": 2,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 2 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 337,
+     "col": 12,
+     "msg": "+2 (incl 1 for nesting)"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S3776",
+   "kind": "cognitive",
+   "line": 345,
+   "start_line": 345,
+   "start_col": 8,
+   "end_line": 345,
+   "value": 4,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 4 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 346,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 348,
+     "col": 16,
+     "msg": "+3 (incl 2 for nesting)"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S1541",
+   "kind": "cyclomatic",
+   "line": 345,
+   "start_line": 345,
+   "start_col": 8,
+   "end_line": 345,
+   "value": null,
+   "message": "The Cyclomatic Complexity of this method \"c43_lambda_inside_if\" is 2 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 345,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 346,
+     "col": 8,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S1541",
+   "kind": "cyclomatic",
+   "line": 357,
+   "start_line": 357,
+   "start_col": 8,
+   "end_line": 357,
+   "value": null,
+   "message": "The Cyclomatic Complexity of this method \"c47_anonymous_class_method_if\" is 1 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 357,
+     "col": 8,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S3776",
+   "kind": "cognitive",
+   "line": 357,
+   "start_line": 357,
+   "start_col": 8,
+   "end_line": 357,
+   "value": 2,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 2 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 361,
+     "col": 16,
+     "msg": "+2 (incl 1 for nesting)"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S1541",
+   "kind": "cyclomatic",
+   "line": 360,
+   "start_line": 360,
+   "start_col": 24,
+   "end_line": 360,
+   "value": null,
+   "message": "The Cyclomatic Complexity of this method \"run\" is 2 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 360,
+     "col": 24,
+     "msg": "+1"
+    },
+    {
+     "line": 361,
+     "col": 16,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S3776",
+   "kind": "cognitive",
+   "line": 370,
+   "start_line": 370,
+   "start_col": 8,
+   "end_line": 370,
+   "value": 10,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 10 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 371,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 372,
+     "col": 12,
+     "msg": "+2 (incl 1 for nesting)"
+    },
+    {
+     "line": 373,
+     "col": 16,
+     "msg": "+3 (incl 2 for nesting)"
+    },
+    {
+     "line": 374,
+     "col": 20,
+     "msg": "+4 (incl 3 for nesting)"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S1541",
+   "kind": "cyclomatic",
+   "line": 370,
+   "start_line": 370,
+   "start_col": 8,
+   "end_line": 370,
+   "value": null,
+   "message": "The Cyclomatic Complexity of this method \"c55_deep_nesting_4\" is 5 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 370,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 371,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 372,
+     "col": 12,
+     "msg": "+1"
+    },
+    {
+     "line": 373,
+     "col": 16,
+     "msg": "+1"
+    },
+    {
+     "line": 374,
+     "col": 20,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S1541",
+   "kind": "cyclomatic",
+   "line": 383,
+   "start_line": 383,
+   "start_col": 9,
+   "end_line": 383,
+   "value": null,
+   "message": "The Cyclomatic Complexity of this method \"c56_for_in_catch_in_for\" is 3 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 383,
+     "col": 9,
+     "msg": "+1"
+    },
+    {
+     "line": 384,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 388,
+     "col": 16,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S3776",
+   "kind": "cognitive",
+   "line": 383,
+   "start_line": 383,
+   "start_col": 9,
+   "end_line": 383,
+   "value": 6,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 6 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 384,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 387,
+     "col": 14,
+     "msg": "+2 (incl 1 for nesting)"
+    },
+    {
+     "line": 388,
+     "col": 16,
+     "msg": "+3 (incl 2 for nesting)"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S1541",
+   "kind": "cyclomatic",
+   "line": 395,
+   "start_line": 395,
+   "start_col": 8,
+   "end_line": 395,
+   "value": null,
+   "message": "The Cyclomatic Complexity of this method \"c57_two_sequential_ifs\" is 3 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 395,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 396,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 399,
+     "col": 8,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S3776",
+   "kind": "cognitive",
+   "line": 395,
+   "start_line": 395,
+   "start_col": 8,
+   "end_line": 395,
+   "value": 2,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 2 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 396,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 399,
+     "col": 8,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S1541",
+   "kind": "cyclomatic",
+   "line": 405,
+   "start_line": 405,
+   "start_col": 8,
+   "end_line": 405,
+   "value": null,
+   "message": "The Cyclomatic Complexity of this method \"c58_elseif_nested_if\" is 4 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 405,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 406,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 408,
+     "col": 15,
+     "msg": "+1"
+    },
+    {
+     "line": 409,
+     "col": 12,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S3776",
+   "kind": "cognitive",
+   "line": 405,
+   "start_line": 405,
+   "start_col": 8,
+   "end_line": 405,
+   "value": 5,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 5 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 406,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 408,
+     "col": 15,
+     "msg": "+1"
+    },
+    {
+     "line": 409,
+     "col": 12,
+     "msg": "+2 (incl 1 for nesting)"
+    },
+    {
+     "line": 413,
+     "col": 10,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S3776",
+   "kind": "cognitive",
+   "line": 418,
+   "start_line": 418,
+   "start_col": 8,
+   "end_line": 418,
+   "value": 7,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 7 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 421,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 422,
+     "col": 12,
+     "msg": "+2 (incl 1 for nesting)"
+    },
+    {
+     "line": 423,
+     "col": 16,
+     "msg": "+3 (incl 2 for nesting)"
+    },
+    {
+     "line": 424,
+     "col": 20,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S1541",
+   "kind": "cyclomatic",
+   "line": 418,
+   "start_line": 418,
+   "start_col": 8,
+   "end_line": 418,
+   "value": null,
+   "message": "The Cyclomatic Complexity of this method \"c63_labeled_continue\" is 4 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 418,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 421,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 422,
+     "col": 12,
+     "msg": "+1"
+    },
+    {
+     "line": 423,
+     "col": 16,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S3776",
+   "kind": "cognitive",
+   "line": 432,
+   "start_line": 432,
+   "start_col": 8,
+   "end_line": 432,
+   "value": 4,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 4 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 434,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 435,
+     "col": 12,
+     "msg": "+2 (incl 1 for nesting)"
+    },
+    {
+     "line": 436,
+     "col": 16,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S1541",
+   "kind": "cyclomatic",
+   "line": 432,
+   "start_line": 432,
+   "start_col": 8,
+   "end_line": 432,
+   "value": null,
+   "message": "The Cyclomatic Complexity of this method \"c64_labeled_break_to_enclosing\" is 3 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 432,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 434,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 435,
+     "col": 12,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S3776",
+   "kind": "cognitive",
+   "line": 442,
+   "start_line": 442,
+   "start_col": 8,
+   "end_line": 442,
+   "value": 1,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 1 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 444,
+     "col": 12,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S1541",
+   "kind": "cyclomatic",
+   "line": 442,
+   "start_line": 442,
+   "start_col": 8,
+   "end_line": 442,
+   "value": null,
+   "message": "The Cyclomatic Complexity of this method \"c71_synchronized\" is 2 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 442,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 444,
+     "col": 12,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S1541",
+   "kind": "cyclomatic",
+   "line": 451,
+   "start_line": 451,
+   "start_col": 8,
+   "end_line": 451,
+   "value": null,
+   "message": "The Cyclomatic Complexity of this method \"c72_try_with_resources\" is 1 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 451,
+     "col": 8,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S3776",
+   "kind": "cognitive",
+   "line": 451,
+   "start_line": 451,
+   "start_col": 8,
+   "end_line": 451,
+   "value": 1,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 1 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 454,
+     "col": 10,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S3776",
+   "kind": "cognitive",
+   "line": 459,
+   "start_line": 459,
+   "start_col": 8,
+   "end_line": 459,
+   "value": 1,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 1 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 460,
+     "col": 8,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S1541",
+   "kind": "cyclomatic",
+   "line": 459,
+   "start_line": 459,
+   "start_col": 8,
+   "end_line": 459,
+   "value": null,
+   "message": "The Cyclomatic Complexity of this method \"c73_throw_in_if\" is 2 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 459,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 460,
+     "col": 8,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S1541",
+   "kind": "cyclomatic",
+   "line": 466,
+   "start_line": 466,
+   "start_col": 8,
+   "end_line": 466,
+   "value": null,
+   "message": "The Cyclomatic Complexity of this method \"c74_switch_with_nested_if\" is 3 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 466,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 468,
+     "col": 12,
+     "msg": "+1"
+    },
+    {
+     "line": 469,
+     "col": 16,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S3776",
+   "kind": "cognitive",
+   "line": 466,
+   "start_line": 466,
+   "start_col": 8,
+   "end_line": 466,
+   "value": 3,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 3 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 467,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 469,
+     "col": 16,
+     "msg": "+2 (incl 1 for nesting)"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S3776",
+   "kind": "cognitive",
+   "line": 478,
+   "start_line": 478,
+   "start_col": 8,
+   "end_line": 478,
+   "value": 1,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 1 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 479,
+     "col": 8,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S1541",
+   "kind": "cyclomatic",
+   "line": 478,
+   "start_line": 478,
+   "start_col": 8,
+   "end_line": 478,
+   "value": null,
+   "message": "The Cyclomatic Complexity of this method \"c75_bitwise_and_on_booleans\" is 2 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 478,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 479,
+     "col": 8,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S1541",
+   "kind": "cyclomatic",
+   "line": 485,
+   "start_line": 485,
+   "start_col": 8,
+   "end_line": 485,
+   "value": null,
+   "message": "The Cyclomatic Complexity of this method \"c76_lambda_in_lambda\" is 1 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 485,
+     "col": 8,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S3776",
+   "kind": "cognitive",
+   "line": 485,
+   "start_line": 485,
+   "start_col": 8,
+   "end_line": 485,
+   "value": 3,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 3 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 487,
+     "col": 12,
+     "msg": "+3 (incl 2 for nesting)"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S3776",
+   "kind": "cognitive",
+   "line": 495,
+   "start_line": 495,
+   "start_col": 8,
+   "end_line": 495,
+   "value": 1,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 1 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 496,
+     "col": 8,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S1541",
+   "kind": "cyclomatic",
+   "line": 495,
+   "start_line": 495,
+   "start_col": 8,
+   "end_line": 495,
+   "value": null,
+   "message": "The Cyclomatic Complexity of this method \"c77_instanceof_pattern\" is 2 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 495,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 496,
+     "col": 8,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S1541",
+   "kind": "cyclomatic",
+   "line": 502,
+   "start_line": 502,
+   "start_col": 8,
+   "end_line": 502,
+   "value": null,
+   "message": "The Cyclomatic Complexity of this method \"c78_recursion_via_this\" is 2 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 502,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 503,
+     "col": 8,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S3776",
+   "kind": "cognitive",
+   "line": 502,
+   "start_line": 502,
+   "start_col": 8,
+   "end_line": 502,
+   "value": 1,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 1 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 503,
+     "col": 8,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S3776",
+   "kind": "cognitive",
+   "line": 509,
+   "start_line": 509,
+   "start_col": 8,
+   "end_line": 509,
+   "value": 3,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 3 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 510,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 510,
+     "col": 14,
+     "msg": "+1"
+    },
+    {
+     "line": 510,
+     "col": 21,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S1541",
+   "kind": "cyclomatic",
+   "line": 509,
+   "start_line": 509,
+   "start_col": 8,
+   "end_line": 509,
+   "value": null,
+   "message": "The Cyclomatic Complexity of this method \"c79_or_not_paren_or\" is 4 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 509,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 510,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 510,
+     "col": 14,
+     "msg": "+1"
+    },
+    {
+     "line": 510,
+     "col": 21,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S1541",
+   "kind": "cyclomatic",
+   "line": 516,
+   "start_line": 516,
+   "start_col": 8,
+   "end_line": 516,
+   "value": null,
+   "message": "The Cyclomatic Complexity of this method \"c80_bool_and_ternary_top_level\" is 3 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 516,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 517,
+     "col": 25,
+     "msg": "+1"
+    },
+    {
+     "line": 517,
+     "col": 19,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S3776",
+   "kind": "cognitive",
+   "line": 516,
+   "start_line": 516,
+   "start_col": 8,
+   "end_line": 516,
+   "value": 2,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 2 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 517,
+     "col": 25,
+     "msg": "+1"
+    },
+    {
+     "line": 517,
+     "col": 19,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S3776",
+   "kind": "cognitive",
+   "line": 546,
+   "start_line": 546,
+   "start_col": 19,
+   "end_line": 546,
+   "value": 19,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 19 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 547,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 552,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 553,
+     "col": 12,
+     "msg": "+2 (incl 1 for nesting)"
+    },
+    {
+     "line": 554,
+     "col": 20,
+     "msg": "+1"
+    },
+    {
+     "line": 556,
+     "col": 16,
+     "msg": "+3 (incl 2 for nesting)"
+    },
+    {
+     "line": 558,
+     "col": 20,
+     "msg": "+4 (incl 3 for nesting)"
+    },
+    {
+     "line": 559,
+     "col": 24,
+     "msg": "+5 (incl 4 for nesting)"
+    },
+    {
+     "line": 562,
+     "col": 27,
+     "msg": "+1"
+    },
+    {
+     "line": 568,
+     "col": 8,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S1541",
+   "kind": "cyclomatic",
+   "line": 546,
+   "start_line": 546,
+   "start_col": 19,
+   "end_line": 546,
+   "value": null,
+   "message": "The Cyclomatic Complexity of this method \"overriddenSymbolFrom\" is 10 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 546,
+     "col": 19,
+     "msg": "+1"
+    },
+    {
+     "line": 547,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 552,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 553,
+     "col": 12,
+     "msg": "+1"
+    },
+    {
+     "line": 554,
+     "col": 20,
+     "msg": "+1"
+    },
+    {
+     "line": 556,
+     "col": 16,
+     "msg": "+1"
+    },
+    {
+     "line": 558,
+     "col": 20,
+     "msg": "+1"
+    },
+    {
+     "line": 559,
+     "col": 24,
+     "msg": "+1"
+    },
+    {
+     "line": 562,
+     "col": 27,
+     "msg": "+1"
+    },
+    {
+     "line": 568,
+     "col": 8,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S1541",
+   "kind": "cyclomatic",
+   "line": 575,
+   "start_line": 575,
+   "start_col": 17,
+   "end_line": 575,
+   "value": null,
+   "message": "The Cyclomatic Complexity of this method \"addVersion\" is 11 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 575,
+     "col": 17,
+     "msg": "+1"
+    },
+    {
+     "line": 578,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 581,
+     "col": 20,
+     "msg": "+1"
+    },
+    {
+     "line": 582,
+     "col": 24,
+     "msg": "+1"
+    },
+    {
+     "line": 585,
+     "col": 24,
+     "msg": "+1"
+    },
+    {
+     "line": 586,
+     "col": 28,
+     "msg": "+1"
+    },
+    {
+     "line": 589,
+     "col": 32,
+     "msg": "+1"
+    },
+    {
+     "line": 592,
+     "col": 32,
+     "msg": "+1"
+    },
+    {
+     "line": 593,
+     "col": 40,
+     "msg": "+1"
+    },
+    {
+     "line": 607,
+     "col": 20,
+     "msg": "+1"
+    },
+    {
+     "line": 608,
+     "col": 28,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S3776",
+   "kind": "cognitive",
+   "line": 575,
+   "start_line": 575,
+   "start_col": 17,
+   "end_line": 575,
+   "value": 35,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 35 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 578,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 581,
+     "col": 20,
+     "msg": "+2 (incl 1 for nesting)"
+    },
+    {
+     "line": 582,
+     "col": 24,
+     "msg": "+3 (incl 2 for nesting)"
+    },
+    {
+     "line": 585,
+     "col": 24,
+     "msg": "+3 (incl 2 for nesting)"
+    },
+    {
+     "line": 586,
+     "col": 28,
+     "msg": "+4 (incl 3 for nesting)"
+    },
+    {
+     "line": 589,
+     "col": 32,
+     "msg": "+5 (incl 4 for nesting)"
+    },
+    {
+     "line": 592,
+     "col": 32,
+     "msg": "+5 (incl 4 for nesting)"
+    },
+    {
+     "line": 593,
+     "col": 40,
+     "msg": "+1"
+    },
+    {
+     "line": 603,
+     "col": 14,
+     "msg": "+2 (incl 1 for nesting)"
+    },
+    {
+     "line": 614,
+     "col": 14,
+     "msg": "+2 (incl 1 for nesting)"
+    },
+    {
+     "line": 607,
+     "col": 20,
+     "msg": "+3 (incl 2 for nesting)"
+    },
+    {
+     "line": 608,
+     "col": 28,
+     "msg": "+1"
+    },
+    {
+     "line": 611,
+     "col": 18,
+     "msg": "+3 (incl 2 for nesting)"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S1541",
+   "kind": "cyclomatic",
+   "line": 621,
+   "start_line": 621,
+   "start_col": 26,
+   "end_line": 621,
+   "value": null,
+   "message": "The Cyclomatic Complexity of this method \"toRegexp\" is 12 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 621,
+     "col": 26,
+     "msg": "+1"
+    },
+    {
+     "line": 626,
+     "col": 44,
+     "msg": "+1"
+    },
+    {
+     "line": 625,
+     "col": 43,
+     "msg": "+1"
+    },
+    {
+     "line": 627,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 629,
+     "col": 12,
+     "msg": "+1"
+    },
+    {
+     "line": 631,
+     "col": 19,
+     "msg": "+1"
+    },
+    {
+     "line": 632,
+     "col": 16,
+     "msg": "+1"
+    },
+    {
+     "line": 633,
+     "col": 24,
+     "msg": "+1"
+    },
+    {
+     "line": 634,
+     "col": 20,
+     "msg": "+1"
+    },
+    {
+     "line": 635,
+     "col": 28,
+     "msg": "+1"
+    },
+    {
+     "line": 645,
+     "col": 19,
+     "msg": "+1"
+    },
+    {
+     "line": 647,
+     "col": 19,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S3776",
+   "kind": "cognitive",
+   "line": 621,
+   "start_line": 621,
+   "start_col": 26,
+   "end_line": 621,
+   "value": 20,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 20 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 626,
+     "col": 44,
+     "msg": "+1"
+    },
+    {
+     "line": 625,
+     "col": 43,
+     "msg": "+1"
+    },
+    {
+     "line": 627,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 629,
+     "col": 12,
+     "msg": "+2 (incl 1 for nesting)"
+    },
+    {
+     "line": 631,
+     "col": 19,
+     "msg": "+1"
+    },
+    {
+     "line": 632,
+     "col": 16,
+     "msg": "+3 (incl 2 for nesting)"
+    },
+    {
+     "line": 633,
+     "col": 24,
+     "msg": "+1"
+    },
+    {
+     "line": 634,
+     "col": 20,
+     "msg": "+4 (incl 3 for nesting)"
+    },
+    {
+     "line": 635,
+     "col": 28,
+     "msg": "+1"
+    },
+    {
+     "line": 638,
+     "col": 22,
+     "msg": "+1"
+    },
+    {
+     "line": 642,
+     "col": 18,
+     "msg": "+1"
+    },
+    {
+     "line": 645,
+     "col": 19,
+     "msg": "+1"
+    },
+    {
+     "line": 647,
+     "col": 19,
+     "msg": "+1"
+    },
+    {
+     "line": 649,
+     "col": 14,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S3776",
+   "kind": "cognitive",
+   "line": 659,
+   "start_line": 659,
+   "start_col": 8,
+   "end_line": 659,
+   "value": 7,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 7 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 661,
+     "col": 13,
+     "msg": "+1"
+    },
+    {
+     "line": 662,
+     "col": 12,
+     "msg": "+2 (incl 1 for nesting)"
+    },
+    {
+     "line": 663,
+     "col": 16,
+     "msg": "+3 (incl 2 for nesting)"
+    },
+    {
+     "line": 664,
+     "col": 20,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S1541",
+   "kind": "cyclomatic",
+   "line": 659,
+   "start_line": 659,
+   "start_col": 8,
+   "end_line": 659,
+   "value": null,
+   "message": "The Cyclomatic Complexity of this method \"sumOfPrimes\" is 4 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 659,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 661,
+     "col": 13,
+     "msg": "+1"
+    },
+    {
+     "line": 662,
+     "col": 12,
+     "msg": "+1"
+    },
+    {
+     "line": 663,
+     "col": 16,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S1541",
+   "kind": "cyclomatic",
+   "line": 673,
+   "start_line": 673,
+   "start_col": 11,
+   "end_line": 673,
+   "value": null,
+   "message": "The Cyclomatic Complexity of this method \"getWords\" is 4 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 673,
+     "col": 11,
+     "msg": "+1"
+    },
+    {
+     "line": 675,
+     "col": 12,
+     "msg": "+1"
+    },
+    {
+     "line": 677,
+     "col": 12,
+     "msg": "+1"
+    },
+    {
+     "line": 679,
+     "col": 12,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S3776",
+   "kind": "cognitive",
+   "line": 673,
+   "start_line": 673,
+   "start_col": 11,
+   "end_line": 673,
+   "value": 1,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 1 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 674,
+     "col": 8,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S1541",
+   "kind": "cyclomatic",
+   "line": 687,
+   "start_line": 687,
+   "start_col": 9,
+   "end_line": 687,
+   "value": null,
+   "message": "The Cyclomatic Complexity of this method \"myMethod\" is 5 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 687,
+     "col": 9,
+     "msg": "+1"
+    },
+    {
+     "line": 689,
+     "col": 12,
+     "msg": "+1"
+    },
+    {
+     "line": 690,
+     "col": 16,
+     "msg": "+1"
+    },
+    {
+     "line": 691,
+     "col": 20,
+     "msg": "+1"
+    },
+    {
+     "line": 695,
+     "col": 12,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S3776",
+   "kind": "cognitive",
+   "line": 687,
+   "start_line": 687,
+   "start_col": 9,
+   "end_line": 687,
+   "value": 9,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 9 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 689,
+     "col": 12,
+     "msg": "+1"
+    },
+    {
+     "line": 690,
+     "col": 16,
+     "msg": "+2 (incl 1 for nesting)"
+    },
+    {
+     "line": 691,
+     "col": 20,
+     "msg": "+3 (incl 2 for nesting)"
+    },
+    {
+     "line": 694,
+     "col": 10,
+     "msg": "+1"
+    },
+    {
+     "line": 695,
+     "col": 12,
+     "msg": "+2 (incl 1 for nesting)"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S3776",
+   "kind": "cognitive",
+   "line": 700,
+   "start_line": 700,
+   "start_col": 9,
+   "end_line": 700,
+   "value": 2,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 2 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 702,
+     "col": 12,
+     "msg": "+2 (incl 1 for nesting)"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S1541",
+   "kind": "cyclomatic",
+   "line": 700,
+   "start_line": 700,
+   "start_col": 9,
+   "end_line": 700,
+   "value": null,
+   "message": "The Cyclomatic Complexity of this method \"myMethod2\" is 1 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 700,
+     "col": 9,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S3776",
+   "kind": "cognitive",
+   "line": 711,
+   "start_line": 711,
+   "start_col": 19,
+   "end_line": 711,
+   "value": 1,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 1 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 711,
+     "col": 53,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S1541",
+   "kind": "cyclomatic",
+   "line": 711,
+   "start_line": 711,
+   "start_col": 19,
+   "end_line": 711,
+   "value": null,
+   "message": "The Cyclomatic Complexity of this method \"isSlash\" is 2 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 711,
+     "col": 19,
+     "msg": "+1"
+    },
+    {
+     "line": 711,
+     "col": 53,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S1541",
+   "kind": "cyclomatic",
+   "line": 712,
+   "start_line": 712,
+   "start_col": 12,
+   "end_line": 712,
+   "value": null,
+   "message": "The Cyclomatic Complexity of this method \"canOverride\" is 1 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 712,
+     "col": 12,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S1541",
+   "kind": "cyclomatic",
+   "line": 713,
+   "start_line": 713,
+   "start_col": 12,
+   "end_line": 713,
+   "value": null,
+   "message": "The Cyclomatic Complexity of this method \"checkOverridingParameters\" is 1 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 713,
+     "col": 12,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S1541",
+   "kind": "cyclomatic",
+   "line": 715,
+   "start_line": 715,
+   "start_col": 64,
+   "end_line": 715,
+   "value": null,
+   "message": "The Cyclomatic Complexity of this method \"isKind\" is 1 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 715,
+     "col": 64,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S1541",
+   "kind": "cyclomatic",
+   "line": 715,
+   "start_line": 715,
+   "start_col": 103,
+   "end_line": 715,
+   "value": null,
+   "message": "The Cyclomatic Complexity of this method \"isStatic\" is 1 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 715,
+     "col": 103,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S1541",
+   "kind": "cyclomatic",
+   "line": 717,
+   "start_line": 717,
+   "start_col": 41,
+   "end_line": 717,
+   "value": null,
+   "message": "The Cyclomatic Complexity of this method \"isUnknown\" is 1 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 717,
+     "col": 41,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S1541",
+   "kind": "cyclomatic",
+   "line": 717,
+   "start_line": 717,
+   "start_col": 77,
+   "end_line": 717,
+   "value": null,
+   "message": "The Cyclomatic Complexity of this method \"getSymbol\" is 1 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 717,
+     "col": 77,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S1541",
+   "kind": "cyclomatic",
+   "line": 718,
+   "start_line": 718,
+   "start_col": 31,
+   "end_line": 718,
+   "value": null,
+   "message": "The Cyclomatic Complexity of this method \"members\" is 1 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 718,
+     "col": 31,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S1541",
+   "kind": "cyclomatic",
+   "line": 718,
+   "start_line": 718,
+   "start_col": 75,
+   "end_line": 718,
+   "value": null,
+   "message": "The Cyclomatic Complexity of this method \"lookup\" is 1 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 718,
+     "col": 75,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S1541",
+   "kind": "cyclomatic",
+   "line": 719,
+   "start_line": 719,
+   "start_col": 30,
+   "end_line": 719,
+   "value": null,
+   "message": "The Cyclomatic Complexity of this method \"getVersion\" is 1 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 719,
+     "col": 30,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S1541",
+   "kind": "cyclomatic",
+   "line": 719,
+   "start_line": 719,
+   "start_col": 63,
+   "end_line": 719,
+   "value": null,
+   "message": "The Cyclomatic Complexity of this method \"getPrevious\" is 1 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 719,
+     "col": 63,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S1541",
+   "kind": "cyclomatic",
+   "line": 719,
+   "start_line": 719,
+   "start_col": 99,
+   "end_line": 719,
+   "value": null,
+   "message": "The Cyclomatic Complexity of this method \"setPrevious\" is 1 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 719,
+     "col": 99,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S1541",
+   "kind": "cyclomatic",
+   "line": 720,
+   "start_line": 720,
+   "start_col": 39,
+   "end_line": 720,
+   "value": null,
+   "message": "The Cyclomatic Complexity of this method \"isActive\" is 1 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 720,
+     "col": 39,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S1541",
+   "kind": "cyclomatic",
+   "line": 720,
+   "start_line": 720,
+   "start_col": 74,
+   "end_line": 720,
+   "value": null,
+   "message": "The Cyclomatic Complexity of this method \"getTransactionStatus\" is 1 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 720,
+     "col": 74,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S1541",
+   "kind": "cyclomatic",
+   "line": 721,
+   "start_line": 721,
+   "start_col": 41,
+   "end_line": 721,
+   "value": null,
+   "message": "The Cyclomatic Complexity of this method \"wwDependency\" is 1 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 721,
+     "col": 41,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S1541",
+   "kind": "cyclomatic",
+   "line": 722,
+   "start_line": 722,
+   "start_col": 46,
+   "end_line": 722,
+   "value": null,
+   "message": "The Cyclomatic Complexity of this method \"getTransactionIndex\" is 1 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 722,
+     "col": 46,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S1541",
+   "kind": "cyclomatic",
+   "line": 725,
+   "start_line": 725,
+   "start_col": 54,
+   "end_line": 725,
+   "value": null,
+   "message": "The Cyclomatic Complexity of this method \"WWRetryException\" is 1 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 725,
+     "col": 54,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S1541",
+   "kind": "cyclomatic",
+   "line": 725,
+   "start_line": 725,
+   "start_col": 88,
+   "end_line": 725,
+   "value": null,
+   "message": "The Cyclomatic Complexity of this method \"getVersionHandle\" is 1 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 725,
+     "col": 88,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "Micro.java",
+   "rule": "java:S1541",
+   "kind": "cyclomatic",
+   "line": 726,
+   "start_line": 726,
+   "start_col": 67,
+   "end_line": 726,
+   "value": null,
+   "message": "The Cyclomatic Complexity of this method \"PersistitInterruptedException\" is 1 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 726,
+     "col": 67,
+     "msg": "+1"
+    }
+   ]
+  }
+ ]
+}

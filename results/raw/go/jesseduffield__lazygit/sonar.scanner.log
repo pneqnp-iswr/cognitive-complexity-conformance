@@ -1,0 +1,102 @@
+04:16:26.443 INFO  Scanner configuration file: <LOCAL_PATH>/OneDrive\Documents\Conferences\research\tools\sonar-scanner-8.1.0.6389-windows-x64\bin\..\conf\sonar-scanner.properties
+04:16:26.444 INFO  Project root configuration file: NONE
+04:16:26.455 INFO  SonarScanner CLI 8.1.0.6389
+04:16:26.464 INFO  Windows 11 10.0 amd64
+04:16:29.043 INFO  Communicating with SonarQube Community Build 26.9.0.129388
+04:16:29.045 INFO  JRE provisioning: os[windows], arch[amd64]
+04:16:29.581 INFO  Starting SonarScanner Engine...
+04:16:29.581 INFO  Java 21.0.11 Eclipse Adoptium (64-bit)
+04:16:32.668 INFO  Load global settings
+04:16:32.779 INFO  Load global settings (done) | time=109ms
+04:16:32.783 INFO  Server id: 147B411E-AaCseIXKLwHTWvrBJNod
+04:16:32.796 INFO  Loading required plugins
+04:16:32.797 INFO  Load plugins index
+04:16:32.814 INFO  Load plugins index (done) | time=18ms
+04:16:32.815 INFO  Load/download plugins
+04:16:32.871 INFO  Load/download plugins (done) | time=56ms
+04:16:33.475 INFO  Process project properties
+04:16:33.506 INFO  Process project properties (done) | time=32ms
+04:16:33.530 INFO  Project key: cc-go-jesseduffield__lazygit
+04:16:33.531 INFO  Base dir: <LOCAL_PATH>/OneDrive\Documents\Conferences\research\data\raw_repos\jesseduffield__lazygit
+04:16:33.532 INFO  Working dir: <LOCAL_PATH>/OneDrive\Documents\Conferences\research\data\raw_repos\jesseduffield__lazygit\.scannerwork
+04:16:33.549 INFO  Load project settings for component key: 'cc-go-jesseduffield__lazygit'
+04:16:33.616 INFO  Load quality profiles
+04:16:33.677 INFO  Load quality profiles (done) | time=63ms
+04:16:33.734 INFO  Load active rules
+04:16:34.038 INFO  Load active rules (done) | time=304ms
+04:16:34.054 INFO  Load analysis cache
+04:16:34.062 INFO  Load analysis cache (404) | time=7ms
+04:16:34.450 INFO  Preprocessing files...
+04:16:36.432 INFO  1 language detected in 1103 preprocessed files (done) | time=1981ms
+04:16:36.432 INFO  167 files ignored because of inclusion/exclusion patterns
+04:16:36.432 INFO  1 directory skipped because of exclusion patterns (content not counted)
+04:16:36.433 INFO  Loading plugins for detected languages
+04:16:36.434 INFO  Load/download plugins
+04:16:36.436 INFO  Load/download plugins (done) | time=2ms
+04:16:36.499 INFO  Load project repositories
+04:16:36.502 INFO  Load project repositories (done) | time=3ms
+04:16:36.519 INFO  Indexing files...
+04:16:36.520 INFO  Project configuration:
+04:16:36.520 INFO    Included sources: **/*.go
+04:16:36.520 INFO    Excluded sources: **/node_modules/**, **/vendor/**, **/third_party/**, **/*.min.js
+04:16:36.520 INFO    Excluded sources for duplication: **/*
+04:16:36.672 INFO  1103 files indexed (done) | time=152ms
+04:16:36.673 INFO  Quality profile for go: cc-study-go
+04:16:36.673 INFO  ------------- Run sensors on module cc-go-jesseduffield__lazygit
+04:16:36.771 INFO  Load metrics repository
+04:16:36.796 INFO  Load metrics repository (done) | time=25ms
+04:16:37.253 INFO  Sensor IaC YAML File Type Classification Sensor [iac]
+04:16:37.270 INFO  Sensor IaC YAML File Type Classification Sensor [iac] (done) | time=16ms
+04:16:37.270 INFO  Sensor Code Quality and Security for Go [go]
+04:16:37.304 WARN  Test files were detected using a path heuristic because "sonar.tests" is not set. To improve the analysis accuracy, it is recommended to configure it, e.g.: "sonar.tests=src/test".
+04:16:37.405 INFO  86 folders (1103 files) to be analyzed
+04:16:47.410 INFO  48 / 86 folders analyzed, current folder: /<LOCAL_PATH>/OneDrive/Documents/Conferences/research/data/raw_repos/jesseduffield__lazygit/pkg/common (2 files, analyzing)
+04:16:55.002 INFO  86/86 folders (1103 files) have been analyzed
+04:16:55.002 INFO  Sensor Code Quality and Security for Go [go] (done) | time=17730ms
+04:16:55.002 INFO  Sensor IaC hadolint report Sensor [iac]
+04:16:55.003 INFO  Sensor IaC hadolint report Sensor [iac] (done) | time=0ms
+04:16:55.003 INFO  Sensor Java Config Sensor [iac]
+04:16:55.003 INFO  There are no files to be analyzed for the Java language
+04:16:55.004 INFO  Sensor Java Config Sensor [iac] (done) | time=0ms
+04:16:55.004 INFO  Sensor IaC Docker Sensor [iac]
+04:16:55.013 INFO  There are no files to be analyzed for the Docker language
+04:16:55.015 INFO  Sensor IaC Docker Sensor [iac] (done) | time=10ms
+04:16:55.015 INFO  Sensor TextAndSecretsSensor [text]
+04:16:55.043 INFO  Available processors: 24
+04:16:55.044 INFO  Using 24 threads for analysis.
+04:16:55.284 INFO  The property "sonar.tests" is not set. To improve the analysis accuracy, we categorize a file as a test file if any of the following is true:
+  * The filename starts with "test"
+  * The filename contains "test." or "tests."
+  * Any directory in the file path is named: "doc", "docs", "test", "tests", "mock" or "mocks"
+  * Any directory in the file path has a name ending in "test" or "tests"
+
+04:16:55.321 INFO  Start fetching files for the text and secrets analysis
+04:16:55.454 INFO  Using Git CLI to retrieve dirty files
+04:16:55.698 INFO  Retrieving language associated files and files included via "sonar.text.inclusions" that are tracked by git
+04:16:55.699 INFO  Starting the text and secrets analysis
+04:16:55.702 INFO  1103 source files to be analyzed for the text and secrets analysis
+04:16:56.132 INFO  1103/1103 source files have been analyzed for the text and secrets analysis
+04:16:56.132 INFO  Skipped 688 file(s) in the secrets analysis due to automatic test file detection
+04:16:56.142 INFO  Sensor TextAndSecretsSensor [text] (done) | time=1128ms
+04:16:56.152 INFO  ------------- Run sensors on project
+04:16:56.563 INFO  Sensor GoProjectSensor [go]
+04:16:56.563 INFO  Sensor GoProjectSensor [go] (done) | time=0ms
+04:16:56.563 INFO  Sensor IaC Project Sensor [iac]
+04:16:56.565 INFO  Sensor IaC Project Sensor [iac] (done) | time=1ms
+04:16:56.565 INFO  Sensor Zero Coverage Sensor
+04:16:57.503 INFO  Sensor Zero Coverage Sensor (done) | time=938ms
+04:16:57.504 INFO  ------------- Gather SCA dependencies on project
+04:16:57.509 INFO  Dependency analysis skipped
+04:16:57.512 INFO  SCM Publisher is disabled
+04:16:57.514 INFO  CPD Executor Calculating CPD for 0 files
+04:16:57.515 INFO  CPD Executor CPD calculation finished (done) | time=0ms
+04:16:59.825 INFO  Analysis report generated in 1989ms, dir size=11.9 MB
+04:17:42.197 INFO  Analysis report compressed in 42371ms, zip size=7.8 MB
+04:17:42.476 INFO  Analysis report uploaded in 279ms
+04:17:42.479 INFO  ANALYSIS SUCCESSFUL, you can find the results at: http://localhost:9000/dashboard?id=cc-go-jesseduffield__lazygit
+04:17:42.479 INFO  Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+04:17:42.479 INFO  More about the report processing at http://localhost:9000/api/ce/task?id=84c1f2f7-4391-446c-ada2-01027d2a805c
+04:17:44.022 INFO  Analysis total time: 1:11.065 s
+04:17:44.070 INFO  SonarScanner Engine completed successfully
+04:17:44.153 INFO  EXECUTION SUCCESS
+04:17:44.154 INFO  Total time: 1:17.714s

@@ -1,0 +1,7 @@
+tool,units_all,primary_pop,primary_with_value,primary_missing,root_with_nested,nested_units
+cog__sonarqube,51008,29763,29763,0,6448,13094
+cog__codemetrics,51008,29763,29763,0,6448,13094
+cog__gocognit,51008,29763,28442,1321,6448,13094
+cyc__sonarqube,51008,29763,0,29763,6448,13094
+cyc__codemetrics,51008,29763,29763,0,6448,13094
+cyc__lizard,51008,29763,28876,887,6448,13094

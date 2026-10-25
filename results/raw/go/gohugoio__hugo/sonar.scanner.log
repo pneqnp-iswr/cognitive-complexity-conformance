@@ -1,0 +1,103 @@
+04:12:13.423 INFO  Scanner configuration file: <LOCAL_PATH>/OneDrive\Documents\Conferences\research\tools\sonar-scanner-8.1.0.6389-windows-x64\bin\..\conf\sonar-scanner.properties
+04:12:13.426 INFO  Project root configuration file: NONE
+04:12:13.438 INFO  SonarScanner CLI 8.1.0.6389
+04:12:13.446 INFO  Windows 11 10.0 amd64
+04:12:16.096 INFO  Communicating with SonarQube Community Build 26.9.0.129388
+04:12:16.097 INFO  JRE provisioning: os[windows], arch[amd64]
+04:12:16.545 INFO  Starting SonarScanner Engine...
+04:12:16.546 INFO  Java 21.0.11 Eclipse Adoptium (64-bit)
+04:12:19.423 INFO  Load global settings
+04:12:19.534 INFO  Load global settings (done) | time=108ms
+04:12:19.537 INFO  Server id: 147B411E-AaCseIXKLwHTWvrBJNod
+04:12:19.547 INFO  Loading required plugins
+04:12:19.547 INFO  Load plugins index
+04:12:19.559 INFO  Load plugins index (done) | time=12ms
+04:12:19.559 INFO  Load/download plugins
+04:12:19.591 INFO  Load/download plugins (done) | time=33ms
+04:12:19.912 INFO  Process project properties
+04:12:19.927 INFO  Process project properties (done) | time=15ms
+04:12:19.942 INFO  Project key: cc-go-gohugoio__hugo
+04:12:19.942 INFO  Base dir: <LOCAL_PATH>/OneDrive\Documents\Conferences\research\data\raw_repos\gohugoio__hugo
+04:12:19.942 INFO  Working dir: <LOCAL_PATH>/OneDrive\Documents\Conferences\research\data\raw_repos\gohugoio__hugo\.scannerwork
+04:12:19.952 INFO  Load project settings for component key: 'cc-go-gohugoio__hugo'
+04:12:19.983 INFO  Load quality profiles
+04:12:20.017 INFO  Load quality profiles (done) | time=35ms
+04:12:20.057 INFO  Load active rules
+04:12:20.230 INFO  Load active rules (done) | time=174ms
+04:12:20.239 INFO  Load analysis cache
+04:12:20.245 INFO  Load analysis cache (404) | time=5ms
+04:12:20.493 INFO  Preprocessing files...
+04:12:22.957 INFO  1 language detected in 912 preprocessed files (done) | time=2463ms
+04:12:22.958 INFO  1685 files ignored because of inclusion/exclusion patterns
+04:12:22.959 INFO  Loading plugins for detected languages
+04:12:22.959 INFO  Load/download plugins
+04:12:22.960 INFO  Load/download plugins (done) | time=1ms
+04:12:23.030 INFO  Load project repositories
+04:12:23.034 INFO  Load project repositories (done) | time=3ms
+04:12:23.047 INFO  Indexing files...
+04:12:23.047 INFO  Project configuration:
+04:12:23.047 INFO    Included sources: **/*.go
+04:12:23.047 INFO    Excluded sources: **/node_modules/**, **/vendor/**, **/third_party/**, **/*.min.js
+04:12:23.047 INFO    Excluded sources for duplication: **/*
+04:12:23.158 INFO  912 files indexed (done) | time=112ms
+04:12:23.159 INFO  Quality profile for go: cc-study-go
+04:12:23.159 INFO  ------------- Run sensors on module cc-go-gohugoio__hugo
+04:12:23.235 INFO  Load metrics repository
+04:12:23.261 INFO  Load metrics repository (done) | time=27ms
+04:12:23.754 INFO  Sensor IaC YAML File Type Classification Sensor [iac]
+04:12:23.768 INFO  Sensor IaC YAML File Type Classification Sensor [iac] (done) | time=15ms
+04:12:23.769 INFO  Sensor Code Quality and Security for Go [go]
+04:12:23.788 WARN  Test files were detected using a path heuristic because "sonar.tests" is not set. To improve the analysis accuracy, it is recommended to configure it, e.g.: "sonar.tests=src/test".
+04:12:23.829 INFO  193 folders (912 files) to be analyzed
+04:12:25.972 WARN  Unable to parse file: tpl/internal/go_templates/texttemplate/parse/node.go. Error converting json tree: Unexpected 'org.sonar.go.impl.LiteralTreeImpl' type for member 'identifier' instead of 'org.sonar.plugins.go.api.IdentifierTree' at 'tree/TopLevel/declarations[]/FunctionDeclaration/formalParameters[]/Parameter/identifier/Literal' member: {"@type":"Literal","metaData":"592:32::36","value":"true","__cfgId":28}
+04:12:33.841 INFO  92 / 193 folders analyzed, current folder: /<LOCAL_PATH>/OneDrive/Documents/Conferences/research/data/raw_repos/gohugoio__hugo/tpl/collections (24 files, analyzing)
+04:12:43.839 INFO  168 / 193 folders analyzed, current folder: /<LOCAL_PATH>/OneDrive/Documents/Conferences/research/data/raw_repos/gohugoio__hugo/tpl/time (4 files, analyzing)
+04:12:45.587 INFO  193/193 folders (912 files) have been analyzed
+04:12:45.587 INFO  Sensor Code Quality and Security for Go [go] (done) | time=21819ms
+04:12:45.587 INFO  Sensor IaC hadolint report Sensor [iac]
+04:12:45.588 INFO  Sensor IaC hadolint report Sensor [iac] (done) | time=0ms
+04:12:45.588 INFO  Sensor Java Config Sensor [iac]
+04:12:45.589 INFO  There are no files to be analyzed for the Java language
+04:12:45.589 INFO  Sensor Java Config Sensor [iac] (done) | time=0ms
+04:12:45.589 INFO  Sensor IaC Docker Sensor [iac]
+04:12:45.597 INFO  There are no files to be analyzed for the Docker language
+04:12:45.597 INFO  Sensor IaC Docker Sensor [iac] (done) | time=8ms
+04:12:45.598 INFO  Sensor TextAndSecretsSensor [text]
+04:12:45.626 INFO  Available processors: 24
+04:12:45.626 INFO  Using 24 threads for analysis.
+04:12:45.821 INFO  The property "sonar.tests" is not set. To improve the analysis accuracy, we categorize a file as a test file if any of the following is true:
+  * The filename starts with "test"
+  * The filename contains "test." or "tests."
+  * Any directory in the file path is named: "doc", "docs", "test", "tests", "mock" or "mocks"
+  * Any directory in the file path has a name ending in "test" or "tests"
+
+04:12:45.845 INFO  Start fetching files for the text and secrets analysis
+04:12:45.966 INFO  Using Git CLI to retrieve dirty files
+04:12:46.069 INFO  Retrieving language associated files and files included via "sonar.text.inclusions" that are tracked by git
+04:12:46.070 INFO  Starting the text and secrets analysis
+04:12:46.074 INFO  912 source files to be analyzed for the text and secrets analysis
+04:12:46.459 INFO  912/912 source files have been analyzed for the text and secrets analysis
+04:12:46.460 INFO  Skipped 399 file(s) in the secrets analysis due to automatic test file detection
+04:12:46.465 INFO  Sensor TextAndSecretsSensor [text] (done) | time=868ms
+04:12:46.478 INFO  ------------- Run sensors on project
+04:12:46.931 INFO  Sensor GoProjectSensor [go]
+04:12:46.932 INFO  Sensor GoProjectSensor [go] (done) | time=0ms
+04:12:46.932 INFO  Sensor IaC Project Sensor [iac]
+04:12:46.934 INFO  Sensor IaC Project Sensor [iac] (done) | time=2ms
+04:12:46.934 INFO  Sensor Zero Coverage Sensor
+04:12:47.449 INFO  Sensor Zero Coverage Sensor (done) | time=516ms
+04:12:47.449 INFO  ------------- Gather SCA dependencies on project
+04:12:47.455 INFO  Dependency analysis skipped
+04:12:47.457 INFO  SCM Publisher is disabled
+04:12:47.459 INFO  CPD Executor Calculating CPD for 0 files
+04:12:47.459 INFO  CPD Executor CPD calculation finished (done) | time=0ms
+04:12:49.083 INFO  Analysis report generated in 1395ms, dir size=17.8 MB
+04:13:23.759 INFO  Analysis report compressed in 34675ms, zip size=11.0 MB
+04:13:24.044 INFO  Analysis report uploaded in 285ms
+04:13:24.047 INFO  ANALYSIS SUCCESSFUL, you can find the results at: http://localhost:9000/dashboard?id=cc-go-gohugoio__hugo
+04:13:24.047 INFO  Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+04:13:24.047 INFO  More about the report processing at http://localhost:9000/api/ce/task?id=cd4c922c-d241-49c7-b4b4-785666f2e68a
+04:13:25.146 INFO  Analysis total time: 1:05.512 s
+04:13:25.184 INFO  SonarScanner Engine completed successfully
+04:13:25.257 INFO  EXECUTION SUCCESS
+04:13:25.258 INFO  Total time: 1:11.837s

@@ -1,0 +1,100 @@
+04:09:49.074 INFO  Scanner configuration file: <LOCAL_PATH>/OneDrive\Documents\Conferences\research\tools\sonar-scanner-8.1.0.6389-windows-x64\bin\..\conf\sonar-scanner.properties
+04:09:49.077 INFO  Project root configuration file: NONE
+04:09:49.092 INFO  SonarScanner CLI 8.1.0.6389
+04:09:49.098 INFO  Windows 11 10.0 amd64
+04:09:51.838 INFO  Communicating with SonarQube Community Build 26.9.0.129388
+04:09:51.839 INFO  JRE provisioning: os[windows], arch[amd64]
+04:09:52.335 INFO  Starting SonarScanner Engine...
+04:09:52.336 INFO  Java 21.0.11 Eclipse Adoptium (64-bit)
+04:09:55.469 INFO  Load global settings
+04:09:55.577 INFO  Load global settings (done) | time=105ms
+04:09:55.581 INFO  Server id: 147B411E-AaCseIXKLwHTWvrBJNod
+04:09:55.592 INFO  Loading required plugins
+04:09:55.592 INFO  Load plugins index
+04:09:55.608 INFO  Load plugins index (done) | time=16ms
+04:09:55.609 INFO  Load/download plugins
+04:09:55.640 INFO  Load/download plugins (done) | time=31ms
+04:09:55.981 INFO  Process project properties
+04:09:55.996 INFO  Process project properties (done) | time=15ms
+04:09:56.011 INFO  Project key: cc-go-fatedier__frp
+04:09:56.012 INFO  Base dir: <LOCAL_PATH>/OneDrive\Documents\Conferences\research\data\raw_repos\fatedier__frp
+04:09:56.012 INFO  Working dir: <LOCAL_PATH>/OneDrive\Documents\Conferences\research\data\raw_repos\fatedier__frp\.scannerwork
+04:09:56.020 INFO  Load project settings for component key: 'cc-go-fatedier__frp'
+04:09:56.049 INFO  Load quality profiles
+04:09:56.096 INFO  Load quality profiles (done) | time=48ms
+04:09:56.131 INFO  Load active rules
+04:09:56.304 INFO  Load active rules (done) | time=174ms
+04:09:56.316 INFO  Load analysis cache
+04:09:56.322 INFO  Load analysis cache (404) | time=5ms
+04:09:56.582 INFO  Preprocessing files...
+04:09:57.328 INFO  1 language detected in 351 preprocessed files (done) | time=744ms
+04:09:57.328 INFO  203 files ignored because of inclusion/exclusion patterns
+04:09:57.329 INFO  Loading plugins for detected languages
+04:09:57.329 INFO  Load/download plugins
+04:09:57.332 INFO  Load/download plugins (done) | time=3ms
+04:09:57.400 INFO  Load project repositories
+04:09:57.404 INFO  Load project repositories (done) | time=3ms
+04:09:57.418 INFO  Indexing files...
+04:09:57.418 INFO  Project configuration:
+04:09:57.419 INFO    Included sources: **/*.go
+04:09:57.419 INFO    Excluded sources: **/node_modules/**, **/vendor/**, **/third_party/**, **/*.min.js
+04:09:57.419 INFO    Excluded sources for duplication: **/*
+04:09:57.479 INFO  351 files indexed (done) | time=61ms
+04:09:57.480 INFO  Quality profile for go: cc-study-go
+04:09:57.480 INFO  ------------- Run sensors on module cc-go-fatedier__frp
+04:09:57.557 INFO  Load metrics repository
+04:09:57.579 INFO  Load metrics repository (done) | time=21ms
+04:09:58.004 INFO  Sensor IaC YAML File Type Classification Sensor [iac]
+04:09:58.011 INFO  Sensor IaC YAML File Type Classification Sensor [iac] (done) | time=6ms
+04:09:58.011 INFO  Sensor Code Quality and Security for Go [go]
+04:09:58.025 WARN  Test files were detected using a path heuristic because "sonar.tests" is not set. To improve the analysis accuracy, it is recommended to configure it, e.g.: "sonar.tests=src/test".
+04:09:58.067 INFO  88 folders (351 files) to be analyzed
+04:10:06.732 INFO  88/88 folders (351 files) have been analyzed
+04:10:06.732 INFO  Sensor Code Quality and Security for Go [go] (done) | time=8721ms
+04:10:06.732 INFO  Sensor IaC hadolint report Sensor [iac]
+04:10:06.733 INFO  Sensor IaC hadolint report Sensor [iac] (done) | time=0ms
+04:10:06.733 INFO  Sensor Java Config Sensor [iac]
+04:10:06.734 INFO  There are no files to be analyzed for the Java language
+04:10:06.734 INFO  Sensor Java Config Sensor [iac] (done) | time=0ms
+04:10:06.734 INFO  Sensor IaC Docker Sensor [iac]
+04:10:06.738 INFO  There are no files to be analyzed for the Docker language
+04:10:06.738 INFO  Sensor IaC Docker Sensor [iac] (done) | time=5ms
+04:10:06.738 INFO  Sensor TextAndSecretsSensor [text]
+04:10:06.756 INFO  Available processors: 24
+04:10:06.756 INFO  Using 24 threads for analysis.
+04:10:07.036 INFO  The property "sonar.tests" is not set. To improve the analysis accuracy, we categorize a file as a test file if any of the following is true:
+  * The filename starts with "test"
+  * The filename contains "test." or "tests."
+  * Any directory in the file path is named: "doc", "docs", "test", "tests", "mock" or "mocks"
+  * Any directory in the file path has a name ending in "test" or "tests"
+
+04:10:07.078 INFO  Start fetching files for the text and secrets analysis
+04:10:07.212 INFO  Using Git CLI to retrieve dirty files
+04:10:07.425 INFO  Retrieving language associated files and files included via "sonar.text.inclusions" that are tracked by git
+04:10:07.426 INFO  Starting the text and secrets analysis
+04:10:07.428 INFO  351 source files to be analyzed for the text and secrets analysis
+04:10:07.639 INFO  351/351 source files have been analyzed for the text and secrets analysis
+04:10:07.639 INFO  Skipped 141 file(s) in the secrets analysis due to automatic test file detection
+04:10:07.646 INFO  Sensor TextAndSecretsSensor [text] (done) | time=907ms
+04:10:07.650 INFO  ------------- Run sensors on project
+04:10:08.006 INFO  Sensor GoProjectSensor [go]
+04:10:08.007 INFO  Sensor GoProjectSensor [go] (done) | time=0ms
+04:10:08.007 INFO  Sensor IaC Project Sensor [iac]
+04:10:08.008 INFO  Sensor IaC Project Sensor [iac] (done) | time=2ms
+04:10:08.008 INFO  Sensor Zero Coverage Sensor
+04:10:08.207 INFO  Sensor Zero Coverage Sensor (done) | time=197ms
+04:10:08.207 INFO  ------------- Gather SCA dependencies on project
+04:10:08.211 INFO  Dependency analysis skipped
+04:10:08.213 INFO  SCM Publisher is disabled
+04:10:08.216 INFO  CPD Executor Calculating CPD for 0 files
+04:10:08.216 INFO  CPD Executor CPD calculation finished (done) | time=0ms
+04:10:08.829 INFO  Analysis report generated in 517ms, dir size=4.9 MB
+04:10:20.840 INFO  Analysis report compressed in 12011ms, zip size=3.2 MB
+04:10:21.089 INFO  Analysis report uploaded in 248ms
+04:10:21.093 INFO  ANALYSIS SUCCESSFUL, you can find the results at: http://localhost:9000/dashboard?id=cc-go-fatedier__frp
+04:10:21.093 INFO  Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+04:10:21.093 INFO  More about the report processing at http://localhost:9000/api/ce/task?id=02285ffb-eb2c-4324-9c04-312b2872d688
+04:10:21.541 INFO  Analysis total time: 25.851 s
+04:10:21.568 INFO  SonarScanner Engine completed successfully
+04:10:21.633 INFO  EXECUTION SUCCESS
+04:10:21.634 INFO  Total time: 32.563s

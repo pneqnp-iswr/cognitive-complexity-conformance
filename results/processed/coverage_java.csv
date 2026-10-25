@@ -1,0 +1,9 @@
+tool,units_all,primary_pop,primary_with_value,primary_missing,root_with_nested,nested_units
+cog__sonarqube,90620,62511,58255,4256,9299,15350
+cog__codemetrics,90620,62511,62511,0,9299,15350
+cog__cognitive-java,90620,62511,55884,6627,9299,15350
+cog__pmd,90620,62511,61018,1493,9299,15350
+cyc__sonarqube,90620,62511,58255,4256,9299,15350
+cyc__codemetrics,90620,62511,62511,0,9299,15350
+cyc__lizard,90620,62511,58909,3602,9299,15350
+cyc__pmd,90620,62511,61017,1494,9299,15350

@@ -1,0 +1,141 @@
+04:29:40.598 INFO  Scanner configuration file: <LOCAL_PATH>/OneDrive\Documents\Conferences\research\tools\sonar-scanner-8.1.0.6389-windows-x64\bin\..\conf\sonar-scanner.properties
+04:29:40.600 INFO  Project root configuration file: NONE
+04:29:40.613 INFO  SonarScanner CLI 8.1.0.6389
+04:29:40.621 INFO  Windows 11 10.0 amd64
+04:29:43.138 INFO  Communicating with SonarQube Community Build 26.9.0.129388
+04:29:43.139 INFO  JRE provisioning: os[windows], arch[amd64]
+04:29:43.519 INFO  Starting SonarScanner Engine...
+04:29:43.519 INFO  Java 21.0.11 Eclipse Adoptium (64-bit)
+04:29:46.297 INFO  Load global settings
+04:29:46.399 INFO  Load global settings (done) | time=99ms
+04:29:46.401 INFO  Server id: 147B411E-AaCseIXKLwHTWvrBJNod
+04:29:46.409 INFO  Loading required plugins
+04:29:46.410 INFO  Load plugins index
+04:29:46.421 INFO  Load plugins index (done) | time=12ms
+04:29:46.422 INFO  Load/download plugins
+04:29:46.446 INFO  Load/download plugins (done) | time=25ms
+04:29:46.759 INFO  Process project properties
+04:29:46.777 INFO  Process project properties (done) | time=18ms
+04:29:46.793 INFO  Project key: cc-javascript-excalidraw__excalidraw
+04:29:46.793 INFO  Base dir: <LOCAL_PATH>/OneDrive\Documents\Conferences\research\data\raw_repos\excalidraw__excalidraw
+04:29:46.793 INFO  Working dir: <LOCAL_PATH>/OneDrive\Documents\Conferences\research\data\raw_repos\excalidraw__excalidraw\.scannerwork
+04:29:46.803 INFO  Load project settings for component key: 'cc-javascript-excalidraw__excalidraw'
+04:29:46.831 INFO  Load quality profiles
+04:29:46.870 INFO  Load quality profiles (done) | time=40ms
+04:29:46.901 INFO  Load active rules
+04:29:47.076 INFO  Load active rules (done) | time=175ms
+04:29:47.085 INFO  Load analysis cache
+04:29:47.088 INFO  Load analysis cache (404) | time=4ms
+04:29:47.315 INFO  Preprocessing files...
+04:29:48.618 INFO  2 languages detected in 682 preprocessed files (done) | time=1303ms
+04:29:48.618 INFO  635 files ignored because of inclusion/exclusion patterns
+04:29:48.619 INFO  Loading plugins for detected languages
+04:29:48.621 INFO  Load/download plugins
+04:29:48.641 INFO  Load/download plugins (done) | time=21ms
+04:29:48.779 INFO  Load project repositories
+04:29:48.783 INFO  Load project repositories (done) | time=3ms
+04:29:48.802 INFO  Indexing files...
+04:29:48.802 INFO  Project configuration:
+04:29:48.802 INFO    Included sources: **/*.js, **/*.jsx, **/*.mjs, **/*.cjs, **/*.ts, **/*.tsx
+04:29:48.802 INFO    Excluded sources: **/node_modules/**, **/vendor/**, **/third_party/**, **/*.min.js
+04:29:48.803 INFO    Excluded sources for duplication: **/*
+04:29:48.905 INFO  669 files indexed (done) | time=104ms
+04:29:48.906 INFO  Quality profile for js: cc-study-js
+04:29:48.906 INFO  Quality profile for ts: cc-study-ts
+04:29:48.906 INFO  ------------- Run sensors on module cc-javascript-excalidraw__excalidraw
+04:29:48.985 INFO  Load metrics repository
+04:29:49.006 INFO  Load metrics repository (done) | time=20ms
+04:29:49.539 INFO  Reflections took 136 ms to scan 1 urls, producing 30 keys and 295 values
+04:29:49.767 INFO  Sensor IaC YAML File Type Classification Sensor [iac]
+04:29:49.786 INFO  Sensor IaC YAML File Type Classification Sensor [iac] (done) | time=20ms
+04:29:49.786 INFO  Sensor IaC hadolint report Sensor [iac]
+04:29:49.788 INFO  Sensor IaC hadolint report Sensor [iac] (done) | time=1ms
+04:29:49.788 INFO  Sensor Java Config Sensor [iac]
+04:29:49.789 INFO  There are no files to be analyzed for the Java language
+04:29:49.789 INFO  Sensor Java Config Sensor [iac] (done) | time=1ms
+04:29:49.789 INFO  Sensor IaC Docker Sensor [iac]
+04:29:49.809 INFO  There are no files to be analyzed for the Docker language
+04:29:49.809 INFO  Sensor IaC Docker Sensor [iac] (done) | time=18ms
+04:29:49.809 INFO  Sensor HTML [web]
+04:29:49.826 INFO  Sensor HTML [web] (done) | time=16ms
+04:29:49.826 INFO  Sensor JavaScript/TypeScript module configuration [javascript]
+04:29:49.831 INFO  Sensor JavaScript/TypeScript module configuration [javascript] (done) | time=6ms
+04:29:49.831 INFO  Sensor TextAndSecretsSensor [text]
+04:29:49.896 INFO  Available processors: 24
+04:29:49.896 INFO  Using 24 threads for analysis.
+04:29:50.228 INFO  The property "sonar.tests" is not set. To improve the analysis accuracy, we categorize a file as a test file if any of the following is true:
+  * The filename starts with "test"
+  * The filename contains "test." or "tests."
+  * Any directory in the file path is named: "doc", "docs", "test", "tests", "mock" or "mocks"
+  * Any directory in the file path has a name ending in "test" or "tests"
+
+04:29:50.290 INFO  Start fetching files for the text and secrets analysis
+04:29:50.422 INFO  Using Git CLI to retrieve dirty files
+04:29:51.009 INFO  Retrieving language associated files and files included via "sonar.text.inclusions" that are tracked by git
+04:29:51.009 INFO  Starting the text and secrets analysis
+04:29:51.011 INFO  669 source files to be analyzed for the text and secrets analysis
+04:29:51.840 INFO  669/669 source files have been analyzed for the text and secrets analysis
+04:29:51.840 INFO  Skipped 150 file(s) in the secrets analysis due to automatic test file detection
+04:29:51.842 INFO  Sensor TextAndSecretsSensor [text] (done) | time=2011ms
+04:29:51.845 INFO  ------------- Run sensors on project
+04:29:52.120 INFO  Sensor JavaScript/TypeScript/CSS analysis [javascript]
+04:29:52.967 INFO  Detected os: Windows 11 arch: amd64 alpine: false. Platform: WIN_X64
+04:29:52.967 INFO  Deploy location <LOCAL_PATH>/.sonar\js\node-runtime, tagetRuntime: <LOCAL_PATH>/.sonar\js\node-runtime\node.exe,  version: <LOCAL_PATH>/.sonar\js\node-runtime\version.txt
+04:29:53.016 INFO  Configured Node.js --max-old-space-size=8192.
+04:29:53.016 INFO  Using embedded Node.js runtime.
+04:29:53.016 INFO  Using Node.js executable: '<LOCAL_PATH>/.sonar\js\node-runtime\node.exe'.
+04:29:57.959 INFO  Memory configuration: OS (32127 MB), Node.js (8384 MB).
+04:29:57.973 INFO  gRPC analyze-project server listening on 127.0.0.1:61752
+04:29:58.155 INFO  Plugin version: [13.8.0.44569]
+04:30:00.135 INFO  Found 11 tsconfig.json file(s): [<LOCAL_PATH>/OneDrive/Documents/Conferences/research/data/raw_repos/excalidraw__excalidraw/dev-docs/tsconfig.json, <LOCAL_PATH>/OneDrive/Documents/Conferences/research/data/raw_repos/excalidraw__excalidraw/examples/with-nextjs/tsconfig.json, <LOCAL_PATH>/OneDrive/Documents/Conferences/research/data/raw_repos/excalidraw__excalidraw/examples/with-script-in-browser/tsconfig.json, <LOCAL_PATH>/OneDrive/Documents/Conferences/research/data/raw_repos/excalidraw__excalidraw/packages/common/tsconfig.json, <LOCAL_PATH>/OneDrive/Documents/Conferences/research/data/raw_repos/excalidraw__excalidraw/packages/element/tsconfig.json, <LOCAL_PATH>/OneDrive/Documents/Conferences/research/data/raw_repos/excalidraw__excalidraw/packages/excalidraw/tsconfig.json, <LOCAL_PATH>/OneDrive/Documents/Conferences/research/data/raw_repos/excalidraw__excalidraw/packages/fractional-indexing/tsconfig.json, <LOCAL_PATH>/OneDrive/Documents/Conferences/research/data/raw_repos/excalidraw__excalidraw/packages/laser-pointer/tsconfig.json, <LOCAL_PATH>/OneDrive/Documents/Conferences/research/data/raw_repos/excalidraw__excalidraw/packages/math/tsconfig.json, <LOCAL_PATH>/OneDrive/Documents/Conferences/research/data/raw_repos/excalidraw__excalidraw/packages/utils/tsconfig.json, <LOCAL_PATH>/OneDrive/Documents/Conferences/research/data/raw_repos/excalidraw__excalidraw/tsconfig.json]
+04:30:22.769 INFO  669 source files to be analyzed
+04:30:22.770 WARN  Could not find tsconfig.json: C:/node_modules/@tsconfig/docusaurus/tsconfig.json; falling back to an empty configuration.
+04:30:22.770 WARN  <LOCAL_PATH>/OneDrive/Documents/Conferences/research/data/raw_repos/excalidraw__excalidraw/dev-docs/tsconfig.json extends a configuration that was not found. Please run 'npm install' for a more complete analysis.
+04:30:22.770 INFO  Creating TypeScript(6.0.3) program with configuration file <LOCAL_PATH>/OneDrive/Documents/Conferences/research/data/raw_repos/excalidraw__excalidraw/dev-docs/tsconfig.json [lib: lib.es2021.d.ts, lib.dom.d.ts]
+04:30:22.770 INFO  Analyzing 2 file(s) from tsconfig <LOCAL_PATH>/OneDrive/Documents/Conferences/research/data/raw_repos/excalidraw__excalidraw/dev-docs/tsconfig.json (53 total files in program)
+04:30:22.770 INFO  Creating TypeScript(6.0.3) program with configuration file <LOCAL_PATH>/OneDrive/Documents/Conferences/research/data/raw_repos/excalidraw__excalidraw/examples/with-nextjs/tsconfig.json [lib: lib.dom.d.ts, lib.dom.iterable.d.ts, lib.esnext.d.ts]
+04:30:22.770 INFO  Analyzing 10 file(s) from tsconfig <LOCAL_PATH>/OneDrive/Documents/Conferences/research/data/raw_repos/excalidraw__excalidraw/examples/with-nextjs/tsconfig.json (100 total files in program)
+04:30:22.770 INFO  Creating TypeScript(6.0.3) program with configuration file <LOCAL_PATH>/OneDrive/Documents/Conferences/research/data/raw_repos/excalidraw__excalidraw/examples/with-script-in-browser/tsconfig.json [lib: lib.esnext.d.ts, lib.dom.d.ts, lib.dom.iterable.d.ts]
+04:30:22.770 INFO  Analyzing 1 file(s) from tsconfig <LOCAL_PATH>/OneDrive/Documents/Conferences/research/data/raw_repos/excalidraw__excalidraw/examples/with-script-in-browser/tsconfig.json (98 total files in program)
+04:30:22.770 INFO  Creating TypeScript(6.0.3) program with configuration file <LOCAL_PATH>/OneDrive/Documents/Conferences/research/data/raw_repos/excalidraw__excalidraw/packages/common/tsconfig.json [lib: lib.es2022.d.ts, lib.dom.d.ts]
+04:30:22.770 INFO  Analyzing 424 file(s) from tsconfig <LOCAL_PATH>/OneDrive/Documents/Conferences/research/data/raw_repos/excalidraw__excalidraw/packages/common/tsconfig.json (498 total files in program)
+04:30:22.771 INFO  Creating TypeScript(6.0.3) program with configuration file <LOCAL_PATH>/OneDrive/Documents/Conferences/research/data/raw_repos/excalidraw__excalidraw/packages/element/tsconfig.json [lib: lib.es2022.d.ts, lib.dom.d.ts]
+04:30:22.772 INFO  Analyzing 1 file(s) from tsconfig <LOCAL_PATH>/OneDrive/Documents/Conferences/research/data/raw_repos/excalidraw__excalidraw/packages/element/tsconfig.json (499 total files in program)
+04:30:22.772 INFO  Creating TypeScript(6.0.3) program with configuration file <LOCAL_PATH>/OneDrive/Documents/Conferences/research/data/raw_repos/excalidraw__excalidraw/packages/excalidraw/tsconfig.json [lib: lib.es2022.d.ts, lib.dom.d.ts]
+04:30:22.772 INFO  Analyzing 19 file(s) from tsconfig <LOCAL_PATH>/OneDrive/Documents/Conferences/research/data/raw_repos/excalidraw__excalidraw/packages/excalidraw/tsconfig.json (519 total files in program)
+04:30:22.772 INFO  Creating TypeScript(6.0.3) program with configuration file <LOCAL_PATH>/OneDrive/Documents/Conferences/research/data/raw_repos/excalidraw__excalidraw/packages/fractional-indexing/tsconfig.json [lib: lib.es2021.d.ts, lib.dom.d.ts]
+04:30:22.772 INFO  No files to analyze from tsconfig <LOCAL_PATH>/OneDrive/Documents/Conferences/research/data/raw_repos/excalidraw__excalidraw/packages/fractional-indexing/tsconfig.json
+04:30:22.772 INFO  Creating TypeScript(6.0.3) program with configuration file <LOCAL_PATH>/OneDrive/Documents/Conferences/research/data/raw_repos/excalidraw__excalidraw/packages/laser-pointer/tsconfig.json [lib: lib.es2022.d.ts, lib.dom.d.ts]
+04:30:22.772 INFO  No files to analyze from tsconfig <LOCAL_PATH>/OneDrive/Documents/Conferences/research/data/raw_repos/excalidraw__excalidraw/packages/laser-pointer/tsconfig.json
+04:30:22.772 INFO  Creating TypeScript(6.0.3) program with configuration file <LOCAL_PATH>/OneDrive/Documents/Conferences/research/data/raw_repos/excalidraw__excalidraw/packages/math/tsconfig.json [lib: lib.es2022.d.ts, lib.dom.d.ts]
+04:30:22.772 INFO  No files to analyze from tsconfig <LOCAL_PATH>/OneDrive/Documents/Conferences/research/data/raw_repos/excalidraw__excalidraw/packages/math/tsconfig.json
+04:30:22.772 INFO  Creating TypeScript(6.0.3) program with configuration file <LOCAL_PATH>/OneDrive/Documents/Conferences/research/data/raw_repos/excalidraw__excalidraw/packages/utils/tsconfig.json [lib: lib.es2022.d.ts, lib.dom.d.ts]
+04:30:22.772 INFO  Analyzing 1 file(s) from tsconfig <LOCAL_PATH>/OneDrive/Documents/Conferences/research/data/raw_repos/excalidraw__excalidraw/packages/utils/tsconfig.json (499 total files in program)
+04:30:22.772 INFO  Creating TypeScript(6.0.3) program with configuration file <LOCAL_PATH>/OneDrive/Documents/Conferences/research/data/raw_repos/excalidraw__excalidraw/tsconfig.json [lib: lib.dom.d.ts, lib.dom.iterable.d.ts, lib.esnext.d.ts]
+04:30:22.773 INFO  Analyzing 187 file(s) from tsconfig <LOCAL_PATH>/OneDrive/Documents/Conferences/research/data/raw_repos/excalidraw__excalidraw/tsconfig.json (876 total files in program)
+04:30:22.773 INFO  Analyzing 15 file(s) using merged compiler options [lib: lib.es2022.d.ts, lib.dom.d.ts]
+04:30:22.773 INFO  Analyzing 1 file(s) using merged compiler options [lib: lib.es2023.d.ts, lib.dom.d.ts]
+04:30:22.773 INFO  Analyzing 8 file(s) using merged compiler options [lib: lib.es2021.d.ts, lib.dom.d.ts]
+04:30:22.773 INFO  669/669 source files have been analyzed
+04:30:22.779 INFO  Hit the cache for 0 out of 669
+04:30:22.779 INFO  Miss the cache for 669 out of 669: ANALYSIS_MODE_INELIGIBLE [669/669]
+04:30:22.779 INFO  Sensor JavaScript/TypeScript/CSS analysis [javascript] (done) | time=30659ms
+04:30:22.779 INFO  Sensor IaC Project Sensor [iac]
+04:30:22.781 INFO  Sensor IaC Project Sensor [iac] (done) | time=1ms
+04:30:22.782 INFO  Sensor Zero Coverage Sensor
+04:30:23.094 INFO  Sensor Zero Coverage Sensor (done) | time=311ms
+04:30:23.095 INFO  ------------- Gather SCA dependencies on project
+04:30:23.098 INFO  Dependency analysis skipped
+04:30:23.100 INFO  SCM Publisher is disabled
+04:30:23.101 INFO  CPD Executor Calculating CPD for 0 files
+04:30:23.101 INFO  CPD Executor CPD calculation finished (done) | time=0ms
+04:30:24.047 INFO  Analysis report generated in 779ms, dir size=22.1 MB
+04:30:49.670 INFO  Analysis report compressed in 25622ms, zip size=11.1 MB
+04:30:49.992 INFO  Analysis report uploaded in 323ms
+04:30:49.993 INFO  ANALYSIS SUCCESSFUL, you can find the results at: http://localhost:9000/dashboard?id=cc-javascript-excalidraw__excalidraw
+04:30:49.993 INFO  Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+04:30:49.994 INFO  More about the report processing at http://localhost:9000/api/ce/task?id=855733c4-2974-4b89-bbf9-e8539ec3a12c
+04:30:51.138 INFO  Analysis total time: 1:04.648 s
+04:30:51.204 INFO  SonarScanner Engine completed successfully
+04:30:51.276 INFO  EXECUTION SUCCESS
+04:30:51.276 INFO  Total time: 1:10.681s

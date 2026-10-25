@@ -1,0 +1,113 @@
+03:52:20.808 INFO  Scanner configuration file: <LOCAL_PATH>/OneDrive\Documents\Conferences\research\tools\sonar-scanner-8.1.0.6389-windows-x64\bin\..\conf\sonar-scanner.properties
+03:52:20.811 INFO  Project root configuration file: NONE
+03:52:20.821 INFO  SonarScanner CLI 8.1.0.6389
+03:52:20.827 INFO  Windows 11 10.0 amd64
+03:52:22.961 INFO  Communicating with SonarQube Community Build 26.9.0.129388
+03:52:22.961 INFO  JRE provisioning: os[windows], arch[amd64]
+03:52:23.298 INFO  Starting SonarScanner Engine...
+03:52:23.299 INFO  Java 21.0.11 Eclipse Adoptium (64-bit)
+03:52:25.479 INFO  Load global settings
+03:52:25.556 INFO  Load global settings (done) | time=75ms
+03:52:25.560 INFO  Server id: 147B411E-AaCseIXKLwHTWvrBJNod
+03:52:25.568 INFO  Loading required plugins
+03:52:25.568 INFO  Load plugins index
+03:52:25.579 INFO  Load plugins index (done) | time=11ms
+03:52:25.580 INFO  Load/download plugins
+03:52:25.599 INFO  Load/download plugins (done) | time=20ms
+03:52:25.827 INFO  Process project properties
+03:52:25.838 INFO  Process project properties (done) | time=11ms
+03:52:25.849 INFO  Project key: cc-python-yt-dlp__yt-dlp
+03:52:25.849 INFO  Base dir: <LOCAL_PATH>/OneDrive\Documents\Conferences\research\data\raw_repos\yt-dlp__yt-dlp
+03:52:25.849 INFO  Working dir: <LOCAL_PATH>/OneDrive\Documents\Conferences\research\data\raw_repos\yt-dlp__yt-dlp\.scannerwork
+03:52:25.855 INFO  Load project settings for component key: 'cc-python-yt-dlp__yt-dlp'
+03:52:25.879 INFO  Load quality profiles
+03:52:25.952 INFO  Load quality profiles (done) | time=73ms
+03:52:25.989 INFO  Load active rules
+03:52:26.151 INFO  Load active rules (done) | time=163ms
+03:52:26.159 INFO  Load analysis cache
+03:52:26.163 INFO  Load analysis cache (404) | time=4ms
+03:52:26.333 INFO  Preprocessing files...
+03:52:27.246 INFO  1 language detected in 1126 preprocessed files (done) | time=913ms
+03:52:27.246 INFO  137 files ignored because of inclusion/exclusion patterns
+03:52:27.246 INFO  1 directory skipped because of exclusion patterns (content not counted)
+03:52:27.247 INFO  Loading plugins for detected languages
+03:52:27.247 INFO  Load/download plugins
+03:52:27.252 INFO  Load/download plugins (done) | time=5ms
+03:52:27.354 INFO  Load project repositories
+03:52:27.360 INFO  Load project repositories (done) | time=6ms
+03:52:27.382 INFO  Indexing files...
+03:52:27.383 INFO  Project configuration:
+03:52:27.383 INFO    Included sources: **/*.py
+03:52:27.383 INFO    Excluded sources: **/node_modules/**, **/vendor/**, **/third_party/**, **/*.min.js
+03:52:27.383 INFO    Excluded sources for duplication: **/*
+03:52:27.517 INFO  1126 files indexed (done) | time=135ms
+03:52:27.519 INFO  Quality profile for py: cc-study-py
+03:52:27.519 INFO  ------------- Run sensors on module cc-python-yt-dlp__yt-dlp
+03:52:27.591 INFO  Load metrics repository
+03:52:27.621 INFO  Load metrics repository (done) | time=30ms
+03:52:28.437 INFO  Sensor IaC YAML File Type Classification Sensor [iac]
+03:52:28.457 INFO  Sensor IaC YAML File Type Classification Sensor [iac] (done) | time=19ms
+03:52:28.458 INFO  Sensor IaC hadolint report Sensor [iac]
+03:52:28.459 INFO  Sensor IaC hadolint report Sensor [iac] (done) | time=1ms
+03:52:28.459 INFO  Sensor Java Config Sensor [iac]
+03:52:28.461 INFO  There are no files to be analyzed for the Java language
+03:52:28.461 INFO  Sensor Java Config Sensor [iac] (done) | time=2ms
+03:52:28.461 INFO  Sensor IaC Docker Sensor [iac]
+03:52:28.478 INFO  There are no files to be analyzed for the Docker language
+03:52:28.478 INFO  Sensor IaC Docker Sensor [iac] (done) | time=17ms
+03:52:28.479 INFO  Sensor Python Sensor [python]
+03:52:30.225 INFO  Starting global symbols computation
+03:52:30.227 INFO  1126 source files to be analyzed
+03:52:37.288 INFO  1126/1126 source files have been analyzed
+03:52:37.288 INFO  Finished step global symbols computation in 7063ms
+03:52:37.464 INFO  Starting rules execution
+03:52:37.464 INFO  1126 source files to be analyzed
+03:52:37.485 WARN  Test files were detected using a path heuristic because "sonar.tests" is not set. To improve the analysis accuracy, it is recommended to configure it, e.g.: "sonar.tests=src/test".
+03:52:47.480 INFO  976/1126 files analyzed, current files: nbc.py, _utils.py, iprima.py, ...
+03:52:50.753 INFO  1126/1126 source files have been analyzed
+03:52:50.753 INFO  Finished step rules execution in 13289ms
+03:52:50.753 INFO  The Python analyzer was able to leverage cached data from previous analyses for 0 out of 1126 files. These files were not parsed.
+03:52:50.756 INFO  Sensor Python Sensor [python] (done) | time=22277ms
+03:52:50.757 INFO  Sensor Cobertura Sensor for Python coverage [python]
+03:52:50.972 INFO  Sensor Cobertura Sensor for Python coverage [python] (done) | time=216ms
+03:52:50.972 INFO  Sensor PythonXUnitSensor [python]
+03:52:51.192 INFO  Sensor PythonXUnitSensor [python] (done) | time=218ms
+03:52:51.192 INFO  Sensor Python Dependency Sensor [python]
+03:52:51.196 INFO  Sensor Python Dependency Sensor [python] (done) | time=4ms
+03:52:51.196 INFO  Sensor TextAndSecretsSensor [text]
+03:52:51.226 INFO  Available processors: 24
+03:52:51.226 INFO  Using 24 threads for analysis.
+03:52:51.427 INFO  The property "sonar.tests" is not set. To improve the analysis accuracy, we categorize a file as a test file if any of the following is true:
+  * The filename starts with "test"
+  * The filename contains "test." or "tests."
+  * Any directory in the file path is named: "doc", "docs", "test", "tests", "mock" or "mocks"
+  * Any directory in the file path has a name ending in "test" or "tests"
+
+03:52:51.489 INFO  Start fetching files for the text and secrets analysis
+03:52:51.621 INFO  Using Git CLI to retrieve dirty files
+03:52:51.704 INFO  Retrieving language associated files and files included via "sonar.text.inclusions" that are tracked by git
+03:52:51.706 INFO  Starting the text and secrets analysis
+03:52:51.710 INFO  1126 source files to be analyzed for the text and secrets analysis
+03:52:52.725 INFO  1126/1126 source files have been analyzed for the text and secrets analysis
+03:52:52.726 INFO  Skipped 59 file(s) in the secrets analysis due to automatic test file detection
+03:52:52.729 INFO  Sensor TextAndSecretsSensor [text] (done) | time=1533ms
+03:52:52.732 INFO  ------------- Run sensors on project
+03:52:52.852 INFO  Sensor IaC Project Sensor [iac]
+03:52:52.853 INFO  Sensor IaC Project Sensor [iac] (done) | time=1ms
+03:52:52.853 INFO  Sensor Zero Coverage Sensor
+03:52:53.439 INFO  Sensor Zero Coverage Sensor (done) | time=584ms
+03:52:53.440 INFO  ------------- Gather SCA dependencies on project
+03:52:53.443 INFO  Dependency analysis skipped
+03:52:53.444 INFO  SCM Publisher is disabled
+03:52:53.446 INFO  CPD Executor Calculating CPD for 0 files
+03:52:53.446 INFO  CPD Executor CPD calculation finished (done) | time=0ms
+03:52:55.130 INFO  Analysis report generated in 1392ms, dir size=30.2 MB
+03:53:34.959 INFO  Analysis report compressed in 39829ms, zip size=17.0 MB
+03:53:35.278 INFO  Analysis report uploaded in 319ms
+03:53:35.280 INFO  ANALYSIS SUCCESSFUL, you can find the results at: http://localhost:9000/dashboard?id=cc-python-yt-dlp__yt-dlp
+03:53:35.280 INFO  Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+03:53:35.280 INFO  More about the report processing at http://localhost:9000/api/ce/task?id=59fe7ae9-fc8c-48af-abf4-1093c6e9c780
+03:53:37.027 INFO  Analysis total time: 1:11.394 s
+03:53:37.066 INFO  SonarScanner Engine completed successfully
+03:53:37.137 INFO  EXECUTION SUCCESS
+03:53:37.137 INFO  Total time: 1:16.332s

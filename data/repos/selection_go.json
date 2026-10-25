@@ -1,0 +1,924 @@
+{
+ "retrieved_utc": "2026-09-17T00:05:30.930894+00:00",
+ "query": "language:Go stars:>=5000 archived:false fork:false pushed:>=2026-01-01 sort=stars",
+ "criteria": {
+  "gh": "Go",
+  "ext": [
+   ".go"
+  ],
+  "lo": 20000,
+  "hi": 400000
+ },
+ "snapshot_order": [
+  {
+   "full_name": "avelino/awesome-go",
+   "stargazers_count": 184407,
+   "size": 12511,
+   "pushed_at": "2026-09-16T23:40:20Z",
+   "default_branch": "main",
+   "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+   },
+   "html_url": "https://github.com/avelino/awesome-go",
+   "language": "Go"
+  },
+  {
+   "full_name": "ollama/ollama",
+   "stargazers_count": 181193,
+   "size": 94678,
+   "pushed_at": "2026-09-16T23:56:15Z",
+   "default_branch": "main",
+   "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+   },
+   "html_url": "https://github.com/ollama/ollama",
+   "language": "Go"
+  },
+  {
+   "full_name": "golang/go",
+   "stargazers_count": 138856,
+   "size": 456661,
+   "pushed_at": "2026-09-16T16:53:30Z",
+   "default_branch": "master",
+   "license": {
+    "key": "bsd-3-clause",
+    "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+    "spdx_id": "BSD-3-Clause",
+    "url": "https://api.github.com/licenses/bsd-3-clause",
+    "node_id": "MDc6TGljZW5zZTU="
+   },
+   "html_url": "https://github.com/golang/go",
+   "language": "Go"
+  },
+  {
+   "full_name": "kubernetes/kubernetes",
+   "stargazers_count": 127814,
+   "size": 1522560,
+   "pushed_at": "2026-09-16T22:57:30Z",
+   "default_branch": "master",
+   "license": {
+    "key": "apache-2.0",
+    "name": "Apache License 2.0",
+    "spdx_id": "Apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "node_id": "MDc6TGljZW5zZTI="
+   },
+   "html_url": "https://github.com/kubernetes/kubernetes",
+   "language": "Go"
+  },
+  {
+   "full_name": "microsoft/TypeScript",
+   "stargazers_count": 111076,
+   "size": 2862277,
+   "pushed_at": "2026-09-16T22:29:04Z",
+   "default_branch": "main",
+   "license": {
+    "key": "apache-2.0",
+    "name": "Apache License 2.0",
+    "spdx_id": "Apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "node_id": "MDc6TGljZW5zZTI="
+   },
+   "html_url": "https://github.com/microsoft/TypeScript",
+   "language": "Go"
+  },
+  {
+   "full_name": "fatedier/frp",
+   "stargazers_count": 109485,
+   "size": 32737,
+   "pushed_at": "2026-09-15T05:55:33Z",
+   "default_branch": "dev",
+   "license": {
+    "key": "apache-2.0",
+    "name": "Apache License 2.0",
+    "spdx_id": "Apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "node_id": "MDc6TGljZW5zZTI="
+   },
+   "html_url": "https://github.com/fatedier/frp",
+   "language": "Go"
+  },
+  {
+   "full_name": "JuliusBrussee/caveman",
+   "stargazers_count": 106043,
+   "size": 13240,
+   "pushed_at": "2026-09-16T22:30:49Z",
+   "default_branch": "main",
+   "license": {
+    "key": "other",
+    "name": "Other",
+    "spdx_id": "NOASSERTION",
+    "url": null,
+    "node_id": "MDc6TGljZW5zZTA="
+   },
+   "html_url": "https://github.com/JuliusBrussee/caveman",
+   "language": "Go"
+  },
+  {
+   "full_name": "infiniflow/ragflow",
+   "stargazers_count": 90834,
+   "size": 167521,
+   "pushed_at": "2026-09-16T16:10:18Z",
+   "default_branch": "main",
+   "license": {
+    "key": "apache-2.0",
+    "name": "Apache License 2.0",
+    "spdx_id": "Apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "node_id": "MDc6TGljZW5zZTI="
+   },
+   "html_url": "https://github.com/infiniflow/ragflow",
+   "language": "Go"
+  },
+  {
+   "full_name": "gohugoio/hugo",
+   "stargazers_count": 89848,
+   "size": 146491,
+   "pushed_at": "2026-09-16T09:33:06Z",
+   "default_branch": "master",
+   "license": {
+    "key": "apache-2.0",
+    "name": "Apache License 2.0",
+    "spdx_id": "Apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "node_id": "MDc6TGljZW5zZTI="
+   },
+   "html_url": "https://github.com/gohugoio/hugo",
+   "language": "Go"
+  },
+  {
+   "full_name": "gin-gonic/gin",
+   "stargazers_count": 89233,
+   "size": 10633,
+   "pushed_at": "2026-09-16T15:01:53Z",
+   "default_branch": "master",
+   "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+   },
+   "html_url": "https://github.com/gin-gonic/gin",
+   "language": "Go"
+  },
+  {
+   "full_name": "syncthing/syncthing",
+   "stargazers_count": 88661,
+   "size": 127858,
+   "pushed_at": "2026-09-15T12:01:36Z",
+   "default_branch": "main",
+   "license": {
+    "key": "mpl-2.0",
+    "name": "Mozilla Public License 2.0",
+    "spdx_id": "MPL-2.0",
+    "url": "https://api.github.com/licenses/mpl-2.0",
+    "node_id": "MDc6TGljZW5zZTE0"
+   },
+   "html_url": "https://github.com/syncthing/syncthing",
+   "language": "Go"
+  },
+  {
+   "full_name": "junegunn/fzf",
+   "stargazers_count": 83024,
+   "size": 8471,
+   "pushed_at": "2026-09-14T03:16:23Z",
+   "default_branch": "master",
+   "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+   },
+   "html_url": "https://github.com/junegunn/fzf",
+   "language": "Go"
+  },
+  {
+   "full_name": "jesseduffield/lazygit",
+   "stargazers_count": 82400,
+   "size": 157992,
+   "pushed_at": "2026-09-16T08:11:35Z",
+   "default_branch": "master",
+   "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+   },
+   "html_url": "https://github.com/jesseduffield/lazygit",
+   "language": "Go"
+  },
+  {
+   "full_name": "netdata/netdata",
+   "stargazers_count": 80550,
+   "size": 311859,
+   "pushed_at": "2026-09-16T23:00:46Z",
+   "default_branch": "master",
+   "license": {
+    "key": "gpl-3.0",
+    "name": "GNU General Public License v3.0",
+    "spdx_id": "GPL-3.0",
+    "url": "https://api.github.com/licenses/gpl-3.0",
+    "node_id": "MDc6TGljZW5zZTk="
+   },
+   "html_url": "https://github.com/netdata/netdata",
+   "language": "Go"
+  },
+  {
+   "full_name": "caddyserver/caddy",
+   "stargazers_count": 75844,
+   "size": 22002,
+   "pushed_at": "2026-09-16T14:04:46Z",
+   "default_branch": "master",
+   "license": {
+    "key": "apache-2.0",
+    "name": "Apache License 2.0",
+    "spdx_id": "Apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "node_id": "MDc6TGljZW5zZTI="
+   },
+   "html_url": "https://github.com/caddyserver/caddy",
+   "language": "Go"
+  },
+  {
+   "full_name": "moby/moby",
+   "stargazers_count": 72102,
+   "size": 272854,
+   "pushed_at": "2026-09-16T22:54:17Z",
+   "default_branch": "master",
+   "license": {
+    "key": "apache-2.0",
+    "name": "Apache License 2.0",
+    "spdx_id": "Apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "node_id": "MDc6TGljZW5zZTI="
+   },
+   "html_url": "https://github.com/moby/moby",
+   "language": "Go"
+  },
+  {
+   "full_name": "nektos/act",
+   "stargazers_count": 72017,
+   "size": 17748,
+   "pushed_at": "2026-08-09T22:50:11Z",
+   "default_branch": "master",
+   "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+   },
+   "html_url": "https://github.com/nektos/act",
+   "language": "Go"
+  },
+  {
+   "full_name": "prometheus/prometheus",
+   "stargazers_count": 66097,
+   "size": 290055,
+   "pushed_at": "2026-09-16T19:30:20Z",
+   "default_branch": "main",
+   "license": {
+    "key": "apache-2.0",
+    "name": "Apache License 2.0",
+    "spdx_id": "Apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "node_id": "MDc6TGljZW5zZTI="
+   },
+   "html_url": "https://github.com/prometheus/prometheus",
+   "language": "Go"
+  },
+  {
+   "full_name": "traefik/traefik",
+   "stargazers_count": 64870,
+   "size": 161458,
+   "pushed_at": "2026-09-16T14:28:06Z",
+   "default_branch": "master",
+   "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+   },
+   "html_url": "https://github.com/traefik/traefik",
+   "language": "Go"
+  },
+  {
+   "full_name": "usememos/memos",
+   "stargazers_count": 63116,
+   "size": 42763,
+   "pushed_at": "2026-09-16T15:48:29Z",
+   "default_branch": "main",
+   "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+   },
+   "html_url": "https://github.com/usememos/memos",
+   "language": "Go"
+  },
+  {
+   "full_name": "pocketbase/pocketbase",
+   "stargazers_count": 61060,
+   "size": 147241,
+   "pushed_at": "2026-09-16T11:43:00Z",
+   "default_branch": "master",
+   "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+   },
+   "html_url": "https://github.com/pocketbase/pocketbase",
+   "language": "Go"
+  },
+  {
+   "full_name": "rclone/rclone",
+   "stargazers_count": 59791,
+   "size": 256654,
+   "pushed_at": "2026-09-16T16:09:39Z",
+   "default_branch": "master",
+   "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+   },
+   "html_url": "https://github.com/rclone/rclone",
+   "language": "Go"
+  },
+  {
+   "full_name": "go-gitea/gitea",
+   "stargazers_count": 58028,
+   "size": 358595,
+   "pushed_at": "2026-09-16T18:41:57Z",
+   "default_branch": "main",
+   "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+   },
+   "html_url": "https://github.com/go-gitea/gitea",
+   "language": "Go"
+  },
+  {
+   "full_name": "jesseduffield/lazydocker",
+   "stargazers_count": 52844,
+   "size": 30218,
+   "pushed_at": "2026-04-19T02:51:06Z",
+   "default_branch": "master",
+   "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+   },
+   "html_url": "https://github.com/jesseduffield/lazydocker",
+   "language": "Go"
+  },
+  {
+   "full_name": "etcd-io/etcd",
+   "stargazers_count": 52267,
+   "size": 99140,
+   "pushed_at": "2026-09-16T18:03:08Z",
+   "default_branch": "main",
+   "license": {
+    "key": "apache-2.0",
+    "name": "Apache License 2.0",
+    "spdx_id": "Apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "node_id": "MDc6TGljZW5zZTI="
+   },
+   "html_url": "https://github.com/etcd-io/etcd",
+   "language": "Go"
+  },
+  {
+   "full_name": "router-for-me/CLIProxyAPI",
+   "stargazers_count": 52152,
+   "size": 35701,
+   "pushed_at": "2026-09-16T21:23:07Z",
+   "default_branch": "main",
+   "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+   },
+   "html_url": "https://github.com/router-for-me/CLIProxyAPI",
+   "language": "Go"
+  },
+  {
+   "full_name": "ethereum/go-ethereum",
+   "stargazers_count": 51344,
+   "size": 240020,
+   "pushed_at": "2026-09-16T15:12:52Z",
+   "default_branch": "master",
+   "license": {
+    "key": "lgpl-3.0",
+    "name": "GNU Lesser General Public License v3.0",
+    "spdx_id": "LGPL-3.0",
+    "url": "https://api.github.com/licenses/lgpl-3.0",
+    "node_id": "MDc6TGljZW5zZTEy"
+   },
+   "html_url": "https://github.com/ethereum/go-ethereum",
+   "language": "Go"
+  },
+  {
+   "full_name": "AlistGo/alist",
+   "stargazers_count": 50177,
+   "size": 6743,
+   "pushed_at": "2026-09-15T06:09:17Z",
+   "default_branch": "main",
+   "license": {
+    "key": "agpl-3.0",
+    "name": "GNU Affero General Public License v3.0",
+    "spdx_id": "AGPL-3.0",
+    "url": "https://api.github.com/licenses/agpl-3.0",
+    "node_id": "MDc6TGljZW5zZTE="
+   },
+   "html_url": "https://github.com/AlistGo/alist",
+   "language": "Go"
+  },
+  {
+   "full_name": "multica-ai/multica",
+   "stargazers_count": 50138,
+   "size": 148549,
+   "pushed_at": "2026-09-16T11:27:59Z",
+   "default_branch": "main",
+   "license": {
+    "key": "other",
+    "name": "Other",
+    "spdx_id": "NOASSERTION",
+    "url": null,
+    "node_id": "MDc6TGljZW5zZTA="
+   },
+   "html_url": "https://github.com/multica-ai/multica",
+   "language": "Go"
+  },
+  {
+   "full_name": "hashicorp/terraform",
+   "stargazers_count": 49670,
+   "size": 359128,
+   "pushed_at": "2026-09-16T16:40:29Z",
+   "default_branch": "main",
+   "license": {
+    "key": "other",
+    "name": "Other",
+    "spdx_id": "NOASSERTION",
+    "url": null,
+    "node_id": "MDc6TGljZW5zZTA="
+   },
+   "html_url": "https://github.com/hashicorp/terraform",
+   "language": "Go"
+  },
+  {
+   "full_name": "mudler/LocalAI",
+   "stargazers_count": 49138,
+   "size": 109316,
+   "pushed_at": "2026-09-16T17:39:48Z",
+   "default_branch": "master",
+   "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+   },
+   "html_url": "https://github.com/mudler/LocalAI",
+   "language": "Go"
+  },
+  {
+   "full_name": "QuantumNous/new-api",
+   "stargazers_count": 48246,
+   "size": 72882,
+   "pushed_at": "2026-09-15T06:00:06Z",
+   "default_branch": "main",
+   "license": {
+    "key": "agpl-3.0",
+    "name": "GNU Affero General Public License v3.0",
+    "spdx_id": "AGPL-3.0",
+    "url": "https://api.github.com/licenses/agpl-3.0",
+    "node_id": "MDc6TGljZW5zZTE="
+   },
+   "html_url": "https://github.com/QuantumNous/new-api",
+   "language": "Go"
+  },
+  {
+   "full_name": "gogs/gogs",
+   "stargazers_count": 47818,
+   "size": 212268,
+   "pushed_at": "2026-09-12T20:28:48Z",
+   "default_branch": "main",
+   "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+   },
+   "html_url": "https://github.com/gogs/gogs",
+   "language": "Go"
+  },
+  {
+   "full_name": "v2ray/v2ray-core",
+   "stargazers_count": 46934,
+   "size": 55173,
+   "pushed_at": "2026-08-31T03:24:40Z",
+   "default_branch": "master",
+   "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+   },
+   "html_url": "https://github.com/v2ray/v2ray-core",
+   "language": "Go"
+  },
+  {
+   "full_name": "MHSanaei/3x-ui",
+   "stargazers_count": 46489,
+   "size": 63471,
+   "pushed_at": "2026-09-16T10:34:56Z",
+   "default_branch": "main",
+   "license": {
+    "key": "gpl-3.0",
+    "name": "GNU General Public License v3.0",
+    "spdx_id": "GPL-3.0",
+    "url": "https://api.github.com/licenses/gpl-3.0",
+    "node_id": "MDc6TGljZW5zZTk="
+   },
+   "html_url": "https://github.com/MHSanaei/3x-ui",
+   "language": "Go"
+  },
+  {
+   "full_name": "cli/cli",
+   "stargazers_count": 46298,
+   "size": 81190,
+   "pushed_at": "2026-09-15T14:24:34Z",
+   "default_branch": "trunk",
+   "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+   },
+   "html_url": "https://github.com/cli/cli",
+   "language": "Go"
+  },
+  {
+   "full_name": "milvus-io/milvus",
+   "stargazers_count": 46130,
+   "size": 347681,
+   "pushed_at": "2026-09-16T20:43:35Z",
+   "default_branch": "master",
+   "license": {
+    "key": "apache-2.0",
+    "name": "Apache License 2.0",
+    "spdx_id": "Apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "node_id": "MDc6TGljZW5zZTI="
+   },
+   "html_url": "https://github.com/milvus-io/milvus",
+   "language": "Go"
+  },
+  {
+   "full_name": "charmbracelet/bubbletea",
+   "stargazers_count": 44986,
+   "size": 5890,
+   "pushed_at": "2026-09-09T19:37:49Z",
+   "default_branch": "main",
+   "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+   },
+   "html_url": "https://github.com/charmbracelet/bubbletea",
+   "language": "Go"
+  },
+  {
+   "full_name": "spf13/cobra",
+   "stargazers_count": 44608,
+   "size": 2107,
+   "pushed_at": "2026-07-11T00:43:07Z",
+   "default_branch": "main",
+   "license": {
+    "key": "apache-2.0",
+    "name": "Apache License 2.0",
+    "spdx_id": "Apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "node_id": "MDc6TGljZW5zZTI="
+   },
+   "html_url": "https://github.com/spf13/cobra",
+   "language": "Go"
+  },
+  {
+   "full_name": "danielmiessler/Fabric",
+   "stargazers_count": 43941,
+   "size": 155481,
+   "pushed_at": "2026-09-07T19:17:46Z",
+   "default_branch": "main",
+   "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+   },
+   "html_url": "https://github.com/danielmiessler/Fabric",
+   "language": "Go"
+  },
+  {
+   "full_name": "juanfont/headscale",
+   "stargazers_count": 43893,
+   "size": 56353,
+   "pushed_at": "2026-09-15T12:37:20Z",
+   "default_branch": "main",
+   "license": {
+    "key": "bsd-3-clause",
+    "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+    "spdx_id": "BSD-3-Clause",
+    "url": "https://api.github.com/licenses/bsd-3-clause",
+    "node_id": "MDc6TGljZW5zZTU="
+   },
+   "html_url": "https://github.com/juanfont/headscale",
+   "language": "Go"
+  },
+  {
+   "full_name": "Wei-Shaw/sub2api",
+   "stargazers_count": 41711,
+   "size": 111597,
+   "pushed_at": "2026-09-16T19:25:45Z",
+   "default_branch": "main",
+   "license": {
+    "key": "lgpl-3.0",
+    "name": "GNU Lesser General Public License v3.0",
+    "spdx_id": "LGPL-3.0",
+    "url": "https://api.github.com/licenses/lgpl-3.0",
+    "node_id": "MDc6TGljZW5zZTEy"
+   },
+   "html_url": "https://github.com/Wei-Shaw/sub2api",
+   "language": "Go"
+  },
+  {
+   "full_name": "XTLS/Xray-core",
+   "stargazers_count": 41627,
+   "size": 31172,
+   "pushed_at": "2026-09-16T05:55:06Z",
+   "default_branch": "main",
+   "license": {
+    "key": "mpl-2.0",
+    "name": "Mozilla Public License 2.0",
+    "spdx_id": "MPL-2.0",
+    "url": "https://api.github.com/licenses/mpl-2.0",
+    "node_id": "MDc6TGljZW5zZTE0"
+   },
+   "html_url": "https://github.com/XTLS/Xray-core",
+   "language": "Go"
+  },
+  {
+   "full_name": "pingcap/tidb",
+   "stargazers_count": 40536,
+   "size": 787110,
+   "pushed_at": "2026-09-16T20:04:42Z",
+   "default_branch": "master",
+   "license": {
+    "key": "apache-2.0",
+    "name": "Apache License 2.0",
+    "spdx_id": "Apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "node_id": "MDc6TGljZW5zZTI="
+   },
+   "html_url": "https://github.com/pingcap/tidb",
+   "language": "Go"
+  },
+  {
+   "full_name": "schollz/croc",
+   "stargazers_count": 40353,
+   "size": 12224,
+   "pushed_at": "2026-09-14T12:45:16Z",
+   "default_branch": "main",
+   "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+   },
+   "html_url": "https://github.com/schollz/croc",
+   "language": "Go"
+  },
+  {
+   "full_name": "photoprism/photoprism",
+   "stargazers_count": 40196,
+   "size": 390038,
+   "pushed_at": "2026-09-16T23:31:16Z",
+   "default_branch": "develop",
+   "license": {
+    "key": "other",
+    "name": "Other",
+    "spdx_id": "NOASSERTION",
+    "url": null,
+    "node_id": "MDc6TGljZW5zZTA="
+   },
+   "html_url": "https://github.com/photoprism/photoprism",
+   "language": "Go"
+  },
+  {
+   "full_name": "gofiber/fiber",
+   "stargazers_count": 40159,
+   "size": 85523,
+   "pushed_at": "2026-09-16T13:36:20Z",
+   "default_branch": "main",
+   "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+   },
+   "html_url": "https://github.com/gofiber/fiber",
+   "language": "Go"
+  },
+  {
+   "full_name": "evanw/esbuild",
+   "stargazers_count": 40059,
+   "size": 20899,
+   "pushed_at": "2026-08-09T17:20:12Z",
+   "default_branch": "main",
+   "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+   },
+   "html_url": "https://github.com/evanw/esbuild",
+   "language": "Go"
+  },
+  {
+   "full_name": "go-gorm/gorm",
+   "stargazers_count": 39959,
+   "size": 4826,
+   "pushed_at": "2026-09-14T16:21:15Z",
+   "default_branch": "master",
+   "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+   },
+   "html_url": "https://github.com/go-gorm/gorm",
+   "language": "Go"
+  },
+  {
+   "full_name": "istio/istio",
+   "stargazers_count": 38390,
+   "size": 304411,
+   "pushed_at": "2026-09-16T22:54:32Z",
+   "default_branch": "master",
+   "license": {
+    "key": "apache-2.0",
+    "name": "Apache License 2.0",
+    "spdx_id": "Apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "node_id": "MDc6TGljZW5zZTI="
+   },
+   "html_url": "https://github.com/istio/istio",
+   "language": "Go"
+  }
+ ],
+ "accepted": [
+  {
+   "repo": "ollama/ollama",
+   "sha": "6b8bef2caa5bd46b50e13a9dd893fcedc9f3aaea",
+   "stars": 181193,
+   "license": "MIT",
+   "files": 753,
+   "loc": 266534,
+   "default_branch": "main",
+   "clone_dir": "data\\raw_repos\\ollama__ollama"
+  },
+  {
+   "repo": "fatedier/frp",
+   "sha": "d20a232996007dfe6ab425abc0a39a3ae9a0889b",
+   "stars": 109485,
+   "license": "Apache-2.0",
+   "files": 351,
+   "loc": 50577,
+   "default_branch": "dev",
+   "clone_dir": "data\\raw_repos\\fatedier__frp"
+  },
+  {
+   "repo": "JuliusBrussee/caveman",
+   "sha": "c2906c626be1d703b04e203d9f804a263e87f4ef",
+   "stars": 106043,
+   "license": "NOASSERTION",
+   "files": 564,
+   "loc": 130001,
+   "default_branch": "main",
+   "clone_dir": "data\\raw_repos\\JuliusBrussee__caveman"
+  },
+  {
+   "repo": "gohugoio/hugo",
+   "sha": "ec57bb7d348989513b919c7ea9ff08fed0bec327",
+   "stars": 89848,
+   "license": "Apache-2.0",
+   "files": 911,
+   "loc": 198300,
+   "default_branch": "master",
+   "clone_dir": "data\\raw_repos\\gohugoio__hugo"
+  },
+  {
+   "repo": "gin-gonic/gin",
+   "sha": "5c6a15f8f9566612076bd209e623861bf92a6283",
+   "stars": 89233,
+   "license": "MIT",
+   "files": 98,
+   "loc": 20269,
+   "default_branch": "master",
+   "clone_dir": "data\\raw_repos\\gin-gonic__gin"
+  },
+  {
+   "repo": "syncthing/syncthing",
+   "sha": "bb19c017ae672b766338e21ab8c4d8ef6024fae3",
+   "stars": 88661,
+   "license": "MPL-2.0",
+   "files": 535,
+   "loc": 100699,
+   "default_branch": "main",
+   "clone_dir": "data\\raw_repos\\syncthing__syncthing"
+  },
+  {
+   "repo": "junegunn/fzf",
+   "sha": "b1be3a8be1b833ce5b92fbbac11637643d60a046",
+   "stars": 83024,
+   "license": "MIT",
+   "files": 89,
+   "loc": 30687,
+   "default_branch": "master",
+   "clone_dir": "data\\raw_repos\\junegunn__fzf"
+  },
+  {
+   "repo": "jesseduffield/lazygit",
+   "sha": "71d3e7dfa5f9278172013bfa1bb83d60d155436a",
+   "stars": 82400,
+   "license": "MIT",
+   "files": 1103,
+   "loc": 127553,
+   "default_branch": "master",
+   "clone_dir": "data\\raw_repos\\jesseduffield__lazygit"
+  }
+ ],
+ "skipped": [
+  {
+   "repo": "avelino/awesome-go",
+   "reason": "LOC 1215 outside [20000, 400000]",
+   "files": 8,
+   "loc": 1215
+  },
+  {
+   "repo": "golang/go",
+   "reason": "LOC 2443129 outside [20000, 400000]",
+   "files": 9411,
+   "loc": 2443129
+  },
+  {
+   "repo": "kubernetes/kubernetes",
+   "reason": "repo size 1522560 KB > 1.5 GB"
+  },
+  {
+   "repo": "microsoft/TypeScript",
+   "reason": "repo size 2862277 KB > 1.5 GB"
+  },
+  {
+   "repo": "infiniflow/ragflow",
+   "reason": "LOC 729410 outside [20000, 400000]",
+   "files": 2285,
+   "loc": 729410
+  }
+ ]
+}

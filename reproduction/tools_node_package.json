@@ -1,0 +1,25 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@typescript-eslint/parser": "^8.70.0",
+    "cognitive-complexity-ts": "^0.8.2",
+    "cogplexity": "^0.1.0",
+    "eslint": "^10.10.0",
+    "eslint-plugin-maintainability": "^3.2.10",
+    "eslint-plugin-sonarjs": "^4.2.1",
+    "oxc-parser": "^0.150.0",
+    "oxlint": "^1.83.0",
+    "oxlint-plugin-complexity": "^3.0.0",
+    "typescript": "^6.0.3"
+  }
+}

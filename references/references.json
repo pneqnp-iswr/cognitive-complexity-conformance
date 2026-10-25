@@ -1,0 +1,224 @@
+[
+ {
+  "key": "campbell2018",
+  "title": "Cognitive complexity: an overview and evaluation",
+  "authors": "G. Ann Campbell",
+  "venue": "Proc. 2018 International Conference on Technical Debt (TechDebt '18)",
+  "year": 2018,
+  "doi": "10.1145/3194164.3194186",
+  "claims": [
+   "metric definition and owner's evaluation"
+  ]
+ },
+ {
+  "key": "campbell2023wp",
+  "title": "Cognitive Complexity: A new way of measuring understandability",
+  "authors": "G. Ann Campbell",
+  "venue": "SonarSource white paper, version 1.7",
+  "year": 2023,
+  "url": "https://www.sonarsource.com/docs/CognitiveComplexity.pdf",
+  "claims": [
+   "Appendix B rules, Appendix C examples, change log"
+  ]
+ },
+ {
+  "key": "lincke2008",
+  "title": "Comparing software metrics tools",
+  "authors": "Rüdiger Lincke, Jonas Lundberg, Welf Löwe",
+  "venue": "Proc. International Symposium on Software Testing and Analysis (ISSTA '08)",
+  "year": 2008,
+  "doi": "10.1145/1390630.1390648",
+  "claims": [
+   "metric values are tool-dependent for OO metrics"
+  ]
+ },
+ {
+  "key": "aversano2017",
+  "title": "Investigating Differences and Commonalities of Software Metric Tools",
+  "authors": "Lerina Aversano, Daniela Guardabascio, Maria Tortorella",
+  "venue": "Proc. 12th International Conference on Software Technologies (ICSOFT 2017)",
+  "year": 2017,
+  "doi": "10.5220/0006416602490256",
+  "claims": [
+   "different tools give different values for the same metrics"
+  ]
+ },
+ {
+  "key": "aversano2018",
+  "title": "Assessing the Impact of Measurement Tools on Software Maintainability Evaluation",
+  "authors": "Lerina Aversano, Daniela Guardabascio, Maria Tortorella",
+  "venue": "Proc. 13th International Conference on Evaluation of Novel Approaches to Software Engineering (ENASE 2018)",
+  "year": 2018,
+  "doi": "10.5220/0006793003920397",
+  "claims": [
+   "tool choice affects maintainability assessment"
+  ]
+ },
+ {
+  "key": "zaric2024",
+  "title": "Software Metrics and Multi-lingual Code: A Preliminary Study Based on Java and C",
+  "authors": "Miloš Zarić, Gordana Rakić",
+  "venue": "Proc. 13th Workshop on Software Quality Analysis, Monitoring, Improvement, and Applications (SQAMIA 2024), CEUR-WS Vol. 3845",
+  "year": 2024,
+  "url": "https://ceur-ws.org/Vol-3845/paper25.pdf",
+  "claims": [
+   "cross-tool inconsistency of McCabe/Halstead/MI values"
+  ]
+ },
+ {
+  "key": "nilson2019",
+  "title": "Do internal software quality tools measure validated metrics?",
+  "authors": "Mayra Nilson, Vard Antinyan, Lucas Gren",
+  "venue": "Product-Focused Software Process Improvement (PROFES 2019), LNCS, Springer, pp. 637-648",
+  "year": 2019,
+  "arxiv": "1909.09682",
+  "claims": [
+   "static analysis tools (incl. SonarQube) offer many metrics that are not validated in the literature; implementations of a given metric vary from tool to tool (stated with reference to earlier work)"
+  ],
+  "doi": "10.1007/978-3-030-35333-9_50",
+  "note": "title corrected 2026-09-17 after arXiv/Crossref verification; earlier recorded title was wrong"
+ },
+ {
+  "key": "teixeira2021",
+  "title": "Multi-language static code analysis on the LARA framework",
+  "authors": "Gil Teixeira, João Bispo, Filipe F. Correia",
+  "venue": "Proc. 10th ACM SIGPLAN International Workshop on the State Of the Art in Program Analysis (SOAP 2021)",
+  "year": 2021,
+  "doi": "10.1145/3460946.3464317",
+  "claims": [
+   "own CC implementation correlates with SonarQube on one project (Kendall)"
+  ]
+ },
+ {
+  "key": "munozbaron2020",
+  "title": "An Empirical Validation of Cognitive Complexity as a Measure of Source Code Understandability",
+  "authors": "Marvin Muñoz Barón, Marvin Wyrich, Stefan Wagner",
+  "venue": "Proc. 14th ACM/IEEE International Symposium on Empirical Software Engineering and Measurement (ESEM '20)",
+  "year": 2020,
+  "doi": "10.1145/3382494.3410636",
+  "claims": [
+   "validity study using SonarQube values"
+  ]
+ },
+ {
+  "key": "lavazza2023",
+  "title": "An empirical evaluation of the \"Cognitive Complexity\" measure as a predictor of code understandability",
+  "authors": "Luigi Lavazza, Abedallah Zaid Abualkishik, Geng Liu, Sandro Morasca",
+  "venue": "Journal of Systems and Software",
+  "year": 2023,
+  "doi": "10.1016/j.jss.2022.111561",
+  "claims": [
+   "validity study with a single implementation"
+  ]
+ },
+ {
+  "key": "saborido2022",
+  "title": "Automatizing Software Cognitive Complexity Reduction",
+  "authors": "Rubén Saborido, Javier Ferrer, Francisco Chicano, Enrique Alba",
+  "venue": "IEEE Access",
+  "year": 2022,
+  "doi": "10.1109/ACCESS.2022.3144743",
+  "claims": [
+   "uses SonarQube values and the default threshold 15"
+  ]
+ },
+ {
+  "key": "ouedraogo2025",
+  "title": "Rethinking Cognitive Complexity for Unit Tests: Toward a Readability-Aware Metric Grounded in Developer Perception",
+  "authors": "Wendkûuni C. Ouédraogo et al.",
+  "venue": "arXiv preprint (ICSME 2025 NIER)",
+  "year": 2025,
+  "arxiv": "2506.06764",
+  "claims": [
+   "uses PMD's implementation as the metric oracle"
+  ]
+ },
+ {
+  "key": "zhang2023statfier",
+  "title": "Statfier: Automated Testing of Static Analyzers via Semantic-Preserving Program Transformations",
+  "authors": "Huaien Zhang, Yu Pei, Junjie Chen, Shin Hwei Tan",
+  "venue": "Proc. 31st ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE 2023)",
+  "year": 2023,
+  "doi": "10.1145/3611643.3616272",
+  "claims": [
+   "metamorphic testing of static analyzers incl. PMD"
+  ]
+ },
+ {
+  "key": "ardito2020",
+  "title": "rust-code-analysis: A Rust library to analyze and extract maintainability information from source codes",
+  "authors": "Luca Ardito, Luca Barbato, Marco Castelluccio, Riccardo Coppola, Calixte Denizet, Sylvestre Ledru, Michele Valsesia",
+  "venue": "SoftwareX",
+  "year": 2020,
+  "doi": "10.1016/j.softx.2020.100635",
+  "claims": [
+   "rust-code-analysis tool description"
+  ]
+ },
+ {
+  "key": "mccabe1976",
+  "title": "A Complexity Measure",
+  "authors": "Thomas J. McCabe",
+  "venue": "IEEE Transactions on Software Engineering",
+  "year": 1976,
+  "doi": "10.1109/TSE.1976.233837",
+  "claims": [
+   "cyclomatic complexity definition (baseline metric)"
+  ]
+ },
+ {
+  "key": "rauhala2026",
+  "title": "An Evaluation of the Implementation of Maintainability Metrics in Static Analysis Tools",
+  "authors": "Riku Rauhala",
+  "venue": "MSc thesis, University of Helsinki",
+  "year": 2026,
+  "url": "http://hdl.handle.net/10138/633391",
+  "claims": [
+   "documentation-based grading of how SaaS tools implement CC"
+  ]
+ },
+ {
+  "key": "efron1994",
+  "title": "An Introduction to the Bootstrap",
+  "authors": "Bradley Efron, Robert J. Tibshirani",
+  "venue": "Chapman & Hall/CRC",
+  "year": 1994,
+  "doi": "10.1201/9780429246593",
+  "claims": [
+   "bootstrap confidence intervals"
+  ]
+ },
+ {
+  "key": "cccc2026",
+  "title": "cccc: A tool/library for measurement of Cognitive Complexity and Cyclomatic Complexity",
+  "authors": "moznion",
+  "venue": "GitHub repository",
+  "year": 2026,
+  "url": "https://github.com/moznion/cccc",
+  "claims": [
+   "contemporary independent Cognitive Complexity implementation; uses SonarSource examples as conformance anchors"
+  ]
+ },
+ {
+  "key": "gorchakov2024",
+  "title": "A Rule-Based Algorithm and Its Specializations for Measuring the Complexity of Software in Educational Digital Environments",
+  "authors": "Artyom V. Gorchakov, Liliya A. Demidova, Peter N. Sovietov",
+  "venue": "Computers 13(3), article 75",
+  "year": 2024,
+  "doi": "10.3390/computers13030075",
+  "claims": [
+   "rule-based implementation/operationalisation of Cognitive Complexity; not a cross-tool conformance study"
+  ]
+ },
+ {
+  "key": "codeeraser2026",
+  "title": "CodeEraser",
+  "authors": "skymanbp",
+  "venue": "GitHub repository",
+  "year": 2026,
+  "url": "https://github.com/skymanbp/CodeEraser",
+  "claims": [
+   "contemporary Cognitive Complexity implementation with SonarSource v1.7 white-paper fixtures"
+  ]
+ }
+]

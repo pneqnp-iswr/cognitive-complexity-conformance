@@ -1,0 +1,11 @@
+tool,units_all,primary_pop,primary_with_value,primary_missing,root_with_nested,nested_units
+cog__sonarqube,49796,37525,24337,13188,4302,7666
+cog__codemetrics,49796,37525,37525,0,4302,7666
+cog__cognitive_complexity,49796,37525,37136,389,4302,7666
+cog__complexipy,49796,37525,37293,232,4302,7666
+cog__rust-code-analysis,49796,37525,37478,47,4302,7666
+cyc__sonarqube,49796,37525,24337,13188,4302,7666
+cyc__codemetrics,49796,37525,37525,0,4302,7666
+cyc__lizard,49796,37525,37334,191,4302,7666
+cyc__radon,49796,37525,37091,434,4302,7666
+cyc__rust-code-analysis,49796,37525,37478,47,4302,7666

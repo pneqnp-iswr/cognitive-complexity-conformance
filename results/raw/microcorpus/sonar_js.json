@@ -1,0 +1,3557 @@
+{
+ "meta": {
+  "project_key": "micro-js",
+  "source_dir": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript",
+  "lang": "js",
+  "scan_seconds": 19.0,
+  "analysis_id": "ff9bbef3-c6b7-4f98-91dc-f02d8a810f2f",
+  "server_version": "26.9.0.129388",
+  "n_issues": 149,
+  "n_cognitive": 67,
+  "n_cyclomatic": 82
+ },
+ "rows": [
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S1541",
+   "kind": "cyclomatic",
+   "line": 591,
+   "start_line": 591,
+   "start_col": 16,
+   "end_line": 591,
+   "value": 2,
+   "message": "Function has a complexity of 2 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 591,
+     "col": 16,
+     "msg": "+1"
+    },
+    {
+     "line": 592,
+     "col": 2,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S3776",
+   "kind": "cognitive",
+   "line": 591,
+   "start_line": 591,
+   "start_col": 16,
+   "end_line": 591,
+   "value": 1,
+   "message": "Refactor this function to reduce its Cognitive Complexity from 1 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 592,
+     "col": 2,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S1541",
+   "kind": "cyclomatic",
+   "line": 4,
+   "start_line": 4,
+   "start_col": 16,
+   "end_line": 4,
+   "value": 1,
+   "message": "Function has a complexity of 1 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 4,
+     "col": 16,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S1541",
+   "kind": "cyclomatic",
+   "line": 8,
+   "start_line": 8,
+   "start_col": 16,
+   "end_line": 8,
+   "value": 2,
+   "message": "Function has a complexity of 2 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 8,
+     "col": 16,
+     "msg": "+1"
+    },
+    {
+     "line": 9,
+     "col": 2,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S3776",
+   "kind": "cognitive",
+   "line": 8,
+   "start_line": 8,
+   "start_col": 16,
+   "end_line": 8,
+   "value": 1,
+   "message": "Refactor this function to reduce its Cognitive Complexity from 1 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 9,
+     "col": 2,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S3776",
+   "kind": "cognitive",
+   "line": 15,
+   "start_line": 15,
+   "start_col": 16,
+   "end_line": 15,
+   "value": 2,
+   "message": "Refactor this function to reduce its Cognitive Complexity from 2 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 16,
+     "col": 2,
+     "msg": "+1"
+    },
+    {
+     "line": 18,
+     "col": 4,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S1541",
+   "kind": "cyclomatic",
+   "line": 15,
+   "start_line": 15,
+   "start_col": 16,
+   "end_line": 15,
+   "value": 2,
+   "message": "Function has a complexity of 2 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 15,
+     "col": 16,
+     "msg": "+1"
+    },
+    {
+     "line": 16,
+     "col": 2,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S1541",
+   "kind": "cyclomatic",
+   "line": 23,
+   "start_line": 23,
+   "start_col": 16,
+   "end_line": 23,
+   "value": 4,
+   "message": "Function has a complexity of 4 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 23,
+     "col": 16,
+     "msg": "+1"
+    },
+    {
+     "line": 24,
+     "col": 2,
+     "msg": "+1"
+    },
+    {
+     "line": 26,
+     "col": 9,
+     "msg": "+1"
+    },
+    {
+     "line": 28,
+     "col": 9,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S3776",
+   "kind": "cognitive",
+   "line": 23,
+   "start_line": 23,
+   "start_col": 16,
+   "end_line": 23,
+   "value": 4,
+   "message": "Refactor this function to reduce its Cognitive Complexity from 4 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 24,
+     "col": 2,
+     "msg": "+1"
+    },
+    {
+     "line": 26,
+     "col": 9,
+     "msg": "+1"
+    },
+    {
+     "line": 28,
+     "col": 9,
+     "msg": "+1"
+    },
+    {
+     "line": 30,
+     "col": 4,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S3776",
+   "kind": "cognitive",
+   "line": 35,
+   "start_line": 35,
+   "start_col": 16,
+   "end_line": 35,
+   "value": 1,
+   "message": "Refactor this function to reduce its Cognitive Complexity from 1 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 36,
+     "col": 11,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S1541",
+   "kind": "cyclomatic",
+   "line": 35,
+   "start_line": 35,
+   "start_col": 16,
+   "end_line": 35,
+   "value": 2,
+   "message": "Function has a complexity of 2 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 35,
+     "col": 16,
+     "msg": "+1"
+    },
+    {
+     "line": 36,
+     "col": 11,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S3776",
+   "kind": "cognitive",
+   "line": 39,
+   "start_line": 39,
+   "start_col": 16,
+   "end_line": 39,
+   "value": 1,
+   "message": "Refactor this function to reduce its Cognitive Complexity from 1 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 40,
+     "col": 2,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S1541",
+   "kind": "cyclomatic",
+   "line": 39,
+   "start_line": 39,
+   "start_col": 16,
+   "end_line": 39,
+   "value": 3,
+   "message": "Function has a complexity of 3 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 39,
+     "col": 16,
+     "msg": "+1"
+    },
+    {
+     "line": 41,
+     "col": 4,
+     "msg": "+1"
+    },
+    {
+     "line": 43,
+     "col": 4,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S1541",
+   "kind": "cyclomatic",
+   "line": 50,
+   "start_line": 50,
+   "start_col": 16,
+   "end_line": 50,
+   "value": 2,
+   "message": "Function has a complexity of 2 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 50,
+     "col": 16,
+     "msg": "+1"
+    },
+    {
+     "line": 51,
+     "col": 2,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S3776",
+   "kind": "cognitive",
+   "line": 50,
+   "start_line": 50,
+   "start_col": 16,
+   "end_line": 50,
+   "value": 1,
+   "message": "Refactor this function to reduce its Cognitive Complexity from 1 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 51,
+     "col": 2,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S3776",
+   "kind": "cognitive",
+   "line": 56,
+   "start_line": 56,
+   "start_col": 16,
+   "end_line": 56,
+   "value": 1,
+   "message": "Refactor this function to reduce its Cognitive Complexity from 1 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 57,
+     "col": 2,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S1541",
+   "kind": "cyclomatic",
+   "line": 56,
+   "start_line": 56,
+   "start_col": 16,
+   "end_line": 56,
+   "value": 2,
+   "message": "Function has a complexity of 2 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 56,
+     "col": 16,
+     "msg": "+1"
+    },
+    {
+     "line": 57,
+     "col": 2,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S3776",
+   "kind": "cognitive",
+   "line": 62,
+   "start_line": 62,
+   "start_col": 16,
+   "end_line": 62,
+   "value": 1,
+   "message": "Refactor this function to reduce its Cognitive Complexity from 1 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 63,
+     "col": 2,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S1541",
+   "kind": "cyclomatic",
+   "line": 62,
+   "start_line": 62,
+   "start_col": 16,
+   "end_line": 62,
+   "value": 2,
+   "message": "Function has a complexity of 2 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 62,
+     "col": 16,
+     "msg": "+1"
+    },
+    {
+     "line": 63,
+     "col": 2,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S1541",
+   "kind": "cyclomatic",
+   "line": 68,
+   "start_line": 68,
+   "start_col": 16,
+   "end_line": 68,
+   "value": 2,
+   "message": "Function has a complexity of 2 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 68,
+     "col": 16,
+     "msg": "+1"
+    },
+    {
+     "line": 69,
+     "col": 2,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S3776",
+   "kind": "cognitive",
+   "line": 68,
+   "start_line": 68,
+   "start_col": 16,
+   "end_line": 68,
+   "value": 1,
+   "message": "Refactor this function to reduce its Cognitive Complexity from 1 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 69,
+     "col": 2,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S1541",
+   "kind": "cyclomatic",
+   "line": 75,
+   "start_line": 75,
+   "start_col": 16,
+   "end_line": 75,
+   "value": 2,
+   "message": "Function has a complexity of 2 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 75,
+     "col": 16,
+     "msg": "+1"
+    },
+    {
+     "line": 76,
+     "col": 2,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S3776",
+   "kind": "cognitive",
+   "line": 75,
+   "start_line": 75,
+   "start_col": 16,
+   "end_line": 75,
+   "value": 1,
+   "message": "Refactor this function to reduce its Cognitive Complexity from 1 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 76,
+     "col": 2,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S3776",
+   "kind": "cognitive",
+   "line": 82,
+   "start_line": 82,
+   "start_col": 16,
+   "end_line": 82,
+   "value": 1,
+   "message": "Refactor this function to reduce its Cognitive Complexity from 1 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 85,
+     "col": 4,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S1541",
+   "kind": "cyclomatic",
+   "line": 82,
+   "start_line": 82,
+   "start_col": 16,
+   "end_line": 82,
+   "value": 1,
+   "message": "Function has a complexity of 1 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 82,
+     "col": 16,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S3776",
+   "kind": "cognitive",
+   "line": 90,
+   "start_line": 90,
+   "start_col": 16,
+   "end_line": 90,
+   "value": 1,
+   "message": "Refactor this function to reduce its Cognitive Complexity from 1 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 93,
+     "col": 4,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S1541",
+   "kind": "cyclomatic",
+   "line": 90,
+   "start_line": 90,
+   "start_col": 16,
+   "end_line": 90,
+   "value": 1,
+   "message": "Function has a complexity of 1 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 90,
+     "col": 16,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S1541",
+   "kind": "cyclomatic",
+   "line": 98,
+   "start_line": 98,
+   "start_col": 16,
+   "end_line": 98,
+   "value": 1,
+   "message": "Function has a complexity of 1 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 98,
+     "col": 16,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S1541",
+   "kind": "cyclomatic",
+   "line": 106,
+   "start_line": 106,
+   "start_col": 16,
+   "end_line": 106,
+   "value": 1,
+   "message": "Function has a complexity of 1 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 106,
+     "col": 16,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S3776",
+   "kind": "cognitive",
+   "line": 106,
+   "start_line": 106,
+   "start_col": 16,
+   "end_line": 106,
+   "value": 1,
+   "message": "Refactor this function to reduce its Cognitive Complexity from 1 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 109,
+     "col": 4,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S1541",
+   "kind": "cyclomatic",
+   "line": 116,
+   "start_line": 116,
+   "start_col": 16,
+   "end_line": 116,
+   "value": 3,
+   "message": "Function has a complexity of 3 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 116,
+     "col": 16,
+     "msg": "+1"
+    },
+    {
+     "line": 117,
+     "col": 2,
+     "msg": "+1"
+    },
+    {
+     "line": 118,
+     "col": 4,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S3776",
+   "kind": "cognitive",
+   "line": 116,
+   "start_line": 116,
+   "start_col": 16,
+   "end_line": 116,
+   "value": 3,
+   "message": "Refactor this function to reduce its Cognitive Complexity from 3 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 117,
+     "col": 2,
+     "msg": "+1"
+    },
+    {
+     "line": 118,
+     "col": 4,
+     "msg": "+2 (incl. 1 for nesting)"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S1541",
+   "kind": "cyclomatic",
+   "line": 125,
+   "start_line": 125,
+   "start_col": 16,
+   "end_line": 125,
+   "value": 4,
+   "message": "Function has a complexity of 4 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 125,
+     "col": 16,
+     "msg": "+1"
+    },
+    {
+     "line": 126,
+     "col": 2,
+     "msg": "+1"
+    },
+    {
+     "line": 127,
+     "col": 4,
+     "msg": "+1"
+    },
+    {
+     "line": 128,
+     "col": 6,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S3776",
+   "kind": "cognitive",
+   "line": 125,
+   "start_line": 125,
+   "start_col": 16,
+   "end_line": 125,
+   "value": 6,
+   "message": "Refactor this function to reduce its Cognitive Complexity from 6 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 126,
+     "col": 2,
+     "msg": "+1"
+    },
+    {
+     "line": 127,
+     "col": 4,
+     "msg": "+2 (incl. 1 for nesting)"
+    },
+    {
+     "line": 128,
+     "col": 6,
+     "msg": "+3 (incl. 2 for nesting)"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S3776",
+   "kind": "cognitive",
+   "line": 136,
+   "start_line": 136,
+   "start_col": 16,
+   "end_line": 136,
+   "value": 3,
+   "message": "Refactor this function to reduce its Cognitive Complexity from 3 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 139,
+     "col": 4,
+     "msg": "+1"
+    },
+    {
+     "line": 140,
+     "col": 4,
+     "msg": "+2 (incl. 1 for nesting)"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S1541",
+   "kind": "cyclomatic",
+   "line": 136,
+   "start_line": 136,
+   "start_col": 16,
+   "end_line": 136,
+   "value": 2,
+   "message": "Function has a complexity of 2 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 136,
+     "col": 16,
+     "msg": "+1"
+    },
+    {
+     "line": 140,
+     "col": 4,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S1541",
+   "kind": "cyclomatic",
+   "line": 147,
+   "start_line": 147,
+   "start_col": 16,
+   "end_line": 147,
+   "value": 2,
+   "message": "Function has a complexity of 2 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 147,
+     "col": 16,
+     "msg": "+1"
+    },
+    {
+     "line": 149,
+     "col": 4,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S3776",
+   "kind": "cognitive",
+   "line": 147,
+   "start_line": 147,
+   "start_col": 16,
+   "end_line": 147,
+   "value": 2,
+   "message": "Refactor this function to reduce its Cognitive Complexity from 2 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 149,
+     "col": 4,
+     "msg": "+1"
+    },
+    {
+     "line": 152,
+     "col": 4,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S1541",
+   "kind": "cyclomatic",
+   "line": 158,
+   "start_line": 158,
+   "start_col": 16,
+   "end_line": 158,
+   "value": 3,
+   "message": "Function has a complexity of 3 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 158,
+     "col": 16,
+     "msg": "+1"
+    },
+    {
+     "line": 159,
+     "col": 2,
+     "msg": "+1"
+    },
+    {
+     "line": 162,
+     "col": 4,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S3776",
+   "kind": "cognitive",
+   "line": 158,
+   "start_line": 158,
+   "start_col": 16,
+   "end_line": 158,
+   "value": 4,
+   "message": "Refactor this function to reduce its Cognitive Complexity from 4 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 159,
+     "col": 2,
+     "msg": "+1"
+    },
+    {
+     "line": 161,
+     "col": 4,
+     "msg": "+1"
+    },
+    {
+     "line": 162,
+     "col": 4,
+     "msg": "+2 (incl. 1 for nesting)"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S3776",
+   "kind": "cognitive",
+   "line": 169,
+   "start_line": 169,
+   "start_col": 16,
+   "end_line": 169,
+   "value": 4,
+   "message": "Refactor this function to reduce its Cognitive Complexity from 4 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 170,
+     "col": 2,
+     "msg": "+1"
+    },
+    {
+     "line": 172,
+     "col": 9,
+     "msg": "+1"
+    },
+    {
+     "line": 173,
+     "col": 4,
+     "msg": "+2 (incl. 1 for nesting)"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S1541",
+   "kind": "cyclomatic",
+   "line": 169,
+   "start_line": 169,
+   "start_col": 16,
+   "end_line": 169,
+   "value": 4,
+   "message": "Function has a complexity of 4 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 169,
+     "col": 16,
+     "msg": "+1"
+    },
+    {
+     "line": 170,
+     "col": 2,
+     "msg": "+1"
+    },
+    {
+     "line": 172,
+     "col": 9,
+     "msg": "+1"
+    },
+    {
+     "line": 173,
+     "col": 4,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S3776",
+   "kind": "cognitive",
+   "line": 180,
+   "start_line": 180,
+   "start_col": 16,
+   "end_line": 180,
+   "value": 3,
+   "message": "Refactor this function to reduce its Cognitive Complexity from 3 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 181,
+     "col": 11,
+     "msg": "+1"
+    },
+    {
+     "line": 181,
+     "col": 20,
+     "msg": "+2 (incl. 1 for nesting)"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S1541",
+   "kind": "cyclomatic",
+   "line": 180,
+   "start_line": 180,
+   "start_col": 16,
+   "end_line": 180,
+   "value": 3,
+   "message": "Function has a complexity of 3 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 180,
+     "col": 16,
+     "msg": "+1"
+    },
+    {
+     "line": 181,
+     "col": 11,
+     "msg": "+1"
+    },
+    {
+     "line": 181,
+     "col": 20,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S3776",
+   "kind": "cognitive",
+   "line": 184,
+   "start_line": 184,
+   "start_col": 16,
+   "end_line": 184,
+   "value": 2,
+   "message": "Refactor this function to reduce its Cognitive Complexity from 2 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 185,
+     "col": 2,
+     "msg": "+1"
+    },
+    {
+     "line": 185,
+     "col": 8,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S1541",
+   "kind": "cyclomatic",
+   "line": 184,
+   "start_line": 184,
+   "start_col": 16,
+   "end_line": 184,
+   "value": 3,
+   "message": "Function has a complexity of 3 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 184,
+     "col": 16,
+     "msg": "+1"
+    },
+    {
+     "line": 185,
+     "col": 2,
+     "msg": "+1"
+    },
+    {
+     "line": 185,
+     "col": 8,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S3776",
+   "kind": "cognitive",
+   "line": 191,
+   "start_line": 191,
+   "start_col": 16,
+   "end_line": 191,
+   "value": 2,
+   "message": "Refactor this function to reduce its Cognitive Complexity from 2 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 192,
+     "col": 2,
+     "msg": "+1"
+    },
+    {
+     "line": 192,
+     "col": 12,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S1541",
+   "kind": "cyclomatic",
+   "line": 191,
+   "start_line": 191,
+   "start_col": 16,
+   "end_line": 191,
+   "value": 3,
+   "message": "Function has a complexity of 3 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 191,
+     "col": 16,
+     "msg": "+1"
+    },
+    {
+     "line": 192,
+     "col": 2,
+     "msg": "+1"
+    },
+    {
+     "line": 192,
+     "col": 12,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S1541",
+   "kind": "cyclomatic",
+   "line": 198,
+   "start_line": 198,
+   "start_col": 16,
+   "end_line": 198,
+   "value": 3,
+   "message": "Function has a complexity of 3 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 198,
+     "col": 16,
+     "msg": "+1"
+    },
+    {
+     "line": 199,
+     "col": 2,
+     "msg": "+1"
+    },
+    {
+     "line": 199,
+     "col": 8,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S3776",
+   "kind": "cognitive",
+   "line": 198,
+   "start_line": 198,
+   "start_col": 16,
+   "end_line": 198,
+   "value": 2,
+   "message": "Refactor this function to reduce its Cognitive Complexity from 2 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 199,
+     "col": 2,
+     "msg": "+1"
+    },
+    {
+     "line": 199,
+     "col": 8,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S1541",
+   "kind": "cyclomatic",
+   "line": 205,
+   "start_line": 205,
+   "start_col": 16,
+   "end_line": 205,
+   "value": 4,
+   "message": "Function has a complexity of 4 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 205,
+     "col": 16,
+     "msg": "+1"
+    },
+    {
+     "line": 206,
+     "col": 2,
+     "msg": "+1"
+    },
+    {
+     "line": 206,
+     "col": 13,
+     "msg": "+1"
+    },
+    {
+     "line": 206,
+     "col": 8,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S3776",
+   "kind": "cognitive",
+   "line": 205,
+   "start_line": 205,
+   "start_col": 16,
+   "end_line": 205,
+   "value": 2,
+   "message": "Refactor this function to reduce its Cognitive Complexity from 2 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 206,
+     "col": 2,
+     "msg": "+1"
+    },
+    {
+     "line": 206,
+     "col": 8,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S1541",
+   "kind": "cyclomatic",
+   "line": 212,
+   "start_line": 212,
+   "start_col": 16,
+   "end_line": 212,
+   "value": 3,
+   "message": "Function has a complexity of 3 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 212,
+     "col": 16,
+     "msg": "+1"
+    },
+    {
+     "line": 213,
+     "col": 2,
+     "msg": "+1"
+    },
+    {
+     "line": 213,
+     "col": 8,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S3776",
+   "kind": "cognitive",
+   "line": 212,
+   "start_line": 212,
+   "start_col": 16,
+   "end_line": 212,
+   "value": 1,
+   "message": "Refactor this function to reduce its Cognitive Complexity from 1 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 213,
+     "col": 2,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S3776",
+   "kind": "cognitive",
+   "line": 219,
+   "start_line": 219,
+   "start_col": 16,
+   "end_line": 219,
+   "value": 2,
+   "message": "Refactor this function to reduce its Cognitive Complexity from 2 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 220,
+     "col": 2,
+     "msg": "+1"
+    },
+    {
+     "line": 220,
+     "col": 8,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S1541",
+   "kind": "cyclomatic",
+   "line": 219,
+   "start_line": 219,
+   "start_col": 16,
+   "end_line": 219,
+   "value": 4,
+   "message": "Function has a complexity of 4 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 219,
+     "col": 16,
+     "msg": "+1"
+    },
+    {
+     "line": 220,
+     "col": 2,
+     "msg": "+1"
+    },
+    {
+     "line": 220,
+     "col": 13,
+     "msg": "+1"
+    },
+    {
+     "line": 220,
+     "col": 8,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S3776",
+   "kind": "cognitive",
+   "line": 226,
+   "start_line": 226,
+   "start_col": 16,
+   "end_line": 226,
+   "value": 2,
+   "message": "Refactor this function to reduce its Cognitive Complexity from 2 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 227,
+     "col": 2,
+     "msg": "+1"
+    },
+    {
+     "line": 227,
+     "col": 13,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S1541",
+   "kind": "cyclomatic",
+   "line": 226,
+   "start_line": 226,
+   "start_col": 16,
+   "end_line": 226,
+   "value": 5,
+   "message": "Function has a complexity of 5 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 226,
+     "col": 16,
+     "msg": "+1"
+    },
+    {
+     "line": 227,
+     "col": 2,
+     "msg": "+1"
+    },
+    {
+     "line": 227,
+     "col": 18,
+     "msg": "+1"
+    },
+    {
+     "line": 227,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 227,
+     "col": 13,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S3776",
+   "kind": "cognitive",
+   "line": 233,
+   "start_line": 233,
+   "start_col": 16,
+   "end_line": 233,
+   "value": 3,
+   "message": "Refactor this function to reduce its Cognitive Complexity from 3 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 234,
+     "col": 2,
+     "msg": "+1"
+    },
+    {
+     "line": 234,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 234,
+     "col": 15,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S1541",
+   "kind": "cyclomatic",
+   "line": 233,
+   "start_line": 233,
+   "start_col": 16,
+   "end_line": 233,
+   "value": 4,
+   "message": "Function has a complexity of 4 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 233,
+     "col": 16,
+     "msg": "+1"
+    },
+    {
+     "line": 234,
+     "col": 2,
+     "msg": "+1"
+    },
+    {
+     "line": 234,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 234,
+     "col": 15,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S1541",
+   "kind": "cyclomatic",
+   "line": 240,
+   "start_line": 240,
+   "start_col": 16,
+   "end_line": 240,
+   "value": 4,
+   "message": "Function has a complexity of 4 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 240,
+     "col": 16,
+     "msg": "+1"
+    },
+    {
+     "line": 241,
+     "col": 2,
+     "msg": "+1"
+    },
+    {
+     "line": 241,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 241,
+     "col": 14,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S3776",
+   "kind": "cognitive",
+   "line": 240,
+   "start_line": 240,
+   "start_col": 16,
+   "end_line": 240,
+   "value": 2,
+   "message": "Refactor this function to reduce its Cognitive Complexity from 2 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 241,
+     "col": 2,
+     "msg": "+1"
+    },
+    {
+     "line": 241,
+     "col": 8,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S3776",
+   "kind": "cognitive",
+   "line": 247,
+   "start_line": 247,
+   "start_col": 16,
+   "end_line": 247,
+   "value": 2,
+   "message": "Refactor this function to reduce its Cognitive Complexity from 2 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 248,
+     "col": 2,
+     "msg": "+1"
+    },
+    {
+     "line": 248,
+     "col": 8,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S1541",
+   "kind": "cyclomatic",
+   "line": 247,
+   "start_line": 247,
+   "start_col": 16,
+   "end_line": 247,
+   "value": 4,
+   "message": "Function has a complexity of 4 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 247,
+     "col": 16,
+     "msg": "+1"
+    },
+    {
+     "line": 248,
+     "col": 2,
+     "msg": "+1"
+    },
+    {
+     "line": 248,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 248,
+     "col": 14,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S1541",
+   "kind": "cyclomatic",
+   "line": 254,
+   "start_line": 254,
+   "start_col": 16,
+   "end_line": 254,
+   "value": 2,
+   "message": "Function has a complexity of 2 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 254,
+     "col": 16,
+     "msg": "+1"
+    },
+    {
+     "line": 255,
+     "col": 14,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S3776",
+   "kind": "cognitive",
+   "line": 254,
+   "start_line": 254,
+   "start_col": 16,
+   "end_line": 254,
+   "value": 1,
+   "message": "Refactor this function to reduce its Cognitive Complexity from 1 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 255,
+     "col": 14,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S1541",
+   "kind": "cyclomatic",
+   "line": 259,
+   "start_line": 259,
+   "start_col": 16,
+   "end_line": 259,
+   "value": 2,
+   "message": "Function has a complexity of 2 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 259,
+     "col": 16,
+     "msg": "+1"
+    },
+    {
+     "line": 260,
+     "col": 11,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S1541",
+   "kind": "cyclomatic",
+   "line": 263,
+   "start_line": 263,
+   "start_col": 16,
+   "end_line": 263,
+   "value": 2,
+   "message": "Function has a complexity of 2 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 263,
+     "col": 16,
+     "msg": "+1"
+    },
+    {
+     "line": 264,
+     "col": 19,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S3776",
+   "kind": "cognitive",
+   "line": 263,
+   "start_line": 263,
+   "start_col": 16,
+   "end_line": 263,
+   "value": 1,
+   "message": "Refactor this function to reduce its Cognitive Complexity from 1 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 264,
+     "col": 19,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S1541",
+   "kind": "cyclomatic",
+   "line": 267,
+   "start_line": 267,
+   "start_col": 16,
+   "end_line": 267,
+   "value": 2,
+   "message": "Function has a complexity of 2 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 267,
+     "col": 16,
+     "msg": "+1"
+    },
+    {
+     "line": 268,
+     "col": 8,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S3776",
+   "kind": "cognitive",
+   "line": 272,
+   "start_line": 272,
+   "start_col": 16,
+   "end_line": 272,
+   "value": 3,
+   "message": "Refactor this function to reduce its Cognitive Complexity from 3 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 273,
+     "col": 2,
+     "msg": "+1"
+    },
+    {
+     "line": 273,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 273,
+     "col": 18,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S1541",
+   "kind": "cyclomatic",
+   "line": 272,
+   "start_line": 272,
+   "start_col": 16,
+   "end_line": 272,
+   "value": 5,
+   "message": "Function has a complexity of 5 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 272,
+     "col": 16,
+     "msg": "+1"
+    },
+    {
+     "line": 273,
+     "col": 2,
+     "msg": "+1"
+    },
+    {
+     "line": 273,
+     "col": 13,
+     "msg": "+1"
+    },
+    {
+     "line": 273,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 273,
+     "col": 18,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S3776",
+   "kind": "cognitive",
+   "line": 279,
+   "start_line": 279,
+   "start_col": 16,
+   "end_line": 279,
+   "value": 5,
+   "message": "Refactor this function to reduce its Cognitive Complexity from 5 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 280,
+     "col": 2,
+     "msg": "+1"
+    },
+    {
+     "line": 281,
+     "col": 4,
+     "msg": "+2 (incl. 1 for nesting)"
+    },
+    {
+     "line": 284,
+     "col": 4,
+     "msg": "+2 (incl. 1 for nesting)"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S1541",
+   "kind": "cyclomatic",
+   "line": 279,
+   "start_line": 279,
+   "start_col": 16,
+   "end_line": 279,
+   "value": 4,
+   "message": "Function has a complexity of 4 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 279,
+     "col": 16,
+     "msg": "+1"
+    },
+    {
+     "line": 280,
+     "col": 2,
+     "msg": "+1"
+    },
+    {
+     "line": 281,
+     "col": 4,
+     "msg": "+1"
+    },
+    {
+     "line": 284,
+     "col": 4,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S3776",
+   "kind": "cognitive",
+   "line": 291,
+   "start_line": 291,
+   "start_col": 16,
+   "end_line": 291,
+   "value": 1,
+   "message": "Refactor this function to reduce its Cognitive Complexity from 1 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 292,
+     "col": 2,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S1541",
+   "kind": "cyclomatic",
+   "line": 291,
+   "start_line": 291,
+   "start_col": 16,
+   "end_line": 291,
+   "value": 2,
+   "message": "Function has a complexity of 2 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 291,
+     "col": 16,
+     "msg": "+1"
+    },
+    {
+     "line": 292,
+     "col": 2,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S1541",
+   "kind": "cyclomatic",
+   "line": 299,
+   "start_line": 299,
+   "start_col": 16,
+   "end_line": 299,
+   "value": 2,
+   "message": "Function has a complexity of 2 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 299,
+     "col": 16,
+     "msg": "+1"
+    },
+    {
+     "line": 300,
+     "col": 2,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S3776",
+   "kind": "cognitive",
+   "line": 299,
+   "start_line": 299,
+   "start_col": 16,
+   "end_line": 299,
+   "value": 1,
+   "message": "Refactor this function to reduce its Cognitive Complexity from 1 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 300,
+     "col": 2,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S1541",
+   "kind": "cyclomatic",
+   "line": 306,
+   "start_line": 306,
+   "start_col": 16,
+   "end_line": 306,
+   "value": 2,
+   "message": "Function has a complexity of 2 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 306,
+     "col": 16,
+     "msg": "+1"
+    },
+    {
+     "line": 307,
+     "col": 2,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S3776",
+   "kind": "cognitive",
+   "line": 306,
+   "start_line": 306,
+   "start_col": 16,
+   "end_line": 306,
+   "value": 1,
+   "message": "Refactor this function to reduce its Cognitive Complexity from 1 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 307,
+     "col": 2,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S1541",
+   "kind": "cyclomatic",
+   "line": 313,
+   "start_line": 313,
+   "start_col": 16,
+   "end_line": 313,
+   "value": 2,
+   "message": "Function has a complexity of 2 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 313,
+     "col": 16,
+     "msg": "+1"
+    },
+    {
+     "line": 314,
+     "col": 2,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S3776",
+   "kind": "cognitive",
+   "line": 313,
+   "start_line": 313,
+   "start_col": 16,
+   "end_line": 313,
+   "value": 1,
+   "message": "Refactor this function to reduce its Cognitive Complexity from 1 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 314,
+     "col": 2,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S1541",
+   "kind": "cyclomatic",
+   "line": 320,
+   "start_line": 320,
+   "start_col": 16,
+   "end_line": 320,
+   "value": 1,
+   "message": "Function has a complexity of 1 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 320,
+     "col": 16,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S1541",
+   "kind": "cyclomatic",
+   "line": 321,
+   "start_line": 321,
+   "start_col": 24,
+   "end_line": 321,
+   "value": 2,
+   "message": "Function has a complexity of 2 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 321,
+     "col": 24,
+     "msg": "+1"
+    },
+    {
+     "line": 321,
+     "col": 30,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S3776",
+   "kind": "cognitive",
+   "line": 321,
+   "start_line": 321,
+   "start_col": 24,
+   "end_line": 321,
+   "value": 1,
+   "message": "Refactor this function to reduce its Cognitive Complexity from 1 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 321,
+     "col": 30,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S1541",
+   "kind": "cyclomatic",
+   "line": 325,
+   "start_line": 325,
+   "start_col": 16,
+   "end_line": 325,
+   "value": 1,
+   "message": "Function has a complexity of 1 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 325,
+     "col": 16,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S1541",
+   "kind": "cyclomatic",
+   "line": 326,
+   "start_line": 326,
+   "start_col": 15,
+   "end_line": 326,
+   "value": 2,
+   "message": "Function has a complexity of 2 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 326,
+     "col": 15,
+     "msg": "+1"
+    },
+    {
+     "line": 327,
+     "col": 4,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S3776",
+   "kind": "cognitive",
+   "line": 326,
+   "start_line": 326,
+   "start_col": 15,
+   "end_line": 326,
+   "value": 1,
+   "message": "Refactor this function to reduce its Cognitive Complexity from 1 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 327,
+     "col": 4,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S1541",
+   "kind": "cyclomatic",
+   "line": 335,
+   "start_line": 335,
+   "start_col": 16,
+   "end_line": 335,
+   "value": 1,
+   "message": "Function has a complexity of 1 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 335,
+     "col": 16,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S1541",
+   "kind": "cyclomatic",
+   "line": 336,
+   "start_line": 336,
+   "start_col": 11,
+   "end_line": 336,
+   "value": 2,
+   "message": "Function has a complexity of 2 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 336,
+     "col": 11,
+     "msg": "+1"
+    },
+    {
+     "line": 337,
+     "col": 4,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S3776",
+   "kind": "cognitive",
+   "line": 336,
+   "start_line": 336,
+   "start_col": 11,
+   "end_line": 336,
+   "value": 1,
+   "message": "Refactor this function to reduce its Cognitive Complexity from 1 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 337,
+     "col": 4,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S1541",
+   "kind": "cyclomatic",
+   "line": 345,
+   "start_line": 345,
+   "start_col": 16,
+   "end_line": 345,
+   "value": 2,
+   "message": "Function has a complexity of 2 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 345,
+     "col": 16,
+     "msg": "+1"
+    },
+    {
+     "line": 346,
+     "col": 2,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S3776",
+   "kind": "cognitive",
+   "line": 345,
+   "start_line": 345,
+   "start_col": 16,
+   "end_line": 345,
+   "value": 1,
+   "message": "Refactor this function to reduce its Cognitive Complexity from 1 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 346,
+     "col": 2,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S3776",
+   "kind": "cognitive",
+   "line": 347,
+   "start_line": 347,
+   "start_col": 17,
+   "end_line": 347,
+   "value": 1,
+   "message": "Refactor this function to reduce its Cognitive Complexity from 1 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 348,
+     "col": 6,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S1541",
+   "kind": "cyclomatic",
+   "line": 347,
+   "start_line": 347,
+   "start_col": 17,
+   "end_line": 347,
+   "value": 2,
+   "message": "Function has a complexity of 2 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 347,
+     "col": 17,
+     "msg": "+1"
+    },
+    {
+     "line": 348,
+     "col": 6,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S1541",
+   "kind": "cyclomatic",
+   "line": 357,
+   "start_line": 357,
+   "start_col": 16,
+   "end_line": 357,
+   "value": 1,
+   "message": "Function has a complexity of 1 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 357,
+     "col": 16,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S1541",
+   "kind": "cyclomatic",
+   "line": 360,
+   "start_line": 360,
+   "start_col": 14,
+   "end_line": 360,
+   "value": 2,
+   "message": "Function has a complexity of 2 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 360,
+     "col": 14,
+     "msg": "+1"
+    },
+    {
+     "line": 361,
+     "col": 4,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S3776",
+   "kind": "cognitive",
+   "line": 360,
+   "start_line": 360,
+   "start_col": 14,
+   "end_line": 360,
+   "value": 1,
+   "message": "Refactor this function to reduce its Cognitive Complexity from 1 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 361,
+     "col": 4,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S3776",
+   "kind": "cognitive",
+   "line": 369,
+   "start_line": 369,
+   "start_col": 16,
+   "end_line": 369,
+   "value": 1,
+   "message": "Refactor this function to reduce its Cognitive Complexity from 1 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 371,
+     "col": 2,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S1541",
+   "kind": "cyclomatic",
+   "line": 369,
+   "start_line": 369,
+   "start_col": 16,
+   "end_line": 369,
+   "value": 2,
+   "message": "Function has a complexity of 2 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 369,
+     "col": 16,
+     "msg": "+1"
+    },
+    {
+     "line": 371,
+     "col": 2,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S3776",
+   "kind": "cognitive",
+   "line": 375,
+   "start_line": 375,
+   "start_col": 14,
+   "end_line": 375,
+   "value": 1,
+   "message": "Refactor this function to reduce its Cognitive Complexity from 1 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 376,
+     "col": 4,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S1541",
+   "kind": "cyclomatic",
+   "line": 375,
+   "start_line": 375,
+   "start_col": 14,
+   "end_line": 375,
+   "value": 2,
+   "message": "Function has a complexity of 2 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 375,
+     "col": 14,
+     "msg": "+1"
+    },
+    {
+     "line": 376,
+     "col": 4,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S1541",
+   "kind": "cyclomatic",
+   "line": 384,
+   "start_line": 384,
+   "start_col": 16,
+   "end_line": 384,
+   "value": 5,
+   "message": "Function has a complexity of 5 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 384,
+     "col": 16,
+     "msg": "+1"
+    },
+    {
+     "line": 385,
+     "col": 2,
+     "msg": "+1"
+    },
+    {
+     "line": 386,
+     "col": 4,
+     "msg": "+1"
+    },
+    {
+     "line": 387,
+     "col": 6,
+     "msg": "+1"
+    },
+    {
+     "line": 388,
+     "col": 8,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S3776",
+   "kind": "cognitive",
+   "line": 384,
+   "start_line": 384,
+   "start_col": 16,
+   "end_line": 384,
+   "value": 10,
+   "message": "Refactor this function to reduce its Cognitive Complexity from 10 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 385,
+     "col": 2,
+     "msg": "+1"
+    },
+    {
+     "line": 386,
+     "col": 4,
+     "msg": "+2 (incl. 1 for nesting)"
+    },
+    {
+     "line": 387,
+     "col": 6,
+     "msg": "+3 (incl. 2 for nesting)"
+    },
+    {
+     "line": 388,
+     "col": 8,
+     "msg": "+4 (incl. 3 for nesting)"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S1541",
+   "kind": "cyclomatic",
+   "line": 397,
+   "start_line": 397,
+   "start_col": 16,
+   "end_line": 397,
+   "value": 3,
+   "message": "Function has a complexity of 3 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 397,
+     "col": 16,
+     "msg": "+1"
+    },
+    {
+     "line": 398,
+     "col": 2,
+     "msg": "+1"
+    },
+    {
+     "line": 402,
+     "col": 6,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S3776",
+   "kind": "cognitive",
+   "line": 397,
+   "start_line": 397,
+   "start_col": 16,
+   "end_line": 397,
+   "value": 6,
+   "message": "Refactor this function to reduce its Cognitive Complexity from 6 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 398,
+     "col": 2,
+     "msg": "+1"
+    },
+    {
+     "line": 401,
+     "col": 6,
+     "msg": "+2 (incl. 1 for nesting)"
+    },
+    {
+     "line": 402,
+     "col": 6,
+     "msg": "+3 (incl. 2 for nesting)"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S1541",
+   "kind": "cyclomatic",
+   "line": 409,
+   "start_line": 409,
+   "start_col": 16,
+   "end_line": 409,
+   "value": 3,
+   "message": "Function has a complexity of 3 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 409,
+     "col": 16,
+     "msg": "+1"
+    },
+    {
+     "line": 410,
+     "col": 2,
+     "msg": "+1"
+    },
+    {
+     "line": 413,
+     "col": 2,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S3776",
+   "kind": "cognitive",
+   "line": 409,
+   "start_line": 409,
+   "start_col": 16,
+   "end_line": 409,
+   "value": 2,
+   "message": "Refactor this function to reduce its Cognitive Complexity from 2 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 410,
+     "col": 2,
+     "msg": "+1"
+    },
+    {
+     "line": 413,
+     "col": 2,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S3776",
+   "kind": "cognitive",
+   "line": 419,
+   "start_line": 419,
+   "start_col": 16,
+   "end_line": 419,
+   "value": 5,
+   "message": "Refactor this function to reduce its Cognitive Complexity from 5 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 420,
+     "col": 2,
+     "msg": "+1"
+    },
+    {
+     "line": 422,
+     "col": 9,
+     "msg": "+1"
+    },
+    {
+     "line": 427,
+     "col": 4,
+     "msg": "+1"
+    },
+    {
+     "line": 423,
+     "col": 4,
+     "msg": "+2 (incl. 1 for nesting)"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S1541",
+   "kind": "cyclomatic",
+   "line": 419,
+   "start_line": 419,
+   "start_col": 16,
+   "end_line": 419,
+   "value": 4,
+   "message": "Function has a complexity of 4 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 419,
+     "col": 16,
+     "msg": "+1"
+    },
+    {
+     "line": 420,
+     "col": 2,
+     "msg": "+1"
+    },
+    {
+     "line": 422,
+     "col": 9,
+     "msg": "+1"
+    },
+    {
+     "line": 423,
+     "col": 4,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S1541",
+   "kind": "cyclomatic",
+   "line": 432,
+   "start_line": 432,
+   "start_col": 16,
+   "end_line": 432,
+   "value": 4,
+   "message": "Function has a complexity of 4 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 432,
+     "col": 16,
+     "msg": "+1"
+    },
+    {
+     "line": 434,
+     "col": 7,
+     "msg": "+1"
+    },
+    {
+     "line": 435,
+     "col": 4,
+     "msg": "+1"
+    },
+    {
+     "line": 436,
+     "col": 6,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S3776",
+   "kind": "cognitive",
+   "line": 432,
+   "start_line": 432,
+   "start_col": 16,
+   "end_line": 432,
+   "value": 7,
+   "message": "Refactor this function to reduce its Cognitive Complexity from 7 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 434,
+     "col": 7,
+     "msg": "+1"
+    },
+    {
+     "line": 435,
+     "col": 4,
+     "msg": "+2 (incl. 1 for nesting)"
+    },
+    {
+     "line": 436,
+     "col": 6,
+     "msg": "+3 (incl. 2 for nesting)"
+    },
+    {
+     "line": 437,
+     "col": 8,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S1541",
+   "kind": "cyclomatic",
+   "line": 445,
+   "start_line": 445,
+   "start_col": 16,
+   "end_line": 445,
+   "value": 3,
+   "message": "Function has a complexity of 3 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 445,
+     "col": 16,
+     "msg": "+1"
+    },
+    {
+     "line": 446,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 447,
+     "col": 4,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S3776",
+   "kind": "cognitive",
+   "line": 445,
+   "start_line": 445,
+   "start_col": 16,
+   "end_line": 445,
+   "value": 4,
+   "message": "Refactor this function to reduce its Cognitive Complexity from 4 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 446,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 447,
+     "col": 4,
+     "msg": "+2 (incl. 1 for nesting)"
+    },
+    {
+     "line": 448,
+     "col": 6,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S3776",
+   "kind": "cognitive",
+   "line": 454,
+   "start_line": 454,
+   "start_col": 16,
+   "end_line": 454,
+   "value": 3,
+   "message": "Refactor this function to reduce its Cognitive Complexity from 3 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 455,
+     "col": 2,
+     "msg": "+1"
+    },
+    {
+     "line": 457,
+     "col": 6,
+     "msg": "+2 (incl. 1 for nesting)"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S1541",
+   "kind": "cyclomatic",
+   "line": 454,
+   "start_line": 454,
+   "start_col": 16,
+   "end_line": 454,
+   "value": 3,
+   "message": "Function has a complexity of 3 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 454,
+     "col": 16,
+     "msg": "+1"
+    },
+    {
+     "line": 456,
+     "col": 4,
+     "msg": "+1"
+    },
+    {
+     "line": 457,
+     "col": 6,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S1541",
+   "kind": "cyclomatic",
+   "line": 466,
+   "start_line": 466,
+   "start_col": 16,
+   "end_line": 466,
+   "value": 1,
+   "message": "Function has a complexity of 1 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 466,
+     "col": 16,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S1541",
+   "kind": "cyclomatic",
+   "line": 467,
+   "start_line": 467,
+   "start_col": 24,
+   "end_line": 467,
+   "value": 1,
+   "message": "Function has a complexity of 1 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 467,
+     "col": 24,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S1541",
+   "kind": "cyclomatic",
+   "line": 467,
+   "start_line": 467,
+   "start_col": 39,
+   "end_line": 467,
+   "value": 2,
+   "message": "Function has a complexity of 2 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 467,
+     "col": 39,
+     "msg": "+1"
+    },
+    {
+     "line": 468,
+     "col": 4,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S3776",
+   "kind": "cognitive",
+   "line": 467,
+   "start_line": 467,
+   "start_col": 39,
+   "end_line": 467,
+   "value": 1,
+   "message": "Refactor this function to reduce its Cognitive Complexity from 1 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 468,
+     "col": 4,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S1541",
+   "kind": "cyclomatic",
+   "line": 476,
+   "start_line": 476,
+   "start_col": 16,
+   "end_line": 476,
+   "value": 4,
+   "message": "Function has a complexity of 4 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 476,
+     "col": 16,
+     "msg": "+1"
+    },
+    {
+     "line": 477,
+     "col": 2,
+     "msg": "+1"
+    },
+    {
+     "line": 477,
+     "col": 8,
+     "msg": "+1"
+    },
+    {
+     "line": 477,
+     "col": 15,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S3776",
+   "kind": "cognitive",
+   "line": 476,
+   "start_line": 476,
+   "start_col": 16,
+   "end_line": 476,
+   "value": 1,
+   "message": "Refactor this function to reduce its Cognitive Complexity from 1 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 477,
+     "col": 2,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S1541",
+   "kind": "cyclomatic",
+   "line": 483,
+   "start_line": 483,
+   "start_col": 16,
+   "end_line": 483,
+   "value": 3,
+   "message": "Function has a complexity of 3 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 483,
+     "col": 16,
+     "msg": "+1"
+    },
+    {
+     "line": 484,
+     "col": 21,
+     "msg": "+1"
+    },
+    {
+     "line": 484,
+     "col": 15,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S3776",
+   "kind": "cognitive",
+   "line": 483,
+   "start_line": 483,
+   "start_col": 16,
+   "end_line": 483,
+   "value": 1,
+   "message": "Refactor this function to reduce its Cognitive Complexity from 1 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 484,
+     "col": 19,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S1541",
+   "kind": "cyclomatic",
+   "line": 488,
+   "start_line": 488,
+   "start_col": 16,
+   "end_line": 488,
+   "value": 2,
+   "message": "Function has a complexity of 2 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 488,
+     "col": 16,
+     "msg": "+1"
+    },
+    {
+     "line": 489,
+     "col": 11,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S1541",
+   "kind": "cyclomatic",
+   "line": 492,
+   "start_line": 492,
+   "start_col": 16,
+   "end_line": 492,
+   "value": 1,
+   "message": "Function has a complexity of 1 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 492,
+     "col": 16,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S1541",
+   "kind": "cyclomatic",
+   "line": 496,
+   "start_line": 496,
+   "start_col": 16,
+   "end_line": 496,
+   "value": 3,
+   "message": "Function has a complexity of 3 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 496,
+     "col": 16,
+     "msg": "+1"
+    },
+    {
+     "line": 497,
+     "col": 18,
+     "msg": "+1"
+    },
+    {
+     "line": 497,
+     "col": 12,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S1541",
+   "kind": "cyclomatic",
+   "line": 500,
+   "start_line": 500,
+   "start_col": 16,
+   "end_line": 500,
+   "value": 1,
+   "message": "Function has a complexity of 1 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 500,
+     "col": 16,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S1541",
+   "kind": "cyclomatic",
+   "line": 501,
+   "start_line": 501,
+   "start_col": 26,
+   "end_line": 501,
+   "value": 2,
+   "message": "Function has a complexity of 2 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 501,
+     "col": 26,
+     "msg": "+1"
+    },
+    {
+     "line": 501,
+     "col": 31,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S3776",
+   "kind": "cognitive",
+   "line": 501,
+   "start_line": 501,
+   "start_col": 26,
+   "end_line": 501,
+   "value": 1,
+   "message": "Refactor this function to reduce its Cognitive Complexity from 1 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 501,
+     "col": 31,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S1541",
+   "kind": "cyclomatic",
+   "line": 504,
+   "start_line": 504,
+   "start_col": 22,
+   "end_line": 504,
+   "value": 1,
+   "message": "Function has a complexity of 1 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 504,
+     "col": 22,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S1541",
+   "kind": "cyclomatic",
+   "line": 509,
+   "start_line": 509,
+   "start_col": 17,
+   "end_line": 509,
+   "value": 2,
+   "message": "Function has a complexity of 2 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 509,
+     "col": 17,
+     "msg": "+1"
+    },
+    {
+     "line": 510,
+     "col": 2,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S3776",
+   "kind": "cognitive",
+   "line": 509,
+   "start_line": 509,
+   "start_col": 17,
+   "end_line": 509,
+   "value": 1,
+   "message": "Refactor this function to reduce its Cognitive Complexity from 1 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 510,
+     "col": 2,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S1541",
+   "kind": "cyclomatic",
+   "line": 516,
+   "start_line": 516,
+   "start_col": 2,
+   "end_line": 516,
+   "value": 2,
+   "message": "Function has a complexity of 2 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 516,
+     "col": 2,
+     "msg": "+1"
+    },
+    {
+     "line": 517,
+     "col": 4,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S3776",
+   "kind": "cognitive",
+   "line": 516,
+   "start_line": 516,
+   "start_col": 2,
+   "end_line": 516,
+   "value": 1,
+   "message": "Refactor this function to reduce its Cognitive Complexity from 1 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 517,
+     "col": 4,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S3776",
+   "kind": "cognitive",
+   "line": 523,
+   "start_line": 523,
+   "start_col": 6,
+   "end_line": 523,
+   "value": 1,
+   "message": "Refactor this function to reduce its Cognitive Complexity from 1 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 524,
+     "col": 18,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S1541",
+   "kind": "cyclomatic",
+   "line": 523,
+   "start_line": 523,
+   "start_col": 6,
+   "end_line": 523,
+   "value": 2,
+   "message": "Function has a complexity of 2 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 523,
+     "col": 6,
+     "msg": "+1"
+    },
+    {
+     "line": 524,
+     "col": 18,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S3776",
+   "kind": "cognitive",
+   "line": 527,
+   "start_line": 527,
+   "start_col": 2,
+   "end_line": 527,
+   "value": 1,
+   "message": "Refactor this function to reduce its Cognitive Complexity from 1 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 528,
+     "col": 4,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S1541",
+   "kind": "cyclomatic",
+   "line": 527,
+   "start_line": 527,
+   "start_col": 2,
+   "end_line": 527,
+   "value": 2,
+   "message": "Function has a complexity of 2 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 527,
+     "col": 2,
+     "msg": "+1"
+    },
+    {
+     "line": 528,
+     "col": 4,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S3776",
+   "kind": "cognitive",
+   "line": 537,
+   "start_line": 537,
+   "start_col": 64,
+   "end_line": 537,
+   "value": 2,
+   "message": "Refactor this function to reduce its Cognitive Complexity from 2 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 538,
+     "col": 2,
+     "msg": "+1"
+    },
+    {
+     "line": 538,
+     "col": 8,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S1541",
+   "kind": "cyclomatic",
+   "line": 537,
+   "start_line": 537,
+   "start_col": 64,
+   "end_line": 537,
+   "value": 3,
+   "message": "Function has a complexity of 3 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 537,
+     "col": 64,
+     "msg": "+1"
+    },
+    {
+     "line": 538,
+     "col": 2,
+     "msg": "+1"
+    },
+    {
+     "line": 538,
+     "col": 8,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S3776",
+   "kind": "cognitive",
+   "line": 544,
+   "start_line": 544,
+   "start_col": 16,
+   "end_line": 544,
+   "value": 1,
+   "message": "Refactor this function to reduce its Cognitive Complexity from 1 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 545,
+     "col": 2,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S1541",
+   "kind": "cyclomatic",
+   "line": 544,
+   "start_line": 544,
+   "start_col": 16,
+   "end_line": 544,
+   "value": 2,
+   "message": "Function has a complexity of 2 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 544,
+     "col": 16,
+     "msg": "+1"
+    },
+    {
+     "line": 545,
+     "col": 2,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S1541",
+   "kind": "cyclomatic",
+   "line": 553,
+   "start_line": 553,
+   "start_col": 2,
+   "end_line": 553,
+   "value": 3,
+   "message": "Function has a complexity of 3 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 553,
+     "col": 2,
+     "msg": "+1"
+    },
+    {
+     "line": 555,
+     "col": 4,
+     "msg": "+1"
+    },
+    {
+     "line": 559,
+     "col": 12,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S3776",
+   "kind": "cognitive",
+   "line": 553,
+   "start_line": 553,
+   "start_col": 2,
+   "end_line": 553,
+   "value": 1,
+   "message": "Refactor this function to reduce its Cognitive Complexity from 1 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 555,
+     "col": 4,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S1541",
+   "kind": "cyclomatic",
+   "line": 560,
+   "start_line": 560,
+   "start_col": 34,
+   "end_line": 560,
+   "value": 4,
+   "message": "Function has a complexity of 4 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 560,
+     "col": 34,
+     "msg": "+1"
+    },
+    {
+     "line": 561,
+     "col": 6,
+     "msg": "+1"
+    },
+    {
+     "line": 562,
+     "col": 17,
+     "msg": "+1"
+    },
+    {
+     "line": 565,
+     "col": 29,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S3776",
+   "kind": "cognitive",
+   "line": 560,
+   "start_line": 560,
+   "start_col": 34,
+   "end_line": 560,
+   "value": 3,
+   "message": "Refactor this function to reduce its Cognitive Complexity from 3 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 561,
+     "col": 6,
+     "msg": "+1"
+    },
+    {
+     "line": 562,
+     "col": 17,
+     "msg": "+1"
+    },
+    {
+     "line": 565,
+     "col": 29,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S1541",
+   "kind": "cyclomatic",
+   "line": 566,
+   "start_line": 566,
+   "start_col": 17,
+   "end_line": 566,
+   "value": 5,
+   "message": "Function has a complexity of 5 which is greater than 0 authorized.",
+   "increments": [
+    {
+     "line": 566,
+     "col": 17,
+     "msg": "+1"
+    },
+    {
+     "line": 568,
+     "col": 10,
+     "msg": "+1"
+    },
+    {
+     "line": 573,
+     "col": 12,
+     "msg": "+1"
+    },
+    {
+     "line": 576,
+     "col": 12,
+     "msg": "+1"
+    },
+    {
+     "line": 583,
+     "col": 19,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.ts",
+   "rule": "typescript:S3776",
+   "kind": "cognitive",
+   "line": 566,
+   "start_line": 566,
+   "start_col": 17,
+   "end_line": 566,
+   "value": 7,
+   "message": "Refactor this function to reduce its Cognitive Complexity from 7 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 568,
+     "col": 10,
+     "msg": "+1"
+    },
+    {
+     "line": 572,
+     "col": 12,
+     "msg": "+1"
+    },
+    {
+     "line": 573,
+     "col": 12,
+     "msg": "+2 (incl. 1 for nesting)"
+    },
+    {
+     "line": 576,
+     "col": 12,
+     "msg": "+2 (incl. 1 for nesting)"
+    },
+    {
+     "line": 583,
+     "col": 19,
+     "msg": "+1"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1193 @@
+{
+ "meta": {
+  "project_key": "micro-go",
+  "source_dir": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go",
+  "lang": "go",
+  "scan_seconds": 9.5,
+  "analysis_id": "6f370c87-8736-48db-ac15-334c1d49a3ac",
+  "server_version": "26.9.0.129388",
+  "n_issues": 51,
+  "n_cognitive": 51,
+  "n_cyclomatic": 0
+ },
+ "rows": [
+  {
+   "file": "micro.go",
+   "rule": "go:S3776",
+   "kind": "cognitive",
+   "line": 500,
+   "start_line": 500,
+   "start_col": 5,
+   "end_line": 500,
+   "value": 1,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 1 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 501,
+     "col": 1,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.go",
+   "rule": "go:S3776",
+   "kind": "cognitive",
+   "line": 461,
+   "start_line": 461,
+   "start_col": 5,
+   "end_line": 461,
+   "value": 1,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 1 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 464,
+     "col": 2,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.go",
+   "rule": "go:S3776",
+   "kind": "cognitive",
+   "line": 482,
+   "start_line": 482,
+   "start_col": 5,
+   "end_line": 482,
+   "value": 2,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 2 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 484,
+     "col": 1,
+     "msg": "+1"
+    },
+    {
+     "line": 486,
+     "col": 3,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.go",
+   "rule": "go:S3776",
+   "kind": "cognitive",
+   "line": 10,
+   "start_line": 10,
+   "start_col": 5,
+   "end_line": 10,
+   "value": 1,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 1 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 11,
+     "col": 1,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.go",
+   "rule": "go:S3776",
+   "kind": "cognitive",
+   "line": 17,
+   "start_line": 17,
+   "start_col": 5,
+   "end_line": 17,
+   "value": 2,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 2 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 18,
+     "col": 1,
+     "msg": "+1"
+    },
+    {
+     "line": 20,
+     "col": 3,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.go",
+   "rule": "go:S3776",
+   "kind": "cognitive",
+   "line": 25,
+   "start_line": 25,
+   "start_col": 5,
+   "end_line": 25,
+   "value": 4,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 4 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 26,
+     "col": 1,
+     "msg": "+1"
+    },
+    {
+     "line": 28,
+     "col": 3,
+     "msg": "+1"
+    },
+    {
+     "line": 30,
+     "col": 3,
+     "msg": "+1"
+    },
+    {
+     "line": 32,
+     "col": 3,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.go",
+   "rule": "go:S3776",
+   "kind": "cognitive",
+   "line": 37,
+   "start_line": 37,
+   "start_col": 5,
+   "end_line": 37,
+   "value": 1,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 1 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 38,
+     "col": 1,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.go",
+   "rule": "go:S3776",
+   "kind": "cognitive",
+   "line": 48,
+   "start_line": 48,
+   "start_col": 5,
+   "end_line": 48,
+   "value": 1,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 1 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 49,
+     "col": 1,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.go",
+   "rule": "go:S3776",
+   "kind": "cognitive",
+   "line": 59,
+   "start_line": 59,
+   "start_col": 5,
+   "end_line": 59,
+   "value": 1,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 1 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 60,
+     "col": 1,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.go",
+   "rule": "go:S3776",
+   "kind": "cognitive",
+   "line": 79,
+   "start_line": 79,
+   "start_col": 5,
+   "end_line": 79,
+   "value": 1,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 1 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 80,
+     "col": 1,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.go",
+   "rule": "go:S3776",
+   "kind": "cognitive",
+   "line": 85,
+   "start_line": 85,
+   "start_col": 5,
+   "end_line": 85,
+   "value": 1,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 1 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 86,
+     "col": 1,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.go",
+   "rule": "go:S3776",
+   "kind": "cognitive",
+   "line": 91,
+   "start_line": 91,
+   "start_col": 5,
+   "end_line": 91,
+   "value": 1,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 1 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 92,
+     "col": 1,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.go",
+   "rule": "go:S3776",
+   "kind": "cognitive",
+   "line": 98,
+   "start_line": 98,
+   "start_col": 5,
+   "end_line": 98,
+   "value": 3,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 3 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 99,
+     "col": 1,
+     "msg": "+1"
+    },
+    {
+     "line": 101,
+     "col": 2,
+     "msg": "+2 (incl 1 for nesting)"
+    }
+   ]
+  },
+  {
+   "file": "micro.go",
+   "rule": "go:S3776",
+   "kind": "cognitive",
+   "line": 108,
+   "start_line": 108,
+   "start_col": 5,
+   "end_line": 108,
+   "value": 3,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 3 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 109,
+     "col": 1,
+     "msg": "+1"
+    },
+    {
+     "line": 110,
+     "col": 2,
+     "msg": "+2 (incl 1 for nesting)"
+    }
+   ]
+  },
+  {
+   "file": "micro.go",
+   "rule": "go:S3776",
+   "kind": "cognitive",
+   "line": 117,
+   "start_line": 117,
+   "start_col": 5,
+   "end_line": 117,
+   "value": 6,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 6 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 118,
+     "col": 1,
+     "msg": "+1"
+    },
+    {
+     "line": 119,
+     "col": 2,
+     "msg": "+2 (incl 1 for nesting)"
+    },
+    {
+     "line": 120,
+     "col": 3,
+     "msg": "+3 (incl 2 for nesting)"
+    }
+   ]
+  },
+  {
+   "file": "micro.go",
+   "rule": "go:S3776",
+   "kind": "cognitive",
+   "line": 128,
+   "start_line": 128,
+   "start_col": 5,
+   "end_line": 128,
+   "value": 4,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 4 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 129,
+     "col": 1,
+     "msg": "+1"
+    },
+    {
+     "line": 131,
+     "col": 3,
+     "msg": "+1"
+    },
+    {
+     "line": 132,
+     "col": 2,
+     "msg": "+2 (incl 1 for nesting)"
+    }
+   ]
+  },
+  {
+   "file": "micro.go",
+   "rule": "go:S3776",
+   "kind": "cognitive",
+   "line": 139,
+   "start_line": 139,
+   "start_col": 5,
+   "end_line": 139,
+   "value": 4,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 4 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 140,
+     "col": 1,
+     "msg": "+1"
+    },
+    {
+     "line": 142,
+     "col": 3,
+     "msg": "+1"
+    },
+    {
+     "line": 143,
+     "col": 2,
+     "msg": "+2 (incl 1 for nesting)"
+    }
+   ]
+  },
+  {
+   "file": "micro.go",
+   "rule": "go:S3776",
+   "kind": "cognitive",
+   "line": 150,
+   "start_line": 150,
+   "start_col": 5,
+   "end_line": 150,
+   "value": 1,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 1 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 151,
+     "col": 1,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.go",
+   "rule": "go:S3776",
+   "kind": "cognitive",
+   "line": 157,
+   "start_line": 157,
+   "start_col": 5,
+   "end_line": 157,
+   "value": 2,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 2 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 158,
+     "col": 1,
+     "msg": "+1"
+    },
+    {
+     "line": 158,
+     "col": 6,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.go",
+   "rule": "go:S3776",
+   "kind": "cognitive",
+   "line": 164,
+   "start_line": 164,
+   "start_col": 5,
+   "end_line": 164,
+   "value": 2,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 2 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 165,
+     "col": 1,
+     "msg": "+1"
+    },
+    {
+     "line": 165,
+     "col": 6,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.go",
+   "rule": "go:S3776",
+   "kind": "cognitive",
+   "line": 171,
+   "start_line": 171,
+   "start_col": 5,
+   "end_line": 171,
+   "value": 2,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 2 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 172,
+     "col": 1,
+     "msg": "+1"
+    },
+    {
+     "line": 172,
+     "col": 6,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.go",
+   "rule": "go:S3776",
+   "kind": "cognitive",
+   "line": 178,
+   "start_line": 178,
+   "start_col": 5,
+   "end_line": 178,
+   "value": 3,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 3 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 179,
+     "col": 1,
+     "msg": "+1"
+    },
+    {
+     "line": 179,
+     "col": 6,
+     "msg": "+1"
+    },
+    {
+     "line": 179,
+     "col": 11,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.go",
+   "rule": "go:S3776",
+   "kind": "cognitive",
+   "line": 185,
+   "start_line": 185,
+   "start_col": 5,
+   "end_line": 185,
+   "value": 4,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 4 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 186,
+     "col": 1,
+     "msg": "+1"
+    },
+    {
+     "line": 186,
+     "col": 6,
+     "msg": "+1"
+    },
+    {
+     "line": 186,
+     "col": 11,
+     "msg": "+1"
+    },
+    {
+     "line": 186,
+     "col": 16,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.go",
+   "rule": "go:S3776",
+   "kind": "cognitive",
+   "line": 192,
+   "start_line": 192,
+   "start_col": 5,
+   "end_line": 192,
+   "value": 3,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 3 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 193,
+     "col": 1,
+     "msg": "+1"
+    },
+    {
+     "line": 193,
+     "col": 6,
+     "msg": "+1"
+    },
+    {
+     "line": 193,
+     "col": 13,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.go",
+   "rule": "go:S3776",
+   "kind": "cognitive",
+   "line": 199,
+   "start_line": 199,
+   "start_col": 5,
+   "end_line": 199,
+   "value": 3,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 3 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 200,
+     "col": 1,
+     "msg": "+1"
+    },
+    {
+     "line": 200,
+     "col": 6,
+     "msg": "+1"
+    },
+    {
+     "line": 200,
+     "col": 12,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.go",
+   "rule": "go:S3776",
+   "kind": "cognitive",
+   "line": 206,
+   "start_line": 206,
+   "start_col": 5,
+   "end_line": 206,
+   "value": 3,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 3 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 207,
+     "col": 1,
+     "msg": "+1"
+    },
+    {
+     "line": 207,
+     "col": 6,
+     "msg": "+1"
+    },
+    {
+     "line": 207,
+     "col": 12,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.go",
+   "rule": "go:S3776",
+   "kind": "cognitive",
+   "line": 213,
+   "start_line": 213,
+   "start_col": 5,
+   "end_line": 213,
+   "value": 1,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 1 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 214,
+     "col": 8,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.go",
+   "rule": "go:S3776",
+   "kind": "cognitive",
+   "line": 218,
+   "start_line": 218,
+   "start_col": 5,
+   "end_line": 218,
+   "value": 1,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 1 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 219,
+     "col": 10,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.go",
+   "rule": "go:S3776",
+   "kind": "cognitive",
+   "line": 222,
+   "start_line": 222,
+   "start_col": 5,
+   "end_line": 222,
+   "value": 1,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 1 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 223,
+     "col": 29,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.go",
+   "rule": "go:S3776",
+   "kind": "cognitive",
+   "line": 226,
+   "start_line": 226,
+   "start_col": 5,
+   "end_line": 226,
+   "value": 4,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 4 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 227,
+     "col": 1,
+     "msg": "+1"
+    },
+    {
+     "line": 227,
+     "col": 6,
+     "msg": "+1"
+    },
+    {
+     "line": 227,
+     "col": 11,
+     "msg": "+1"
+    },
+    {
+     "line": 227,
+     "col": 16,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.go",
+   "rule": "go:S3776",
+   "kind": "cognitive",
+   "line": 233,
+   "start_line": 233,
+   "start_col": 5,
+   "end_line": 233,
+   "value": 5,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 5 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 234,
+     "col": 1,
+     "msg": "+1"
+    },
+    {
+     "line": 235,
+     "col": 2,
+     "msg": "+2 (incl 1 for nesting)"
+    },
+    {
+     "line": 238,
+     "col": 2,
+     "msg": "+2 (incl 1 for nesting)"
+    }
+   ]
+  },
+  {
+   "file": "micro.go",
+   "rule": "go:S3776",
+   "kind": "cognitive",
+   "line": 245,
+   "start_line": 245,
+   "start_col": 5,
+   "end_line": 245,
+   "value": 1,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 1 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 246,
+     "col": 1,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.go",
+   "rule": "go:S3776",
+   "kind": "cognitive",
+   "line": 253,
+   "start_line": 253,
+   "start_col": 5,
+   "end_line": 253,
+   "value": 1,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 1 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 254,
+     "col": 1,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.go",
+   "rule": "go:S3776",
+   "kind": "cognitive",
+   "line": 260,
+   "start_line": 260,
+   "start_col": 5,
+   "end_line": 260,
+   "value": 1,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 1 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 261,
+     "col": 1,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.go",
+   "rule": "go:S3776",
+   "kind": "cognitive",
+   "line": 267,
+   "start_line": 267,
+   "start_col": 5,
+   "end_line": 267,
+   "value": 1,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 1 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 268,
+     "col": 1,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.go",
+   "rule": "go:S3776",
+   "kind": "cognitive",
+   "line": 274,
+   "start_line": 274,
+   "start_col": 5,
+   "end_line": 274,
+   "value": 2,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 2 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 276,
+     "col": 2,
+     "msg": "+2 (incl 1 for nesting)"
+    }
+   ]
+  },
+  {
+   "file": "micro.go",
+   "rule": "go:S3776",
+   "kind": "cognitive",
+   "line": 284,
+   "start_line": 284,
+   "start_col": 5,
+   "end_line": 284,
+   "value": 4,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 4 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 285,
+     "col": 1,
+     "msg": "+1"
+    },
+    {
+     "line": 287,
+     "col": 3,
+     "msg": "+3 (incl 2 for nesting)"
+    }
+   ]
+  },
+  {
+   "file": "micro.go",
+   "rule": "go:S3776",
+   "kind": "cognitive",
+   "line": 296,
+   "start_line": 296,
+   "start_col": 5,
+   "end_line": 296,
+   "value": 10,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 10 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 297,
+     "col": 1,
+     "msg": "+1"
+    },
+    {
+     "line": 298,
+     "col": 2,
+     "msg": "+2 (incl 1 for nesting)"
+    },
+    {
+     "line": 299,
+     "col": 3,
+     "msg": "+3 (incl 2 for nesting)"
+    },
+    {
+     "line": 300,
+     "col": 4,
+     "msg": "+4 (incl 3 for nesting)"
+    }
+   ]
+  },
+  {
+   "file": "micro.go",
+   "rule": "go:S3776",
+   "kind": "cognitive",
+   "line": 309,
+   "start_line": 309,
+   "start_col": 5,
+   "end_line": 309,
+   "value": 2,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 2 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 310,
+     "col": 1,
+     "msg": "+1"
+    },
+    {
+     "line": 313,
+     "col": 1,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.go",
+   "rule": "go:S3776",
+   "kind": "cognitive",
+   "line": 319,
+   "start_line": 319,
+   "start_col": 5,
+   "end_line": 319,
+   "value": 5,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 5 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 320,
+     "col": 1,
+     "msg": "+1"
+    },
+    {
+     "line": 322,
+     "col": 3,
+     "msg": "+1"
+    },
+    {
+     "line": 327,
+     "col": 3,
+     "msg": "+1"
+    },
+    {
+     "line": 323,
+     "col": 2,
+     "msg": "+2 (incl 1 for nesting)"
+    }
+   ]
+  },
+  {
+   "file": "micro.go",
+   "rule": "go:S3776",
+   "kind": "cognitive",
+   "line": 332,
+   "start_line": 332,
+   "start_col": 5,
+   "end_line": 332,
+   "value": 7,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 7 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 335,
+     "col": 1,
+     "msg": "+1"
+    },
+    {
+     "line": 336,
+     "col": 2,
+     "msg": "+2 (incl 1 for nesting)"
+    },
+    {
+     "line": 337,
+     "col": 3,
+     "msg": "+3 (incl 2 for nesting)"
+    },
+    {
+     "line": 338,
+     "col": 4,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.go",
+   "rule": "go:S3776",
+   "kind": "cognitive",
+   "line": 346,
+   "start_line": 346,
+   "start_col": 5,
+   "end_line": 346,
+   "value": 4,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 4 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 348,
+     "col": 1,
+     "msg": "+1"
+    },
+    {
+     "line": 349,
+     "col": 2,
+     "msg": "+2 (incl 1 for nesting)"
+    },
+    {
+     "line": 350,
+     "col": 3,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.go",
+   "rule": "go:S3776",
+   "kind": "cognitive",
+   "line": 356,
+   "start_line": 356,
+   "start_col": 5,
+   "end_line": 356,
+   "value": 3,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 3 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 357,
+     "col": 1,
+     "msg": "+1"
+    },
+    {
+     "line": 358,
+     "col": 2,
+     "msg": "+2 (incl 1 for nesting)"
+    }
+   ]
+  },
+  {
+   "file": "micro.go",
+   "rule": "go:S3776",
+   "kind": "cognitive",
+   "line": 367,
+   "start_line": 367,
+   "start_col": 5,
+   "end_line": 367,
+   "value": 3,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 3 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 368,
+     "col": 1,
+     "msg": "+1"
+    },
+    {
+     "line": 370,
+     "col": 2,
+     "msg": "+2 (incl 1 for nesting)"
+    }
+   ]
+  },
+  {
+   "file": "micro.go",
+   "rule": "go:S3776",
+   "kind": "cognitive",
+   "line": 379,
+   "start_line": 379,
+   "start_col": 5,
+   "end_line": 379,
+   "value": 3,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 3 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 382,
+     "col": 3,
+     "msg": "+3 (incl 2 for nesting)"
+    }
+   ]
+  },
+  {
+   "file": "micro.go",
+   "rule": "go:S3776",
+   "kind": "cognitive",
+   "line": 391,
+   "start_line": 391,
+   "start_col": 5,
+   "end_line": 391,
+   "value": 3,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 3 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 392,
+     "col": 1,
+     "msg": "+1"
+    },
+    {
+     "line": 392,
+     "col": 6,
+     "msg": "+1"
+    },
+    {
+     "line": 392,
+     "col": 13,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.go",
+   "rule": "go:S3776",
+   "kind": "cognitive",
+   "line": 404,
+   "start_line": 404,
+   "start_col": 5,
+   "end_line": 404,
+   "value": 1,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 1 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 405,
+     "col": 1,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.go",
+   "rule": "go:S3776",
+   "kind": "cognitive",
+   "line": 415,
+   "start_line": 415,
+   "start_col": 5,
+   "end_line": 415,
+   "value": 4,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 4 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 417,
+     "col": 1,
+     "msg": "+1"
+    },
+    {
+     "line": 418,
+     "col": 2,
+     "msg": "+2 (incl 1 for nesting)"
+    },
+    {
+     "line": 420,
+     "col": 3,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.go",
+   "rule": "go:S3776",
+   "kind": "cognitive",
+   "line": 428,
+   "start_line": 428,
+   "start_col": 16,
+   "end_line": 428,
+   "value": 1,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 1 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 429,
+     "col": 1,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.go",
+   "rule": "go:S3776",
+   "kind": "cognitive",
+   "line": 435,
+   "start_line": 435,
+   "start_col": 16,
+   "end_line": 435,
+   "value": 1,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 1 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 436,
+     "col": 1,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "micro.go",
+   "rule": "go:S3776",
+   "kind": "cognitive",
+   "line": 442,
+   "start_line": 442,
+   "start_col": 5,
+   "end_line": 442,
+   "value": 2,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 2 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 444,
+     "col": 1,
+     "msg": "+1"
+    },
+    {
+     "line": 444,
+     "col": 6,
+     "msg": "+1"
+    }
+   ]
+  }
+ ]
+}

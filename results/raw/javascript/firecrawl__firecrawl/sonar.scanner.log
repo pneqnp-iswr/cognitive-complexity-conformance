@@ -1,0 +1,138 @@
+04:14:05.592 INFO  Scanner configuration file: <LOCAL_PATH>/OneDrive\Documents\Conferences\research\tools\sonar-scanner-8.1.0.6389-windows-x64\bin\..\conf\sonar-scanner.properties
+04:14:05.594 INFO  Project root configuration file: NONE
+04:14:05.608 INFO  SonarScanner CLI 8.1.0.6389
+04:14:05.615 INFO  Windows 11 10.0 amd64
+04:14:08.461 INFO  Communicating with SonarQube Community Build 26.9.0.129388
+04:14:08.462 INFO  JRE provisioning: os[windows], arch[amd64]
+04:14:08.908 INFO  Starting SonarScanner Engine...
+04:14:08.908 INFO  Java 21.0.11 Eclipse Adoptium (64-bit)
+04:14:11.815 INFO  Load global settings
+04:14:11.911 INFO  Load global settings (done) | time=95ms
+04:14:11.915 INFO  Server id: 147B411E-AaCseIXKLwHTWvrBJNod
+04:14:11.923 INFO  Loading required plugins
+04:14:11.923 INFO  Load plugins index
+04:14:11.936 INFO  Load plugins index (done) | time=13ms
+04:14:11.937 INFO  Load/download plugins
+04:14:11.961 INFO  Load/download plugins (done) | time=25ms
+04:14:12.258 INFO  Process project properties
+04:14:12.273 INFO  Process project properties (done) | time=15ms
+04:14:12.286 INFO  Project key: cc-javascript-firecrawl__firecrawl
+04:14:12.287 INFO  Base dir: <LOCAL_PATH>/OneDrive\Documents\Conferences\research\data\raw_repos\firecrawl__firecrawl
+04:14:12.287 INFO  Working dir: <LOCAL_PATH>/OneDrive\Documents\Conferences\research\data\raw_repos\firecrawl__firecrawl\.scannerwork
+04:14:12.296 INFO  Load project settings for component key: 'cc-javascript-firecrawl__firecrawl'
+04:14:12.322 INFO  Load quality profiles
+04:14:12.358 INFO  Load quality profiles (done) | time=37ms
+04:14:12.392 INFO  Load active rules
+04:14:12.551 INFO  Load active rules (done) | time=159ms
+04:14:12.559 INFO  Load analysis cache
+04:14:12.562 INFO  Load analysis cache (404) | time=3ms
+04:14:12.788 INFO  Preprocessing files...
+04:14:14.906 INFO  2 languages detected in 950 preprocessed files (done) | time=2118ms
+04:14:14.906 INFO  998 files ignored because of inclusion/exclusion patterns
+04:14:14.907 INFO  Loading plugins for detected languages
+04:14:14.907 INFO  Load/download plugins
+04:14:14.912 INFO  Load/download plugins (done) | time=5ms
+04:14:15.072 INFO  Load project repositories
+04:14:15.076 INFO  Load project repositories (done) | time=5ms
+04:14:15.102 INFO  Indexing files...
+04:14:15.103 INFO  Project configuration:
+04:14:15.103 INFO    Included sources: **/*.js, **/*.jsx, **/*.mjs, **/*.cjs, **/*.ts, **/*.tsx
+04:14:15.103 INFO    Excluded sources: **/node_modules/**, **/vendor/**, **/third_party/**, **/*.min.js
+04:14:15.103 INFO    Excluded sources for duplication: **/*
+04:14:15.253 INFO  946 files indexed (done) | time=150ms
+04:14:15.254 INFO  Quality profile for js: cc-study-js
+04:14:15.254 INFO  Quality profile for ts: cc-study-ts
+04:14:15.254 INFO  ------------- Run sensors on module cc-javascript-firecrawl__firecrawl
+04:14:15.293 INFO  Load metrics repository
+04:14:15.314 INFO  Load metrics repository (done) | time=22ms
+04:14:15.777 INFO  Reflections took 91 ms to scan 1 urls, producing 30 keys and 295 values
+04:14:15.980 INFO  Sensor IaC YAML File Type Classification Sensor [iac]
+04:14:16.003 INFO  Sensor IaC YAML File Type Classification Sensor [iac] (done) | time=24ms
+04:14:16.003 INFO  Sensor IaC hadolint report Sensor [iac]
+04:14:16.004 INFO  Sensor IaC hadolint report Sensor [iac] (done) | time=0ms
+04:14:16.004 INFO  Sensor Java Config Sensor [iac]
+04:14:16.006 INFO  There are no files to be analyzed for the Java language
+04:14:16.007 INFO  Sensor Java Config Sensor [iac] (done) | time=1ms
+04:14:16.007 INFO  Sensor IaC Docker Sensor [iac]
+04:14:16.034 INFO  There are no files to be analyzed for the Docker language
+04:14:16.034 INFO  Sensor IaC Docker Sensor [iac] (done) | time=28ms
+04:14:16.035 INFO  Sensor HTML [web]
+04:14:16.048 INFO  Sensor HTML [web] (done) | time=13ms
+04:14:16.049 INFO  Sensor JavaScript/TypeScript module configuration [javascript]
+04:14:16.055 INFO  Sensor JavaScript/TypeScript module configuration [javascript] (done) | time=5ms
+04:14:16.055 INFO  Sensor TextAndSecretsSensor [text]
+04:14:16.154 INFO  Available processors: 24
+04:14:16.155 INFO  Using 24 threads for analysis.
+04:14:16.542 INFO  The property "sonar.tests" is not set. To improve the analysis accuracy, we categorize a file as a test file if any of the following is true:
+  * The filename starts with "test"
+  * The filename contains "test." or "tests."
+  * Any directory in the file path is named: "doc", "docs", "test", "tests", "mock" or "mocks"
+  * Any directory in the file path has a name ending in "test" or "tests"
+
+04:14:16.603 INFO  Start fetching files for the text and secrets analysis
+04:14:16.744 INFO  Using Git CLI to retrieve dirty files
+04:14:17.182 INFO  Retrieving language associated files and files included via "sonar.text.inclusions" that are tracked by git
+04:14:17.183 INFO  Starting the text and secrets analysis
+04:14:17.184 INFO  946 source files to be analyzed for the text and secrets analysis
+04:14:18.351 INFO  946/946 source files have been analyzed for the text and secrets analysis
+04:14:18.352 INFO  Skipped 341 file(s) in the secrets analysis due to automatic test file detection
+04:14:18.355 INFO  Sensor TextAndSecretsSensor [text] (done) | time=2299ms
+04:14:18.357 INFO  ------------- Run sensors on project
+04:14:18.757 INFO  Sensor JavaScript/TypeScript/CSS analysis [javascript]
+04:14:19.624 INFO  Detected os: Windows 11 arch: amd64 alpine: false. Platform: WIN_X64
+04:14:19.625 INFO  Deploy location <LOCAL_PATH>/.sonar\js\node-runtime, tagetRuntime: <LOCAL_PATH>/.sonar\js\node-runtime\node.exe,  version: <LOCAL_PATH>/.sonar\js\node-runtime\version.txt
+04:14:19.670 INFO  Configured Node.js --max-old-space-size=8192.
+04:14:19.670 INFO  Using embedded Node.js runtime.
+04:14:19.670 INFO  Using Node.js executable: '<LOCAL_PATH>/.sonar\js\node-runtime\node.exe'.
+04:14:25.483 INFO  Memory configuration: OS (32127 MB), Node.js (8384 MB).
+04:14:25.499 INFO  gRPC analyze-project server listening on 127.0.0.1:60806
+04:14:25.707 INFO  Plugin version: [13.8.0.44569]
+04:14:28.093 ERROR Failed to parse tsconfig <LOCAL_PATH>/OneDrive/Documents/Conferences/research/data/raw_repos/firecrawl__firecrawl/apps/api/native/tsconfig.json: Error: No inputs were found in config file '<LOCAL_PATH>/OneDrive/Documents/Conferences/research/data/raw_repos/firecrawl__firecrawl/apps/api/native/tsconfig.json'. Specified 'include' paths were '["."]' and 'exclude' paths were '["node_modules","bench","__test__"]'.
+04:15:00.212 INFO  Found 7 tsconfig.json file(s): [<LOCAL_PATH>/OneDrive/Documents/Conferences/research/data/raw_repos/firecrawl__firecrawl/apps/api/native/tsconfig.json, <LOCAL_PATH>/OneDrive/Documents/Conferences/research/data/raw_repos/firecrawl__firecrawl/apps/api/tsconfig.json, <LOCAL_PATH>/OneDrive/Documents/Conferences/research/data/raw_repos/firecrawl__firecrawl/apps/js-sdk/firecrawl/tsconfig.json, <LOCAL_PATH>/OneDrive/Documents/Conferences/research/data/raw_repos/firecrawl__firecrawl/apps/js-sdk/tsconfig.json, <LOCAL_PATH>/OneDrive/Documents/Conferences/research/data/raw_repos/firecrawl__firecrawl/apps/playwright-service-ts/tsconfig.json, <LOCAL_PATH>/OneDrive/Documents/Conferences/research/data/raw_repos/firecrawl__firecrawl/apps/test-site/tsconfig.json, <LOCAL_PATH>/OneDrive/Documents/Conferences/research/data/raw_repos/firecrawl__firecrawl/apps/ui/ingestion-ui/tsconfig.json]
+04:15:00.212 INFO  946 source files to be analyzed
+04:15:00.212 INFO  Creating TypeScript(6.0.3) program with configuration file <LOCAL_PATH>/OneDrive/Documents/Conferences/research/data/raw_repos/firecrawl__firecrawl/apps/api/tsconfig.json [lib: lib.es2022.d.ts, lib.dom.d.ts]
+04:15:00.212 INFO  Analyzing 829 file(s) from tsconfig <LOCAL_PATH>/OneDrive/Documents/Conferences/research/data/raw_repos/firecrawl__firecrawl/apps/api/tsconfig.json (1242 total files in program)
+04:15:00.216 INFO  Creating TypeScript(6.0.3) program with configuration file <LOCAL_PATH>/OneDrive/Documents/Conferences/research/data/raw_repos/firecrawl__firecrawl/apps/js-sdk/firecrawl/tsconfig.json [lib: lib.es2023.d.ts, lib.dom.d.ts]
+04:15:00.216 INFO  Analyzing 27 file(s) from tsconfig <LOCAL_PATH>/OneDrive/Documents/Conferences/research/data/raw_repos/firecrawl__firecrawl/apps/js-sdk/firecrawl/tsconfig.json (223 total files in program)
+04:15:00.217 INFO  Creating TypeScript(6.0.3) program with configuration file <LOCAL_PATH>/OneDrive/Documents/Conferences/research/data/raw_repos/firecrawl__firecrawl/apps/playwright-service-ts/tsconfig.json [lib: lib.es2024.d.ts, lib.dom.d.ts]
+04:15:00.217 INFO  Analyzing 2 file(s) from tsconfig <LOCAL_PATH>/OneDrive/Documents/Conferences/research/data/raw_repos/firecrawl__firecrawl/apps/playwright-service-ts/tsconfig.json (201 total files in program)
+04:15:00.217 WARN  Could not find tsconfig.json: C:/node_modules/astro/tsconfigs/strict/tsconfig.json; falling back to an empty configuration.
+04:15:00.217 WARN  <LOCAL_PATH>/OneDrive/Documents/Conferences/research/data/raw_repos/firecrawl__firecrawl/apps/test-site/tsconfig.json extends a configuration that was not found. Please run 'npm install' for a more complete analysis.
+04:15:00.217 INFO  Creating TypeScript(6.0.3) program with configuration file <LOCAL_PATH>/OneDrive/Documents/Conferences/research/data/raw_repos/firecrawl__firecrawl/apps/test-site/tsconfig.json [lib: lib.es2024.d.ts, lib.dom.d.ts]
+04:15:00.217 INFO  Analyzing 3 file(s) from tsconfig <LOCAL_PATH>/OneDrive/Documents/Conferences/research/data/raw_repos/firecrawl__firecrawl/apps/test-site/tsconfig.json (73 total files in program)
+04:15:00.217 INFO  Creating TypeScript(6.0.3) program with configuration file <LOCAL_PATH>/OneDrive/Documents/Conferences/research/data/raw_repos/firecrawl__firecrawl/apps/ui/ingestion-ui/tsconfig.json [lib: lib.es2023.d.ts, lib.dom.d.ts]
+04:15:00.217 INFO  Discovered referenced tsconfig: <LOCAL_PATH>/OneDrive/Documents/Conferences/research/data/raw_repos/firecrawl__firecrawl/apps/ui/ingestion-ui/tsconfig.app.json
+04:15:00.217 INFO  Discovered referenced tsconfig: <LOCAL_PATH>/OneDrive/Documents/Conferences/research/data/raw_repos/firecrawl__firecrawl/apps/ui/ingestion-ui/tsconfig.node.json
+04:15:00.217 INFO  No files to analyze from tsconfig <LOCAL_PATH>/OneDrive/Documents/Conferences/research/data/raw_repos/firecrawl__firecrawl/apps/ui/ingestion-ui/tsconfig.json
+04:15:00.217 INFO  Creating TypeScript(6.0.3) program with configuration file <LOCAL_PATH>/OneDrive/Documents/Conferences/research/data/raw_repos/firecrawl__firecrawl/apps/ui/ingestion-ui/tsconfig.app.json [lib: lib.es2020.d.ts, lib.dom.d.ts, lib.dom.iterable.d.ts]
+04:15:00.217 INFO  Analyzing 12 file(s) from tsconfig <LOCAL_PATH>/OneDrive/Documents/Conferences/research/data/raw_repos/firecrawl__firecrawl/apps/ui/ingestion-ui/tsconfig.app.json (61 total files in program)
+04:15:00.217 INFO  Creating TypeScript(6.0.3) program with configuration file <LOCAL_PATH>/OneDrive/Documents/Conferences/research/data/raw_repos/firecrawl__firecrawl/apps/ui/ingestion-ui/tsconfig.node.json [lib: lib.es2023.d.ts, lib.dom.d.ts]
+04:15:00.217 INFO  Analyzing 1 file(s) from tsconfig <LOCAL_PATH>/OneDrive/Documents/Conferences/research/data/raw_repos/firecrawl__firecrawl/apps/ui/ingestion-ui/tsconfig.node.json (63 total files in program)
+04:15:00.217 INFO  Analyzing 53 file(s) using merged compiler options [lib: lib.es2023.d.ts, lib.dom.d.ts]
+04:15:00.217 INFO  Analyzing 14 file(s) using merged compiler options [lib: lib.es2024.d.ts, lib.dom.d.ts]
+04:15:00.217 INFO  Analyzing 4 file(s) using merged compiler options [lib: lib.esnext.d.ts, lib.dom.d.ts]
+04:15:00.217 INFO  Analyzing 1 file(s) using merged compiler options [lib: lib.es2018.d.ts, lib.dom.d.ts]
+04:15:00.219 INFO  946/946 source files have been analyzed
+04:15:00.219 ERROR Failed to parse tsconfig <LOCAL_PATH>/OneDrive/Documents/Conferences/research/data/raw_repos/firecrawl__firecrawl/apps/js-sdk/tsconfig.json: Error: No inputs were found in config file '<LOCAL_PATH>/OneDrive/Documents/Conferences/research/data/raw_repos/firecrawl__firecrawl/apps/js-sdk/tsconfig.json'. Specified 'include' paths were '["src","test.ts"]' and 'exclude' paths were '["node_modules","**/__tests__/*"]'.
+04:15:00.231 INFO  Hit the cache for 0 out of 946
+04:15:00.231 INFO  Miss the cache for 946 out of 946: ANALYSIS_MODE_INELIGIBLE [946/946]
+04:15:00.231 INFO  Sensor JavaScript/TypeScript/CSS analysis [javascript] (done) | time=41473ms
+04:15:00.231 INFO  Sensor IaC Project Sensor [iac]
+04:15:00.232 INFO  Sensor IaC Project Sensor [iac] (done) | time=1ms
+04:15:00.233 INFO  Sensor Zero Coverage Sensor
+04:15:00.744 INFO  Sensor Zero Coverage Sensor (done) | time=511ms
+04:15:00.744 INFO  ------------- Gather SCA dependencies on project
+04:15:00.749 INFO  Dependency analysis skipped
+04:15:00.750 INFO  SCM Publisher is disabled
+04:15:00.752 INFO  CPD Executor Calculating CPD for 0 files
+04:15:00.752 INFO  CPD Executor CPD calculation finished (done) | time=0ms
+04:15:02.563 INFO  Analysis report generated in 1520ms, dir size=24.5 MB
+04:15:50.276 INFO  Analysis report compressed in 47714ms, zip size=12.7 MB
+04:15:50.885 INFO  Analysis report uploaded in 609ms
+04:15:50.887 INFO  ANALYSIS SUCCESSFUL, you can find the results at: http://localhost:9000/dashboard?id=cc-javascript-firecrawl__firecrawl
+04:15:50.888 INFO  Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+04:15:50.888 INFO  More about the report processing at http://localhost:9000/api/ce/task?id=c198a3f4-4f6e-4327-8472-6b19f57fa0c8
+04:15:52.891 INFO  Analysis total time: 1:40.894 s
+04:15:52.923 INFO  SonarScanner Engine completed successfully
+04:15:52.973 INFO  EXECUTION SUCCESS
+04:15:52.973 INFO  Total time: 1:47.387s

@@ -1,0 +1,121 @@
+04:11:18.921 INFO  Scanner configuration file: <LOCAL_PATH>/OneDrive\Documents\Conferences\research\tools\sonar-scanner-8.1.0.6389-windows-x64\bin\..\conf\sonar-scanner.properties
+04:11:18.924 INFO  Project root configuration file: NONE
+04:11:18.934 INFO  SonarScanner CLI 8.1.0.6389
+04:11:18.941 INFO  Windows 11 10.0 amd64
+04:11:21.106 INFO  Communicating with SonarQube Community Build 26.9.0.129388
+04:11:21.107 INFO  JRE provisioning: os[windows], arch[amd64]
+04:11:21.524 INFO  Starting SonarScanner Engine...
+04:11:21.524 INFO  Java 21.0.11 Eclipse Adoptium (64-bit)
+04:11:24.373 INFO  Load global settings
+04:11:24.497 INFO  Load global settings (done) | time=122ms
+04:11:24.501 INFO  Server id: 147B411E-AaCseIXKLwHTWvrBJNod
+04:11:24.509 INFO  Loading required plugins
+04:11:24.510 INFO  Load plugins index
+04:11:24.525 INFO  Load plugins index (done) | time=16ms
+04:11:24.527 INFO  Load/download plugins
+04:11:24.569 INFO  Load/download plugins (done) | time=44ms
+04:11:24.953 INFO  Process project properties
+04:11:24.970 INFO  Process project properties (done) | time=17ms
+04:11:24.988 INFO  Project key: cc-java-TheAlgorithms__Java
+04:11:24.988 INFO  Base dir: <LOCAL_PATH>/OneDrive\Documents\Conferences\research\data\raw_repos\TheAlgorithms__Java
+04:11:24.988 INFO  Working dir: <LOCAL_PATH>/OneDrive\Documents\Conferences\research\data\raw_repos\TheAlgorithms__Java\.scannerwork
+04:11:24.998 INFO  Load project settings for component key: 'cc-java-TheAlgorithms__Java'
+04:11:25.028 INFO  Load quality profiles
+04:11:25.069 INFO  Load quality profiles (done) | time=41ms
+04:11:25.104 INFO  Load active rules
+04:11:25.280 INFO  Load active rules (done) | time=176ms
+04:11:25.289 INFO  Load analysis cache
+04:11:25.295 INFO  Load analysis cache (404) | time=5ms
+04:11:25.550 INFO  Preprocessing files...
+04:11:27.373 INFO  1 language detected in 1609 preprocessed files (done) | time=1822ms
+04:11:27.373 INFO  69 files ignored because of inclusion/exclusion patterns
+04:11:27.375 INFO  Loading plugins for detected languages
+04:11:27.375 INFO  Load/download plugins
+04:11:27.381 INFO  Load/download plugins (done) | time=6ms
+04:11:27.555 INFO  Load project repositories
+04:11:27.563 INFO  Load project repositories (done) | time=7ms
+04:11:27.608 INFO  Indexing files...
+04:11:27.608 INFO  Project configuration:
+04:11:27.608 INFO    Included sources: **/*.java
+04:11:27.608 INFO    Excluded sources: **/node_modules/**, **/vendor/**, **/third_party/**, **/*.min.js
+04:11:27.610 INFO    Excluded sources for duplication: **/*
+04:11:27.896 INFO  1609 files indexed (done) | time=287ms
+04:11:27.897 INFO  Quality profile for java: cc-study-java
+04:11:27.897 INFO  ------------- Run sensors on module cc-java-TheAlgorithms__Java
+04:11:27.980 INFO  Load metrics repository
+04:11:28.006 INFO  Load metrics repository (done) | time=27ms
+04:11:28.613 INFO  Sensor IaC YAML File Type Classification Sensor [iac]
+04:11:28.643 INFO  Sensor IaC YAML File Type Classification Sensor [iac] (done) | time=30ms
+04:11:28.643 INFO  Sensor JavaSensor [java]
+04:11:28.697 INFO  Configured Java source version (sonar.java.source): 21, preview features enabled (sonar.java.enablePreview): false
+04:11:28.741 INFO  Server-side caching is enabled. The Java analyzer will not try to leverage data from a previous analysis.
+04:11:28.746 INFO  Using ECJ batch to parse 1609 Main java source files with batch size 421 KB.
+04:11:29.304 INFO  Starting batch processing.
+04:11:30.100 INFO  The Java analyzer cannot skip unchanged files in this context. A full analysis is performed for all files.
+04:11:53.002 INFO  100% analyzed
+04:11:53.002 INFO  Batch processing: Done.
+04:11:53.002 INFO  Did not optimize analysis for any files, performed a full analysis for all 1609 files.
+04:11:53.003 WARN  Missing 'sonar.java.libraries' property. You might end up with less precise analysis results.
+04:11:53.006 WARN  Unresolved imports/types have been detected during analysis. Enable DEBUG mode to see them.
+04:11:53.006 WARN  Use of preview features have been detected during analysis. Enable DEBUG mode to see them.
+04:11:53.007 INFO  No "Test" source files to scan.
+04:11:53.007 INFO  No "Generated" source files to scan.
+04:11:53.009 INFO  Sensor JavaSensor [java] (done) | time=24365ms
+04:11:53.009 INFO  Sensor JaCoCo XML Report Importer [jacoco]
+04:11:53.010 INFO  'sonar.coverage.jacoco.xmlReportPaths' is not defined. Using default locations: target/site/jacoco/jacoco.xml,target/site/jacoco-it/jacoco.xml,build/reports/jacoco/test/jacocoTestReport.xml
+04:11:53.010 INFO  No report imported, no coverage information will be imported by JaCoCo XML Report Importer
+04:11:53.010 INFO  Sensor JaCoCo XML Report Importer [jacoco] (done) | time=1ms
+04:11:53.010 INFO  Sensor IaC hadolint report Sensor [iac]
+04:11:53.012 INFO  Sensor IaC hadolint report Sensor [iac] (done) | time=0ms
+04:11:53.012 INFO  Sensor Java Config Sensor [iac]
+04:11:53.012 INFO  There are no files to be analyzed for the Java language
+04:11:53.012 INFO  Sensor Java Config Sensor [iac] (done) | time=0ms
+04:11:53.013 INFO  Sensor IaC Docker Sensor [iac]
+04:11:53.036 INFO  There are no files to be analyzed for the Docker language
+04:11:53.037 INFO  Sensor IaC Docker Sensor [iac] (done) | time=23ms
+04:11:53.037 INFO  Sensor SurefireSensor [java]
+04:11:53.038 INFO  parsing [<LOCAL_PATH>/OneDrive\Documents\Conferences\research\data\raw_repos\TheAlgorithms__Java\target\surefire-reports]
+04:11:53.038 INFO  Sensor SurefireSensor [java] (done) | time=2ms
+04:11:53.039 INFO  Sensor TextAndSecretsSensor [text]
+04:11:53.102 INFO  Available processors: 24
+04:11:53.103 INFO  Using 24 threads for analysis.
+04:11:53.349 INFO  The property "sonar.tests" is not set. To improve the analysis accuracy, we categorize a file as a test file if any of the following is true:
+  * The filename starts with "test"
+  * The filename contains "test." or "tests."
+  * Any directory in the file path is named: "doc", "docs", "test", "tests", "mock" or "mocks"
+  * Any directory in the file path has a name ending in "test" or "tests"
+
+04:11:53.388 INFO  Start fetching files for the text and secrets analysis
+04:11:53.499 INFO  Using Git CLI to retrieve dirty files
+04:11:53.635 INFO  Retrieving language associated files and files included via "sonar.text.inclusions" that are tracked by git
+04:11:53.636 INFO  Starting the text and secrets analysis
+04:11:53.640 INFO  1609 source files to be analyzed for the text and secrets analysis
+04:11:53.947 INFO  1609/1609 source files have been analyzed for the text and secrets analysis
+04:11:53.947 INFO  Skipped 778 file(s) in the secrets analysis due to automatic test file detection
+04:11:53.975 INFO  Sensor TextAndSecretsSensor [text] (done) | time=936ms
+04:11:53.982 INFO  ------------- Run sensors on project
+04:11:54.279 INFO  Sensor JaCoCo Aggregate XML Report Importer [jacoco]
+04:11:54.280 INFO  Sensor JaCoCo Aggregate XML Report Importer [jacoco] (done) | time=0ms
+04:11:54.280 INFO  Sensor IaC Project Sensor [iac]
+04:11:54.280 INFO  Sensor IaC Project Sensor [iac] (done) | time=0ms
+04:11:54.280 INFO  Sensor JavaProjectSensor [java]
+04:11:54.283 INFO  Sensor JavaProjectSensor [java] (done) | time=2ms
+04:11:54.283 INFO  Sensor Zero Coverage Sensor
+04:11:55.129 INFO  Sensor Zero Coverage Sensor (done) | time=844ms
+04:11:55.129 INFO  Sensor Java CPD Block Indexer
+04:11:55.131 INFO  Sensor Java CPD Block Indexer (done) | time=0ms
+04:11:55.131 INFO  ------------- Gather SCA dependencies on project
+04:11:55.133 INFO  Dependency analysis skipped
+04:11:55.135 INFO  SCM Publisher is disabled
+04:11:55.137 INFO  CPD Executor Calculating CPD for 0 files
+04:11:55.137 INFO  CPD Executor CPD calculation finished (done) | time=0ms
+04:11:57.511 INFO  Analysis report generated in 1890ms, dir size=11.7 MB
+04:13:01.924 INFO  Analysis report compressed in 64411ms, zip size=5.4 MB
+04:13:02.077 INFO  Analysis report uploaded in 154ms
+04:13:02.079 INFO  ANALYSIS SUCCESSFUL, you can find the results at: http://localhost:9000/dashboard?id=cc-java-TheAlgorithms__Java
+04:13:02.079 INFO  Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+04:13:02.080 INFO  More about the report processing at http://localhost:9000/api/ce/task?id=b530ea2b-c76f-4e75-bc08-af0b83c36bea
+04:13:04.633 INFO  Analysis total time: 1:40.003 s
+04:13:04.656 INFO  SonarScanner Engine completed successfully
+04:13:04.716 INFO  EXECUTION SUCCESS
+04:13:04.717 INFO  Total time: 1:45.798s

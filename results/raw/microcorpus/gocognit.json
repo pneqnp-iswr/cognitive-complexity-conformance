@@ -1,0 +1,1395 @@
+[
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 296,
+  "end_line": null,
+  "name": "c55_deep_nesting_4",
+  "value": 10,
+  "metric": "cognitive",
+  "tool": "gocognit",
+  "extra": {
+   "diagnostics": [
+    [
+     1,
+     null,
+     "if",
+     297
+    ],
+    [
+     2,
+     1,
+     "if",
+     298
+    ],
+    [
+     3,
+     2,
+     "if",
+     299
+    ],
+    [
+     4,
+     3,
+     "if",
+     300
+    ]
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 332,
+  "end_line": null,
+  "name": "c63_labeled_continue",
+  "value": 7,
+  "metric": "cognitive",
+  "tool": "gocognit",
+  "extra": {
+   "diagnostics": [
+    [
+     1,
+     null,
+     "for",
+     335
+    ],
+    [
+     2,
+     1,
+     "for",
+     336
+    ],
+    [
+     3,
+     2,
+     "if",
+     337
+    ],
+    [
+     1,
+     null,
+     "continue",
+     338
+    ]
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 117,
+  "end_line": null,
+  "name": "c15_if_in_for_in_for",
+  "value": 6,
+  "metric": "cognitive",
+  "tool": "gocognit",
+  "extra": {
+   "diagnostics": [
+    [
+     1,
+     null,
+     "for",
+     118
+    ],
+    [
+     2,
+     1,
+     "for",
+     119
+    ],
+    [
+     3,
+     2,
+     "if",
+     120
+    ]
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 233,
+  "end_line": null,
+  "name": "c36_unlabeled_break_continue",
+  "value": 5,
+  "metric": "cognitive",
+  "tool": "gocognit",
+  "extra": {
+   "diagnostics": [
+    [
+     1,
+     null,
+     "for",
+     234
+    ],
+    [
+     2,
+     1,
+     "if",
+     235
+    ],
+    [
+     2,
+     1,
+     "if",
+     238
+    ]
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 319,
+  "end_line": null,
+  "name": "c58_elseif_nested_if",
+  "value": 5,
+  "metric": "cognitive",
+  "tool": "gocognit",
+  "extra": {
+   "diagnostics": [
+    [
+     1,
+     null,
+     "if",
+     320
+    ],
+    [
+     1,
+     null,
+     "if",
+     322
+    ],
+    [
+     2,
+     1,
+     "if",
+     323
+    ],
+    [
+     1,
+     null,
+     "else",
+     327
+    ]
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 139,
+  "end_line": null,
+  "name": "c19_if_in_elseif",
+  "value": 4,
+  "metric": "cognitive",
+  "tool": "gocognit",
+  "extra": {
+   "diagnostics": [
+    [
+     1,
+     null,
+     "if",
+     140
+    ],
+    [
+     1,
+     null,
+     "if",
+     142
+    ],
+    [
+     2,
+     1,
+     "if",
+     143
+    ]
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 185,
+  "end_line": null,
+  "name": "c27_or_and_or",
+  "value": 4,
+  "metric": "cognitive",
+  "tool": "gocognit",
+  "extra": {
+   "diagnostics": [
+    [
+     1,
+     null,
+     "if",
+     186
+    ],
+    [
+     1,
+     null,
+     "||",
+     186
+    ],
+    [
+     1,
+     null,
+     "&&",
+     186
+    ],
+    [
+     1,
+     null,
+     "||",
+     186
+    ]
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 284,
+  "end_line": null,
+  "name": "c43_func_literal_inside_if",
+  "value": 4,
+  "metric": "cognitive",
+  "tool": "gocognit",
+  "extra": {
+   "diagnostics": [
+    [
+     1,
+     null,
+     "if",
+     285
+    ],
+    [
+     3,
+     2,
+     "if",
+     287
+    ]
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 346,
+  "end_line": null,
+  "name": "c64_labeled_break_to_enclosing",
+  "value": 4,
+  "metric": "cognitive",
+  "tool": "gocognit",
+  "extra": {
+   "diagnostics": [
+    [
+     1,
+     null,
+     "for",
+     348
+    ],
+    [
+     2,
+     1,
+     "if",
+     349
+    ],
+    [
+     1,
+     null,
+     "break",
+     350
+    ]
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 25,
+  "end_line": null,
+  "name": "c04_if_elseif_elseif_else",
+  "value": 4,
+  "metric": "cognitive",
+  "tool": "gocognit",
+  "extra": {
+   "diagnostics": [
+    [
+     1,
+     null,
+     "if",
+     26
+    ],
+    [
+     1,
+     null,
+     "if",
+     28
+    ],
+    [
+     1,
+     null,
+     "if",
+     30
+    ],
+    [
+     1,
+     null,
+     "else",
+     32
+    ]
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 356,
+  "end_line": null,
+  "name": "c65_goto",
+  "value": 4,
+  "metric": "cognitive",
+  "tool": "gocognit",
+  "extra": {
+   "diagnostics": [
+    [
+     1,
+     null,
+     "for",
+     357
+    ],
+    [
+     2,
+     1,
+     "if",
+     358
+    ],
+    [
+     1,
+     null,
+     "goto",
+     359
+    ]
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 415,
+  "end_line": null,
+  "name": "c94_labeled_break_out_of_switch_in_loop",
+  "value": 4,
+  "metric": "cognitive",
+  "tool": "gocognit",
+  "extra": {
+   "diagnostics": [
+    [
+     1,
+     null,
+     "for",
+     417
+    ],
+    [
+     2,
+     1,
+     "switch",
+     418
+    ],
+    [
+     1,
+     null,
+     "break",
+     420
+    ]
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 226,
+  "end_line": null,
+  "name": "c35_and_or_and",
+  "value": 4,
+  "metric": "cognitive",
+  "tool": "gocognit",
+  "extra": {
+   "diagnostics": [
+    [
+     1,
+     null,
+     "if",
+     227
+    ],
+    [
+     1,
+     null,
+     "&&",
+     227
+    ],
+    [
+     1,
+     null,
+     "||",
+     227
+    ],
+    [
+     1,
+     null,
+     "&&",
+     227
+    ]
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 500,
+  "end_line": null,
+  "name": "c103_recursion_two_calls",
+  "value": 3,
+  "metric": "cognitive",
+  "tool": "gocognit",
+  "extra": {
+   "diagnostics": [
+    [
+     1,
+     null,
+     "if",
+     501
+    ],
+    [
+     1,
+     null,
+     "c103_recursion_two_calls",
+     504
+    ],
+    [
+     1,
+     null,
+     "c103_recursion_two_calls",
+     504
+    ]
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 192,
+  "end_line": null,
+  "name": "c28_and_not_paren_and",
+  "value": 3,
+  "metric": "cognitive",
+  "tool": "gocognit",
+  "extra": {
+   "diagnostics": [
+    [
+     1,
+     null,
+     "if",
+     193
+    ],
+    [
+     1,
+     null,
+     "&&",
+     193
+    ],
+    [
+     1,
+     null,
+     "&&",
+     193
+    ]
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 128,
+  "end_line": null,
+  "name": "c18_if_in_else",
+  "value": 3,
+  "metric": "cognitive",
+  "tool": "gocognit",
+  "extra": {
+   "diagnostics": [
+    [
+     1,
+     null,
+     "if",
+     129
+    ],
+    [
+     1,
+     null,
+     "else",
+     131
+    ],
+    [
+     1,
+     null,
+     "if",
+     132
+    ]
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 178,
+  "end_line": null,
+  "name": "c26_and_or",
+  "value": 3,
+  "metric": "cognitive",
+  "tool": "gocognit",
+  "extra": {
+   "diagnostics": [
+    [
+     1,
+     null,
+     "if",
+     179
+    ],
+    [
+     1,
+     null,
+     "&&",
+     179
+    ],
+    [
+     1,
+     null,
+     "||",
+     179
+    ]
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 367,
+  "end_line": null,
+  "name": "c74_switch_with_nested_if",
+  "value": 3,
+  "metric": "cognitive",
+  "tool": "gocognit",
+  "extra": {
+   "diagnostics": [
+    [
+     1,
+     null,
+     "switch",
+     368
+    ],
+    [
+     2,
+     1,
+     "if",
+     370
+    ]
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 379,
+  "end_line": null,
+  "name": "c76_func_literal_in_func_literal",
+  "value": 3,
+  "metric": "cognitive",
+  "tool": "gocognit",
+  "extra": {
+   "diagnostics": [
+    [
+     3,
+     2,
+     "if",
+     382
+    ]
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 391,
+  "end_line": null,
+  "name": "c79_or_not_paren_or",
+  "value": 3,
+  "metric": "cognitive",
+  "tool": "gocognit",
+  "extra": {
+   "diagnostics": [
+    [
+     1,
+     null,
+     "if",
+     392
+    ],
+    [
+     1,
+     null,
+     "||",
+     392
+    ],
+    [
+     1,
+     null,
+     "||",
+     392
+    ]
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 108,
+  "end_line": null,
+  "name": "c14_if_in_if",
+  "value": 3,
+  "metric": "cognitive",
+  "tool": "gocognit",
+  "extra": {
+   "diagnostics": [
+    [
+     1,
+     null,
+     "if",
+     109
+    ],
+    [
+     2,
+     1,
+     "if",
+     110
+    ]
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 98,
+  "end_line": null,
+  "name": "c08b_for_infinite",
+  "value": 3,
+  "metric": "cognitive",
+  "tool": "gocognit",
+  "extra": {
+   "diagnostics": [
+    [
+     1,
+     null,
+     "for",
+     99
+    ],
+    [
+     2,
+     1,
+     "if",
+     101
+    ]
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 461,
+  "end_line": null,
+  "name": "c99_if_err_check_nested_if",
+  "value": 3,
+  "metric": "cognitive",
+  "tool": "gocognit",
+  "extra": {
+   "diagnostics": [
+    [
+     1,
+     null,
+     "if",
+     463
+    ],
+    [
+     2,
+     1,
+     "if",
+     464
+    ]
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 206,
+  "end_line": null,
+  "name": "c30_and_paren_and",
+  "value": 3,
+  "metric": "cognitive",
+  "tool": "gocognit",
+  "extra": {
+   "diagnostics": [
+    [
+     1,
+     null,
+     "if",
+     207
+    ],
+    [
+     1,
+     null,
+     "&&",
+     207
+    ],
+    [
+     1,
+     null,
+     "&&",
+     207
+    ]
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 199,
+  "end_line": null,
+  "name": "c29_and_paren_or",
+  "value": 3,
+  "metric": "cognitive",
+  "tool": "gocognit",
+  "extra": {
+   "diagnostics": [
+    [
+     1,
+     null,
+     "if",
+     200
+    ],
+    [
+     1,
+     null,
+     "&&",
+     200
+    ],
+    [
+     1,
+     null,
+     "||",
+     200
+    ]
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 472,
+  "end_line": null,
+  "name": "c100_two_err_checks",
+  "value": 2,
+  "metric": "cognitive",
+  "tool": "gocognit",
+  "extra": {
+   "diagnostics": [
+    [
+     1,
+     null,
+     "if",
+     473
+    ],
+    [
+     1,
+     null,
+     "if",
+     476
+    ]
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 482,
+  "end_line": null,
+  "name": "c101_err_check_with_else",
+  "value": 2,
+  "metric": "cognitive",
+  "tool": "gocognit",
+  "extra": {
+   "diagnostics": [
+    [
+     1,
+     null,
+     "if",
+     484
+    ],
+    [
+     1,
+     null,
+     "else",
+     486
+    ]
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 253,
+  "end_line": null,
+  "name": "c38_recursion_direct",
+  "value": 2,
+  "metric": "cognitive",
+  "tool": "gocognit",
+  "extra": {
+   "diagnostics": [
+    [
+     1,
+     null,
+     "if",
+     254
+    ],
+    [
+     1,
+     null,
+     "c38_recursion_direct",
+     257
+    ]
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 17,
+  "end_line": null,
+  "name": "c03_if_else",
+  "value": 2,
+  "metric": "cognitive",
+  "tool": "gocognit",
+  "extra": {
+   "diagnostics": [
+    [
+     1,
+     null,
+     "if",
+     18
+    ],
+    [
+     1,
+     null,
+     "else",
+     20
+    ]
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 171,
+  "end_line": null,
+  "name": "c25_or",
+  "value": 2,
+  "metric": "cognitive",
+  "tool": "gocognit",
+  "extra": {
+   "diagnostics": [
+    [
+     1,
+     null,
+     "if",
+     172
+    ],
+    [
+     1,
+     null,
+     "||",
+     172
+    ]
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 157,
+  "end_line": null,
+  "name": "c23_and",
+  "value": 2,
+  "metric": "cognitive",
+  "tool": "gocognit",
+  "extra": {
+   "diagnostics": [
+    [
+     1,
+     null,
+     "if",
+     158
+    ],
+    [
+     1,
+     null,
+     "&&",
+     158
+    ]
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 442,
+  "end_line": null,
+  "name": "c97_bool_and_ternary_like",
+  "value": 2,
+  "metric": "cognitive",
+  "tool": "gocognit",
+  "extra": {
+   "diagnostics": [
+    [
+     1,
+     null,
+     "if",
+     444
+    ],
+    [
+     1,
+     null,
+     "||",
+     444
+    ]
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 274,
+  "end_line": null,
+  "name": "c41_func_literal_with_if",
+  "value": 2,
+  "metric": "cognitive",
+  "tool": "gocognit",
+  "extra": {
+   "diagnostics": [
+    [
+     2,
+     1,
+     "if",
+     276
+    ]
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 309,
+  "end_line": null,
+  "name": "c57_two_sequential_ifs",
+  "value": 2,
+  "metric": "cognitive",
+  "tool": "gocognit",
+  "extra": {
+   "diagnostics": [
+    [
+     1,
+     null,
+     "if",
+     310
+    ],
+    [
+     1,
+     null,
+     "if",
+     313
+    ]
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 164,
+  "end_line": null,
+  "name": "c24_and_and",
+  "value": 2,
+  "metric": "cognitive",
+  "tool": "gocognit",
+  "extra": {
+   "diagnostics": [
+    [
+     1,
+     null,
+     "if",
+     165
+    ],
+    [
+     1,
+     null,
+     "&&",
+     165
+    ]
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 213,
+  "end_line": null,
+  "name": "c31_bool_in_assignment",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "gocognit",
+  "extra": {
+   "diagnostics": [
+    [
+     1,
+     null,
+     "&&",
+     214
+    ]
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 491,
+  "end_line": null,
+  "name": "c102_err_named_e",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "gocognit",
+  "extra": {
+   "diagnostics": [
+    [
+     1,
+     null,
+     "if",
+     493
+    ]
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 218,
+  "end_line": null,
+  "name": "c32_bool_in_return",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "gocognit",
+  "extra": {
+   "diagnostics": [
+    [
+     1,
+     null,
+     "||",
+     219
+    ]
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 245,
+  "end_line": null,
+  "name": "c37_early_return",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "gocognit",
+  "extra": {
+   "diagnostics": [
+    [
+     1,
+     null,
+     "if",
+     246
+    ]
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 453,
+  "end_line": null,
+  "name": "c98_if_err_not_nil_return",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "gocognit",
+  "extra": {
+   "diagnostics": [
+    [
+     1,
+     null,
+     "if",
+     455
+    ]
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 428,
+  "end_line": null,
+  "name": "(*Micro).c95_method_if",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "gocognit",
+  "extra": {
+   "diagnostics": [
+    [
+     1,
+     null,
+     "if",
+     429
+    ]
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 222,
+  "end_line": null,
+  "name": "c33_bool_in_call",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "gocognit",
+  "extra": {
+   "diagnostics": [
+    [
+     1,
+     null,
+     "&&",
+     223
+    ]
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 37,
+  "end_line": null,
+  "name": "c06_switch",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "gocognit",
+  "extra": {
+   "diagnostics": [
+    [
+     1,
+     null,
+     "switch",
+     38
+    ]
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 267,
+  "end_line": null,
+  "name": "c39_recursion_indirect_b",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "gocognit",
+  "extra": {
+   "diagnostics": [
+    [
+     1,
+     null,
+     "if",
+     268
+    ]
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 91,
+  "end_line": null,
+  "name": "c08_for_condition_only",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "gocognit",
+  "extra": {
+   "diagnostics": [
+    [
+     1,
+     null,
+     "for",
+     92
+    ]
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 70,
+  "end_line": null,
+  "name": "c06d_select",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "gocognit",
+  "extra": {
+   "diagnostics": [
+    [
+     1,
+     null,
+     "select",
+     71
+    ]
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 10,
+  "end_line": null,
+  "name": "c02_if",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "gocognit",
+  "extra": {
+   "diagnostics": [
+    [
+     1,
+     null,
+     "if",
+     11
+    ]
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 435,
+  "end_line": null,
+  "name": "(*Micro).c96_method_recursion",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "gocognit",
+  "extra": {
+   "diagnostics": [
+    [
+     1,
+     null,
+     "if",
+     436
+    ]
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 59,
+  "end_line": null,
+  "name": "c06c_type_switch",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "gocognit",
+  "extra": {
+   "diagnostics": [
+    [
+     1,
+     null,
+     "switch",
+     60
+    ]
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 79,
+  "end_line": null,
+  "name": "c07_for",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "gocognit",
+  "extra": {
+   "diagnostics": [
+    [
+     1,
+     null,
+     "for",
+     80
+    ]
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 85,
+  "end_line": null,
+  "name": "c07b_for_range",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "gocognit",
+  "extra": {
+   "diagnostics": [
+    [
+     1,
+     null,
+     "for",
+     86
+    ]
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 260,
+  "end_line": null,
+  "name": "c39_recursion_indirect_a",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "gocognit",
+  "extra": {
+   "diagnostics": [
+    [
+     1,
+     null,
+     "if",
+     261
+    ]
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 48,
+  "end_line": null,
+  "name": "c06b_switch_no_tag",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "gocognit",
+  "extra": {
+   "diagnostics": [
+    [
+     1,
+     null,
+     "switch",
+     49
+    ]
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 150,
+  "end_line": null,
+  "name": "c19b_if_with_init",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "gocognit",
+  "extra": {
+   "diagnostics": [
+    [
+     1,
+     null,
+     "if",
+     151
+    ]
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\go\\micro.go",
+  "line": 404,
+  "end_line": null,
+  "name": "c93_switch_with_fallthrough",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "gocognit",
+  "extra": {
+   "diagnostics": [
+    [
+     1,
+     null,
+     "switch",
+     405
+    ]
+   ]
+  }
+ }
+]

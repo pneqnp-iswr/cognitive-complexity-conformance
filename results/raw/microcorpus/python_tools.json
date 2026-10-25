@@ -1,0 +1,2422 @@
+[
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 6,
+  "end_line": 7,
+  "name": "c01_empty",
+  "value": 0,
+  "metric": "cognitive",
+  "tool": "complexipy",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 10,
+  "end_line": 13,
+  "name": "c02_if",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "complexipy",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 16,
+  "end_line": 20,
+  "name": "c03_if_else",
+  "value": 2,
+  "metric": "cognitive",
+  "tool": "complexipy",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 23,
+  "end_line": 31,
+  "name": "c04_if_elif_elif_else",
+  "value": 4,
+  "metric": "cognitive",
+  "tool": "complexipy",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 34,
+  "end_line": 35,
+  "name": "c05_ternary",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "complexipy",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 38,
+  "end_line": 45,
+  "name": "c06_match",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "complexipy",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 48,
+  "end_line": 50,
+  "name": "c07_for",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "complexipy",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 53,
+  "end_line": 56,
+  "name": "c08_while",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "complexipy",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 59,
+  "end_line": 63,
+  "name": "c09_try_except",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "complexipy",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 66,
+  "end_line": 72,
+  "name": "c10_try_two_excepts",
+  "value": 2,
+  "metric": "cognitive",
+  "tool": "complexipy",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 75,
+  "end_line": 79,
+  "name": "c11_except_tuple",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "complexipy",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 82,
+  "end_line": 86,
+  "name": "c12_try_finally",
+  "value": 0,
+  "metric": "cognitive",
+  "tool": "complexipy",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 89,
+  "end_line": 95,
+  "name": "c13_try_except_finally",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "complexipy",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 98,
+  "end_line": 102,
+  "name": "c14_if_in_if",
+  "value": 3,
+  "metric": "cognitive",
+  "tool": "complexipy",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 105,
+  "end_line": 110,
+  "name": "c15_if_in_for_in_while",
+  "value": 6,
+  "metric": "cognitive",
+  "tool": "complexipy",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 113,
+  "end_line": 119,
+  "name": "c16_if_in_except",
+  "value": 3,
+  "metric": "cognitive",
+  "tool": "complexipy",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 122,
+  "end_line": 128,
+  "name": "c17_if_in_try",
+  "value": 2,
+  "metric": "cognitive",
+  "tool": "complexipy",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 131,
+  "end_line": 137,
+  "name": "c18_if_in_else",
+  "value": 4,
+  "metric": "cognitive",
+  "tool": "complexipy",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 140,
+  "end_line": 146,
+  "name": "c19_if_in_elif",
+  "value": 4,
+  "metric": "cognitive",
+  "tool": "complexipy",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 149,
+  "end_line": 150,
+  "name": "c20_nested_ternary",
+  "value": 3,
+  "metric": "cognitive",
+  "tool": "complexipy",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 153,
+  "end_line": 156,
+  "name": "c21_ternary_in_if_condition",
+  "value": 2,
+  "metric": "cognitive",
+  "tool": "complexipy",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 159,
+  "end_line": 162,
+  "name": "c22_ternary_in_while_condition",
+  "value": 2,
+  "metric": "cognitive",
+  "tool": "complexipy",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 165,
+  "end_line": 168,
+  "name": "c23_and",
+  "value": 2,
+  "metric": "cognitive",
+  "tool": "complexipy",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 171,
+  "end_line": 174,
+  "name": "c24_and_and",
+  "value": 2,
+  "metric": "cognitive",
+  "tool": "complexipy",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 177,
+  "end_line": 180,
+  "name": "c25_or",
+  "value": 2,
+  "metric": "cognitive",
+  "tool": "complexipy",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 183,
+  "end_line": 186,
+  "name": "c26_and_or",
+  "value": 3,
+  "metric": "cognitive",
+  "tool": "complexipy",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 189,
+  "end_line": 192,
+  "name": "c27_or_and_or",
+  "value": 3,
+  "metric": "cognitive",
+  "tool": "complexipy",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 195,
+  "end_line": 198,
+  "name": "c28_and_not_paren_and",
+  "value": 3,
+  "metric": "cognitive",
+  "tool": "complexipy",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 201,
+  "end_line": 204,
+  "name": "c29_and_paren_or",
+  "value": 3,
+  "metric": "cognitive",
+  "tool": "complexipy",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 207,
+  "end_line": 210,
+  "name": "c30_and_paren_and",
+  "value": 2,
+  "metric": "cognitive",
+  "tool": "complexipy",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 213,
+  "end_line": 215,
+  "name": "c31_bool_in_assignment",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "complexipy",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 218,
+  "end_line": 219,
+  "name": "c32_bool_in_return",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "complexipy",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 222,
+  "end_line": 223,
+  "name": "c33_bool_in_call",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "complexipy",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 226,
+  "end_line": 228,
+  "name": "c34_or_default_idiom",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "complexipy",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 231,
+  "end_line": 234,
+  "name": "c35_and_or_and",
+  "value": 4,
+  "metric": "cognitive",
+  "tool": "complexipy",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 237,
+  "end_line": 243,
+  "name": "c36_unlabeled_break_continue",
+  "value": 5,
+  "metric": "cognitive",
+  "tool": "complexipy",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 246,
+  "end_line": 250,
+  "name": "c37_early_return",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "complexipy",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 253,
+  "end_line": 256,
+  "name": "c38_recursion_direct",
+  "value": 2,
+  "metric": "cognitive",
+  "tool": "complexipy",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 259,
+  "end_line": 262,
+  "name": "c39_recursion_indirect_a",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "complexipy",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 265,
+  "end_line": 268,
+  "name": "c39_recursion_indirect_b",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "complexipy",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 271,
+  "end_line": 273,
+  "name": "c40_lambda_with_ternary",
+  "value": 3,
+  "metric": "cognitive",
+  "tool": "complexipy",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 276,
+  "end_line": 281,
+  "name": "c41_nested_def_with_if",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "complexipy",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 284,
+  "end_line": 289,
+  "name": "c42_nested_def_only",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "complexipy",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 292,
+  "end_line": 299,
+  "name": "c43_nested_def_inside_if",
+  "value": 3,
+  "metric": "cognitive",
+  "tool": "complexipy",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 302,
+  "end_line": 307,
+  "name": "c44_decorator",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "complexipy",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 310,
+  "end_line": 316,
+  "name": "c45_not_a_decorator",
+  "value": 2,
+  "metric": "cognitive",
+  "tool": "complexipy",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 319,
+  "end_line": 326,
+  "name": "c46_decorator_generator",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "complexipy",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 329,
+  "end_line": 335,
+  "name": "c47_nested_class_method_if",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "complexipy",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 338,
+  "end_line": 339,
+  "name": "c48_comprehension_if",
+  "value": 2,
+  "metric": "cognitive",
+  "tool": "complexipy",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 342,
+  "end_line": 343,
+  "name": "c49_comprehension_plain",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "complexipy",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 346,
+  "end_line": 352,
+  "name": "c50_for_else",
+  "value": 3,
+  "metric": "cognitive",
+  "tool": "complexipy",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 355,
+  "end_line": 360,
+  "name": "c51_while_else",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "complexipy",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 363,
+  "end_line": 369,
+  "name": "c52_try_else",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "complexipy",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 372,
+  "end_line": 374,
+  "name": "c53_with",
+  "value": 0,
+  "metric": "cognitive",
+  "tool": "complexipy",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 377,
+  "end_line": 380,
+  "name": "c54_walrus",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "complexipy",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 383,
+  "end_line": 389,
+  "name": "c55_deep_nesting_4",
+  "value": 10,
+  "metric": "cognitive",
+  "tool": "complexipy",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 392,
+  "end_line": 399,
+  "name": "c56_for_in_except_in_for",
+  "value": 6,
+  "metric": "cognitive",
+  "tool": "complexipy",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 402,
+  "end_line": 407,
+  "name": "c57_two_sequential_ifs",
+  "value": 2,
+  "metric": "cognitive",
+  "tool": "complexipy",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 410,
+  "end_line": 418,
+  "name": "c58_else_if_nested_if",
+  "value": 5,
+  "metric": "cognitive",
+  "tool": "complexipy",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 421,
+  "end_line": 422,
+  "name": "c59_bool_inside_comprehension",
+  "value": 3,
+  "metric": "cognitive",
+  "tool": "complexipy",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 425,
+  "end_line": 427,
+  "name": "c60_bool_and_ternary_top_level",
+  "value": 2,
+  "metric": "cognitive",
+  "tool": "complexipy",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 430,
+  "end_line": 431,
+  "name": "c61_async_await",
+  "value": 0,
+  "metric": "cognitive",
+  "tool": "complexipy",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 434,
+  "end_line": 436,
+  "name": "c62_async_for",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "complexipy",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 440,
+  "end_line": 443,
+  "name": "Micro::c63_method_if",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "complexipy",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 445,
+  "end_line": 448,
+  "name": "Micro::c64_method_recursion",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "complexipy",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 450,
+  "end_line": 454,
+  "name": "Micro::c65_static_and_or",
+  "value": 3,
+  "metric": "cognitive",
+  "tool": "complexipy",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 457,
+  "end_line": 460,
+  "name": "c66_lambda_in_for",
+  "value": 4,
+  "metric": "cognitive",
+  "tool": "complexipy",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 463,
+  "end_line": 465,
+  "name": "c67_lambda_with_bool",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "complexipy",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 468,
+  "end_line": 471,
+  "name": "c68_raise_in_if",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "complexipy",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 474,
+  "end_line": 476,
+  "name": "c69_assert",
+  "value": 0,
+  "metric": "cognitive",
+  "tool": "complexipy",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 479,
+  "end_line": 480,
+  "name": "c70_generator_expression_if",
+  "value": 2,
+  "metric": "cognitive",
+  "tool": "complexipy",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 484,
+  "end_line": 487,
+  "name": "c103_recursion_two_calls",
+  "value": 2,
+  "metric": "cognitive",
+  "tool": "complexipy",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 6,
+  "end_line": 7,
+  "name": "c01_empty",
+  "value": 0,
+  "metric": "cognitive",
+  "tool": "cognitive_complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 10,
+  "end_line": 13,
+  "name": "c02_if",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "cognitive_complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 16,
+  "end_line": 20,
+  "name": "c03_if_else",
+  "value": 2,
+  "metric": "cognitive",
+  "tool": "cognitive_complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 23,
+  "end_line": 31,
+  "name": "c04_if_elif_elif_else",
+  "value": 4,
+  "metric": "cognitive",
+  "tool": "cognitive_complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 34,
+  "end_line": 35,
+  "name": "c05_ternary",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "cognitive_complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 38,
+  "end_line": 45,
+  "name": "c06_match",
+  "value": 0,
+  "metric": "cognitive",
+  "tool": "cognitive_complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 48,
+  "end_line": 50,
+  "name": "c07_for",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "cognitive_complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 53,
+  "end_line": 56,
+  "name": "c08_while",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "cognitive_complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 59,
+  "end_line": 63,
+  "name": "c09_try_except",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "cognitive_complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 66,
+  "end_line": 72,
+  "name": "c10_try_two_excepts",
+  "value": 2,
+  "metric": "cognitive",
+  "tool": "cognitive_complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 75,
+  "end_line": 79,
+  "name": "c11_except_tuple",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "cognitive_complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 82,
+  "end_line": 86,
+  "name": "c12_try_finally",
+  "value": 0,
+  "metric": "cognitive",
+  "tool": "cognitive_complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 89,
+  "end_line": 95,
+  "name": "c13_try_except_finally",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "cognitive_complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 98,
+  "end_line": 102,
+  "name": "c14_if_in_if",
+  "value": 3,
+  "metric": "cognitive",
+  "tool": "cognitive_complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 105,
+  "end_line": 110,
+  "name": "c15_if_in_for_in_while",
+  "value": 6,
+  "metric": "cognitive",
+  "tool": "cognitive_complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 113,
+  "end_line": 119,
+  "name": "c16_if_in_except",
+  "value": 3,
+  "metric": "cognitive",
+  "tool": "cognitive_complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 122,
+  "end_line": 128,
+  "name": "c17_if_in_try",
+  "value": 2,
+  "metric": "cognitive",
+  "tool": "cognitive_complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 131,
+  "end_line": 137,
+  "name": "c18_if_in_else",
+  "value": 2,
+  "metric": "cognitive",
+  "tool": "cognitive_complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 140,
+  "end_line": 146,
+  "name": "c19_if_in_elif",
+  "value": 4,
+  "metric": "cognitive",
+  "tool": "cognitive_complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 149,
+  "end_line": 150,
+  "name": "c20_nested_ternary",
+  "value": 3,
+  "metric": "cognitive",
+  "tool": "cognitive_complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 153,
+  "end_line": 156,
+  "name": "c21_ternary_in_if_condition",
+  "value": 3,
+  "metric": "cognitive",
+  "tool": "cognitive_complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 159,
+  "end_line": 162,
+  "name": "c22_ternary_in_while_condition",
+  "value": 3,
+  "metric": "cognitive",
+  "tool": "cognitive_complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 165,
+  "end_line": 168,
+  "name": "c23_and",
+  "value": 2,
+  "metric": "cognitive",
+  "tool": "cognitive_complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 171,
+  "end_line": 174,
+  "name": "c24_and_and",
+  "value": 2,
+  "metric": "cognitive",
+  "tool": "cognitive_complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 177,
+  "end_line": 180,
+  "name": "c25_or",
+  "value": 2,
+  "metric": "cognitive",
+  "tool": "cognitive_complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 183,
+  "end_line": 186,
+  "name": "c26_and_or",
+  "value": 3,
+  "metric": "cognitive",
+  "tool": "cognitive_complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 189,
+  "end_line": 192,
+  "name": "c27_or_and_or",
+  "value": 3,
+  "metric": "cognitive",
+  "tool": "cognitive_complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 195,
+  "end_line": 198,
+  "name": "c28_and_not_paren_and",
+  "value": 3,
+  "metric": "cognitive",
+  "tool": "cognitive_complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 201,
+  "end_line": 204,
+  "name": "c29_and_paren_or",
+  "value": 3,
+  "metric": "cognitive",
+  "tool": "cognitive_complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 207,
+  "end_line": 210,
+  "name": "c30_and_paren_and",
+  "value": 3,
+  "metric": "cognitive",
+  "tool": "cognitive_complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 213,
+  "end_line": 215,
+  "name": "c31_bool_in_assignment",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "cognitive_complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 218,
+  "end_line": 219,
+  "name": "c32_bool_in_return",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "cognitive_complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 222,
+  "end_line": 223,
+  "name": "c33_bool_in_call",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "cognitive_complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 226,
+  "end_line": 228,
+  "name": "c34_or_default_idiom",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "cognitive_complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 231,
+  "end_line": 234,
+  "name": "c35_and_or_and",
+  "value": 4,
+  "metric": "cognitive",
+  "tool": "cognitive_complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 237,
+  "end_line": 243,
+  "name": "c36_unlabeled_break_continue",
+  "value": 5,
+  "metric": "cognitive",
+  "tool": "cognitive_complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 246,
+  "end_line": 250,
+  "name": "c37_early_return",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "cognitive_complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 253,
+  "end_line": 256,
+  "name": "c38_recursion_direct",
+  "value": 2,
+  "metric": "cognitive",
+  "tool": "cognitive_complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 259,
+  "end_line": 262,
+  "name": "c39_recursion_indirect_a",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "cognitive_complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 265,
+  "end_line": 268,
+  "name": "c39_recursion_indirect_b",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "cognitive_complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 271,
+  "end_line": 273,
+  "name": "c40_lambda_with_ternary",
+  "value": 2,
+  "metric": "cognitive",
+  "tool": "cognitive_complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 276,
+  "end_line": 281,
+  "name": "c41_nested_def_with_if",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "cognitive_complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 284,
+  "end_line": 289,
+  "name": "c42_nested_def_only",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "cognitive_complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 292,
+  "end_line": 299,
+  "name": "c43_nested_def_inside_if",
+  "value": 4,
+  "metric": "cognitive",
+  "tool": "cognitive_complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 302,
+  "end_line": 307,
+  "name": "c44_decorator",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "cognitive_complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 310,
+  "end_line": 316,
+  "name": "c45_not_a_decorator",
+  "value": 2,
+  "metric": "cognitive",
+  "tool": "cognitive_complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 319,
+  "end_line": 326,
+  "name": "c46_decorator_generator",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "cognitive_complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 329,
+  "end_line": 335,
+  "name": "c47_nested_class_method_if",
+  "value": 2,
+  "metric": "cognitive",
+  "tool": "cognitive_complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 338,
+  "end_line": 339,
+  "name": "c48_comprehension_if",
+  "value": 0,
+  "metric": "cognitive",
+  "tool": "cognitive_complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 342,
+  "end_line": 343,
+  "name": "c49_comprehension_plain",
+  "value": 0,
+  "metric": "cognitive",
+  "tool": "cognitive_complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 346,
+  "end_line": 352,
+  "name": "c50_for_else",
+  "value": 4,
+  "metric": "cognitive",
+  "tool": "cognitive_complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 355,
+  "end_line": 360,
+  "name": "c51_while_else",
+  "value": 2,
+  "metric": "cognitive",
+  "tool": "cognitive_complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 363,
+  "end_line": 369,
+  "name": "c52_try_else",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "cognitive_complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 372,
+  "end_line": 374,
+  "name": "c53_with",
+  "value": 0,
+  "metric": "cognitive",
+  "tool": "cognitive_complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 377,
+  "end_line": 380,
+  "name": "c54_walrus",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "cognitive_complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 383,
+  "end_line": 389,
+  "name": "c55_deep_nesting_4",
+  "value": 10,
+  "metric": "cognitive",
+  "tool": "cognitive_complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 392,
+  "end_line": 399,
+  "name": "c56_for_in_except_in_for",
+  "value": 6,
+  "metric": "cognitive",
+  "tool": "cognitive_complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 402,
+  "end_line": 407,
+  "name": "c57_two_sequential_ifs",
+  "value": 2,
+  "metric": "cognitive",
+  "tool": "cognitive_complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 410,
+  "end_line": 418,
+  "name": "c58_else_if_nested_if",
+  "value": 5,
+  "metric": "cognitive",
+  "tool": "cognitive_complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 421,
+  "end_line": 422,
+  "name": "c59_bool_inside_comprehension",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "cognitive_complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 425,
+  "end_line": 427,
+  "name": "c60_bool_and_ternary_top_level",
+  "value": 2,
+  "metric": "cognitive",
+  "tool": "cognitive_complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 430,
+  "end_line": 431,
+  "name": "c61_async_await",
+  "value": 0,
+  "metric": "cognitive",
+  "tool": "cognitive_complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 434,
+  "end_line": 436,
+  "name": "c62_async_for",
+  "value": 0,
+  "metric": "cognitive",
+  "tool": "cognitive_complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 457,
+  "end_line": 460,
+  "name": "c66_lambda_in_for",
+  "value": 4,
+  "metric": "cognitive",
+  "tool": "cognitive_complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 463,
+  "end_line": 465,
+  "name": "c67_lambda_with_bool",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "cognitive_complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 468,
+  "end_line": 471,
+  "name": "c68_raise_in_if",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "cognitive_complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 474,
+  "end_line": 476,
+  "name": "c69_assert",
+  "value": 0,
+  "metric": "cognitive",
+  "tool": "cognitive_complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 479,
+  "end_line": 480,
+  "name": "c70_generator_expression_if",
+  "value": 0,
+  "metric": "cognitive",
+  "tool": "cognitive_complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 484,
+  "end_line": 487,
+  "name": "c103_recursion_two_calls",
+  "value": 2,
+  "metric": "cognitive",
+  "tool": "cognitive_complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 277,
+  "end_line": 280,
+  "name": "inner",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "cognitive_complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 285,
+  "end_line": 288,
+  "name": "inner",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "cognitive_complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 303,
+  "end_line": 306,
+  "name": "inner",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "cognitive_complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 312,
+  "end_line": 315,
+  "name": "inner",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "cognitive_complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 320,
+  "end_line": 325,
+  "name": "generator",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "cognitive_complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 440,
+  "end_line": 443,
+  "name": "c63_method_if",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "cognitive_complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 445,
+  "end_line": 448,
+  "name": "c64_method_recursion",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "cognitive_complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 451,
+  "end_line": 454,
+  "name": "c65_static_and_or",
+  "value": 3,
+  "metric": "cognitive",
+  "tool": "cognitive_complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 294,
+  "end_line": 297,
+  "name": "inner",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "cognitive_complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 321,
+  "end_line": 324,
+  "name": "decorator",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "cognitive_complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 331,
+  "end_line": 334,
+  "name": "m",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "cognitive_complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 6,
+  "end_line": 7,
+  "name": "c01_empty",
+  "value": 1,
+  "metric": "cyclomatic",
+  "tool": "radon",
+  "extra": {
+   "is_method": false
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 10,
+  "end_line": 13,
+  "name": "c02_if",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "radon",
+  "extra": {
+   "is_method": false
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 16,
+  "end_line": 20,
+  "name": "c03_if_else",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "radon",
+  "extra": {
+   "is_method": false
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 23,
+  "end_line": 31,
+  "name": "c04_if_elif_elif_else",
+  "value": 4,
+  "metric": "cyclomatic",
+  "tool": "radon",
+  "extra": {
+   "is_method": false
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 34,
+  "end_line": 35,
+  "name": "c05_ternary",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "radon",
+  "extra": {
+   "is_method": false
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 38,
+  "end_line": 45,
+  "name": "c06_match",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "radon",
+  "extra": {
+   "is_method": false
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 48,
+  "end_line": 50,
+  "name": "c07_for",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "radon",
+  "extra": {
+   "is_method": false
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 53,
+  "end_line": 56,
+  "name": "c08_while",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "radon",
+  "extra": {
+   "is_method": false
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 59,
+  "end_line": 63,
+  "name": "c09_try_except",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "radon",
+  "extra": {
+   "is_method": false
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 66,
+  "end_line": 72,
+  "name": "c10_try_two_excepts",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "radon",
+  "extra": {
+   "is_method": false
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 75,
+  "end_line": 79,
+  "name": "c11_except_tuple",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "radon",
+  "extra": {
+   "is_method": false
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 82,
+  "end_line": 86,
+  "name": "c12_try_finally",
+  "value": 1,
+  "metric": "cyclomatic",
+  "tool": "radon",
+  "extra": {
+   "is_method": false
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 89,
+  "end_line": 95,
+  "name": "c13_try_except_finally",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "radon",
+  "extra": {
+   "is_method": false
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 98,
+  "end_line": 102,
+  "name": "c14_if_in_if",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "radon",
+  "extra": {
+   "is_method": false
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 105,
+  "end_line": 110,
+  "name": "c15_if_in_for_in_while",
+  "value": 4,
+  "metric": "cyclomatic",
+  "tool": "radon",
+  "extra": {
+   "is_method": false
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 113,
+  "end_line": 119,
+  "name": "c16_if_in_except",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "radon",
+  "extra": {
+   "is_method": false
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 122,
+  "end_line": 128,
+  "name": "c17_if_in_try",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "radon",
+  "extra": {
+   "is_method": false
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 131,
+  "end_line": 137,
+  "name": "c18_if_in_else",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "radon",
+  "extra": {
+   "is_method": false
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 140,
+  "end_line": 146,
+  "name": "c19_if_in_elif",
+  "value": 4,
+  "metric": "cyclomatic",
+  "tool": "radon",
+  "extra": {
+   "is_method": false
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 149,
+  "end_line": 150,
+  "name": "c20_nested_ternary",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "radon",
+  "extra": {
+   "is_method": false
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 153,
+  "end_line": 156,
+  "name": "c21_ternary_in_if_condition",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "radon",
+  "extra": {
+   "is_method": false
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 159,
+  "end_line": 162,
+  "name": "c22_ternary_in_while_condition",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "radon",
+  "extra": {
+   "is_method": false
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 165,
+  "end_line": 168,
+  "name": "c23_and",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "radon",
+  "extra": {
+   "is_method": false
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 171,
+  "end_line": 174,
+  "name": "c24_and_and",
+  "value": 4,
+  "metric": "cyclomatic",
+  "tool": "radon",
+  "extra": {
+   "is_method": false
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 177,
+  "end_line": 180,
+  "name": "c25_or",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "radon",
+  "extra": {
+   "is_method": false
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 183,
+  "end_line": 186,
+  "name": "c26_and_or",
+  "value": 4,
+  "metric": "cyclomatic",
+  "tool": "radon",
+  "extra": {
+   "is_method": false
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 189,
+  "end_line": 192,
+  "name": "c27_or_and_or",
+  "value": 5,
+  "metric": "cyclomatic",
+  "tool": "radon",
+  "extra": {
+   "is_method": false
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 195,
+  "end_line": 198,
+  "name": "c28_and_not_paren_and",
+  "value": 4,
+  "metric": "cyclomatic",
+  "tool": "radon",
+  "extra": {
+   "is_method": false
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 201,
+  "end_line": 204,
+  "name": "c29_and_paren_or",
+  "value": 4,
+  "metric": "cyclomatic",
+  "tool": "radon",
+  "extra": {
+   "is_method": false
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 207,
+  "end_line": 210,
+  "name": "c30_and_paren_and",
+  "value": 4,
+  "metric": "cyclomatic",
+  "tool": "radon",
+  "extra": {
+   "is_method": false
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 213,
+  "end_line": 215,
+  "name": "c31_bool_in_assignment",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "radon",
+  "extra": {
+   "is_method": false
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 218,
+  "end_line": 219,
+  "name": "c32_bool_in_return",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "radon",
+  "extra": {
+   "is_method": false
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 222,
+  "end_line": 223,
+  "name": "c33_bool_in_call",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "radon",
+  "extra": {
+   "is_method": false
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 226,
+  "end_line": 228,
+  "name": "c34_or_default_idiom",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "radon",
+  "extra": {
+   "is_method": false
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 231,
+  "end_line": 234,
+  "name": "c35_and_or_and",
+  "value": 5,
+  "metric": "cyclomatic",
+  "tool": "radon",
+  "extra": {
+   "is_method": false
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 237,
+  "end_line": 243,
+  "name": "c36_unlabeled_break_continue",
+  "value": 4,
+  "metric": "cyclomatic",
+  "tool": "radon",
+  "extra": {
+   "is_method": false
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 246,
+  "end_line": 250,
+  "name": "c37_early_return",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "radon",
+  "extra": {
+   "is_method": false
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 253,
+  "end_line": 256,
+  "name": "c38_recursion_direct",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "radon",
+  "extra": {
+   "is_method": false
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 259,
+  "end_line": 262,
+  "name": "c39_recursion_indirect_a",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "radon",
+  "extra": {
+   "is_method": false
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 265,
+  "end_line": 268,
+  "name": "c39_recursion_indirect_b",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "radon",
+  "extra": {
+   "is_method": false
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 271,
+  "end_line": 273,
+  "name": "c40_lambda_with_ternary",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "radon",
+  "extra": {
+   "is_method": false
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 276,
+  "end_line": 281,
+  "name": "c41_nested_def_with_if",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "radon",
+  "extra": {
+   "is_method": false
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 284,
+  "end_line": 289,
+  "name": "c42_nested_def_only",
+  "value": 1,
+  "metric": "cyclomatic",
+  "tool": "radon",
+  "extra": {
+   "is_method": false
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 292,
+  "end_line": 299,
+  "name": "c43_nested_def_inside_if",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "radon",
+  "extra": {
+   "is_method": false
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 302,
+  "end_line": 307,
+  "name": "c44_decorator",
+  "value": 1,
+  "metric": "cyclomatic",
+  "tool": "radon",
+  "extra": {
+   "is_method": false
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 310,
+  "end_line": 316,
+  "name": "c45_not_a_decorator",
+  "value": 1,
+  "metric": "cyclomatic",
+  "tool": "radon",
+  "extra": {
+   "is_method": false
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 319,
+  "end_line": 326,
+  "name": "c46_decorator_generator",
+  "value": 1,
+  "metric": "cyclomatic",
+  "tool": "radon",
+  "extra": {
+   "is_method": false
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 329,
+  "end_line": 335,
+  "name": "c47_nested_class_method_if",
+  "value": 1,
+  "metric": "cyclomatic",
+  "tool": "radon",
+  "extra": {
+   "is_method": false
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 338,
+  "end_line": 339,
+  "name": "c48_comprehension_if",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "radon",
+  "extra": {
+   "is_method": false
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 342,
+  "end_line": 343,
+  "name": "c49_comprehension_plain",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "radon",
+  "extra": {
+   "is_method": false
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 346,
+  "end_line": 352,
+  "name": "c50_for_else",
+  "value": 4,
+  "metric": "cyclomatic",
+  "tool": "radon",
+  "extra": {
+   "is_method": false
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 355,
+  "end_line": 360,
+  "name": "c51_while_else",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "radon",
+  "extra": {
+   "is_method": false
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 363,
+  "end_line": 369,
+  "name": "c52_try_else",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "radon",
+  "extra": {
+   "is_method": false
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 372,
+  "end_line": 374,
+  "name": "c53_with",
+  "value": 1,
+  "metric": "cyclomatic",
+  "tool": "radon",
+  "extra": {
+   "is_method": false
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 377,
+  "end_line": 380,
+  "name": "c54_walrus",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "radon",
+  "extra": {
+   "is_method": false
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 383,
+  "end_line": 389,
+  "name": "c55_deep_nesting_4",
+  "value": 5,
+  "metric": "cyclomatic",
+  "tool": "radon",
+  "extra": {
+   "is_method": false
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 392,
+  "end_line": 399,
+  "name": "c56_for_in_except_in_for",
+  "value": 4,
+  "metric": "cyclomatic",
+  "tool": "radon",
+  "extra": {
+   "is_method": false
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 402,
+  "end_line": 407,
+  "name": "c57_two_sequential_ifs",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "radon",
+  "extra": {
+   "is_method": false
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 410,
+  "end_line": 418,
+  "name": "c58_else_if_nested_if",
+  "value": 4,
+  "metric": "cyclomatic",
+  "tool": "radon",
+  "extra": {
+   "is_method": false
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 421,
+  "end_line": 422,
+  "name": "c59_bool_inside_comprehension",
+  "value": 4,
+  "metric": "cyclomatic",
+  "tool": "radon",
+  "extra": {
+   "is_method": false
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 425,
+  "end_line": 427,
+  "name": "c60_bool_and_ternary_top_level",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "radon",
+  "extra": {
+   "is_method": false
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 430,
+  "end_line": 431,
+  "name": "c61_async_await",
+  "value": 1,
+  "metric": "cyclomatic",
+  "tool": "radon",
+  "extra": {
+   "is_method": false
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 434,
+  "end_line": 436,
+  "name": "c62_async_for",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "radon",
+  "extra": {
+   "is_method": false
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 457,
+  "end_line": 460,
+  "name": "c66_lambda_in_for",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "radon",
+  "extra": {
+   "is_method": false
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 463,
+  "end_line": 465,
+  "name": "c67_lambda_with_bool",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "radon",
+  "extra": {
+   "is_method": false
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 468,
+  "end_line": 471,
+  "name": "c68_raise_in_if",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "radon",
+  "extra": {
+   "is_method": false
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 474,
+  "end_line": 476,
+  "name": "c69_assert",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "radon",
+  "extra": {
+   "is_method": false
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 479,
+  "end_line": 480,
+  "name": "c70_generator_expression_if",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "radon",
+  "extra": {
+   "is_method": false
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 484,
+  "end_line": 487,
+  "name": "c103_recursion_two_calls",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "radon",
+  "extra": {
+   "is_method": false
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 440,
+  "end_line": 443,
+  "name": "c63_method_if",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "radon",
+  "extra": {
+   "is_method": true
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 445,
+  "end_line": 448,
+  "name": "c64_method_recursion",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "radon",
+  "extra": {
+   "is_method": true
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 451,
+  "end_line": 454,
+  "name": "c65_static_and_or",
+  "value": 4,
+  "metric": "cyclomatic",
+  "tool": "radon",
+  "extra": {
+   "is_method": true
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 440,
+  "end_line": 443,
+  "name": "c63_method_if",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "radon",
+  "extra": {
+   "is_method": true
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 445,
+  "end_line": 448,
+  "name": "c64_method_recursion",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "radon",
+  "extra": {
+   "is_method": true
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\python\\micro.py",
+  "line": 451,
+  "end_line": 454,
+  "name": "c65_static_and_or",
+  "value": 4,
+  "metric": "cyclomatic",
+  "tool": "radon",
+  "extra": {
+   "is_method": true
+  }
+ }
+]

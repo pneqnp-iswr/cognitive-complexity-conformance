@@ -1,0 +1,1 @@
+{ "jsPlugins": ["oxlint-plugin-complexity"], "rules": { "complexity/complexity": ["error", { "cyclomatic": 1, "cognitive": 1 }] } }

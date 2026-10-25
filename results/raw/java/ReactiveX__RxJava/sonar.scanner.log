@@ -1,0 +1,1144 @@
+04:23:27.572 INFO  Scanner configuration file: <LOCAL_PATH>/OneDrive\Documents\Conferences\research\tools\sonar-scanner-8.1.0.6389-windows-x64\bin\..\conf\sonar-scanner.properties
+04:23:27.583 INFO  Project root configuration file: NONE
+04:23:27.596 INFO  SonarScanner CLI 8.1.0.6389
+04:23:27.602 INFO  Windows 11 10.0 amd64
+04:23:30.458 INFO  Communicating with SonarQube Community Build 26.9.0.129388
+04:23:30.459 INFO  JRE provisioning: os[windows], arch[amd64]
+04:23:30.953 INFO  Starting SonarScanner Engine...
+04:23:30.954 INFO  Java 21.0.11 Eclipse Adoptium (64-bit)
+04:23:34.122 INFO  Load global settings
+04:23:34.254 INFO  Load global settings (done) | time=128ms
+04:23:34.258 INFO  Server id: 147B411E-AaCseIXKLwHTWvrBJNod
+04:23:34.266 INFO  Loading required plugins
+04:23:34.266 INFO  Load plugins index
+04:23:34.279 INFO  Load plugins index (done) | time=13ms
+04:23:34.281 INFO  Load/download plugins
+04:23:34.307 INFO  Load/download plugins (done) | time=26ms
+04:23:34.631 INFO  Process project properties
+04:23:34.654 INFO  Process project properties (done) | time=23ms
+04:23:34.673 INFO  Project key: cc-java-ReactiveX__RxJava
+04:23:34.673 INFO  Base dir: <LOCAL_PATH>/OneDrive\Documents\Conferences\research\data\raw_repos\ReactiveX__RxJava
+04:23:34.673 INFO  Working dir: <LOCAL_PATH>/OneDrive\Documents\Conferences\research\data\raw_repos\ReactiveX__RxJava\.scannerwork
+04:23:34.684 INFO  Load project settings for component key: 'cc-java-ReactiveX__RxJava'
+04:23:34.714 INFO  Load quality profiles
+04:23:34.757 INFO  Load quality profiles (done) | time=44ms
+04:23:34.795 INFO  Load active rules
+04:23:34.971 INFO  Load active rules (done) | time=176ms
+04:23:34.979 INFO  Load analysis cache
+04:23:34.983 INFO  Load analysis cache (404) | time=4ms
+04:23:35.248 INFO  Preprocessing files...
+04:23:38.045 INFO  1 language detected in 2072 preprocessed files (done) | time=2796ms
+04:23:38.045 INFO  112 files ignored because of inclusion/exclusion patterns
+04:23:38.047 INFO  Loading plugins for detected languages
+04:23:38.047 INFO  Load/download plugins
+04:23:38.183 INFO  Load/download plugins (done) | time=136ms
+04:23:38.320 INFO  Load project repositories
+04:23:38.327 INFO  Load project repositories (done) | time=6ms
+04:23:38.355 INFO  Indexing files...
+04:23:38.356 INFO  Project configuration:
+04:23:38.356 INFO    Included sources: **/*.java
+04:23:38.356 INFO    Excluded sources: **/node_modules/**, **/vendor/**, **/third_party/**, **/*.min.js
+04:23:38.356 INFO    Excluded sources for duplication: **/*
+04:23:38.762 INFO  2072 files indexed (done) | time=406ms
+04:23:38.763 INFO  Quality profile for java: cc-study-java
+04:23:38.763 INFO  ------------- Run sensors on module cc-java-ReactiveX__RxJava
+04:23:38.864 INFO  Load metrics repository
+04:23:38.887 INFO  Load metrics repository (done) | time=24ms
+04:23:39.625 INFO  Sensor IaC YAML File Type Classification Sensor [iac]
+04:23:39.657 INFO  Sensor IaC YAML File Type Classification Sensor [iac] (done) | time=32ms
+04:23:39.658 INFO  Sensor JavaSensor [java]
+04:23:39.715 INFO  Configured Java source version (sonar.java.source): 21, preview features enabled (sonar.java.enablePreview): false
+04:23:39.765 INFO  Server-side caching is enabled. The Java analyzer will not try to leverage data from a previous analysis.
+04:23:39.771 INFO  Using ECJ batch to parse 2072 Main java source files with batch size 421 KB.
+04:23:40.305 INFO  Starting batch processing.
+04:23:41.275 INFO  The Java analyzer cannot skip unchanged files in this context. A full analysis is performed for all files.
+04:23:41.414 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/virtual/VirtualTransformTest.java'
+04:23:41.414 ERROR Parse error at line 36 column 44: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:41.435 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/util/TestingHelper.java'
+04:23:41.435 ERROR Parse error at line 35 column 17: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:41.740 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/single/SingleOnErrorCompleteTest.java'
+04:23:41.740 ERROR Parse error at line 78 column 30: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:42.019 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/streamable/StreamableConcatIterableTest.java'
+04:23:42.019 ERROR Parse error at line 202 column 31: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:42.137 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/jdk8/FlatMapStream0HTckTest.java'
+04:23:42.137 ERROR Parse error at line 30 column 55: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:42.175 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/observable/ObservableFlattenIterableTest.java'
+04:23:42.176 ERROR Parse error at line 34 column 112: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:42.314 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/observers/LambdaObserverTest.java'
+04:23:42.314 ERROR Parse error at line 43 column 17: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:42.423 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/observable/ObservableCacheTest.java'
+04:23:42.423 ERROR Parse error at line 333 column 30: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:42.501 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/flowable/FlowableTakeLastOneTest.java'
+04:23:42.501 ERROR Parse error at line 90 column 54: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:42.523 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/flowable/FlowableConcatDelayErrorTest.java'
+04:23:42.524 ERROR Parse error at line 76 column 59: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:42.659 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/maybe/MaybeCacheTest.java'
+04:23:42.659 ERROR Parse error at line 163 column 26: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:42.694 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/flowable/FlowableDoAfterNextTest.java'
+04:23:42.694 ERROR Parse error at line 227 column 22: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:42.864 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/flowable/FlowableGroupJoinTest.java'
+04:23:42.864 ERROR Parse error at line 43 column 16: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:42.880 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/core/XFlatMapTest.java'
+04:23:42.880 ERROR Parse error at line 74 column 66: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:43.137 ERROR Unable to parse source file : 'src/main/java/io/reactivex/rxjava4/processors/DispatchStreamProcessor.java'
+04:23:43.137 ERROR Parse error at line 235 column 53: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:43.256 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/flowable/FlowableDistinctUntilChangedTest.java'
+04:23:43.256 ERROR Parse error at line 124 column 17: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:43.298 ERROR Unable to parse source file : 'src/jmh/java/io/reactivex/rxjava4/core/MemoryPerf.java'
+04:23:43.298 ERROR Parse error at line 166 column 98: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:43.795 ERROR Unable to parse source file : 'src/jmh/java/io/reactivex/rxjava4/core/ToFlowablePerf.java'
+04:23:43.795 ERROR Parse error at line 49 column 63: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:43.837 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/observable/ObservableDelaySubscriptionOtherTest.java'
+04:23:43.837 ERROR Parse error at line 40 column 24: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:43.873 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/streamable/StreamableBaseTest.java'
+04:23:43.873 ERROR Parse error at line 96 column 14: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:43.971 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/jdk8/FlatMapStream2HTckTest.java'
+04:23:43.971 ERROR Parse error at line 44 column 24: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:44.103 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/parallel/ParallelRunOnTest.java'
+04:23:44.103 ERROR Parse error at line 289 column 21: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:44.133 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/schedulers/ParallelSchedulerTests.java'
+04:23:44.133 ERROR Parse error at line 196 column 44: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:44.534 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/single/SingleSubscribeTest.java'
+04:23:44.535 ERROR Parse error at line 91 column 79: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:44.570 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/observable/ObservableCreateTest.java'
+04:23:44.570 ERROR Parse error at line 236 column 27: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:44.996 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/single/SingleDoAfterSuccessTest.java'
+04:23:44.997 ERROR Parse error at line 92 column 29: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:45.177 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/flowable/FlowableZipTest.java'
+04:23:45.178 ERROR Parse error at line 1362 column 28: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:45.370 ERROR Unable to parse source file : 'src/jmh/java/io/reactivex/rxjava4/xmapz/FlowableFlatMapMaybeEmptyPerf.java'
+04:23:45.370 ERROR Parse error at line 47 column 40: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:45.557 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/flowable/FlowableTimeIntervalTest.java'
+04:23:45.557 ERROR Parse error at line 76 column 54: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:45.651 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/maybe/MaybeFlatMapSingleElementTest.java'
+04:23:45.652 ERROR Parse error at line 52 column 37: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:45.973 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/maybe/MaybeSafeSubscribeTest.java'
+04:23:45.974 ERROR Parse error at line 71 column 27: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:46.011 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/tck/MaybeFlatMapPublisherTckTest.java'
+04:23:46.011 ERROR Parse error at line 28 column 95: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:46.018 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/observable/ObservableBufferUntilSubscriberTest.java'
+04:23:46.018 ERROR Parse error at line 57 column 34: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:46.142 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/flowable/FlowableAllTest.java'
+04:23:46.142 ERROR Parse error at line 105 column 18: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:46.314 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/jdk8/ObservableCollectWithCollectorTest.java'
+04:23:46.315 ERROR Parse error at line 73 column 25: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:46.391 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/testsupport/TestObserverExTest.java'
+04:23:46.392 ERROR Parse error at line 922 column 28: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:46.455 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/flowable/FlowableCombineLatestTest.java'
+04:23:46.455 ERROR Parse error at line 52 column 69: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:46.527 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/flowable/FlowableDoOnLifecycleTest.java'
+04:23:46.527 ERROR Parse error at line 35 column 24: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:46.558 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/streamable/StreamableJustTest.java'
+04:23:46.559 ERROR Parse error at line 46 column 17: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:46.600 ERROR Unable to parse source file : 'src/main/java/io/reactivex/rxjava4/internal/operators/streamable/StreamableGroupBy.java'
+04:23:46.601 ERROR Parse error at line 146 column 49: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:46.711 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/flowable/FlowableDoOnRequestTest.java'
+04:23:46.712 ERROR Parse error at line 35 column 30: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:47.089 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/flowable/FlowableOnBackpressureBufferTest.java'
+04:23:47.089 ERROR Parse error at line 142 column 69: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:47.296 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/flowable/FlowableObserveOnTest.java'
+04:23:47.296 ERROR Parse error at line 101 column 28: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:47.513 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/observable/ObservableTakeTest.java'
+04:23:47.513 ERROR Parse error at line 73 column 47: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:47.592 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/flowable/FlowableFilterTest.java'
+04:23:47.592 ERROR Parse error at line 146 column 19: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:47.727 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/flowable/FlowableDoOnUnsubscribeTest.java'
+04:23:47.727 ERROR Parse error at line 50 column 27: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:47.793 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/subscribers/FlowableConsumersTest.java'
+04:23:47.794 ERROR Parse error at line 215 column 75: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:48.217 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/validators/CheckParamValidationTest.java'
+04:23:48.217 ERROR Parse error at line 714 column 51: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:48.239 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/virtual/tck/FlowableVirtualTransformExecutor3TckTest.java'
+04:23:48.240 ERROR Parse error at line 32 column 48: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:48.254 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/jdk8/SingleFlattenStreamAsObservableTest.java'
+04:23:48.254 ERROR Parse error at line 48 column 36: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:48.359 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/flowable/FlowableJoinTest.java'
+04:23:48.360 ERROR Parse error at line 41 column 16: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:48.513 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/testsupport/TestHelper.java'
+04:23:48.513 ERROR Parse error at line 3537 column 47: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:48.542 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/flowable/FlowableReduceTest.java'
+04:23:48.542 ERROR Parse error at line 78 column 57: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:48.549 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/maybe/MaybeFlatMapIterableFlowableTest.java'
+04:23:48.550 ERROR Parse error at line 46 column 41: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:48.702 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/observable/ObservableCovarianceTest.java'
+04:23:48.703 ERROR Parse error at line 46 column 43: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:48.730 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/streamable/StreamableMapTest.java'
+04:23:48.730 ERROR Parse error at line 51 column 14: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:48.736 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/jdk8/ParallelMapTryOptionalTest.java'
+04:23:48.738 ERROR Parse error at line 131 column 21: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:49.293 ERROR Unable to parse source file : 'src/main/java/io/reactivex/rxjava4/core/Streamable.java'
+04:23:49.294 ERROR Parse error at line 979 column 18: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:49.334 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/mixed/FlowableSwitchMapMaybeTest.java'
+04:23:49.335 ERROR Parse error at line 49 column 67: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:49.391 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/observable/ObservableTakeLastOneTest.java'
+04:23:49.392 ERROR Parse error at line 74 column 56: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:49.474 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/maybe/MaybeFlattenTest.java'
+04:23:49.475 ERROR Parse error at line 27 column 56: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:49.541 ERROR Unable to parse source file : 'src/main/java/io/reactivex/rxjava4/internal/operators/streamable/StreamableUsing.java'
+04:23:49.542 ERROR Parse error at line 77 column 45: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:49.548 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/completable/CompletableSafeSubscribeTest.java'
+04:23:49.548 ERROR Parse error at line 52 column 27: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:49.699 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/observable/ObservableSubscriberTest.java'
+04:23:49.700 ERROR Parse error at line 128 column 49: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:49.726 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/flowable/FlowableMapNotificationTest.java'
+04:23:49.727 ERROR Parse error at line 52 column 17: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:49.786 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/single/SingleTimeoutTest.java'
+04:23:49.786 ERROR Parse error at line 242 column 32: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:49.883 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/flowable/FlowableTimestampTest.java'
+04:23:49.884 ERROR Parse error at line 91 column 54: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:49.890 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/observable/ObservableFilterTest.java'
+04:23:49.890 ERROR Parse error at line 100 column 17: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:49.896 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/virtual/tck/FlowableVirtualTransformVirtualTckTest.java'
+04:23:49.896 ERROR Parse error at line 35 column 48: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:50.051 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/maybe/MaybeEqualTest.java'
+04:23:50.051 ERROR Parse error at line 31 column 60: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:50.151 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/flowable/FlowableMergeTest.java'
+04:23:50.151 ERROR Parse error at line 780 column 81: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:50.228 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/single/SingleTimerTest.java'
+04:23:50.229 ERROR Parse error at line 32 column 68: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:50.325 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/parallel/ParallelJoinTest.java'
+04:23:50.325 ERROR Parse error at line 167 column 43: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:50.334 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/flowable/FlowableOnErrorResumeNextViaFunctionTest.java'
+04:23:50.334 ERROR Parse error at line 109 column 56: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:50.579 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/flowable/FlowableDoOnSubscribeTest.java'
+04:23:50.579 ERROR Parse error at line 31 column 62: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:50.746 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/flowable/FlowableConcatMapSchedulerTest.java'
+04:23:50.746 ERROR Parse error at line 46 column 14: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:50.773 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/observable/ObservableConcatMapSchedulerTest.java'
+04:23:50.773 ERROR Parse error at line 48 column 14: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:50.779 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/streamable/StreamableLifecycleVerifier.java'
+04:23:50.779 ERROR Parse error at line 47 column 18: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:50.924 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/schedulers/VirtualSchedulerTests.java'
+04:23:50.924 ERROR Parse error at line 183 column 44: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:51.083 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/observable/ObservableMergeTest.java'
+04:23:51.083 ERROR Parse error at line 726 column 87: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:51.096 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/observable/ObservableRangeTest.java'
+04:23:51.097 ERROR Parse error at line 52 column 44: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:51.196 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/flowable/FlowableSwitchTest.java'
+04:23:51.197 ERROR Parse error at line 463 column 35: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:51.427 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/single/SingleDematerializeTest.java'
+04:23:51.427 ERROR Parse error at line 72 column 81: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:51.530 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/flowable/FlowableTakeLastTest.java'
+04:23:51.530 ERROR Parse error at line 146 column 25: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:51.588 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/subscribers/LambdaSubscriberTest.java'
+04:23:51.588 ERROR Parse error at line 38 column 57: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:51.617 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/flowable/FlowableGenerateTest.java'
+04:23:51.617 ERROR Parse error at line 36 column 25: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:51.722 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/observable/ObservableForEachTest.java'
+04:23:51.723 ERROR Parse error at line 50 column 23: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:51.746 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/mixed/ObservableSwitchMapSingleTest.java'
+04:23:51.746 ERROR Parse error at line 153 column 98: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:51.784 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/completable/CompletableMergeTest.java'
+04:23:51.785 ERROR Parse error at line 207 column 69: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:52.046 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/observable/ObservableDelayTest.java'
+04:23:52.047 ERROR Parse error at line 267 column 60: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:52.342 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/observable/ObservableFlatMapSingleIsolatedTest.java'
+04:23:52.342 ERROR Parse error at line 36 column 58: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:52.447 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/jdk8/ParallelMapOptionalTest.java'
+04:23:52.447 ERROR Parse error at line 112 column 22: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:52.456 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/jdk8/ObservableFlatMapStreamTest.java'
+04:23:52.456 ERROR Parse error at line 39 column 24: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:52.616 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/observable/ObservableConcatMapTest.java'
+04:23:52.616 ERROR Parse error at line 54 column 67: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:52.670 ERROR Unable to parse source file : 'src/jmh/java/io/reactivex/rxjava4/xmapz/FlowableSwitchMapCompletablePerf.java'
+04:23:52.670 ERROR Parse error at line 47 column 42: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:52.722 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/flowable/FlowableRangeTest.java'
+04:23:52.722 ERROR Parse error at line 54 column 42: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:52.804 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/mixed/SingleFlatMapObservableTest.java'
+04:23:52.805 ERROR Parse error at line 113 column 42: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:52.918 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/single/SingleCreateTest.java'
+04:23:52.918 ERROR Parse error at line 99 column 23: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:52.953 ERROR Unable to parse source file : 'src/jmh/java/io/reactivex/rxjava4/xmapz/ObservableSwitchMapMaybeEmptyPerf.java'
+04:23:52.953 ERROR Parse error at line 48 column 85: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:52.959 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/jdk8/SingleFlattenStreamAsFlowableTckTest.java'
+04:23:52.960 ERROR Parse error at line 30 column 56: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:52.986 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/single/SingleDoOnTest.java'
+04:23:52.986 ERROR Parse error at line 55 column 38: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:53.053 ERROR Unable to parse source file : 'src/jmh/java/io/reactivex/rxjava4/core/FlattenCrossMapPerf.java'
+04:23:53.054 ERROR Parse error at line 49 column 101: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:53.139 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/parallel/ParallelFlowableTest.java'
+04:23:53.141 ERROR Parse error at line 668 column 22: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:53.346 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/observable/ObservableGroupJoinTest.java'
+04:23:53.346 ERROR Parse error at line 45 column 16: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:53.398 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/completable/CompletableFromSupplierTest.java'
+04:23:53.398 ERROR Parse error at line 107 column 54: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:53.487 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/virtual/tck/FlowableVirtualTransformVirtual2TckTest.java'
+04:23:53.487 ERROR Parse error at line 34 column 48: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:53.542 ERROR Unable to parse source file : 'src/jmh/java/io/reactivex/rxjava4/xmapz/FlowableFlatMapCompletablePerf.java'
+04:23:53.542 ERROR Parse error at line 47 column 40: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:53.607 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/observable/ObservableObserveOnTest.java'
+04:23:53.607 ERROR Parse error at line 104 column 28: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:53.643 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/flowable/FlowableConcatMapEagerTest.java'
+04:23:53.643 ERROR Parse error at line 132 column 57: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:53.683 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/flowable/FlowableFromCallableTest.java'
+04:23:53.683 ERROR Parse error at line 97 column 55: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:53.771 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/virtual/tck/FlowableVirtualTransformVirtual3TckTest.java'
+04:23:53.772 ERROR Parse error at line 33 column 48: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:53.832 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/flowable/FlowableReplayTest.java'
+04:23:53.832 ERROR Parse error at line 1018 column 19: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:53.894 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/single/SingleFlatMapIterableObservableTest.java'
+04:23:53.894 ERROR Parse error at line 46 column 83: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:54.244 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/mixed/FlowableSwitchMapCompletableTest.java'
+04:23:54.244 ERROR Parse error at line 39 column 31: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:54.300 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/mixed/ObservableConcatMapMaybeTest.java'
+04:23:54.300 ERROR Parse error at line 60 column 67: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:54.399 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/observable/ObservableRedoTest.java'
+04:23:54.399 ERROR Parse error at line 48 column 80: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:54.524 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/flowable/FlowablePublishTest.java'
+04:23:54.524 ERROR Parse error at line 116 column 19: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:54.566 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/plugins/RxJavaPluginsTest.java'
+04:23:54.567 ERROR Parse error at line 66 column 30: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:54.854 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/flowable/FlowableDelayTest.java'
+04:23:54.854 ERROR Parse error at line 266 column 58: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:54.863 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/streamable/StreamableFilterTest.java'
+04:23:54.863 ERROR Parse error at line 31 column 17: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:54.963 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/completable/CompletableRepeatWhenTest.java'
+04:23:54.964 ERROR Parse error at line 34 column 32: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:54.980 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/maybe/MaybeFlatMapCompletableTest.java'
+04:23:54.981 ERROR Parse error at line 27 column 100: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:55.037 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/flowable/FlowableBlockingTest.java'
+04:23:55.037 ERROR Parse error at line 276 column 30: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:55.064 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/jdk8/MaybeFlattenStreamAsFlowableTckTest.java'
+04:23:55.064 ERROR Parse error at line 30 column 55: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:55.185 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/flowable/FlowableIgnoreElementsTest.java'
+04:23:55.185 ERROR Parse error at line 49 column 27: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:55.189 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/streamable/StreamableDoOnNextTest.java'
+04:23:55.189 ERROR Parse error at line 31 column 19: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:55.256 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/flowable/FlowableScanTest.java'
+04:23:55.256 ERROR Parse error at line 291 column 93: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:55.336 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/single/SingleFromSupplierTest.java'
+04:23:55.336 ERROR Parse error at line 132 column 54: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:55.449 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/single/SingleFlatMapMaybeTest.java'
+04:23:55.449 ERROR Parse error at line 52 column 79: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:55.495 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/observable/ObservableCombineLatestTests.java'
+04:23:55.495 ERROR Parse error at line 40 column 58: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:55.577 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/validators/CheckLocalVariablesInTest.java'
+04:23:55.577 ERROR Parse error at line 44 column 37: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:55.634 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/observable/ObservableScalarXMapTest.java'
+04:23:55.634 ERROR Parse error at line 77 column 140: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:55.740 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/mixed/ObservableConcatMapCompletableTest.java'
+04:23:55.740 ERROR Parse error at line 83 column 17: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:55.780 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/flowable/FlowableBufferTest.java'
+04:23:55.780 ERROR Parse error at line 199 column 53: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:55.859 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/observable/ObservableZipTests.java'
+04:23:55.859 ERROR Parse error at line 38 column 99: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:55.892 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/flowable/FlowableFromSupplierTest.java'
+04:23:55.892 ERROR Parse error at line 98 column 54: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:55.895 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/single/SingleFlatMapCompletableTest.java'
+04:23:55.896 ERROR Parse error at line 26 column 101: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:56.258 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/maybe/MaybePeekTest.java'
+04:23:56.258 ERROR Parse error at line 96 column 39: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:56.386 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/flowable/FlowableTimeoutWithSelectorTest.java'
+04:23:56.386 ERROR Parse error at line 48 column 60: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:56.412 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/parallel/ParallelPeekTest.java'
+04:23:56.413 ERROR Parse error at line 42 column 24: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:56.762 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/maybe/MaybeFromCallableTest.java'
+04:23:56.762 ERROR Parse error at line 153 column 55: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:56.769 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/flowable/FlowableReduceTests.java'
+04:23:56.769 ERROR Parse error at line 54 column 62: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:56.786 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/streamable/StreamableOnErrorResumeNextTest.java'
+04:23:56.786 ERROR Parse error at line 29 column 28: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:56.855 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/completable/CompletableConcatTest.java'
+04:23:56.855 ERROR Parse error at line 83 column 68: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:56.863 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/subscribers/BasicFuseableConditionalSubscriberTest.java'
+04:23:56.863 ERROR Parse error at line 134 column 25: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:56.886 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/observable/ObservableGroupByTest.java'
+04:23:56.886 ERROR Parse error at line 420 column 69: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:56.963 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/mixed/FlowableConcatMapCompletableTest.java'
+04:23:56.963 ERROR Parse error at line 93 column 17: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:56.975 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/virtual/tck/FlowableVirtualTransformExecutor2TckTest.java'
+04:23:56.976 ERROR Parse error at line 34 column 48: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:57.019 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/jdk8/MaybeFlattenStreamAsObservableTest.java'
+04:23:57.019 ERROR Parse error at line 48 column 36: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:57.039 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/flowable/FlowableDoAfterNextTest.java'
+04:23:57.039 ERROR Parse error at line 31 column 26: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:23:57.107 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/schedulers/SchedulerMultiWorkerSupportParallelTest.java'
+04:23:57.108 ERROR Parse error at line 52 column 37: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:00.560 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/observable/ObservableDoOnEachTest.java'
+04:24:00.560 ERROR Parse error at line 123 column 34: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:00.571 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/streamable/StreamableRepeatTest.java'
+04:24:00.571 ERROR Parse error at line 93 column 21: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:00.603 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/completable/CompletableLiftTest.java'
+04:24:00.603 ERROR Parse error at line 32 column 19: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:00.697 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/completable/CompletableTest.java'
+04:24:00.697 ERROR Parse error at line 362 column 54: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:00.918 ERROR Unable to parse source file : 'src/jmh/java/io/reactivex/rxjava4/core/ObservableFlatMapPerf.java'
+04:24:00.918 ERROR Parse error at line 50 column 73: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:00.990 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/flowable/FlowableFlatMapCompletableTest.java'
+04:24:00.990 ERROR Parse error at line 42 column 29: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:01.007 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/streamable/StreamableToObservableTest.java'
+04:24:01.008 ERROR Parse error at line 40 column 18: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:01.070 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/observers/TestObserverTest.java'
+04:24:01.070 ERROR Parse error at line 710 column 28: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:01.076 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/single/SingleDoOnLifecycleTest.java'
+04:24:01.076 ERROR Parse error at line 146 column 71: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:01.216 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/observable/ObservableAmbTest.java'
+04:24:01.216 ERROR Parse error at line 152 column 44: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:01.221 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/schedulers/SchedulerMultiWorkerSupportTest.java'
+04:24:01.221 ERROR Parse error at line 39 column 37: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:01.355 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/observable/ObservableRefCountTest.java'
+04:24:01.356 ERROR Parse error at line 69 column 32: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:01.396 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/virtual/tck/FlowableVirtualCreateVirtualTckTest.java'
+04:24:01.397 ERROR Parse error at line 39 column 45: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:01.561 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/observable/ObservableScanTest.java'
+04:24:01.561 ERROR Parse error at line 173 column 67: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:01.575 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/observable/ObservableCombineLatestTest.java'
+04:24:01.575 ERROR Parse error at line 50 column 73: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:01.684 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/maybe/MaybeDoOnLifecycleTest.java'
+04:24:01.684 ERROR Parse error at line 162 column 70: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:01.720 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/mixed/FlowableSwitchMapSingleTest.java'
+04:24:01.720 ERROR Parse error at line 156 column 110: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:01.731 ERROR Unable to parse source file : 'src/jmh/java/io/reactivex/rxjava4/xmapz/ObservableConcatMapCompletablePerf.java'
+04:24:01.731 ERROR Parse error at line 48 column 85: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:01.762 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/flowable/FlowableAnyTest.java'
+04:24:01.762 ERROR Parse error at line 41 column 40: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:01.770 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/mixed/ObservableSwitchMapMaybeTest.java'
+04:24:01.770 ERROR Parse error at line 46 column 67: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:01.918 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/maybe/MaybeConcatMapCompletableTest.java'
+04:24:01.918 ERROR Parse error at line 27 column 102: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:02.129 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/flowable/BufferUntilSubscriberTest.java'
+04:24:02.129 ERROR Parse error at line 58 column 34: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:02.166 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/parallel/ParallelDoOnNextTryTest.java'
+04:24:02.166 ERROR Parse error at line 156 column 16: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:02.180 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/flowable/FlowableConcatMapTest.java'
+04:24:02.180 ERROR Parse error at line 59 column 14: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:02.196 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/streamable/StreamableLiftTest.java'
+04:24:02.196 ERROR Parse error at line 28 column 16: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:02.214 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/virtual/tck/FlowableVirtualCreateExecutorTckTest.java'
+04:24:02.215 ERROR Parse error at line 39 column 45: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:02.237 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/observable/ObservableBlockingTest.java'
+04:24:02.237 ERROR Parse error at line 172 column 30: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:02.370 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/completable/CompletableUnsafeTest.java'
+04:24:02.370 ERROR Parse error at line 55 column 38: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:02.375 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/observable/ObservableRangeLongTest.java'
+04:24:02.375 ERROR Parse error at line 51 column 48: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:02.433 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/observable/ObservableAllTest.java'
+04:24:02.433 ERROR Parse error at line 106 column 18: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:02.453 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/flowable/FlowableFlattenIterableTest.java'
+04:24:02.454 ERROR Parse error at line 211 column 67: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:02.465 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/completable/CompletableUsingTest.java'
+04:24:02.465 ERROR Parse error at line 40 column 13: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:02.477 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/flowable/FlowableLiftTest.java'
+04:24:02.477 ERROR Parse error at line 34 column 19: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:02.510 ERROR Unable to parse source file : 'src/jmh/java/io/reactivex/rxjava4/core/XMapYPerf.java'
+04:24:02.510 ERROR Parse error at line 107 column 88: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:02.556 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/flowable/FlowableDoOnEachTest.java'
+04:24:02.556 ERROR Parse error at line 125 column 34: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:02.562 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/jdk8/FlatMapStream1TckTest.java'
+04:24:02.562 ERROR Parse error at line 37 column 24: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:02.583 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/observable/ObservableTimeIntervalTest.java'
+04:24:02.583 ERROR Parse error at line 76 column 54: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:02.649 ERROR Unable to parse source file : 'src/jmh/java/io/reactivex/rxjava4/streamable/StreamableSkipPerf.java'
+04:24:02.649 ERROR Parse error at line 131 column 62: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:02.738 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/flowable/FlowableTakeUntilPredicateTest.java'
+04:24:02.738 ERROR Parse error at line 39 column 36: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:02.856 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/flowable/FlowablePublishFunctionTest.java'
+04:24:02.856 ERROR Parse error at line 230 column 49: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:02.861 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/completable/CompletableDoOnLifecycleTest.java'
+04:24:02.862 ERROR Parse error at line 146 column 76: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:02.926 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/flowable/FlowableFlatMapTest.java'
+04:24:02.926 ERROR Parse error at line 48 column 49: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:03.126 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/flowable/FlowableRefCountTest.java'
+04:24:03.126 ERROR Parse error at line 69 column 32: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:03.378 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/jdk8/MaybeMapOptionalTest.java'
+04:24:03.378 ERROR Parse error at line 41 column 22: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:03.399 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/streamable/StreamableUsingTest.java'
+04:24:03.399 ERROR Parse error at line 64 column 35: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:03.427 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/streamable/StreamableSingleFlattenAsTest.java'
+04:24:03.427 ERROR Parse error at line 60 column 30: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:03.430 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/schedulers/CachedScheduledReleaseTest.java'
+04:24:03.430 ERROR Parse error at line 34 column 26: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:03.441 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/jdk8/ParallelFlatMapStreamTest.java'
+04:24:03.441 ERROR Parse error at line 28 column 24: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:03.551 ERROR Unable to parse source file : 'src/jmh/java/io/reactivex/rxjava4/core/FlattenRangePerf.java'
+04:24:03.551 ERROR Parse error at line 46 column 101: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:03.579 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/observable/ObservableReduceTests.java'
+04:24:03.579 ERROR Parse error at line 54 column 64: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:03.588 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/flowable/FlowableDoFinallyTest.java'
+04:24:03.588 ERROR Parse error at line 428 column 17: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:03.594 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/observable/ObservableConcatMapCompletableTest.java'
+04:24:03.595 ERROR Parse error at line 120 column 66: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:05.885 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/testsupport/TestSubscriberExTest.java'
+04:24:05.885 ERROR Parse error at line 458 column 28: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:05.893 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/observable/ObservableRetryWithPredicateTest.java'
+04:24:05.893 ERROR Parse error at line 41 column 55: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:05.930 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/completable/CompletableOnErrorXTest.java'
+04:24:05.930 ERROR Parse error at line 42 column 28: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:05.932 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/mixed/MaybeFlatMapPublisherTest.java'
+04:24:05.932 ERROR Parse error at line 71 column 40: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:06.042 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/observable/ObservableWindowWithStartEndObservableTest.java'
+04:24:06.042 ERROR Parse error at line 71 column 55: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:06.100 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/virtual/VirtualCreateVirtualTest.java'
+04:24:06.100 ERROR Parse error at line 101 column 41: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:06.116 ERROR Unable to parse source file : 'src/jmh/java/io/reactivex/rxjava4/xmapz/FlowableConcatMapCompletablePerf.java'
+04:24:06.116 ERROR Parse error at line 47 column 42: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:06.123 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/flowable/FlowableMaterializeTest.java'
+04:24:06.123 ERROR Parse error at line 180 column 58: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:06.244 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/flowable/FlowableOnErrorCompleteTest.java'
+04:24:06.244 ERROR Parse error at line 100 column 30: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:06.287 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/jdk8/FlowableFlatMapStreamTest.java'
+04:24:06.287 ERROR Parse error at line 40 column 24: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:06.317 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/observable/ObservableTakeLastTest.java'
+04:24:06.317 ERROR Parse error at line 138 column 25: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:06.320 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/jdk8/FlatMapStream2TckTest.java'
+04:24:06.320 ERROR Parse error at line 44 column 24: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:06.339 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/jdk8/FlatMapStream0TckTest.java'
+04:24:06.339 ERROR Parse error at line 30 column 48: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:06.353 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/observable/ObservableZipTest.java'
+04:24:06.353 ERROR Parse error at line 1131 column 103: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:06.430 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/streamable/StreamableEmptyTest.java'
+04:24:06.430 ERROR Parse error at line 48 column 17: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:06.455 ERROR Unable to parse source file : 'src/jmh/java/io/reactivex/rxjava4/xmapz/ObservableConcatMapMaybeEmptyPerf.java'
+04:24:06.455 ERROR Parse error at line 48 column 85: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:06.462 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/flowable/FlowableFlatMapMaybeTest.java'
+04:24:06.462 ERROR Parse error at line 51 column 65: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:06.467 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/parallel/ParallelReduceFullTest.java'
+04:24:06.467 ERROR Parse error at line 139 column 37: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:06.597 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/flowable/FlowableConcatTest.java'
+04:24:06.597 ERROR Parse error at line 1118 column 47: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:06.643 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/flowable/FlowableForEachTest.java'
+04:24:06.643 ERROR Parse error at line 45 column 23: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:06.669 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/flowable/FlowableWithLatestFromTest.java'
+04:24:06.669 ERROR Parse error at line 39 column 74: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:06.706 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/observable/ObservableRetryTest.java'
+04:24:06.706 ERROR Parse error at line 127 column 44: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:06.736 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/jdk8/FlatMapStream1HTckTest.java'
+04:24:06.736 ERROR Parse error at line 37 column 24: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:06.763 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/flowable/FlowableRetryWithPredicateTest.java'
+04:24:06.764 ERROR Parse error at line 41 column 55: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:06.815 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/observable/ObservableLiftTest.java'
+04:24:06.815 ERROR Parse error at line 31 column 19: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:06.845 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/jdk8/FlowableMapOptionalTest.java'
+04:24:06.845 ERROR Parse error at line 47 column 22: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:06.850 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/streamable/StreamableRetryTest.java'
+04:24:06.850 ERROR Parse error at line 91 column 16: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:07.007 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/observers/ObservableConsumersTest.java'
+04:24:07.007 ERROR Parse error at line 214 column 56: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:07.012 ERROR Unable to parse source file : 'src/jmh/java/io/reactivex/rxjava4/core/OperatorMergePerf.java'
+04:24:07.012 ERROR Parse error at line 47 column 63: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:07.047 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/streamable/StreamableTimerTest.java'
+04:24:07.048 ERROR Parse error at line 78 column 22: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:07.058 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/mixed/ObservableConcatMapSingleTest.java'
+04:24:07.059 ERROR Parse error at line 156 column 64: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:07.176 ERROR Unable to parse source file : 'src/main/java/io/reactivex/rxjava4/internal/operators/streamable/StreamableHelper.java'
+04:24:07.176 ERROR Parse error at line 127 column 50: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:07.202 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/flowable/FlowableDelaySubscriptionOtherTest.java'
+04:24:07.202 ERROR Parse error at line 40 column 24: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:07.354 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/flowable/FlowableBackpressureTests.java'
+04:24:07.354 ERROR Parse error at line 218 column 58: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:07.407 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/completable/CompletableCreateTest.java'
+04:24:07.409 ERROR Parse error at line 108 column 28: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:07.411 ERROR Unable to parse source file : 'src/jmh/java/io/reactivex/rxjava4/xmapz/ObservableSwitchMapCompletablePerf.java'
+04:24:07.411 ERROR Parse error at line 48 column 85: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:07.452 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/jdk8/MaybeFlattenStreamAsFlowableTest.java'
+04:24:07.452 ERROR Parse error at line 50 column 34: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:07.457 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/maybe/MaybeOnErrorXTest.java'
+04:24:07.457 ERROR Parse error at line 71 column 24: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:07.474 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/schedulers/SharedSchedulerTests.java'
+04:24:07.474 ERROR Parse error at line 195 column 44: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:07.631 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/schedulers/FailOnBlockingTest.java'
+04:24:07.631 ERROR Parse error at line 553 column 18: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:07.707 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/flowable/FlowableRetryTest.java'
+04:24:07.707 ERROR Parse error at line 127 column 87: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:07.733 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/jdk8/ObservableFromStreamTest.java'
+04:24:07.733 ERROR Parse error at line 80 column 17: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:07.756 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/observable/ObservableToMultimapTest.java'
+04:24:07.756 ERROR Parse error at line 96 column 69: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:07.763 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/single/SingleMiscTest.java'
+04:24:07.763 ERROR Parse error at line 170 column 17: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:07.767 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/single/SingleFlatMapNotificationTest.java'
+04:24:07.767 ERROR Parse error at line 80 column 18: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:07.891 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/flowable/FlowableCovarianceTest.java'
+04:24:07.891 ERROR Parse error at line 46 column 43: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:07.901 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/observable/ObservableDematerializeTest.java'
+04:24:07.901 ERROR Parse error at line 52 column 24: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:07.926 ERROR Unable to parse source file : 'src/jmh/java/io/reactivex/rxjava4/xmapz/FlowableConcatMapMaybeEmptyPerf.java'
+04:24:07.926 ERROR Parse error at line 47 column 42: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:07.932 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/schedulers/ComputationSchedulerTests.java'
+04:24:07.932 ERROR Parse error at line 183 column 44: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:08.042 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/flowable/FlowableFromIterableTest.java'
+04:24:08.042 ERROR Parse error at line 951 column 17: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:08.050 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/parallel/ParallelFilterTryTest.java'
+04:24:08.050 ERROR Parse error at line 155 column 37: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:08.058 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/observable/ObservableDebounceTest.java'
+04:24:08.058 ERROR Parse error at line 205 column 62: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:08.065 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/observable/ObservableSequenceEqualTest.java'
+04:24:08.065 ERROR Parse error at line 110 column 44: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:08.083 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/schedulers/SchedulerPoolFactoryTest.java'
+04:24:08.083 ERROR Parse error at line 56 column 71: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:08.118 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/completable/CompletableDoOnTest.java'
+04:24:08.118 ERROR Parse error at line 33 column 42: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:08.210 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/streamable/StreamableForEachTest.java'
+04:24:08.210 ERROR Parse error at line 34 column 22: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:08.227 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/processors/ReplayProcessorTest.java'
+04:24:08.227 ERROR Parse error at line 1627 column 58: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:08.237 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/flowable/FlowableToMultimapTest.java'
+04:24:08.237 ERROR Parse error at line 96 column 69: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:08.368 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/single/SingleContainstTest.java'
+04:24:08.368 ERROR Parse error at line 26 column 23: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:08.373 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/single/SingleFlatMapTest.java'
+04:24:08.373 ERROR Parse error at line 35 column 62: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:08.407 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/flowable/FlowableWindowWithStartEndFlowableTest.java'
+04:24:08.407 ERROR Parse error at line 70 column 53: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:08.414 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/schedulers/BlockingSchedulerTest.java'
+04:24:08.414 ERROR Parse error at line 478 column 24: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:08.516 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/observable/ObservableMapTest.java'
+04:24:08.516 ERROR Parse error at line 141 column 47: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:08.570 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/jdk8/ObservableMapOptionalTest.java'
+04:24:08.571 ERROR Parse error at line 45 column 22: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:08.610 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/schedulers/ScheduledRunnableTest.java'
+04:24:08.610 ERROR Parse error at line 132 column 61: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:08.618 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/flowable/FlowableTakeWhileTest.java'
+04:24:08.618 ERROR Parse error at line 108 column 30: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:09.251 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/flowable/FlowableZipTests.java'
+04:24:09.251 ERROR Parse error at line 36 column 144: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:09.358 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/maybe/MaybeDoAfterSuccessTest.java'
+04:24:09.360 ERROR Parse error at line 113 column 29: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:09.386 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/flowable/FlowableSubscriberTest.java'
+04:24:09.387 ERROR Parse error at line 504 column 74: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:09.399 ERROR Unable to parse source file : 'src/jmh/java/io/reactivex/rxjava4/xmapz/ObservableFlatMapMaybeEmptyPerf.java'
+04:24:09.399 ERROR Parse error at line 48 column 83: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:09.421 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/flowable/FlowableDematerializeTest.java'
+04:24:09.422 ERROR Parse error at line 53 column 24: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:09.501 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/observable/ObservableConcatMapEagerTest.java'
+04:24:09.501 ERROR Parse error at line 69 column 64: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:09.665 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/observers/SingleConsumersTest.java'
+04:24:09.665 ERROR Parse error at line 125 column 56: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:09.714 ERROR Unable to parse source file : 'src/jmh/java/io/reactivex/rxjava4/core/OperatorFlatMapPerf.java'
+04:24:09.715 ERROR Parse error at line 60 column 78: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:09.746 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/single/SingleZipArrayTest.java'
+04:24:09.746 ERROR Parse error at line 70 column 53: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:09.777 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/parallel/ParallelFlatMapIterableTest.java'
+04:24:09.777 ERROR Parse error at line 27 column 26: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:09.794 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/streamable/StreamableInterceptTest.java'
+04:24:09.794 ERROR Parse error at line 32 column 53: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:09.830 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/completable/CompletableAmbTest.java'
+04:24:09.830 ERROR Parse error at line 260 column 48: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:09.883 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/subjects/ReplaySubjectTest.java'
+04:24:09.883 ERROR Parse error at line 1223 column 59: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:09.962 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/maybe/MaybeConcatMapSingleTest.java'
+04:24:09.962 ERROR Parse error at line 52 column 82: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:10.081 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/core/TransformerTest.java'
+04:24:10.081 ERROR Parse error at line 28 column 38: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:10.110 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/streamable/StreamableFromCompletableTest.java'
+04:24:10.110 ERROR Parse error at line 67 column 17: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:10.427 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/observable/ObservableIgnoreElementsTest.java'
+04:24:10.427 ERROR Parse error at line 45 column 27: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:10.523 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/parallel/ParallelReduceTest.java'
+04:24:10.523 ERROR Parse error at line 130 column 53: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:10.527 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/observable/ObservableGenerateTest.java'
+04:24:10.527 ERROR Parse error at line 33 column 100: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:10.625 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/streamable/StreamableGroupByTest.java'
+04:24:10.625 ERROR Parse error at line 54 column 18: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:10.631 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/streamable/StreamableTest.java'
+04:24:10.631 ERROR Parse error at line 41 column 63: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:10.637 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/single/SingleFromCallableTest.java'
+04:24:10.637 ERROR Parse error at line 131 column 55: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:10.667 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/maybe/MaybeUsingTest.java'
+04:24:10.667 ERROR Parse error at line 39 column 12: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:10.739 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/flowable/FlowableTakeTest.java'
+04:24:10.739 ERROR Parse error at line 74 column 47: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:10.754 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/observable/ObservableRepeatTest.java'
+04:24:10.754 ERROR Parse error at line 235 column 88: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:10.793 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/processors/MulticastProcessorTest.java'
+04:24:10.793 ERROR Parse error at line 490 column 43: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:10.798 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/parallel/ParallelMapTest.java'
+04:24:10.798 ERROR Parse error at line 121 column 14: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:10.823 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/observable/ObservableMaterializeTest.java'
+04:24:10.823 ERROR Parse error at line 107 column 79: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:10.825 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/maybe/MaybeConcatMapTest.java'
+04:24:10.825 ERROR Parse error at line 27 column 100: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:10.844 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/flowable/FlowableCombineLatestTests.java'
+04:24:10.844 ERROR Parse error at line 40 column 58: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:10.860 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/jdk8/FromStreamTckTest.java'
+04:24:10.860 ERROR Parse error at line 41 column 24: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:10.897 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/mixed/ObservableSwitchMapCompletableTest.java'
+04:24:10.897 ERROR Parse error at line 37 column 31: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:10.916 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/subscribers/BoundedSubscriberTest.java'
+04:24:10.916 ERROR Parse error at line 39 column 40: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:10.971 ERROR Unable to parse source file : 'src/jmh/java/io/reactivex/rxjava4/core/FlattenJustPerf.java'
+04:24:10.971 ERROR Parse error at line 46 column 101: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:11.059 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/completable/CompletableDelayTest.java'
+04:24:11.059 ERROR Parse error at line 47 column 28: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:11.158 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/flowable/FlowableReplayEagerTruncateTest.java'
+04:24:11.158 ERROR Parse error at line 997 column 19: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:11.191 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/flowable/FlowableOnBackpressureReduceWithTest.java'
+04:24:11.192 ERROR Parse error at line 216 column 90: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:11.249 ERROR Unable to parse source file : 'src/main/java/io/reactivex/rxjava4/core/config/StreamableInterceptConfig.java'
+04:24:11.250 ERROR Parse error at line 46 column 15: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:11.289 WARN  Unexpected NullPointerException: Cannot read field "id" because "variableType" is null
+04:24:11.289 WARN  Fallback to file by file analysis for 38 files
+04:24:11.310 ERROR ECJ: Unable to parse file
+java.lang.NullPointerException: Cannot read field "id" because "variableType" is null
+	at org.eclipse.jdt.internal.compiler.ast.LocalDeclaration.resolve(LocalDeclaration.java:379)
+	at org.eclipse.jdt.internal.compiler.ast.Statement.resolveWithBindings(Statement.java:523)
+	at org.eclipse.jdt.internal.compiler.ast.ASTNode.resolveStatements(ASTNode.java:699)
+	at org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration.resolveStatements(AbstractMethodDeclaration.java:729)
+	at org.eclipse.jdt.internal.compiler.ast.MethodDeclaration.resolveStatements(MethodDeclaration.java:373)
+	at org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:628)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1459)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1610)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.resolve(CompilationUnitDeclaration.java:661)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1310)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:830)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.toCompilationUnit(CompilationUnitResolver.java:1413)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver$ECJCompilationUnitResolver.toCompilationUnit(CompilationUnitResolver.java:109)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateASTCached(ASTParser.java:1414)
+	at org.eclipse.jdt.core.dom.ASTParser.lambda$internalCreateAST$1(ASTParser.java:1293)
+	at org.eclipse.jdt.internal.core.JavaModelManager.cacheZipFiles(JavaModelManager.java:5742)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1293)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:935)
+	at org.sonar.java.model.JParser.parse(JParser.java:284)
+	at org.sonar.java.model.JParserConfig$FileByFile.parse(JParserConfig.java:269)
+	at org.sonar.java.model.JParserConfig$Batch.fallbackToFileByFileMode(JParserConfig.java:219)
+	at org.sonar.java.model.JParserConfig$Batch.parse(JParserConfig.java:203)
+	at org.sonar.java.JavaFrontend.scanBatch(JavaFrontend.java:240)
+	at org.sonar.java.JavaFrontend.scanInBatches(JavaFrontend.java:230)
+	at org.sonar.java.JavaFrontend.scanAsBatch(JavaFrontend.java:197)
+	at org.sonar.java.JavaFrontend.scan(JavaFrontend.java:162)
+	at org.sonar.plugins.java.JavaSensor.execute(JavaSensor.java:124)
+	at org.sonar.scanner.sensor.AbstractSensorWrapper.analyse(AbstractSensorWrapper.java:69)
+	at org.sonar.scanner.sensor.ModuleSensorsExecutor.execute(ModuleSensorsExecutor.java:88)
+	at org.sonar.scanner.sensor.ModuleSensorsExecutor.lambda$execute$1(ModuleSensorsExecutor.java:61)
+	at org.sonar.scanner.sensor.ModuleSensorsExecutor.withModuleStrategy(ModuleSensorsExecutor.java:79)
+	at org.sonar.scanner.sensor.ModuleSensorsExecutor.execute(ModuleSensorsExecutor.java:61)
+	at org.sonar.scanner.scan.SpringModuleScanContainer.doAfterStart(SpringModuleScanContainer.java:90)
+	at org.sonar.scanner.spring.SpringComponentContainer.startComponents(SpringComponentContainer.java:205)
+	at org.sonar.scanner.spring.SpringComponentContainer.execute(SpringComponentContainer.java:184)
+	at org.sonar.scanner.scan.SpringProjectScanContainer.scan(SpringProjectScanContainer.java:231)
+	at org.sonar.scanner.scan.SpringProjectScanContainer.scanRecursively(SpringProjectScanContainer.java:227)
+	at org.sonar.scanner.scan.SpringProjectScanContainer.doAfterStart(SpringProjectScanContainer.java:197)
+	at org.sonar.scanner.spring.SpringComponentContainer.startComponents(SpringComponentContainer.java:205)
+	at org.sonar.scanner.spring.SpringComponentContainer.execute(SpringComponentContainer.java:184)
+	at org.sonar.scanner.bootstrap.SpringScannerContainer.doAfterStart(SpringScannerContainer.java:388)
+	at org.sonar.scanner.spring.SpringComponentContainer.startComponents(SpringComponentContainer.java:205)
+	at org.sonar.scanner.spring.SpringComponentContainer.execute(SpringComponentContainer.java:184)
+	at org.sonar.scanner.bootstrap.SpringGlobalContainer.doAfterStart(SpringGlobalContainer.java:146)
+	at org.sonar.scanner.spring.SpringComponentContainer.startComponents(SpringComponentContainer.java:205)
+	at org.sonar.scanner.spring.SpringComponentContainer.execute(SpringComponentContainer.java:184)
+	at org.sonar.scanner.bootstrap.ServerScannerEngineRunner.execute(ServerScannerEngineRunner.java:39)
+	at org.sonar.scanner.bootstrap.ScannerMain.runScannerEngine(ScannerMain.java:144)
+	at org.sonar.scanner.bootstrap.ScannerMain.run(ScannerMain.java:65)
+	at org.sonar.scanner.bootstrap.ScannerMain.main(ScannerMain.java:45)
+
+04:24:11.310 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/observable/ObservableReplayTest.java'
+04:24:11.310 ERROR ECJ: Unable to parse file.
+04:24:11.350 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/maybe/MaybeFromSupplierTest.java'
+04:24:11.351 ERROR Parse error at line 154 column 54: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:11.357 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/single/SingleConcatMapTest.java'
+04:24:11.357 ERROR Parse error at line 53 column 77: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:11.579 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/flowable/FlowableSequenceEqualTest.java'
+04:24:11.579 ERROR Parse error at line 118 column 44: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:11.787 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/single/SingleOnErrorXTest.java'
+04:24:11.787 ERROR Parse error at line 37 column 24: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:11.918 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/jdk8/FlowableCollectWithCollectorTest.java'
+04:24:11.918 ERROR Parse error at line 70 column 25: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:11.992 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/observable/ObservableOnErrorReturnTest.java'
+04:24:11.992 ERROR Parse error at line 110 column 57: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:11.999 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/parallel/ParallelSortedJoinTest.java'
+04:24:11.999 ERROR Parse error at line 201 column 16: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:12.032 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/maybe/MaybeTest.java'
+04:24:12.032 ERROR Parse error at line 248 column 62: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:12.055 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/maybe/MaybeDematerializeTest.java'
+04:24:12.055 ERROR Parse error at line 88 column 81: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:12.191 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/maybe/MaybeZipArrayTest.java'
+04:24:12.191 ERROR Parse error at line 71 column 50: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:12.198 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/streamable/StreamableTakeWhileTest.java'
+04:24:12.198 ERROR Parse error at line 59 column 20: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:12.203 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/core/ConverterTest.java'
+04:24:12.203 ERROR Parse error at line 28 column 33: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:12.209 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/flowable/FlowableOnBackpressureReduceTest.java'
+04:24:12.210 ERROR Parse error at line 35 column 76: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:12.232 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/parallel/ParallelMapTryTest.java'
+04:24:12.232 ERROR Parse error at line 129 column 30: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:12.253 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/exceptions/ExceptionsTest.java'
+04:24:12.253 ERROR Parse error at line 42 column 44: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:12.578 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/parallel/ParallelFromPublisherTest.java'
+04:24:12.579 ERROR Parse error at line 116 column 14: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:12.707 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/observable/ObservableJoinTest.java'
+04:24:12.707 ERROR Parse error at line 40 column 16: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:12.789 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/flowable/FlowableOnBackpressureDropTest.java'
+04:24:12.789 ERROR Parse error at line 146 column 59: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:12.806 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/streamable/StreamableMapOptionalTest.java'
+04:24:12.807 ERROR Parse error at line 52 column 22: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:12.900 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/flowable/FlowableRangeLongTest.java'
+04:24:12.900 ERROR Parse error at line 54 column 46: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:12.905 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/virtual/tck/FlowableVirtualTransformVirtual1TckTest.java'
+04:24:12.905 ERROR Parse error at line 33 column 48: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:13.087 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/flowable/FlowableGroupByTest.java'
+04:24:13.087 ERROR Parse error at line 432 column 67: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:13.204 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/maybe/MaybeCallbackObserverTest.java'
+04:24:13.204 ERROR Parse error at line 54 column 21: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:13.210 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/schedulers/SchedulerMultiWorkerSupportParallelNonTrackingTest.java'
+04:24:13.210 ERROR Parse error at line 52 column 37: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:13.225 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/streamable/StreamableRangeTest.java'
+04:24:13.225 ERROR Parse error at line 121 column 17: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:13.240 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/maybe/MaybeCreateTest.java'
+04:24:13.240 ERROR Parse error at line 33 column 22: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:13.277 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/virtual/VirtualTransformVirtualTest.java'
+04:24:13.277 ERROR Parse error at line 35 column 40: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:13.326 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/completable/CompletableFromCallableTest.java'
+04:24:13.327 ERROR Parse error at line 106 column 55: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:13.366 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/flowable/FlowableRepeatTest.java'
+04:24:13.366 ERROR Parse error at line 279 column 150: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:13.587 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/observable/ObservableTakeWhileTest.java'
+04:24:13.587 ERROR Parse error at line 101 column 26: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:13.660 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/jdk8/SingleFlattenStreamAsFlowableTest.java'
+04:24:13.660 ERROR Parse error at line 50 column 34: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:13.776 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/observable/ObservableTest.java'
+04:24:13.776 ERROR Parse error at line 855 column 34: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:13.835 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/observable/ObservableWindowWithSizeTest.java'
+04:24:13.835 ERROR Parse error at line 101 column 62: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:13.938 ERROR Unable to parse source file : 'src/main/java/io/reactivex/rxjava4/internal/operators/streamable/StreamableOnErrorResumeNext.java'
+04:24:13.938 ERROR Parse error at line 63 column 47: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:13.985 WARN  Unexpected NullPointerException: Cannot read field "id" because "variableType" is null
+04:24:13.985 WARN  Fallback to file by file analysis for 34 files
+04:24:13.997 ERROR ECJ: Unable to parse file
+java.lang.NullPointerException: Cannot read field "id" because "variableType" is null
+	at org.eclipse.jdt.internal.compiler.ast.LocalDeclaration.resolve(LocalDeclaration.java:379)
+	at org.eclipse.jdt.internal.compiler.ast.Statement.resolveWithBindings(Statement.java:523)
+	at org.eclipse.jdt.internal.compiler.ast.ASTNode.resolveStatements(ASTNode.java:699)
+	at org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration.resolveStatements(AbstractMethodDeclaration.java:729)
+	at org.eclipse.jdt.internal.compiler.ast.MethodDeclaration.resolveStatements(MethodDeclaration.java:373)
+	at org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:628)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1459)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1610)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.resolve(CompilationUnitDeclaration.java:661)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1310)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:830)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.toCompilationUnit(CompilationUnitResolver.java:1413)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver$ECJCompilationUnitResolver.toCompilationUnit(CompilationUnitResolver.java:109)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateASTCached(ASTParser.java:1414)
+	at org.eclipse.jdt.core.dom.ASTParser.lambda$internalCreateAST$1(ASTParser.java:1293)
+	at org.eclipse.jdt.internal.core.JavaModelManager.cacheZipFiles(JavaModelManager.java:5742)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1293)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:935)
+	at org.sonar.java.model.JParser.parse(JParser.java:284)
+	at org.sonar.java.model.JParserConfig$FileByFile.parse(JParserConfig.java:269)
+	at org.sonar.java.model.JParserConfig$Batch.fallbackToFileByFileMode(JParserConfig.java:219)
+	at org.sonar.java.model.JParserConfig$Batch.parse(JParserConfig.java:203)
+	at org.sonar.java.JavaFrontend.scanBatch(JavaFrontend.java:240)
+	at org.sonar.java.JavaFrontend.scanInBatches(JavaFrontend.java:230)
+	at org.sonar.java.JavaFrontend.scanAsBatch(JavaFrontend.java:197)
+	at org.sonar.java.JavaFrontend.scan(JavaFrontend.java:162)
+	at org.sonar.plugins.java.JavaSensor.execute(JavaSensor.java:124)
+	at org.sonar.scanner.sensor.AbstractSensorWrapper.analyse(AbstractSensorWrapper.java:69)
+	at org.sonar.scanner.sensor.ModuleSensorsExecutor.execute(ModuleSensorsExecutor.java:88)
+	at org.sonar.scanner.sensor.ModuleSensorsExecutor.lambda$execute$1(ModuleSensorsExecutor.java:61)
+	at org.sonar.scanner.sensor.ModuleSensorsExecutor.withModuleStrategy(ModuleSensorsExecutor.java:79)
+	at org.sonar.scanner.sensor.ModuleSensorsExecutor.execute(ModuleSensorsExecutor.java:61)
+	at org.sonar.scanner.scan.SpringModuleScanContainer.doAfterStart(SpringModuleScanContainer.java:90)
+	at org.sonar.scanner.spring.SpringComponentContainer.startComponents(SpringComponentContainer.java:205)
+	at org.sonar.scanner.spring.SpringComponentContainer.execute(SpringComponentContainer.java:184)
+	at org.sonar.scanner.scan.SpringProjectScanContainer.scan(SpringProjectScanContainer.java:231)
+	at org.sonar.scanner.scan.SpringProjectScanContainer.scanRecursively(SpringProjectScanContainer.java:227)
+	at org.sonar.scanner.scan.SpringProjectScanContainer.doAfterStart(SpringProjectScanContainer.java:197)
+	at org.sonar.scanner.spring.SpringComponentContainer.startComponents(SpringComponentContainer.java:205)
+	at org.sonar.scanner.spring.SpringComponentContainer.execute(SpringComponentContainer.java:184)
+	at org.sonar.scanner.bootstrap.SpringScannerContainer.doAfterStart(SpringScannerContainer.java:388)
+	at org.sonar.scanner.spring.SpringComponentContainer.startComponents(SpringComponentContainer.java:205)
+	at org.sonar.scanner.spring.SpringComponentContainer.execute(SpringComponentContainer.java:184)
+	at org.sonar.scanner.bootstrap.SpringGlobalContainer.doAfterStart(SpringGlobalContainer.java:146)
+	at org.sonar.scanner.spring.SpringComponentContainer.startComponents(SpringComponentContainer.java:205)
+	at org.sonar.scanner.spring.SpringComponentContainer.execute(SpringComponentContainer.java:184)
+	at org.sonar.scanner.bootstrap.ServerScannerEngineRunner.execute(ServerScannerEngineRunner.java:39)
+	at org.sonar.scanner.bootstrap.ScannerMain.runScannerEngine(ScannerMain.java:144)
+	at org.sonar.scanner.bootstrap.ScannerMain.run(ScannerMain.java:65)
+	at org.sonar.scanner.bootstrap.ScannerMain.main(ScannerMain.java:45)
+
+04:24:13.997 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/observable/ObservableReplayEagerTruncateTest.java'
+04:24:13.997 ERROR ECJ: Unable to parse file.
+04:24:14.139 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/observable/ObservableDoFinallyTest.java'
+04:24:14.139 ERROR Parse error at line 436 column 17: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:14.178 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/observable/ObservableAnyTest.java'
+04:24:14.178 ERROR Parse error at line 39 column 48: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:14.186 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/util/MiscUtilTest.java'
+04:24:14.186 ERROR Parse error at line 226 column 63: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:14.193 ERROR Unable to parse source file : 'src/jmh/java/io/reactivex/rxjava4/xmapz/ObservableFlatMapCompletablePerf.java'
+04:24:14.193 ERROR Parse error at line 48 column 83: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:14.257 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/observable/ObservableFlatMapTest.java'
+04:24:14.258 ERROR Parse error at line 48 column 49: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:14.419 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/subscribers/TestSubscriberTest.java'
+04:24:14.419 ERROR Parse error at line 425 column 28: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:14.513 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/flowable/FlowableOnErrorReturnTest.java'
+04:24:14.513 ERROR Parse error at line 112 column 53: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:14.517 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/maybe/MaybeDoOnEventTest.java'
+04:24:14.517 ERROR Parse error at line 34 column 94: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:14.526 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/maybe/MaybeTimerTest.java'
+04:24:14.526 ERROR Parse error at line 32 column 67: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:14.541 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/observable/ObservableSwitchTest.java'
+04:24:14.541 ERROR Parse error at line 474 column 74: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:14.571 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/flowable/FlowableAmbTest.java'
+04:24:14.571 ERROR Parse error at line 214 column 46: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:14.648 ERROR Unable to parse source file : 'src/jmh/java/io/reactivex/rxjava4/xmapz/FlowableSwitchMapMaybeEmptyPerf.java'
+04:24:14.648 ERROR Parse error at line 47 column 42: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:14.688 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/jdk8/FlowableFromStreamTest.java'
+04:24:14.688 ERROR Parse error at line 93 column 17: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:14.722 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/observable/ObservableOnErrorCompleteTest.java'
+04:24:14.723 ERROR Parse error at line 86 column 30: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:14.763 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/observable/ObservableMapNotificationTest.java'
+04:24:14.763 ERROR Parse error at line 73 column 60: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:14.770 WARN  Unexpected NullPointerException: Cannot read field "id" because "variableType" is null
+04:24:14.770 WARN  Fallback to file by file analysis for 38 files
+04:24:14.779 ERROR ECJ: Unable to parse file
+java.lang.NullPointerException: Cannot read field "id" because "variableType" is null
+	at org.eclipse.jdt.internal.compiler.ast.LocalDeclaration.resolve(LocalDeclaration.java:379)
+	at org.eclipse.jdt.internal.compiler.ast.Statement.resolveWithBindings(Statement.java:523)
+	at org.eclipse.jdt.internal.compiler.ast.ASTNode.resolveStatements(ASTNode.java:699)
+	at org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration.resolveStatements(AbstractMethodDeclaration.java:729)
+	at org.eclipse.jdt.internal.compiler.ast.MethodDeclaration.resolveStatements(MethodDeclaration.java:373)
+	at org.eclipse.jdt.internal.compiler.ast.AbstractMethodDeclaration.resolve(AbstractMethodDeclaration.java:628)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1459)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.resolve(TypeDeclaration.java:1610)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.resolve(CompilationUnitDeclaration.java:661)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1310)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:830)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.toCompilationUnit(CompilationUnitResolver.java:1413)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver$ECJCompilationUnitResolver.toCompilationUnit(CompilationUnitResolver.java:109)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateASTCached(ASTParser.java:1414)
+	at org.eclipse.jdt.core.dom.ASTParser.lambda$internalCreateAST$1(ASTParser.java:1293)
+	at org.eclipse.jdt.internal.core.JavaModelManager.cacheZipFiles(JavaModelManager.java:5742)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1293)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:935)
+	at org.sonar.java.model.JParser.parse(JParser.java:284)
+	at org.sonar.java.model.JParserConfig$FileByFile.parse(JParserConfig.java:269)
+	at org.sonar.java.model.JParserConfig$Batch.fallbackToFileByFileMode(JParserConfig.java:219)
+	at org.sonar.java.model.JParserConfig$Batch.parse(JParserConfig.java:203)
+	at org.sonar.java.JavaFrontend.scanBatch(JavaFrontend.java:240)
+	at org.sonar.java.JavaFrontend.scanInBatches(JavaFrontend.java:230)
+	at org.sonar.java.JavaFrontend.scanAsBatch(JavaFrontend.java:197)
+	at org.sonar.java.JavaFrontend.scan(JavaFrontend.java:162)
+	at org.sonar.plugins.java.JavaSensor.execute(JavaSensor.java:124)
+	at org.sonar.scanner.sensor.AbstractSensorWrapper.analyse(AbstractSensorWrapper.java:69)
+	at org.sonar.scanner.sensor.ModuleSensorsExecutor.execute(ModuleSensorsExecutor.java:88)
+	at org.sonar.scanner.sensor.ModuleSensorsExecutor.lambda$execute$1(ModuleSensorsExecutor.java:61)
+	at org.sonar.scanner.sensor.ModuleSensorsExecutor.withModuleStrategy(ModuleSensorsExecutor.java:79)
+	at org.sonar.scanner.sensor.ModuleSensorsExecutor.execute(ModuleSensorsExecutor.java:61)
+	at org.sonar.scanner.scan.SpringModuleScanContainer.doAfterStart(SpringModuleScanContainer.java:90)
+	at org.sonar.scanner.spring.SpringComponentContainer.startComponents(SpringComponentContainer.java:205)
+	at org.sonar.scanner.spring.SpringComponentContainer.execute(SpringComponentContainer.java:184)
+	at org.sonar.scanner.scan.SpringProjectScanContainer.scan(SpringProjectScanContainer.java:231)
+	at org.sonar.scanner.scan.SpringProjectScanContainer.scanRecursively(SpringProjectScanContainer.java:227)
+	at org.sonar.scanner.scan.SpringProjectScanContainer.doAfterStart(SpringProjectScanContainer.java:197)
+	at org.sonar.scanner.spring.SpringComponentContainer.startComponents(SpringComponentContainer.java:205)
+	at org.sonar.scanner.spring.SpringComponentContainer.execute(SpringComponentContainer.java:184)
+	at org.sonar.scanner.bootstrap.SpringScannerContainer.doAfterStart(SpringScannerContainer.java:388)
+	at org.sonar.scanner.spring.SpringComponentContainer.startComponents(SpringComponentContainer.java:205)
+	at org.sonar.scanner.spring.SpringComponentContainer.execute(SpringComponentContainer.java:184)
+	at org.sonar.scanner.bootstrap.SpringGlobalContainer.doAfterStart(SpringGlobalContainer.java:146)
+	at org.sonar.scanner.spring.SpringComponentContainer.startComponents(SpringComponentContainer.java:205)
+	at org.sonar.scanner.spring.SpringComponentContainer.execute(SpringComponentContainer.java:184)
+	at org.sonar.scanner.bootstrap.ServerScannerEngineRunner.execute(ServerScannerEngineRunner.java:39)
+	at org.sonar.scanner.bootstrap.ScannerMain.runScannerEngine(ScannerMain.java:144)
+	at org.sonar.scanner.bootstrap.ScannerMain.run(ScannerMain.java:65)
+	at org.sonar.scanner.bootstrap.ScannerMain.main(ScannerMain.java:45)
+
+04:24:14.779 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/observable/ObservablePublishTest.java'
+04:24:14.779 ERROR ECJ: Unable to parse file.
+04:24:14.835 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/single/SingleConcatMapCompletableTest.java'
+04:24:14.835 ERROR Parse error at line 29 column 103: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:14.851 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/flowable/FlowableCreateTest.java'
+04:24:14.851 ERROR Parse error at line 602 column 29: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:15.038 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/jdk8/MapOptionalTckTest.java'
+04:24:15.038 ERROR Parse error at line 36 column 54: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:15.048 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/flowable/FlowableSwitchIfEmptyTest.java'
+04:24:15.048 ERROR Parse error at line 37 column 32: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:15.189 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/observers/MaybeConsumersTest.java'
+04:24:15.189 ERROR Parse error at line 184 column 56: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:15.196 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/observable/ObservableDistinctUntilChangedTest.java'
+04:24:15.196 ERROR Parse error at line 128 column 38: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:15.224 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/maybe/MaybeFlatMapIterableObservableTest.java'
+04:24:15.224 ERROR Parse error at line 45 column 43: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:15.358 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/single/SingleUsingTest.java'
+04:24:15.358 ERROR Parse error at line 34 column 52: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:15.395 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/observable/ObservableFlatMapMaybeTest.java'
+04:24:15.397 ERROR Parse error at line 48 column 65: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:15.476 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/observable/ObservableBufferTest.java'
+04:24:15.476 ERROR Parse error at line 200 column 55: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:15.510 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/mixed/FlowableConcatMapSingleTest.java'
+04:24:15.510 ERROR Parse error at line 189 column 64: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:15.541 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/schedulers/SharedSchedulerTest.java'
+04:24:15.541 ERROR Parse error at line 48 column 50: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:15.586 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/flowable/FlowableTests.java'
+04:24:15.586 ERROR Parse error at line 841 column 34: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:15.621 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/observable/ObservableConcatTest.java'
+04:24:15.621 ERROR Parse error at line 850 column 88: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:15.797 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/tck/SingleFlatMapFlowableTckTest.java'
+04:24:15.797 ERROR Parse error at line 28 column 96: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:15.805 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/observable/ObservableDoOnUnsubscribeTest.java'
+04:24:15.805 ERROR Parse error at line 51 column 27: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:15.834 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/jdk8/ParallelCollectorTest.java'
+04:24:15.835 ERROR Parse error at line 91 column 25: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:15.844 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/schedulers/TrampolineSchedulerTest.java'
+04:24:15.844 ERROR Parse error at line 94 column 69: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:15.879 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/observable/ObservableTimeoutWithSelectorTest.java'
+04:24:15.879 ERROR Parse error at line 46 column 62: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:15.922 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/flowable/FlowableFlatMapSingleTest.java'
+04:24:15.922 ERROR Parse error at line 100 column 67: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:15.927 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/mixed/FlowableConcatMapMaybeTest.java'
+04:24:15.927 ERROR Parse error at line 91 column 67: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:15.955 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/maybe/MaybeZipIterableTest.java'
+04:24:15.955 ERROR Parse error at line 66 column 64: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:15.960 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/maybe/MaybeAmbTest.java'
+04:24:15.960 ERROR Parse error at line 138 column 43: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:16.017 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/observable/ObservableTimestampTest.java'
+04:24:16.017 ERROR Parse error at line 90 column 54: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:16.024 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/single/SingleDelayTest.java'
+04:24:16.024 ERROR Parse error at line 145 column 28: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:16.056 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/jdk8/SingleMapOptionalTest.java'
+04:24:16.056 ERROR Parse error at line 41 column 22: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:16.065 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/virtual/tck/FlowableVirtualTransformExecutor1TckTest.java'
+04:24:16.065 ERROR Parse error at line 32 column 48: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:16.156 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/flowable/FlowableWindowWithSizeTest.java'
+04:24:16.156 ERROR Parse error at line 101 column 58: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:16.208 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/single/SingleFlatMapIterableFlowableTest.java'
+04:24:16.208 ERROR Parse error at line 48 column 81: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:16.213 ERROR Unable to parse source file : 'src/jmh/java/io/reactivex/rxjava4/core/BinaryFlatMapPerf.java'
+04:24:16.213 ERROR Parse error at line 86 column 66: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:16.231 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/virtual/tck/FlowableVirtualTransformExecutorTckTest.java'
+04:24:16.231 ERROR Parse error at line 35 column 48: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:16.510 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/maybe/MaybeFlatMapSingleTest.java'
+04:24:16.510 ERROR Parse error at line 56 column 37: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:17.215 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/observable/ObservableFlatMapCompletableTest.java'
+04:24:17.215 ERROR Parse error at line 39 column 29: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:17.379 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/util/OperatorArgumentNaming.java'
+04:24:17.379 ERROR Parse error at line 55 column 116: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:17.576 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/virtual/VirtualCreateTest.java'
+04:24:17.576 ERROR Parse error at line 107 column 61: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:17.742 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/single/SingleTest.java'
+04:24:17.742 ERROR Parse error at line 398 column 44: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:17.748 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/flowable/FlowableDebounceTest.java'
+04:24:17.748 ERROR Parse error at line 207 column 60: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:17.759 ERROR Unable to parse source file : 'src/main/java/io/reactivex/rxjava4/internal/schedulers/SchedulerToExecutorService.java'
+04:24:17.759 ERROR Parse error at line 230 column 38: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:17.763 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/observable/ObservableDoAfterNextTest.java'
+04:24:17.763 ERROR Parse error at line 239 column 22: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:17.775 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/flowable/FlowableScalarXMapTest.java'
+04:24:17.775 ERROR Parse error at line 75 column 131: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:17.820 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/observable/ObservableOnErrorResumeNextTest.java'
+04:24:17.820 ERROR Parse error at line 107 column 58: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:17.840 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/observable/ObservableWindowWithSizeIsolatedTest.java'
+04:24:17.840 ERROR Parse error at line 37 column 35: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:17.844 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/single/SingleZipIterableTest.java'
+04:24:17.844 ERROR Parse error at line 66 column 67: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:17.868 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/observable/ObservableWithLatestFromTest.java'
+04:24:17.868 ERROR Parse error at line 40 column 74: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:17.944 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/functions/FunctionsTest.java'
+04:24:17.944 ERROR Parse error at line 89 column 75: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:17.951 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/streamable/StreamableDoOnErrorTest.java'
+04:24:17.951 ERROR Parse error at line 60 column 20: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:18.076 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/observable/ObservableFromSupplierTest.java'
+04:24:18.076 ERROR Parse error at line 98 column 54: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:18.086 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/util/OperatorMatrixGenerator.java'
+04:24:18.086 ERROR Parse error at line 53 column 66: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:18.100 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/single/SingleMapTest.java'
+04:24:18.100 ERROR Parse error at line 39 column 71: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:18.116 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/flowable/FlowableUsingTest.java'
+04:24:18.116 ERROR Parse error at line 161 column 69: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:18.139 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/maybe/MaybeFlatMapBiSelectorTest.java'
+04:24:18.139 ERROR Parse error at line 36 column 60: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:18.228 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/flowable/FlowableCacheTest.java'
+04:24:18.229 ERROR Parse error at line 474 column 30: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:18.263 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/observable/ObservableFlatMapSingleTest.java'
+04:24:18.263 ERROR Parse error at line 71 column 67: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:18.353 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/observable/ObservableSwitchIfEmptyTest.java'
+04:24:18.353 ERROR Parse error at line 34 column 32: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:18.418 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/observable/ObservableFromCallableTest.java'
+04:24:18.419 ERROR Parse error at line 97 column 55: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:18.452 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/streamable/StreamableFlatMapTest.java'
+04:24:18.452 ERROR Parse error at line 108 column 18: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:18.500 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/observable/ObservableDoOnSubscribeTest.java'
+04:24:18.500 ERROR Parse error at line 34 column 66: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:18.509 ERROR Unable to parse source file : 'src/main/java/io/reactivex/rxjava4/internal/operators/streamable/StreamableTimeout.java'
+04:24:18.509 ERROR Parse error at line 89 column 37: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:18.640 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/observable/ObservableUsingTest.java'
+04:24:18.640 ERROR Parse error at line 160 column 71: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:18.785 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/parallel/ParallelFilterTest.java'
+04:24:18.786 ERROR Parse error at line 100 column 17: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:18.811 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/flowable/FlowableOnBackpressureBufferStrategyTest.java'
+04:24:18.811 ERROR Parse error at line 42 column 17: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:18.816 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/single/SingleConcatMapMaybeTest.java'
+04:24:18.817 ERROR Parse error at line 52 column 81: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:18.820 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/mixed/MaybeFlatMapObservableTest.java'
+04:24:18.820 ERROR Parse error at line 70 column 41: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:18.849 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/observable/ObservableReduceTest.java'
+04:24:18.849 ERROR Parse error at line 73 column 57: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:18.906 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/flowable/FlowableMapTest.java'
+04:24:18.906 ERROR Parse error at line 151 column 18: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:18.908 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/core/config/SampleConfigTest.java'
+04:24:18.908 ERROR Parse error at line 27 column 37: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:19.006 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/observable/ObservableTakeUntilPredicateTest.java'
+04:24:19.006 ERROR Parse error at line 37 column 38: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:19.139 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/single/SingleFlatMapBiSelectorTest.java'
+04:24:19.139 ERROR Parse error at line 36 column 61: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:19.317 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/internal/operators/maybe/MaybeConcatIterableTest.java'
+04:24:19.317 ERROR Parse error at line 79 column 64: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:19.362 ERROR Unable to parse source file : 'src/test/java/io/reactivex/rxjava4/core/config/OnBackpressureBufferConfigTest.java'
+04:24:19.362 ERROR Parse error at line 27 column 37: '_' is a keyword from source level 9 onwards, cannot be used as identifier
+04:24:19.675 INFO  100% analyzed
+04:24:19.675 INFO  Batch processing: Done.
+04:24:19.675 INFO  Did not optimize analysis for any files, performed a full analysis for all 2072 files.
+04:24:19.676 WARN  Missing 'sonar.java.libraries' property. You might end up with less precise analysis results.
+04:24:19.680 WARN  Unresolved imports/types have been detected during analysis. Enable DEBUG mode to see them.
+04:24:19.685 WARN  Use of preview features have been detected during analysis. Enable DEBUG mode to see them.
+04:24:19.686 INFO  No "Test" source files to scan.
+04:24:19.686 INFO  No "Generated" source files to scan.
+04:24:19.688 INFO  Sensor JavaSensor [java] (done) | time=40031ms
+04:24:19.688 INFO  Sensor JaCoCo XML Report Importer [jacoco]
+04:24:19.689 INFO  'sonar.coverage.jacoco.xmlReportPaths' is not defined. Using default locations: target/site/jacoco/jacoco.xml,target/site/jacoco-it/jacoco.xml,build/reports/jacoco/test/jacocoTestReport.xml
+04:24:19.691 INFO  No report imported, no coverage information will be imported by JaCoCo XML Report Importer
+04:24:19.691 INFO  Sensor JaCoCo XML Report Importer [jacoco] (done) | time=2ms
+04:24:19.691 INFO  Sensor IaC hadolint report Sensor [iac]
+04:24:19.691 INFO  Sensor IaC hadolint report Sensor [iac] (done) | time=0ms
+04:24:19.691 INFO  Sensor Java Config Sensor [iac]
+04:24:19.691 INFO  There are no files to be analyzed for the Java language
+04:24:19.691 INFO  Sensor Java Config Sensor [iac] (done) | time=0ms
+04:24:19.691 INFO  Sensor IaC Docker Sensor [iac]
+04:24:19.718 INFO  There are no files to be analyzed for the Docker language
+04:24:19.718 INFO  Sensor IaC Docker Sensor [iac] (done) | time=27ms
+04:24:19.718 INFO  Sensor SurefireSensor [java]
+04:24:19.718 INFO  parsing [<LOCAL_PATH>/OneDrive\Documents\Conferences\research\data\raw_repos\ReactiveX__RxJava\target\surefire-reports]
+04:24:19.718 INFO  Sensor SurefireSensor [java] (done) | time=0ms
+04:24:19.718 INFO  Sensor TextAndSecretsSensor [text]
+04:24:19.788 INFO  Available processors: 24
+04:24:19.788 INFO  Using 24 threads for analysis.
+04:24:20.067 INFO  The property "sonar.tests" is not set. To improve the analysis accuracy, we categorize a file as a test file if any of the following is true:
+  * The filename starts with "test"
+  * The filename contains "test." or "tests."
+  * Any directory in the file path is named: "doc", "docs", "test", "tests", "mock" or "mocks"
+  * Any directory in the file path has a name ending in "test" or "tests"
+
+04:24:20.102 INFO  Start fetching files for the text and secrets analysis
+04:24:20.209 INFO  Using Git CLI to retrieve dirty files
+04:24:20.338 INFO  Retrieving language associated files and files included via "sonar.text.inclusions" that are tracked by git
+04:24:20.339 INFO  Starting the text and secrets analysis
+04:24:20.344 INFO  2072 source files to be analyzed for the text and secrets analysis
+04:24:22.065 INFO  2072/2072 source files have been analyzed for the text and secrets analysis
+04:24:22.065 INFO  Skipped 1075 file(s) in the secrets analysis due to automatic test file detection
+04:24:22.069 INFO  Sensor TextAndSecretsSensor [text] (done) | time=2350ms
+04:24:22.074 INFO  ------------- Run sensors on project
+04:24:22.253 INFO  Sensor JaCoCo Aggregate XML Report Importer [jacoco]
+04:24:22.253 INFO  Sensor JaCoCo Aggregate XML Report Importer [jacoco] (done) | time=0ms
+04:24:22.253 INFO  Sensor IaC Project Sensor [iac]
+04:24:22.254 INFO  Sensor IaC Project Sensor [iac] (done) | time=0ms
+04:24:22.254 INFO  Sensor JavaProjectSensor [java]
+04:24:22.257 INFO  Sensor JavaProjectSensor [java] (done) | time=3ms
+04:24:22.257 INFO  Sensor Zero Coverage Sensor
+04:24:23.174 INFO  Sensor Zero Coverage Sensor (done) | time=916ms
+04:24:23.174 INFO  Sensor Java CPD Block Indexer
+04:24:23.175 INFO  Sensor Java CPD Block Indexer (done) | time=1ms
+04:24:23.175 INFO  ------------- Gather SCA dependencies on project
+04:24:23.180 INFO  Dependency analysis skipped
+04:24:23.181 INFO  SCM Publisher is disabled
+04:24:23.182 INFO  CPD Executor Calculating CPD for 0 files
+04:24:23.183 INFO  CPD Executor CPD calculation finished (done) | time=0ms
+04:24:25.958 INFO  Analysis report generated in 2197ms, dir size=26.8 MB
+04:25:37.951 INFO  Analysis report compressed in 71993ms, zip size=8.9 MB
+04:25:38.274 INFO  Analysis report uploaded in 322ms
+04:25:38.275 INFO  ANALYSIS SUCCESSFUL, you can find the results at: http://localhost:9000/dashboard?id=cc-java-ReactiveX__RxJava
+04:25:38.275 INFO  Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+04:25:38.275 INFO  More about the report processing at http://localhost:9000/api/ce/task?id=594c22d6-de0b-4839-806b-794642dfc733
+04:25:41.329 INFO  Analysis total time: 2:06.970 s
+04:25:41.356 INFO  SonarScanner Engine completed successfully
+04:25:41.453 INFO  EXECUTION SUCCESS
+04:25:41.454 INFO  Total time: 2:13.885s

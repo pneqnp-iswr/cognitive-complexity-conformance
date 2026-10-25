@@ -1,0 +1,942 @@
+[
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 575,
+  "end_line": 618,
+  "name": "addVersion",
+  "value": 35,
+  "metric": "cognitive",
+  "tool": "cognitive-java",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 621,
+  "end_line": 656,
+  "name": "toRegexp",
+  "value": 20,
+  "metric": "cognitive",
+  "tool": "cognitive-java",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 546,
+  "end_line": 572,
+  "name": "overriddenSymbolFrom",
+  "value": 19,
+  "metric": "cognitive",
+  "tool": "cognitive-java",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 370,
+  "end_line": 381,
+  "name": "c55_deep_nesting_4",
+  "value": 10,
+  "metric": "cognitive",
+  "tool": "cognitive-java",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 687,
+  "end_line": 697,
+  "name": "myMethod",
+  "value": 9,
+  "metric": "cognitive",
+  "tool": "cognitive-java",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 418,
+  "end_line": 430,
+  "name": "c63_labeled_continue",
+  "value": 7,
+  "metric": "cognitive",
+  "tool": "cognitive-java",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 659,
+  "end_line": 670,
+  "name": "sumOfPrimes",
+  "value": 7,
+  "metric": "cognitive",
+  "tool": "cognitive-java",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 140,
+  "end_line": 149,
+  "name": "c15_if_in_for_in_while",
+  "value": 6,
+  "metric": "cognitive",
+  "tool": "cognitive-java",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 383,
+  "end_line": 393,
+  "name": "c56_for_in_catch_in_for",
+  "value": 6,
+  "metric": "cognitive",
+  "tool": "cognitive-java",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 289,
+  "end_line": 299,
+  "name": "c36_unlabeled_break_continue",
+  "value": 5,
+  "metric": "cognitive",
+  "tool": "cognitive-java",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 405,
+  "end_line": 416,
+  "name": "c58_elseif_nested_if",
+  "value": 5,
+  "metric": "cognitive",
+  "tool": "cognitive-java",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 26,
+  "end_line": 36,
+  "name": "c04_if_elseif_elseif_else",
+  "value": 4,
+  "metric": "cognitive",
+  "tool": "cognitive-java",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 173,
+  "end_line": 182,
+  "name": "c18_if_in_else",
+  "value": 4,
+  "metric": "cognitive",
+  "tool": "cognitive-java",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 184,
+  "end_line": 193,
+  "name": "c19_if_in_elseif",
+  "value": 4,
+  "metric": "cognitive",
+  "tool": "cognitive-java",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 282,
+  "end_line": 287,
+  "name": "c35_and_or_and",
+  "value": 4,
+  "metric": "cognitive",
+  "tool": "cognitive-java",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 345,
+  "end_line": 355,
+  "name": "c43_lambda_inside_if",
+  "value": 4,
+  "metric": "cognitive",
+  "tool": "cognitive-java",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 432,
+  "end_line": 440,
+  "name": "c64_labeled_break_to_enclosing",
+  "value": 4,
+  "metric": "cognitive",
+  "tool": "cognitive-java",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 131,
+  "end_line": 138,
+  "name": "c14_if_in_if",
+  "value": 3,
+  "metric": "cognitive",
+  "tool": "cognitive-java",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 151,
+  "end_line": 160,
+  "name": "c16_if_in_catch",
+  "value": 3,
+  "metric": "cognitive",
+  "tool": "cognitive-java",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 195,
+  "end_line": 197,
+  "name": "c20_nested_ternary",
+  "value": 3,
+  "metric": "cognitive",
+  "tool": "cognitive-java",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 234,
+  "end_line": 239,
+  "name": "c26_and_or",
+  "value": 3,
+  "metric": "cognitive",
+  "tool": "cognitive-java",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 241,
+  "end_line": 246,
+  "name": "c27_or_and_or",
+  "value": 3,
+  "metric": "cognitive",
+  "tool": "cognitive-java",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 248,
+  "end_line": 253,
+  "name": "c28_and_not_paren_and",
+  "value": 3,
+  "metric": "cognitive",
+  "tool": "cognitive-java",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 255,
+  "end_line": 260,
+  "name": "c29_and_paren_or",
+  "value": 3,
+  "metric": "cognitive",
+  "tool": "cognitive-java",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 466,
+  "end_line": 476,
+  "name": "c74_switch_with_nested_if",
+  "value": 3,
+  "metric": "cognitive",
+  "tool": "cognitive-java",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 485,
+  "end_line": 493,
+  "name": "c76_lambda_in_lambda",
+  "value": 3,
+  "metric": "cognitive",
+  "tool": "cognitive-java",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 509,
+  "end_line": 514,
+  "name": "c79_or_not_paren_or",
+  "value": 3,
+  "metric": "cognitive",
+  "tool": "cognitive-java",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 18,
+  "end_line": 24,
+  "name": "c03_if_else",
+  "value": 2,
+  "metric": "cognitive",
+  "tool": "cognitive-java",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 522,
+  "end_line": 527,
+  "name": "c103_recursion_two_calls",
+  "value": 2,
+  "metric": "cognitive",
+  "tool": "cognitive-java",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 95,
+  "end_line": 103,
+  "name": "c10_try_two_catches",
+  "value": 2,
+  "metric": "cognitive",
+  "tool": "cognitive-java",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 162,
+  "end_line": 171,
+  "name": "c17_if_in_try",
+  "value": 2,
+  "metric": "cognitive",
+  "tool": "cognitive-java",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 199,
+  "end_line": 204,
+  "name": "c21_ternary_in_if_condition",
+  "value": 2,
+  "metric": "cognitive",
+  "tool": "cognitive-java",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 206,
+  "end_line": 211,
+  "name": "c22_ternary_in_while_condition",
+  "value": 2,
+  "metric": "cognitive",
+  "tool": "cognitive-java",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 213,
+  "end_line": 218,
+  "name": "c23_and",
+  "value": 2,
+  "metric": "cognitive",
+  "tool": "cognitive-java",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 220,
+  "end_line": 225,
+  "name": "c24_and_and",
+  "value": 2,
+  "metric": "cognitive",
+  "tool": "cognitive-java",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 227,
+  "end_line": 232,
+  "name": "c25_or",
+  "value": 2,
+  "metric": "cognitive",
+  "tool": "cognitive-java",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 262,
+  "end_line": 267,
+  "name": "c30_and_paren_and",
+  "value": 2,
+  "metric": "cognitive",
+  "tool": "cognitive-java",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 309,
+  "end_line": 314,
+  "name": "c38_recursion_direct",
+  "value": 2,
+  "metric": "cognitive",
+  "tool": "cognitive-java",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 316,
+  "end_line": 321,
+  "name": "c39_recursion_indirect_a",
+  "value": 2,
+  "metric": "cognitive",
+  "tool": "cognitive-java",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 323,
+  "end_line": 328,
+  "name": "c39_recursion_indirect_b",
+  "value": 2,
+  "metric": "cognitive",
+  "tool": "cognitive-java",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 330,
+  "end_line": 333,
+  "name": "c40_lambda_with_ternary",
+  "value": 2,
+  "metric": "cognitive",
+  "tool": "cognitive-java",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 335,
+  "end_line": 343,
+  "name": "c41_lambda_with_if",
+  "value": 2,
+  "metric": "cognitive",
+  "tool": "cognitive-java",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 395,
+  "end_line": 403,
+  "name": "c57_two_sequential_ifs",
+  "value": 2,
+  "metric": "cognitive",
+  "tool": "cognitive-java",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 502,
+  "end_line": 507,
+  "name": "c78_recursion_via_this",
+  "value": 2,
+  "metric": "cognitive",
+  "tool": "cognitive-java",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 516,
+  "end_line": 519,
+  "name": "c80_bool_and_ternary_top_level",
+  "value": 2,
+  "metric": "cognitive",
+  "tool": "cognitive-java",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 700,
+  "end_line": 705,
+  "name": "myMethod2",
+  "value": 2,
+  "metric": "cognitive",
+  "tool": "cognitive-java",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 359,
+  "end_line": 364,
+  "name": "Micro.c47_anonymous_class_method_if.<anonymous Runnable@358:37>.run",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "cognitive-java",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 11,
+  "end_line": 16,
+  "name": "c02_if",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "cognitive-java",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 38,
+  "end_line": 40,
+  "name": "c05_ternary",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "cognitive-java",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 42,
+  "end_line": 51,
+  "name": "c06_switch",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "cognitive-java",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 53,
+  "end_line": 59,
+  "name": "c06b_switch_expression",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "cognitive-java",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 61,
+  "end_line": 65,
+  "name": "c07_for",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "cognitive-java",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 67,
+  "end_line": 71,
+  "name": "c07b_foreach",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "cognitive-java",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 73,
+  "end_line": 78,
+  "name": "c08_while",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "cognitive-java",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 80,
+  "end_line": 85,
+  "name": "c08b_do_while",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "cognitive-java",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 87,
+  "end_line": 93,
+  "name": "c09_try_catch",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "cognitive-java",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 105,
+  "end_line": 111,
+  "name": "c11_multi_catch",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "cognitive-java",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 121,
+  "end_line": 129,
+  "name": "c13_try_catch_finally",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "cognitive-java",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 269,
+  "end_line": 272,
+  "name": "c31_bool_in_assignment",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "cognitive-java",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 274,
+  "end_line": 276,
+  "name": "c32_bool_in_return",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "cognitive-java",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 278,
+  "end_line": 280,
+  "name": "c33_bool_in_call",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "cognitive-java",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 301,
+  "end_line": 307,
+  "name": "c37_early_return",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "cognitive-java",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 442,
+  "end_line": 449,
+  "name": "c71_synchronized",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "cognitive-java",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 451,
+  "end_line": 457,
+  "name": "c72_try_with_resources",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "cognitive-java",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 459,
+  "end_line": 464,
+  "name": "c73_throw_in_if",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "cognitive-java",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 478,
+  "end_line": 483,
+  "name": "c75_bitwise_and_on_booleans",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "cognitive-java",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 495,
+  "end_line": 500,
+  "name": "c77_instanceof_pattern",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "cognitive-java",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 529,
+  "end_line": 535,
+  "name": "equals",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "cognitive-java",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 673,
+  "end_line": 684,
+  "name": "getWords",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "cognitive-java",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 711,
+  "end_line": 711,
+  "name": "isSlash",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "cognitive-java",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 726,
+  "end_line": 726,
+  "name": "PersistitInterruptedException",
+  "value": 0,
+  "metric": "cognitive",
+  "tool": "cognitive-java",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 725,
+  "end_line": 725,
+  "name": "WWRetryException",
+  "value": 0,
+  "metric": "cognitive",
+  "tool": "cognitive-java",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 7,
+  "end_line": 9,
+  "name": "c01_empty",
+  "value": 0,
+  "metric": "cognitive",
+  "tool": "cognitive-java",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 113,
+  "end_line": 119,
+  "name": "c12_try_finally",
+  "value": 0,
+  "metric": "cognitive",
+  "tool": "cognitive-java",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 357,
+  "end_line": 368,
+  "name": "c47_anonymous_class_method_if",
+  "value": 0,
+  "metric": "cognitive",
+  "tool": "cognitive-java",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 712,
+  "end_line": 712,
+  "name": "canOverride",
+  "value": 0,
+  "metric": "cognitive",
+  "tool": "cognitive-java",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 713,
+  "end_line": 713,
+  "name": "checkOverridingParameters",
+  "value": 0,
+  "metric": "cognitive",
+  "tool": "cognitive-java",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 719,
+  "end_line": 719,
+  "name": "getPrevious",
+  "value": 0,
+  "metric": "cognitive",
+  "tool": "cognitive-java",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 717,
+  "end_line": 717,
+  "name": "getSymbol",
+  "value": 0,
+  "metric": "cognitive",
+  "tool": "cognitive-java",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 722,
+  "end_line": 722,
+  "name": "getTransactionIndex",
+  "value": 0,
+  "metric": "cognitive",
+  "tool": "cognitive-java",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 720,
+  "end_line": 720,
+  "name": "getTransactionStatus",
+  "value": 0,
+  "metric": "cognitive",
+  "tool": "cognitive-java",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 719,
+  "end_line": 719,
+  "name": "getVersion",
+  "value": 0,
+  "metric": "cognitive",
+  "tool": "cognitive-java",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 725,
+  "end_line": 725,
+  "name": "getVersionHandle",
+  "value": 0,
+  "metric": "cognitive",
+  "tool": "cognitive-java",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 537,
+  "end_line": 540,
+  "name": "hashCode",
+  "value": 0,
+  "metric": "cognitive",
+  "tool": "cognitive-java",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 720,
+  "end_line": 720,
+  "name": "isActive",
+  "value": 0,
+  "metric": "cognitive",
+  "tool": "cognitive-java",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 715,
+  "end_line": 715,
+  "name": "isKind",
+  "value": 0,
+  "metric": "cognitive",
+  "tool": "cognitive-java",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 715,
+  "end_line": 715,
+  "name": "isStatic",
+  "value": 0,
+  "metric": "cognitive",
+  "tool": "cognitive-java",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 717,
+  "end_line": 717,
+  "name": "isUnknown",
+  "value": 0,
+  "metric": "cognitive",
+  "tool": "cognitive-java",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 718,
+  "end_line": 718,
+  "name": "lookup",
+  "value": 0,
+  "metric": "cognitive",
+  "tool": "cognitive-java",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 718,
+  "end_line": 718,
+  "name": "members",
+  "value": 0,
+  "metric": "cognitive",
+  "tool": "cognitive-java",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 719,
+  "end_line": 719,
+  "name": "setPrevious",
+  "value": 0,
+  "metric": "cognitive",
+  "tool": "cognitive-java",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\java\\Micro.java",
+  "line": 721,
+  "end_line": 721,
+  "name": "wwDependency",
+  "value": 0,
+  "metric": "cognitive",
+  "tool": "cognitive-java",
+  "extra": {}
+ },
+ {
+  "file": "",
+  "line": null,
+  "end_line": null,
+  "name": "",
+  "value": null,
+  "metric": "meta",
+  "tool": "cognitive-java",
+  "extra": {
+   "exclusions": {
+    "discoveredFiles": 1,
+    "analyzedFiles": 1,
+    "analyzedMethods": 92,
+    "excludedFiles": 0,
+    "excludedClasses": 0,
+    "excludedFileReasons": [],
+    "excludedClassReasons": []
+   }
+  }
+ }
+]

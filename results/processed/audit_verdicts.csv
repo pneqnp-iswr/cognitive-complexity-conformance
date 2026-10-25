@@ -1,0 +1,121 @@
+audit_id,tool,lang,mechanism_category,target_rules,classifier_models_it,justification
+python-01,codemetrics,python,mixed,B1.7;R15,1,"Auditor gives two alternative readings for the +1: the `or {}` default idiom (B1.7; spec C.4 counts it, py-c34, so if the reference skips it the reference deviates) or a sequence boundary at parentheses (R15, ambiguity 7, py-c30). Different categories, left unresolved by the auditor."
+python-02,cognitive_complexity,python,tool,B1.5,1,"Tool adds +1 beyond the per-except-clause increments for a try nested inside an except (B1.5, py-c10/py-c16 patterns). B1.5 is a live PRED target, although cognitive_complexity passed the flat micro-corpus except cases, so this nested variant was not exposed there."
+python-03,complexipy,python,reference,B1.8,1,Tool applies the recursion increment (B1.8); auditor states the reference omits it.
+python-04,rust-code-analysis,python,tool,B1.5;R7,1,Tool under-counts the try/except structure by 1; rust-code-analysis fails unambiguous R7 (try/finally) micro-corpus cases.
+python-05,codemetrics,python,ambiguity,B2.4;B3.1,1,"The (nested) ternary sits in a for-loop header inside a while; whether a loop header is nested inside its loop is unspecified (ambiguity 4, py-c22, target B2.4), where codemetrics and SonarPython already differ in the micro-corpus. Auditor phrases it as 'ternary nesting inside while (+2)'."
+python-06,cognitive_complexity,python,tool,B2.1;R2,1,else-nesting difference (-1): cognitive_complexity fails the unambiguous else-raises-nesting cases (B2.1) in the micro-corpus.
+python-07,complexipy,python,ambiguity,COMP,1,"Comprehension counted (+1); auditor tags 'spec silent, COMP' (py-c48/c49)."
+python-08,rust-code-analysis,python,tool,R7;B2.1,1,"Two tool-side mechanisms named: try/except handling (R7, a rust-code-analysis micro-corpus failure) and elif nesting (B2.1). Python elif is not a syntactic nested if, so the spec's hybrid rule applies unambiguously."
+python-09,codemetrics,python,ambiguity,ELSE-LOOP,1,try-else clause not counted (-1); auditor tags ELSE-LOOP ambiguity (py-c52).
+python-10,cognitive_complexity,python,reference,B1.8,1,"recursion +1 with recursion_direct=1: tool applies B1.8, reference omits it (the mechanism the auditor spelled out as 'ref omits B1.8' in python-03)."
+python-11,complexipy,python,ambiguity,COMP,1,Comprehension with an if clause counted (+2); comprehension for/if unspecified (py-c48).
+python-12,rust-code-analysis,python,ambiguity,R15;B1.7,1,"'boolean sequences with parentheses (-2)': parentheses inside operator sequences are open ambiguity 7 (py-c30, R15). Caveat: rust-code-analysis also fails unambiguous B1.7 cases in the micro-corpus, so a tool reading is possible; the auditor tagged neither."
+python-13,codemetrics,python,ambiguity,B1.2,1,match statement counted (+1); auditor tags B1.2 ambiguity (py-c06).
+python-14,cognitive_complexity,python,mixed,COMP;B2.1,1,"Auditor names comprehension (COMP, ambiguity) and else nesting (B2.1, a cognitive_complexity tool deviation) for the +2; different categories."
+python-15,complexipy,python,tool,B1.7,1,"`or` sequence inside a call argument not counted (-1); auditor tags 'impl. bug, B1.7' (py-c33 pattern; complexipy passed that case, so the bug is context-specific)."
+python-16,rust-code-analysis,python,mixed,COMP;B1.7,1,"'comprehension/boolean (-1)': comprehension (COMP, ambiguity) or a boolean sequence (B1.7, a rust-code-analysis tool deviation); different categories, unresolved."
+python-17,codemetrics,python,tool,R2;B2.1,1,"else/elif nesting differences (-3) attributed to codemetrics; R2/B2.1 are live PRED targets (codemetrics failed them in the Java/JS micro-corpus, not in the Python one)."
+python-18,cognitive_complexity,python,reference,B1.8,1,"recursion +1 (recursion_direct=1): tool applies B1.8, reference omits it."
+python-19,complexipy,python,mixed,COMP;B1.7,1,"Two mechanisms of different categories: comprehension (+1, COMP ambiguity) and an extra +1 on an `or` chain of like operators (B1.7; like operators form one sequence, py-c24, so the extra increment is tool-side)."
+python-20,rust-code-analysis,python,tool,B3.1;B1.7,1,"'ternary/boolean (+1)': both alternatives are tool-side for rust-code-analysis (ternary nesting inside a for body, B3/B3.1; boolean sequence, B1.7), both micro-corpus failures of this tool."
+python-21,codemetrics,python,ambiguity,B2.4;B3.1,1,"Duplicate of python-05 (same function key_expansion): nested ternary in a for-loop header inside a while; loop-header nesting is unspecified (ambiguity 4, py-c22)."
+python-22,cognitive_complexity,python,tool,B2.1;R2,1,else-nesting (+2): cognitive_complexity B2.1 deviation (as python-06).
+python-23,complexipy,python,ambiguity,COMP,1,Comprehension counted (+2); COMP ambiguity.
+python-24,rust-code-analysis,python,tool,B1.5;B3,1,try/except inside for under-counted (-1); rust-code-analysis fails R7 and B3 nesting cases in the micro-corpus.
+python-25,codemetrics,python,ambiguity,B3.1;B1.7,1,"'ternary sequences (+1)': the ternaries sit inside if-condition boolean sequences; nesting of an if condition is unspecified (ambiguity 4, py-c21, B3.1), where codemetrics differs from SonarPython in the micro-corpus."
+python-26,cognitive_complexity,python,tool,R11,0,"`with` statement counted (+1); spec says 0 (py-c53). R11 exists in PRED but its predicate is constant False, so the classifier cannot flag this mechanism."
+python-27,complexipy,python,ambiguity,COMP,1,Generator expression counted (+1); auditor tags COMP (py-c70).
+python-28,rust-code-analysis,python,tool,B1.5;B3,1,"except inside for under-counted (-1), as python-24."
+python-29,codemetrics,python,mixed,COMP;B2.1,1,"Auditor names comprehension (COMP, ambiguity) and else differences (R2/B2.1, tool) in a long function (-2); different categories."
+python-30,cognitive_complexity,python,tool,B1.8,0,"Auditor hedges ('recursion? (rec=1) +1'). The recursion flag comes from a same-name call super().get_input, so the +1 would be name-based false recursion (as java-05/java-20), a mechanism with no micro-corpus case; verdict follows the auditor's tentative attribution to the tool."
+java-01,codemetrics,java,tool,R2,1,else not counted (R2); codemetrics fails the R2 cases in the Java micro-corpus.
+java-02,cognitive-java,java,reference,B1.8,1,"recursion +1; auditor: ref omits B1.8 (micro-corpus: reference fails B1.8, cognitive-java conforms)."
+java-03,pmd,java,tool,B1.8,0,"Name-based recursion on an overload call (false recursion); no micro-corpus case for overloads, so outside the classifier."
+java-04,codemetrics,java,tool,R2;B2.1,1,else/else-if handling (R2/B2.1) in a long method; both are codemetrics micro-corpus failures.
+java-05,cognitive-java,java,tool,B1.8,0,Name-based recursion on super.visitInsns (false recursion); mechanism outside the micro-corpus.
+java-06,pmd,java,reference,B1.8,1,recursion +1 (ref omits B1.8); auditor notes the gate flip 15->16.
+java-07,codemetrics,java,tool,R2,1,else not counted (R2); codemetrics fails the R2 cases in the Java micro-corpus.
+java-08,cognitive-java,java,unexplained,,0,"Auditor could not settle on a mechanism: a negated equals() call, tryDequeue(), and a name-based recursion false positive on doPaymentTask are all listed with question marks."
+java-09,pmd,java,tool,B1.8,1,PMD counts recursion per call site (2 calls -> +2); spec gives one increment per method (java-c103).
+java-10,codemetrics,java,tool,R2,1,else not counted (R2); codemetrics fails the R2 cases in the Java micro-corpus.
+java-11,cognitive-java,java,reference,B1.8,1,"recursion +1: cognitive-java applies B1.8, reference omits it (auditor spelled this out in java-02; micro-corpus: reference fails B1.8, tool conforms)."
+java-12,pmd,java,reference,B1.8,1,"recursion +1 on a single call site: PMD applies B1.8, reference omits it (auditor spelled this out for PMD in java-06)."
+java-13,codemetrics,java,tool,R2,1,else not counted (R2); codemetrics fails the R2 cases in the Java micro-corpus.
+java-14,cognitive-java,java,reference,B1.8,1,"recursion +1: cognitive-java applies B1.8, reference omits it (auditor spelled this out in java-02; micro-corpus: reference fails B1.8, tool conforms)."
+java-15,pmd,java,tool,B1.8,1,PMD recursion per call site (2 calls -> +2); java-c103.
+java-16,codemetrics,java,tool,R2,1,else not counted (R2); codemetrics fails the R2 cases in the Java micro-corpus.
+java-17,cognitive-java,java,reference,B1.8,1,"recursion +1: cognitive-java applies B1.8, reference omits it (auditor spelled this out in java-02; micro-corpus: reference fails B1.8, tool conforms)."
+java-18,pmd,java,tool,B1.8,1,PMD recursion per call site (4 calls -> +4); java-c103.
+java-19,codemetrics,java,tool,R2,1,else not counted (R2); codemetrics fails the R2 cases in the Java micro-corpus.
+java-20,cognitive-java,java,tool,B1.8,0,Name-based recursion on super.addToken (false recursion); mechanism outside the micro-corpus.
+java-21,pmd,java,reference,B1.8,1,"recursion +1 on a single call site: PMD applies B1.8, reference omits it (auditor spelled this out for PMD in java-06)."
+java-22,codemetrics,java,tool,R2,1,else not counted (R2); codemetrics fails the R2 cases in the Java micro-corpus.
+java-23,cognitive-java,java,reference,B1.8,1,"recursion +1 (2 calls -> +1, per method): tool conforms to B1.8, reference omits it."
+java-24,pmd,java,reference,B1.8,1,"recursion +1 on a single call site: PMD applies B1.8, reference omits it (auditor spelled this out for PMD in java-06)."
+java-25,codemetrics,java,mixed,R2;B3.1,1,"Auditor offers 'else not counted (R2)' (tool) or 'ternary nesting' (B3.1; if-condition nesting is ambiguity 4 in codemetrics' Java micro-corpus readings); different categories, unresolved."
+java-26,cognitive-java,java,reference,B1.8,1,"recursion +1: cognitive-java applies B1.8, reference omits it (auditor spelled this out in java-02; micro-corpus: reference fails B1.8, tool conforms)."
+java-27,pmd,java,sampling_defect,,0,equals(): excluded by protocol (Sonar's rule skips equals/hashCode); auditor notes the sampling filter was fixed.
+java-28,codemetrics,java,tool,R2,1,else not counted (R2); codemetrics fails the R2 cases in the Java micro-corpus.
+java-29,cognitive-java,java,reference,B1.8,1,"recursion +1: cognitive-java applies B1.8, reference omits it (auditor spelled this out in java-02; micro-corpus: reference fails B1.8, tool conforms)."
+java-30,pmd,java,tool,B1.8,1,PMD recursion per call site (2 calls -> +2); java-c103.
+javascript-01,codemetrics,javascript,mixed,B1.7;B2.1;R2,1,"Two mechanisms of different categories: || sequences omitted by the reference (B1.7, reference) and else-if nesting (R2/B2.1, a codemetrics tool deviation)."
+javascript-02,cognitive-complexity-ts,javascript,tool,R13,1,?? counted (+1); spec ignores nullish coalescing (js-c81); cognitive-complexity-ts fails R13 in the micro-corpus.
+javascript-03,cogplexity,javascript,reference,B1.7,1,"|| sequences counted by the tool, omitted by the reference (B1.7; spec C.4 counts ||, js-c25/js-c34; micro-corpus: reference fails B1.7)."
+javascript-04,eslint-plugin-maintainability,javascript,reference,B1.7,1,"|| sequences counted by the tool, omitted by the reference (B1.7; spec C.4 counts ||, js-c25/js-c34; micro-corpus: reference fails B1.7)."
+javascript-05,oxlint-plugin-complexity,javascript,reference,B1.7,1,"|| sequences counted by the tool, omitted by the reference (B1.7; spec C.4 counts ||, js-c25/js-c34; micro-corpus: reference fails B1.7)."
+javascript-06,rust-code-analysis,javascript,tool,B2.6,0,"+1 nesting applied to the body of a const-assigned arrow function (tool nesting policy). The micro-corpus has js-c90 (arrow_const, labelled B1.7) but no PRED predicate keys on the unit's own kind, so the classifier cannot model it."
+javascript-07,codemetrics,javascript,reference,B1.7,1,"|| sequences counted by the tool, omitted by the reference (B1.7; spec C.4 counts ||, js-c25/js-c34; micro-corpus: reference fails B1.7)."
+javascript-08,cognitive-complexity-ts,javascript,tool,B2.6,0,+1 on a generic const-arrow function ('generic arrow / nesting policy - impl.'); same family as javascript-06: the unit's own kind is not modelled by PRED.
+javascript-09,cogplexity,javascript,reference,B1.7,1,"|| sequences counted by the tool, omitted by the reference (B1.7; spec C.4 counts ||, js-c25/js-c34; micro-corpus: reference fails B1.7)."
+javascript-10,eslint-plugin-maintainability,javascript,reference,B1.7,1,"|| sequences counted by the tool, omitted by the reference (B1.7; spec C.4 counts ||, js-c25/js-c34; micro-corpus: reference fails B1.7)."
+javascript-11,oxlint-plugin-complexity,javascript,reference,B1.7,1,"|| sequences counted by the tool, omitted by the reference (B1.7; spec C.4 counts ||, js-c25/js-c34; micro-corpus: reference fails B1.7)."
+javascript-12,rust-code-analysis,javascript,tool,B2.6,0,+1 nesting inside a const-arrow function; as javascript-06.
+javascript-13,codemetrics,javascript,reference,B1.7,1,"|| sequences counted by the tool, omitted by the reference (B1.7; spec C.4 counts ||, js-c25/js-c34; micro-corpus: reference fails B1.7)."
+javascript-14,cognitive-complexity-ts,javascript,tool,R13,1,?? counted (+1); as javascript-02.
+javascript-15,cogplexity,javascript,reference,B1.7,1,"|| sequences counted by the tool, omitted by the reference (B1.7; spec C.4 counts ||, js-c25/js-c34; micro-corpus: reference fails B1.7)."
+javascript-16,eslint-plugin-maintainability,javascript,mixed,B1.7;B3.1,1,"|| omitted by the reference (B1.7, reference) plus ternary nesting (B3.1, an eslint-plugin-maintainability micro-corpus tool failure); different categories."
+javascript-17,oxlint-plugin-complexity,javascript,reference,B1.7,1,"|| sequences counted by the tool, omitted by the reference (B1.7; spec C.4 counts ||, js-c25/js-c34; micro-corpus: reference fails B1.7)."
+javascript-18,rust-code-analysis,javascript,reference,B1.7,1,"|| sequences counted by the tool, omitted by the reference (B1.7; spec C.4 counts ||, js-c25/js-c34; micro-corpus: reference fails B1.7). rust-code-analysis also has B1.7 tool failures in the micro-corpus, but the auditor attributes this row to the reference."
+javascript-19,codemetrics,javascript,tool,R2;B2.1,1,"else-if chain (spelled `else if`) treated as nested ifs (+16). The spec's hybrid increment for else if is explicit and js-c04/js-c58 are unambiguous cases that codemetrics fails, so this is tool-side rather than the open `else { if }` question."
+javascript-20,cognitive-complexity-ts,javascript,unexplained,,0,+2 on a function with no control flow; auditor: unexplained (possibly template/regex handling).
+javascript-21,cogplexity,javascript,reference,B1.7,1,"|| sequences counted by the tool, omitted by the reference (B1.7; spec C.4 counts ||, js-c25/js-c34; micro-corpus: reference fails B1.7)."
+javascript-22,eslint-plugin-maintainability,javascript,tool,R13,1,?? counted x8 (+8); spec ignores nullish coalescing (js-c81).
+javascript-23,oxlint-plugin-complexity,javascript,reference,B1.7,1,|| counted (+1): same mechanism the auditor labels 'ref omits' for oxlint in javascript-05/11/17.
+javascript-24,rust-code-analysis,javascript,tool,B2.6;B2.1;B3.1,0,else/ternary nesting offset inside a test callback (+4): nesting policy applied to the callback unit's own body (family of javascript-06/12/30); PRED cannot key on the unit's kind.
+javascript-25,codemetrics,javascript,reference,B1.7,1,"|| default idiom counted, reference omits it (B1.7; js-c34)."
+javascript-26,cognitive-complexity-ts,javascript,reference,B1.7,1,"|| sequences counted by the tool, omitted by the reference (B1.7; spec C.4 counts ||, js-c25/js-c34; micro-corpus: reference fails B1.7)."
+javascript-27,cogplexity,javascript,reference,B1.7;R13,1,"'|| + ?? handling (+2)': the reference omits || sequences (B1.7); the tool value equals the two || sequences present, so ?? was not counted (cogplexity conforms on R13 in the micro-corpus, where the reference fails js-c83). Both parts are reference-side."
+javascript-28,eslint-plugin-maintainability,javascript,reference,B1.7,1,"|| sequences counted by the tool, omitted by the reference (B1.7; spec C.4 counts ||, js-c25/js-c34; micro-corpus: reference fails B1.7)."
+javascript-29,oxlint-plugin-complexity,javascript,tool,B2.6;A.2,0,"Flat +1 on a nested arrow-function unit (oxlint policy); the increment is on the unit itself, which PRED (keyed on contained lambdas/nested functions) cannot model."
+javascript-30,rust-code-analysis,javascript,tool,B2.6,0,+1 nesting inside a const-arrow function; as javascript-06.
+go-01,codemetrics,go,reference,GO-ERRNIL,1,"Reference err != nil exemption: sonar-go ignores `if <error> != nil` without else (GO-ERRNIL, go-c98..c102)."
+go-02,gocognit,go,mixed,GO-ERRNIL;B2.1,1,"Reference err != nil exemption (1 check) plus a hedged tool-side 'else-nesting?' (B2.1, a gocognit micro-corpus failure); net +1 equals the single exempt check."
+go-03,codemetrics,go,reference,GO-ERRNIL,1,"Reference err != nil exemption: sonar-go ignores `if <error> != nil` without else (GO-ERRNIL, go-c98..c102)."
+go-04,gocognit,go,reference,GO-ERRNIL,1,"Reference err != nil exemption: sonar-go ignores `if <error> != nil` without else (GO-ERRNIL, go-c98..c102). Auditor considered recursion (recursion_direct=1 from a same-name a.Base.SanitizeAndMapHeaders call) and rejected it."
+go-05,codemetrics,go,reference,GO-ERRNIL,1,"Reference err != nil exemption: sonar-go ignores `if <error> != nil` without else (GO-ERRNIL, go-c98..c102)."
+go-06,gocognit,go,reference,GO-ERRNIL,1,"Reference err != nil exemption: sonar-go ignores `if <error> != nil` without else (GO-ERRNIL, go-c98..c102). Auditor counts 4 exempt checks 'minus other diffs' to reach the observed +3; a -1 residual is left unexplained."
+go-07,codemetrics,go,reference,GO-ERRNIL,1,"Reference err != nil exemption: sonar-go ignores `if <error> != nil` without else (GO-ERRNIL, go-c98..c102). 3 checks; auditor unsure whether some carry an else (checks with else are not exempt, go-c101)."
+go-08,gocognit,go,reference,GO-ERRNIL,1,"Reference err != nil exemption: sonar-go ignores `if <error> != nil` without else (GO-ERRNIL, go-c98..c102)."
+go-09,codemetrics,go,reference,GO-ERRNIL,1,"Reference err != nil exemption: sonar-go ignores `if <error> != nil` without else (GO-ERRNIL, go-c98..c102)."
+go-10,gocognit,go,reference,GO-ERRNIL;B3.1,1,"Reference err != nil exemption: sonar-go ignores `if <error> != nil` without else (GO-ERRNIL, go-c98..c102). Plus nesting under the exempt ifs, which is the same reference mechanism (go-c99: the exempt if does not raise nesting either)."
+go-11,codemetrics,go,reference,GO-ERRNIL,1,"Reference err != nil exemption: sonar-go ignores `if <error> != nil` without else (GO-ERRNIL, go-c98..c102)."
+go-12,gocognit,go,reference,GO-ERRNIL,1,"Reference err != nil exemption: sonar-go ignores `if <error> != nil` without else (GO-ERRNIL, go-c98..c102)."
+go-13,codemetrics,go,reference,GO-ERRNIL,1,"Reference err != nil exemption: sonar-go ignores `if <error> != nil` without else (GO-ERRNIL, go-c98..c102)."
+go-14,gocognit,go,tool,B1.7,1,Auditor: 'not exemption-related' - gocognit lower by 1 from boolean-sequence counting in long && chains (B1.7). Falls outside the Go exemption sample per the protocol; the named mechanism itself would be tool-side B1.7. | reclassified 2026-09-17 by the author: the auditor names a tool-side B1.7 counting difference (not a sampling defect).
+go-15,codemetrics,go,reference,GO-ERRNIL,1,"Reference err != nil exemption: sonar-go ignores `if <error> != nil` without else (GO-ERRNIL, go-c98..c102)."
+go-16,gocognit,go,reference,GO-ERRNIL;B3.1,1,"Reference err != nil exemption: sonar-go ignores `if <error> != nil` without else (GO-ERRNIL, go-c98..c102). Plus nesting under the exempt ifs, which is the same reference mechanism (go-c99: the exempt if does not raise nesting either)."
+go-17,codemetrics,go,reference,GO-ERRNIL;B3.1,1,"Reference err != nil exemption: sonar-go ignores `if <error> != nil` without else (GO-ERRNIL, go-c98..c102). Plus nesting under the exempt ifs, which is the same reference mechanism (go-c99: the exempt if does not raise nesting either)."
+go-18,gocognit,go,reference,GO-ERRNIL;B3.1,1,"Reference err != nil exemption: sonar-go ignores `if <error> != nil` without else (GO-ERRNIL, go-c98..c102). Plus nesting under the exempt ifs, which is the same reference mechanism (go-c99: the exempt if does not raise nesting either)."
+go-19,codemetrics,go,reference,GO-ERRNIL,1,"Reference err != nil exemption: sonar-go ignores `if <error> != nil` without else (GO-ERRNIL, go-c98..c102)."
+go-20,gocognit,go,reference,GO-ERRNIL;B3.1,1,"Reference err != nil exemption: sonar-go ignores `if <error> != nil` without else (GO-ERRNIL, go-c98..c102). Plus nesting under the exempt ifs, which is the same reference mechanism (go-c99: the exempt if does not raise nesting either)."
+go-21,codemetrics,go,reference,GO-ERRNIL,1,"Reference err != nil exemption: sonar-go ignores `if <error> != nil` without else (GO-ERRNIL, go-c98..c102). 3 checks, one nested; recursion_direct=1 not invoked by the auditor."
+go-22,gocognit,go,reference,GO-ERRNIL;B3.1,1,"Reference err != nil exemption: sonar-go ignores `if <error> != nil` without else (GO-ERRNIL, go-c98..c102). Plus nesting under the exempt ifs, which is the same reference mechanism (go-c99: the exempt if does not raise nesting either)."
+go-23,codemetrics,go,reference,GO-ERRNIL,1,"Reference err != nil exemption: sonar-go ignores `if <error> != nil` without else (GO-ERRNIL, go-c98..c102). Exemption of 2 checks with '... +1 net': the auditor leaves a -1 residual unexplained."
+go-24,gocognit,go,reference,GO-ERRNIL;B3.1,1,"Reference err != nil exemption: sonar-go ignores `if <error> != nil` without else (GO-ERRNIL, go-c98..c102). Plus nesting under the exempt ifs, which is the same reference mechanism (go-c99: the exempt if does not raise nesting either)."
+go-25,codemetrics,go,reference,GO-ERRNIL,1,"Reference err != nil exemption: sonar-go ignores `if <error> != nil` without else (GO-ERRNIL, go-c98..c102)."
+go-26,gocognit,go,reference,GO-ERRNIL;B3.1,1,"Reference err != nil exemption: sonar-go ignores `if <error> != nil` without else (GO-ERRNIL, go-c98..c102). Plus nesting under the exempt ifs, which is the same reference mechanism (go-c99: the exempt if does not raise nesting either)."
+go-27,codemetrics,go,reference,GO-ERRNIL,1,"Reference err != nil exemption: sonar-go ignores `if <error> != nil` without else (GO-ERRNIL, go-c98..c102)."
+go-28,gocognit,go,mixed,GO-ERRNIL;B2.1,1,"Reference exemption (4 checks) 'minus else?': a hedged tool-side else-handling term (B2.1, a gocognit micro-corpus failure) is invoked to close the arithmetic (+4 vs +2 observed)."
+go-29,codemetrics,go,reference,GO-ERRNIL,1,"Reference err != nil exemption: sonar-go ignores `if <error> != nil` without else (GO-ERRNIL, go-c98..c102)."
+go-30,gocognit,go,reference,GO-ERRNIL,1,"Reference err != nil exemption: sonar-go ignores `if <error> != nil` without else (GO-ERRNIL, go-c98..c102)."

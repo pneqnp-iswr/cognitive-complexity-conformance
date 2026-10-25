@@ -1,0 +1,112 @@
+03:57:08.689 INFO  Scanner configuration file: <LOCAL_PATH>/OneDrive\Documents\Conferences\research\tools\sonar-scanner-8.1.0.6389-windows-x64\bin\..\conf\sonar-scanner.properties
+03:57:08.691 INFO  Project root configuration file: NONE
+03:57:08.702 INFO  SonarScanner CLI 8.1.0.6389
+03:57:08.707 INFO  Windows 11 10.0 amd64
+03:57:11.084 INFO  Communicating with SonarQube Community Build 26.9.0.129388
+03:57:11.085 INFO  JRE provisioning: os[windows], arch[amd64]
+03:57:11.458 INFO  Starting SonarScanner Engine...
+03:57:11.458 INFO  Java 21.0.11 Eclipse Adoptium (64-bit)
+03:57:14.043 INFO  Load global settings
+03:57:14.133 INFO  Load global settings (done) | time=89ms
+03:57:14.136 INFO  Server id: 147B411E-AaCseIXKLwHTWvrBJNod
+03:57:14.143 INFO  Loading required plugins
+03:57:14.143 INFO  Load plugins index
+03:57:14.157 INFO  Load plugins index (done) | time=14ms
+03:57:14.158 INFO  Load/download plugins
+03:57:14.180 INFO  Load/download plugins (done) | time=23ms
+03:57:14.495 INFO  Process project properties
+03:57:14.516 INFO  Process project properties (done) | time=22ms
+03:57:14.530 INFO  Project key: cc-python-langchain-ai__langchain
+03:57:14.530 INFO  Base dir: <LOCAL_PATH>/OneDrive\Documents\Conferences\research\data\raw_repos\langchain-ai__langchain
+03:57:14.531 INFO  Working dir: <LOCAL_PATH>/OneDrive\Documents\Conferences\research\data\raw_repos\langchain-ai__langchain\.scannerwork
+03:57:14.538 INFO  Load project settings for component key: 'cc-python-langchain-ai__langchain'
+03:57:14.567 INFO  Load quality profiles
+03:57:14.607 INFO  Load quality profiles (done) | time=40ms
+03:57:14.640 INFO  Load active rules
+03:57:14.801 INFO  Load active rules (done) | time=162ms
+03:57:14.808 INFO  Load analysis cache
+03:57:14.813 INFO  Load analysis cache (404) | time=4ms
+03:57:15.057 INFO  Preprocessing files...
+03:57:18.157 INFO  1 language detected in 2580 preprocessed files (done) | time=3100ms
+03:57:18.157 INFO  576 files ignored because of inclusion/exclusion patterns
+03:57:18.159 INFO  Loading plugins for detected languages
+03:57:18.159 INFO  Load/download plugins
+03:57:18.164 INFO  Load/download plugins (done) | time=5ms
+03:57:18.268 INFO  Load project repositories
+03:57:18.275 INFO  Load project repositories (done) | time=7ms
+03:57:18.295 INFO  Indexing files...
+03:57:18.296 INFO  Project configuration:
+03:57:18.296 INFO    Included sources: **/*.py
+03:57:18.296 INFO    Excluded sources: **/node_modules/**, **/vendor/**, **/third_party/**, **/*.min.js
+03:57:18.296 INFO    Excluded sources for duplication: **/*
+03:57:18.529 INFO  2580 files indexed (done) | time=233ms
+03:57:18.530 INFO  Quality profile for py: cc-study-py
+03:57:18.530 INFO  ------------- Run sensors on module cc-python-langchain-ai__langchain
+03:57:18.589 INFO  Load metrics repository
+03:57:18.610 INFO  Load metrics repository (done) | time=21ms
+03:57:19.396 INFO  Sensor IaC YAML File Type Classification Sensor [iac]
+03:57:19.431 INFO  Sensor IaC YAML File Type Classification Sensor [iac] (done) | time=36ms
+03:57:19.431 INFO  Sensor IaC hadolint report Sensor [iac]
+03:57:19.432 INFO  Sensor IaC hadolint report Sensor [iac] (done) | time=1ms
+03:57:19.432 INFO  Sensor Java Config Sensor [iac]
+03:57:19.434 INFO  There are no files to be analyzed for the Java language
+03:57:19.437 INFO  Sensor Java Config Sensor [iac] (done) | time=1ms
+03:57:19.438 INFO  Sensor IaC Docker Sensor [iac]
+03:57:19.480 INFO  There are no files to be analyzed for the Docker language
+03:57:19.480 INFO  Sensor IaC Docker Sensor [iac] (done) | time=46ms
+03:57:19.481 INFO  Sensor Python Sensor [python]
+03:57:23.189 INFO  Starting global symbols computation
+03:57:23.192 INFO  2580 source files to be analyzed
+03:57:32.449 INFO  2580/2580 source files have been analyzed
+03:57:32.454 INFO  Finished step global symbols computation in 9260ms
+03:57:33.015 INFO  Starting rules execution
+03:57:33.016 INFO  2580 source files to be analyzed
+03:57:33.023 WARN  Test files were detected using a path heuristic because "sonar.tests" is not set. To improve the analysis accuracy, it is recommended to configure it, e.g.: "sonar.tests=src/test".
+03:57:43.029 INFO  1348/2580 files analyzed, current files: vectorstores.py, __init__.py, yandex.py, ...
+03:57:50.659 INFO  2580/2580 source files have been analyzed
+03:57:50.660 INFO  Finished step rules execution in 17643ms
+03:57:50.660 INFO  The Python analyzer was able to leverage cached data from previous analyses for 0 out of 2580 files. These files were not parsed.
+03:57:50.667 INFO  Sensor Python Sensor [python] (done) | time=31186ms
+03:57:50.667 INFO  Sensor Cobertura Sensor for Python coverage [python]
+03:57:51.138 INFO  Sensor Cobertura Sensor for Python coverage [python] (done) | time=470ms
+03:57:51.138 INFO  Sensor PythonXUnitSensor [python]
+03:57:51.610 INFO  Sensor PythonXUnitSensor [python] (done) | time=472ms
+03:57:51.610 INFO  Sensor Python Dependency Sensor [python]
+03:57:51.615 INFO  Sensor Python Dependency Sensor [python] (done) | time=5ms
+03:57:51.615 INFO  Sensor TextAndSecretsSensor [text]
+03:57:51.671 INFO  Available processors: 24
+03:57:51.671 INFO  Using 24 threads for analysis.
+03:57:51.844 INFO  The property "sonar.tests" is not set. To improve the analysis accuracy, we categorize a file as a test file if any of the following is true:
+  * The filename starts with "test"
+  * The filename contains "test." or "tests."
+  * Any directory in the file path is named: "doc", "docs", "test", "tests", "mock" or "mocks"
+  * Any directory in the file path has a name ending in "test" or "tests"
+
+03:57:51.871 INFO  Start fetching files for the text and secrets analysis
+03:57:51.971 INFO  Using Git CLI to retrieve dirty files
+03:57:52.381 INFO  Retrieving language associated files and files included via "sonar.text.inclusions" that are tracked by git
+03:57:52.382 INFO  Starting the text and secrets analysis
+03:57:52.387 INFO  2580 source files to be analyzed for the text and secrets analysis
+03:57:52.860 INFO  2580/2580 source files have been analyzed for the text and secrets analysis
+03:57:52.860 INFO  Skipped 837 file(s) in the secrets analysis due to automatic test file detection
+03:57:52.867 INFO  Sensor TextAndSecretsSensor [text] (done) | time=1251ms
+03:57:52.870 INFO  ------------- Run sensors on project
+03:57:53.024 INFO  Sensor IaC Project Sensor [iac]
+03:57:53.024 INFO  Sensor IaC Project Sensor [iac] (done) | time=1ms
+03:57:53.024 INFO  Sensor Zero Coverage Sensor
+03:57:54.039 INFO  Sensor Zero Coverage Sensor (done) | time=1015ms
+03:57:54.039 INFO  ------------- Gather SCA dependencies on project
+03:57:54.044 INFO  Dependency analysis skipped
+03:57:54.046 INFO  SCM Publisher is disabled
+03:57:54.047 INFO  CPD Executor Calculating CPD for 0 files
+03:57:54.047 INFO  CPD Executor CPD calculation finished (done) | time=0ms
+03:57:57.120 INFO  Analysis report generated in 2378ms, dir size=38.5 MB
+03:59:02.889 INFO  Analysis report compressed in 65769ms, zip size=21.4 MB
+03:59:03.196 INFO  Analysis report uploaded in 307ms
+03:59:03.199 INFO  ANALYSIS SUCCESSFUL, you can find the results at: http://localhost:9000/dashboard?id=cc-python-langchain-ai__langchain
+03:59:03.199 INFO  Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+03:59:03.199 INFO  More about the report processing at http://localhost:9000/api/ce/task?id=8f1c1295-e1b7-4a5f-997a-85560c047699
+03:59:08.052 INFO  Analysis total time: 1:53.832 s
+03:59:08.102 INFO  SonarScanner Engine completed successfully
+03:59:08.211 INFO  EXECUTION SUCCESS
+03:59:08.211 INFO  Total time: 1:59.525s

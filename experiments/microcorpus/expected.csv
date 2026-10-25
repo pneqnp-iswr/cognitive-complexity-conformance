@@ -1,0 +1,271 @@
+case_id,lang,function,rules,expected,ambiguous,readings,note,target,origin
+py-c01,python,c01_empty,R11,0,0,,no flow-breaking structure,R11,spec-derived
+py-c02,python,c02_if,B1.1,1,0,,if +1,B1.1,spec-derived
+py-c03,python,c03_if_else,B1.1;R2,2,0,,if +1 else +1 (hybrid),R2,spec-derived
+py-c04,python,c04_if_elif_elif_else,B1.1;R2,4,0,,if +1 elif +1 elif +1 else +1,R2,spec-derived
+py-c05,python,c05_ternary,B1.1,1,0,,conditional expression +1,B1.1,spec-derived
+py-c06,python,c06_match,B1.2,1,1,1|0,match/case as switch (atypical spelling) vs not covered,B1.2,spec-derived
+py-c07,python,c07_for,B1.3,1,0,,for +1,B1.3,spec-derived
+py-c08,python,c08_while,B1.4,1,0,,while +1,B1.4,spec-derived
+py-c09,python,c09_try_except,B1.5;R7,1,0,,except +1; try ignored,B1.5,spec-derived
+py-c10,python,c10_try_two_excepts,B1.5,2,0,,two except clauses,B1.5,spec-derived
+py-c11,python,c11_except_tuple,B1.5,1,0,,one clause regardless of number of types (section 2.4),B1.5,spec-derived
+py-c12,python,c12_try_finally,R7,0,0,,try and finally ignored altogether,R7,spec-derived
+py-c13,python,c13_try_except_finally,B1.5;R7,1,0,,except +1 only,R7,spec-derived
+py-c14,python,c14_if_in_if,B1.1;B3.1,3,0,,if +1; nested if +2,B3.1,spec-derived
+py-c15,python,c15_if_in_for_in_while,B1.4;B1.3;B1.1;B3,6,0,,while +1; for +2; if +3,B3,spec-derived
+py-c16,python,c16_if_in_except,B1.5;B3.1,3,0,,except +1; if inside except +2,B1.5,spec-derived
+py-c17,python,c17_if_in_try,R7;B1.1;B1.5,2,0,,if inside try +1 (try does not nest); except +1,R7,spec-derived
+py-c18,python,c18_if_in_else,B1.1;R2;B2.1;B3.1,4,0,,if +1; else +1; inner if +2 (else raises nesting),B2.1,spec-derived
+py-c19,python,c19_if_in_elif,B1.1;R2;B2.1,4,0,,if +1; elif +1; inner if +2,B2.1,spec-derived
+py-c20,python,c20_nested_ternary,B1.1;B2.1;B3.1,3,0,,ternary +1; nested ternary +2,B3.1t,spec-derived
+py-c21,python,c21_ternary_in_if_condition,B2.1;B3.1,2,1,2|3,is the if condition inside the if for nesting purposes (ambiguity 4),B3.1,spec-derived
+py-c22,python,c22_ternary_in_while_condition,B2.4;B3.1,2,1,2|3,loop header nesting unspecified (ambiguity 4),B2.4,spec-derived
+py-c23,python,c23_and,B1.1;B1.7,2,0,,if +1; one sequence +1,B1.7and,spec-derived
+py-c24,python,c24_and_and,B1.1;B1.7,2,0,,like operators form one sequence,B1.7and,spec-derived
+py-c25,python,c25_or,B1.1;B1.7,2,0,,or sequence +1,B1.7or,spec-derived
+py-c26,python,c26_and_or,B1.1;B1.7,3,0,,two sequences (and; or),B1.7mix,spec-derived
+py-c27,python,c27_or_and_or,B1.7,4,1,4|3,token-order count of operator changes (3 sequences) vs precedence reading (ambiguity 9),B1.7mix,spec-derived
+py-c28,python,c28_and_not_paren_and,B1.7;R15,3,0,,spec example: a && !(b && c) = +2,R15,spec-derived
+py-c29,python,c29_and_paren_or,B1.7,3,0,,operator changes inside parentheses: and; or = 2 sequences,B1.7mix,spec-derived
+py-c30,python,c30_and_paren_and,B1.7;R15,2,1,2|3,parentheses without negation: transparent (1 sequence) or boundary (2) (ambiguity 7),R15,spec-derived
+py-c31,python,c31_bool_in_assignment,B1.7,1,0,,sequences in assignments count (section 2.6),B1.7and,spec-derived
+py-c32,python,c32_bool_in_return,B1.7,1,0,,sequences in return statements count,B1.7or,spec-derived
+py-c33,python,c33_bool_in_call,B1.7,1,0,,sequences in method invocations count,B1.7and,spec-derived
+py-c34,python,c34_or_default_idiom,B1.7,1,0,,x = x or {} counted (C.4 counts options || ...),B1.7idiom,spec-derived
+py-c35,python,c35_and_or_and,B1.1;B1.7,4,0,,three sequences (and; or; and); same under precedence reading,B1.7mix,spec-derived
+py-c36,python,c36_unlabeled_break_continue,B1.3;B3.1;R14,5,0,,for +1; two ifs +2 each; unlabeled break/continue 0,R14,spec-derived
+py-c37,python,c37_early_return,B1.1;R14,1,0,,early return 0,R14,spec-derived
+py-c38,python,c38_recursion_direct,B1.1;B1.8,2,0,,if +1; direct recursion +1,B1.8d,spec-derived
+py-c39a,python,c39_recursion_indirect_a,B1.1;B1.8,2,0,,each method in an indirect cycle +1,B1.8i,spec-derived
+py-c39b,python,c39_recursion_indirect_b,B1.1;B1.8,2,0,,each method in an indirect cycle +1,B1.8i,spec-derived
+py-c40,python,c40_lambda_with_ternary,B2.6;B1.1,2,1,2|3,ternary inside lambda +2; list comprehension for unspecified (ambiguity 13),B2.6,spec-derived
+py-c41,python,c41_nested_def_with_if,B2.6;A.3,3,1,3|2,nested def raises nesting (+2) plus ternary +1; A.3 wrapper reading (def + return) gives 2 (ambiguity 6),B2.6,spec-derived
+py-c42,python,c42_nested_def_only,B2.6;A.3,1,1,1|2,A.3 literal reading (only a nested function and a return) = 1; Sonar wrapper rule requires return NAME = 2,A.3,spec-derived
+py-c43,python,c43_nested_def_inside_if,B1.1;B2.6,4,0,,if +1; def inside if raises nesting to 2; inner if +3,B2.6,spec-derived
+py-c44,python,c44_decorator,A.3,1,0,,Appendix A.3 a_decorator = 1,A.3,spec-derived
+py-c45,python,c45_not_a_decorator,A.3;B2.6,2,0,,Appendix A.3 not_a_decorator = 2,A.3,spec-derived
+py-c46,python,c46_decorator_generator,A.3,1,0,,Appendix A.3 decorator_generator = 1,A.3,spec-derived
+py-c47,python,c47_nested_class_method_if,B2.6,2,1,2|1,method of a nested class as nested method (raises nesting) vs classes unmentioned (ambiguity 19),B2.6,spec-derived
+py-c48,python,c48_comprehension_if,B1.1;B1.3,0,1,0|1|2,comprehension for/if unspecified (ambiguity 13),COMP,spec-derived
+py-c49,python,c49_comprehension_plain,B1.3,0,1,0|1,comprehension for unspecified,COMP,spec-derived
+py-c50,python,c50_for_else,B1.3;B3.1;R2,3,1,3|4,for +1; if +2; loop-else unspecified (ambiguity 12),ELSE-LOOP,spec-derived
+py-c51,python,c51_while_else,B1.4;R2,1,1,1|2,loop-else unspecified,ELSE-LOOP,spec-derived
+py-c52,python,c52_try_else,B1.5;R2,1,1,1|2,try-else unspecified,ELSE-LOOP,spec-derived
+py-c53,python,c53_with,R11,0,0,,with is not a flow break,R11,spec-derived
+py-c54,python,c54_walrus,B1.1,1,0,,walrus 0; if +1,B1.1,spec-derived
+py-c55,python,c55_deep_nesting_4,B3.1,10,0,,1+2+3+4,B3.1,spec-derived
+py-c56,python,c56_for_in_except_in_for,B1.3;B1.5;B3,6,0,,for +1; except +2; for +3,B3,spec-derived
+py-c57,python,c57_two_sequential_ifs,B1.1,2,0,,no nesting between siblings,B1.1,spec-derived
+py-c58,python,c58_else_if_nested_if,B1.1;R2;B2.1,5,0,,if +1; elif +1; inner if +2; else +1 (C.3 pattern),B2.1,spec-derived
+py-c59,python,c59_bool_inside_comprehension,B1.7,1,1,1|2|3,and sequence +1 certain; comprehension for/if unspecified,COMP,spec-derived
+py-c60,python,c60_bool_and_ternary_top_level,B1.1;B1.7,2,0,,ternary +1; or +1 at nesting 0 (C.3),B1.7or,spec-derived
+py-c61,python,c61_async_await,R11,0,0,,no flow break,R11,spec-derived
+py-c62,python,c62_async_for,B1.3,1,0,,async for is a for,B1.3a,spec-derived
+py-c63,python,c63_method_if,B1.1,1,0,,method with if,B1.1,spec-derived
+py-c64,python,c64_method_recursion,B1.1;B1.8,2,0,,self.method direct recursion +1,B1.8m,spec-derived
+py-c65,python,c65_static_and_or,B1.1;B1.7,3,0,,static method; and; or,B1.7mix,spec-derived
+py-c66,python,c66_lambda_in_for,B1.3;B2.6;B1.1,4,0,,for +1; lambda raises nesting; ternary +3,B2.6,spec-derived
+py-c67,python,c67_lambda_with_bool,B1.7,1,0,,fundamental increment inside lambda (no nesting increment for sequences),B1.7and,spec-derived
+py-c68,python,c68_raise_in_if,B1.1;R14,1,0,,raise 0,R14,spec-derived
+py-c69,python,c69_assert,R11,0,0,,assert 0,R11,spec-derived
+py-c70,python,c70_generator_expression_if,B1.1;B1.3,0,1,0|1|2,generator expression unspecified,COMP,spec-derived
+java-c01,java,c01_empty,R11,0,0,,,R11,spec-derived
+java-c02,java,c02_if,B1.1,1,0,,,B1.1,spec-derived
+java-c03,java,c03_if_else,B1.1;R2,2,0,,,R2,spec-derived
+java-c04,java,c04_if_elseif_elseif_else,B1.1;R2,4,0,,,R2,spec-derived
+java-c05,java,c05_ternary,B1.1,1,0,,,B1.1,spec-derived
+java-c06,java,c06_switch,B1.2,1,0,,switch with all cases +1,B1.2,spec-derived
+java-c06b,java,c06b_switch_expression,B1.2,1,1,1|0,switch expression (Java 14) as switch vs unhandled (ambiguity 10),B1.2,spec-derived
+java-c07,java,c07_for,B1.3,1,0,,,B1.3,spec-derived
+java-c07b,java,c07b_foreach,B1.3,1,0,,,B1.3,spec-derived
+java-c08,java,c08_while,B1.4,1,0,,,B1.4,spec-derived
+java-c08b,java,c08b_do_while,B1.4,1,0,,,B1.4,spec-derived
+java-c09,java,c09_try_catch,B1.5;R7,1,0,,,B1.5,spec-derived
+java-c10,java,c10_try_two_catches,B1.5,2,0,,,B1.5,spec-derived
+java-c11,java,c11_multi_catch,B1.5,1,0,,multi-catch counts once (section 2.4),B1.5,spec-derived
+java-c12,java,c12_try_finally,R7,0,0,,,R7,spec-derived
+java-c13,java,c13_try_catch_finally,B1.5;R7,1,0,,,R7,spec-derived
+java-c14,java,c14_if_in_if,B3.1,3,0,,,B3.1,spec-derived
+java-c15,java,c15_if_in_for_in_while,B3,6,0,,,B3,spec-derived
+java-c16,java,c16_if_in_catch,B1.5;B3.1,3,0,,,B1.5,spec-derived
+java-c17,java,c17_if_in_try,R7;B1.1;B1.5,2,0,,if +1 (try does not nest); catch +1,R7,spec-derived
+java-c18,java,c18_if_in_else,B1.1;R2;B2.1,4,0,,,B2.1,spec-derived
+java-c19,java,c19_if_in_elseif,B1.1;R2;B2.1,4,0,,,B2.1,spec-derived
+java-c20,java,c20_nested_ternary,B1.1;B3.1,3,0,,,B3.1t,spec-derived
+java-c21,java,c21_ternary_in_if_condition,B2.1;B3.1,2,1,2|3,ambiguity 4,B3.1,spec-derived
+java-c22,java,c22_ternary_in_while_condition,B2.4;B3.1,2,1,2|3,ambiguity 4,B2.4,spec-derived
+java-c23,java,c23_and,B1.7,2,0,,,B1.7and,spec-derived
+java-c24,java,c24_and_and,B1.7,2,0,,,B1.7and,spec-derived
+java-c25,java,c25_or,B1.7,2,0,,,B1.7or,spec-derived
+java-c26,java,c26_and_or,B1.7,3,0,,,B1.7mix,spec-derived
+java-c27,java,c27_or_and_or,B1.7,4,1,4|3,ambiguity 9,B1.7mix,spec-derived
+java-c28,java,c28_and_not_paren_and,B1.7;R15,3,0,,spec example,R15,spec-derived
+java-c29,java,c29_and_paren_or,B1.7,3,0,,,B1.7mix,spec-derived
+java-c30,java,c30_and_paren_and,B1.7;R15,2,1,2|3,ambiguity 7,R15,spec-derived
+java-c31,java,c31_bool_in_assignment,B1.7,1,0,,,B1.7and,spec-derived
+java-c32,java,c32_bool_in_return,B1.7,1,0,,,B1.7or,spec-derived
+java-c33,java,c33_bool_in_call,B1.7,1,0,,,B1.7and,spec-derived
+java-c35,java,c35_and_or_and,B1.7,4,0,,,B1.7mix,spec-derived
+java-c36,java,c36_unlabeled_break_continue,B1.3;B3.1;R14,5,0,,,R14,spec-derived
+java-c37,java,c37_early_return,B1.1;R14,1,0,,,R14,spec-derived
+java-c38,java,c38_recursion_direct,B1.1;B1.8,2,0,,,B1.8d,spec-derived
+java-c39a,java,c39_recursion_indirect_a,B1.1;B1.8,2,0,,,B1.8i,spec-derived
+java-c39b,java,c39_recursion_indirect_b,B1.1;B1.8,2,0,,,B1.8i,spec-derived
+java-c40,java,c40_lambda_with_ternary,B2.6;B1.1,2,0,,lambda raises nesting; ternary +2,B2.6,spec-derived
+java-c41,java,c41_lambda_with_if,B2.6;B1.1,2,0,,section 2.9 myMethod2 pattern,B2.6,spec-derived
+java-c43,java,c43_lambda_inside_if,B1.1;B2.6,4,0,,if +1; lambda inside if -> inner if +3,B2.6,spec-derived
+java-c47,java,c47_anonymous_class_method_if,B2.6,2,1,2|1,anonymous-class method as nested method (raises nesting) vs classes unmentioned (ambiguity 19),B2.6,spec-derived
+java-c55,java,c55_deep_nesting_4,B3.1,10,0,,,B3.1,spec-derived
+java-c56,java,c56_for_in_catch_in_for,B3,6,0,,,B3,spec-derived
+java-c57,java,c57_two_sequential_ifs,B1.1,2,0,,,B1.1,spec-derived
+java-c58,java,c58_elseif_nested_if,B1.1;R2;B2.1,5,0,,,B2.1,spec-derived
+java-c63,java,c63_labeled_continue,B1.6;B3,7,0,,sumOfPrimes pattern: for +1; for +2; if +3; continue OUT +1,B1.6,spec-derived
+java-c64,java,c64_labeled_break_to_enclosing,B1.6,3,1,3|4,labelled jump to the immediately enclosing loop (ambiguity 11),B1.6,spec-derived
+java-c71,java,c71_synchronized,B1.1,1,0,,synchronized ignored (C.2),R11,spec-derived
+java-c72,java,c72_try_with_resources,B1.5;R7,1,0,,,R7,spec-derived
+java-c73,java,c73_throw_in_if,B1.1;R14,1,0,,,R14,spec-derived
+java-c74,java,c74_switch_with_nested_if,B1.2;B3.1,3,0,,switch +1; if inside case +2,B3.1,spec-derived
+java-c75,java,c75_bitwise_and_on_booleans,B1.7,1,1,1|2,non-short-circuit & on booleans: logical operator or not,B1.7bit,spec-derived
+java-c76,java,c76_lambda_in_lambda,B2.6;B1.1,3,0,,two lambda levels -> if +3,B2.6,spec-derived
+java-c77,java,c77_instanceof_pattern,B1.1,1,0,,,B1.1,spec-derived
+java-c78,java,c78_recursion_via_this,B1.1;B1.8,2,0,,,B1.8m,spec-derived
+java-c79,java,c79_or_not_paren_or,B1.7;R15,3,0,,mirror of spec example with or,R15,spec-derived
+java-c80,java,c80_bool_and_ternary_top_level,B1.1;B1.7,2,0,,C.3 top-level pattern,B1.7or,spec-derived
+java-C1,java,overriddenSymbolFrom,C.1,19,0,,Appendix C.1,C,spec-derived
+java-C2,java,addVersion,C.2,35,0,,Appendix C.2,C,spec-derived
+java-C3,java,toRegexp,C.3,20,0,,Appendix C.3,C,spec-derived
+java-sumOfPrimes,java,sumOfPrimes,body,7,0,,page 10,B1.6,spec-derived
+java-getWords,java,getWords,body,1,0,,page 10,B1.2,spec-derived
+java-myMethod,java,myMethod,body,9,0,,section 2.9,B3,spec-derived
+java-myMethod2,java,myMethod2,body,2,0,,section 2.9,B2.6,spec-derived
+js-c01,javascript,c01_empty,R11,0,0,,,R11,spec-derived
+js-c02,javascript,c02_if,B1.1,1,0,,,B1.1,spec-derived
+js-c03,javascript,c03_if_else,B1.1;R2,2,0,,,R2,spec-derived
+js-c04,javascript,c04_if_elseif_elseif_else,B1.1;R2,4,0,,,R2,spec-derived
+js-c05,javascript,c05_ternary,B1.1,1,0,,,B1.1,spec-derived
+js-c06,javascript,c06_switch,B1.2,1,0,,,B1.2,spec-derived
+js-c07,javascript,c07_for,B1.3,1,0,,,B1.3,spec-derived
+js-c07b,javascript,c07b_for_of,B1.3,1,0,,,B1.3,spec-derived
+js-c07c,javascript,c07c_for_in,B1.3,1,0,,,B1.3,spec-derived
+js-c08,javascript,c08_while,B1.4,1,0,,,B1.4,spec-derived
+js-c08b,javascript,c08b_do_while,B1.4,1,0,,,B1.4,spec-derived
+js-c09,javascript,c09_try_catch,B1.5;R7,1,0,,,B1.5,spec-derived
+js-c09b,javascript,c09b_optional_catch_binding,B1.5,1,0,,,B1.5,spec-derived
+js-c12,javascript,c12_try_finally,R7,0,0,,,R7,spec-derived
+js-c13,javascript,c13_try_catch_finally,B1.5;R7,1,0,,,R7,spec-derived
+js-c14,javascript,c14_if_in_if,B3.1,3,0,,,B3.1,spec-derived
+js-c15,javascript,c15_if_in_for_in_while,B3,6,0,,,B3,spec-derived
+js-c16,javascript,c16_if_in_catch,B1.5;B3.1,3,0,,,B1.5,spec-derived
+js-c17,javascript,c17_if_in_try,R7;B1.1;B1.5,2,0,,,R7,spec-derived
+js-c18,javascript,c18_if_in_else,B1.1;R2;B2.1,4,0,,,B2.1,spec-derived
+js-c19,javascript,c19_if_in_elseif,B1.1;R2;B2.1,4,0,,,B2.1,spec-derived
+js-c20,javascript,c20_nested_ternary,B1.1;B3.1,3,0,,,B3.1t,spec-derived
+js-c21,javascript,c21_ternary_in_if_condition,B2.1;B3.1,2,1,2|3,ambiguity 4,B3.1,spec-derived
+js-c22,javascript,c22_ternary_in_while_condition,B2.4;B3.1,2,1,2|3,ambiguity 4,B2.4,spec-derived
+js-c23,javascript,c23_and,B1.7,2,0,,,B1.7and,spec-derived
+js-c24,javascript,c24_and_and,B1.7,2,0,,,B1.7and,spec-derived
+js-c25,javascript,c25_or,B1.7,2,0,,|| is a binary logical operator (C.4 counts it),B1.7or,spec-derived
+js-c26,javascript,c26_and_or,B1.7,3,0,,,B1.7mix,spec-derived
+js-c27,javascript,c27_or_and_or,B1.7,4,1,4|3,ambiguity 9,B1.7mix,spec-derived
+js-c28,javascript,c28_and_not_paren_and,B1.7;R15,3,0,,spec example,R15,spec-derived
+js-c29,javascript,c29_and_paren_or,B1.7,3,0,,,B1.7mix,spec-derived
+js-c30,javascript,c30_and_paren_and,B1.7;R15,2,1,2|3,ambiguity 7,R15,spec-derived
+js-c31,javascript,c31_bool_in_assignment,B1.7,1,0,,,B1.7and,spec-derived
+js-c32,javascript,c32_bool_in_return,B1.7,1,0,,,B1.7or,spec-derived
+js-c33,javascript,c33_bool_in_call,B1.7,1,0,,,B1.7and,spec-derived
+js-c34,javascript,c34_or_default_idiom,B1.7,1,0,,C.4: options || (options = {}) is +1,B1.7idiom,spec-derived
+js-c35,javascript,c35_and_or_and,B1.7,4,0,,,B1.7mix,spec-derived
+js-c36,javascript,c36_unlabeled_break_continue,B1.3;B3.1;R14,5,0,,,R14,spec-derived
+js-c37,javascript,c37_early_return,B1.1;R14,1,0,,,R14,spec-derived
+js-c38,javascript,c38_recursion_direct,B1.1;B1.8,2,0,,,B1.8d,spec-derived
+js-c39a,javascript,c39_recursion_indirect_a,B1.1;B1.8,2,0,,,B1.8i,spec-derived
+js-c39b,javascript,c39_recursion_indirect_b,B1.1;B1.8,2,0,,,B1.8i,spec-derived
+js-c40,javascript,c40_arrow_with_ternary,B2.6;B1.1,2,0,,arrow raises nesting; ternary +2; map callback 0,B2.6,spec-derived
+js-c41,javascript,c41_arrow_with_if,B2.6;B1.1,2,0,,,B2.6,spec-derived
+js-c42,javascript,c42_nested_function_only,B2.6;A.2,2,1,2|1,outer has a return statement (not purely declarative) -> 2; A.2 reading -> 1,A.2,spec-derived
+js-c43,javascript,c43_arrow_inside_if,B1.1;B2.6,4,0,,,B2.6,spec-derived
+js-c44,javascript,c44_declarative_outer,A.2,1,0,,Appendix A.2 declarative = 1,B2.6,spec-derived
+js-c45,javascript,c45_non_declarative_outer,A.2,3,0,,Appendix A.2 non-declarative = 3,B2.6,spec-derived
+js-c55,javascript,c55_deep_nesting_4,B3.1,10,0,,,B3.1,spec-derived
+js-c56,javascript,c56_for_in_catch_in_for,B3,6,0,,,B3,spec-derived
+js-c57,javascript,c57_two_sequential_ifs,B1.1,2,0,,,B1.1,spec-derived
+js-c58,javascript,c58_elseif_nested_if,B1.1;R2;B2.1,5,0,,,B2.1,spec-derived
+js-c63,javascript,c63_labeled_continue,B1.6;B3,7,0,,,B1.6,spec-derived
+js-c64,javascript,c64_labeled_break_to_enclosing,B1.6,3,1,3|4,ambiguity 11,B1.6,spec-derived
+js-c74,javascript,c74_switch_with_nested_if,B1.2;B3.1,3,0,,,B3.1,spec-derived
+js-c76,javascript,c76_arrow_in_arrow,B2.6;B1.1,3,0,,,B2.6,spec-derived
+js-c79,javascript,c79_or_not_paren_or,B1.7;R15,3,0,,,R15,spec-derived
+js-c80,javascript,c80_bool_and_ternary_top_level,B1.1;B1.7,2,0,,,B1.7or,spec-derived
+js-c81,javascript,c81_nullish_coalescing,R13,0,0,,null-coalescing ignored (section 2.2),R13,spec-derived
+js-c82,javascript,c82_optional_chaining,R13,0,0,,null-conditional ignored (section 2.2 example),R13,spec-derived
+js-c83,javascript,c83_nullish_then_or,R13;B1.7,1,0,,?? ignored; one || sequence,R13,spec-derived
+js-c84,javascript,c84_and_in_jsx_like_callback,B1.7;B2.6,1,0,,fundamental increment inside callback; no nesting increment for sequences,B2.6,spec-derived
+js-c85,javascript,c85_async_await,R11,0,0,,,R11,spec-derived
+js-c86,javascript,c86_generator,B1.3,1,0,,,B1.3,spec-derived
+js-c87,javascript,c87_method_if,B1.1,1,0,,class method,B1.1,spec-derived
+js-c88,javascript,c88_getter_ternary,B1.1,1,0,,getter,B1.1,spec-derived
+js-c89,javascript,c89_method_recursion,B1.1;B1.8,2,0,,this.method recursion,B1.8m,spec-derived
+js-c90,javascript,c90_arrow_const,B1.1;B1.7,2,0,,top-level arrow function assigned to const,ARROW,spec-derived
+js-c91,javascript,c91_typeof_guard,B1.1,1,0,,,B1.1,spec-derived
+js-C4,javascript,save,C.4,20,0,,Appendix C.4 (method of object literal),C,spec-derived
+go-c01,go,c01_empty,R11,0,0,,,R11,spec-derived
+go-c02,go,c02_if,B1.1,1,0,,,B1.1,spec-derived
+go-c03,go,c03_if_else,B1.1;R2,2,0,,,R2,spec-derived
+go-c04,go,c04_if_elseif_elseif_else,B1.1;R2,4,0,,,R2,spec-derived
+go-c06,go,c06_switch,B1.2,1,0,,,B1.2,spec-derived
+go-c06b,go,c06b_switch_no_tag,B1.2,1,0,,tagless switch is still spelled switch,B1.2,spec-derived
+go-c06c,go,c06c_type_switch,B1.2,1,0,,type switch is spelled switch,B1.2,spec-derived
+go-c06d,go,c06d_select,B1.2,1,1,1|0,select as switch-like construct vs not covered,B1.2,spec-derived
+go-c07,go,c07_for,B1.3,1,0,,,B1.3,spec-derived
+go-c07b,go,c07b_for_range,B1.3,1,0,,,B1.3,spec-derived
+go-c08,go,c08_for_condition_only,B1.4,1,0,,while-style for,B1.4,spec-derived
+go-c08b,go,c08b_for_infinite,B1.4;B3.1;R14,3,0,,for +1; if +2; unlabeled break 0,B1.4,spec-derived
+go-c14,go,c14_if_in_if,B3.1,3,0,,,B3.1,spec-derived
+go-c15,go,c15_if_in_for_in_for,B3,6,0,,,B3,spec-derived
+go-c18,go,c18_if_in_else,B1.1;R2;B2.1,4,0,,,B2.1,spec-derived
+go-c19,go,c19_if_in_elseif,B1.1;R2;B2.1,4,0,,,B2.1,spec-derived
+go-c19b,go,c19b_if_with_init,B1.1,1,0,,init statement 0,B1.1,spec-derived
+go-c23,go,c23_and,B1.7,2,0,,,B1.7and,spec-derived
+go-c24,go,c24_and_and,B1.7,2,0,,,B1.7and,spec-derived
+go-c25,go,c25_or,B1.7,2,0,,,B1.7or,spec-derived
+go-c26,go,c26_and_or,B1.7,3,0,,,B1.7mix,spec-derived
+go-c27,go,c27_or_and_or,B1.7,4,1,4|3,ambiguity 9,B1.7mix,spec-derived
+go-c28,go,c28_and_not_paren_and,B1.7;R15,3,0,,,R15,spec-derived
+go-c29,go,c29_and_paren_or,B1.7,3,0,,,B1.7mix,spec-derived
+go-c30,go,c30_and_paren_and,B1.7;R15,2,1,2|3,ambiguity 7,R15,spec-derived
+go-c31,go,c31_bool_in_assignment,B1.7,1,0,,,B1.7and,spec-derived
+go-c32,go,c32_bool_in_return,B1.7,1,0,,,B1.7or,spec-derived
+go-c33,go,c33_bool_in_call,B1.7,1,0,,,B1.7and,spec-derived
+go-c35,go,c35_and_or_and,B1.7,4,0,,,B1.7mix,spec-derived
+go-c36,go,c36_unlabeled_break_continue,B1.3;B3.1;R14,5,0,,,R14,spec-derived
+go-c37,go,c37_early_return,B1.1;R14,1,0,,,R14,spec-derived
+go-c38,go,c38_recursion_direct,B1.1;B1.8,2,0,,,B1.8d,spec-derived
+go-c39a,go,c39_recursion_indirect_a,B1.1;B1.8,2,0,,,B1.8i,spec-derived
+go-c39b,go,c39_recursion_indirect_b,B1.1;B1.8,2,0,,,B1.8i,spec-derived
+go-c41,go,c41_func_literal_with_if,B2.6;B1.1,2,0,,func literal raises nesting,B2.6,spec-derived
+go-c43,go,c43_func_literal_inside_if,B1.1;B2.6,4,0,,,B2.6,spec-derived
+go-c55,go,c55_deep_nesting_4,B3.1,10,0,,,B3.1,spec-derived
+go-c57,go,c57_two_sequential_ifs,B1.1,2,0,,,B1.1,spec-derived
+go-c58,go,c58_elseif_nested_if,B1.1;R2;B2.1,5,0,,,B2.1,spec-derived
+go-c63,go,c63_labeled_continue,B1.6;B3,7,0,,,B1.6,spec-derived
+go-c64,go,c64_labeled_break_to_enclosing,B1.6,3,1,3|4,ambiguity 11,B1.6,spec-derived
+go-c65,go,c65_goto,B1.4;B3.1;B1.6,4,0,,for +1; if +2; goto +1,B1.6,spec-derived
+go-c74,go,c74_switch_with_nested_if,B1.2;B3.1,3,0,,,B3.1,spec-derived
+go-c76,go,c76_func_literal_in_func_literal,B2.6;B1.1,3,0,,,B2.6,spec-derived
+go-c79,go,c79_or_not_paren_or,B1.7;R15,3,0,,,R15,spec-derived
+go-c92,go,c92_defer_and_go,R11,0,0,,defer/go 0,R11,spec-derived
+go-c93,go,c93_switch_with_fallthrough,B1.2,1,0,,fallthrough 0,B1.2,spec-derived
+go-c94,go,c94_labeled_break_out_of_switch_in_loop,B1.3;B1.2;B3;B1.6,4,0,,for +1; switch +2; break LOOP +1,B1.6,spec-derived
+go-c95,go,c95_method_if,B1.1,1,0,,method,B1.1,spec-derived
+go-c96,go,c96_method_recursion,B1.1;B1.8,2,0,,m.method recursion,B1.8m,spec-derived
+go-c97,go,c97_bool_and_ternary_like,B1.1;B1.7,2,0,,if +1; or +1,B1.7or,spec-derived
+go-c98,go,c98_if_err_not_nil_return,B1.1,1,0,,if +1 (no compensating usage for Go in Appendix A),GO-ERRNIL,"real-code-derived (post-hoc, 2026-09-17): sonar-go ignores if <error> != nil without else"
+go-c99,go,c99_if_err_check_nested_if,B1.1;B3.1,3,0,,if +1; nested if +2,GO-ERRNIL,"real-code-derived (post-hoc, 2026-09-17): sonar-go ignores if <error> != nil without else"
+go-c100,go,c100_two_err_checks,B1.1,2,0,,two ifs +1 each,GO-ERRNIL,"real-code-derived (post-hoc, 2026-09-17): sonar-go ignores if <error> != nil without else"
+go-c101,go,c101_err_check_with_else,B1.1;R2,2,0,,if +1; else +1,R2,"real-code-derived (post-hoc, 2026-09-17): sonar-go ignores if <error> != nil without else"
+go-c102,go,c102_err_named_e,B1.1,1,0,,if +1; variable named e of type error,GO-ERRNIL,"real-code-derived (post-hoc, 2026-09-17): sonar-go ignores if <error> != nil without else"
+py-c103,python,c103_recursion_two_calls,B1.1;B1.8,2,0,,"if +1; one fundamental increment per method in the recursion cycle, not per call site (section 2.7 / B1.8)",B1.8d2,"real-code-derived (post-hoc, 2026-09-17): PMD counts each recursive call site"
+java-c103,java,c103_recursion_two_calls,B1.1;B1.8,2,0,,"if +1; one fundamental increment per method in the recursion cycle, not per call site (section 2.7 / B1.8)",B1.8d2,"real-code-derived (post-hoc, 2026-09-17): PMD counts each recursive call site"
+js-c103,javascript,c103_recursion_two_calls,B1.1;B1.8,2,0,,"if +1; one fundamental increment per method in the recursion cycle, not per call site (section 2.7 / B1.8)",B1.8d2,"real-code-derived (post-hoc, 2026-09-17): PMD counts each recursive call site"
+go-c103,go,c103_recursion_two_calls,B1.1;B1.8,2,0,,"if +1; one fundamental increment per method in the recursion cycle, not per call site (section 2.7 / B1.8)",B1.8d2,"real-code-derived (post-hoc, 2026-09-17): PMD counts each recursive call site"

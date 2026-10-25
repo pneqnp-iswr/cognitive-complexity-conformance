@@ -1,0 +1,58 @@
+cff-version: 1.2.0
+message: >-
+  If you use this replication package, please cite it using the metadata below,
+  and cite the paper given under preferred-citation.
+type: software
+title: "Replication package: One Specification, Many Numbers"
+version: 1.0.0
+date-released: 2026-10-25
+authors:
+  - family-names: Huseynzade
+    given-names: Rafig
+    email: huseynzaderafig@gmail.com
+    affiliation: Independent Researcher, Baku, Azerbaijan
+repository-code: "https://github.com/pneqnp-iswr/cognitive-complexity-conformance"
+license-url: "https://github.com/pneqnp-iswr/cognitive-complexity-conformance/blob/v1.0.0/LICENSE"
+abstract: >-
+  Code, data and results for a conformance study of Cognitive Complexity
+  implementations: 11 open-source implementations compared with SonarQube's
+  analyzers for Python, Java, JavaScript/TypeScript and Go on a
+  specification-derived micro-corpus of 270 functions and on 138,393 leaf root
+  functions from 32 pinned open-source repositories.
+keywords:
+  - cognitive complexity
+  - software metrics
+  - static analysis
+  - conformance testing
+  - differential testing
+  - SonarQube
+  - reproducibility
+preferred-citation:
+  type: conference-paper
+  title: >-
+    One Specification, Many Numbers: Conformance of Cognitive Complexity
+    Implementations Across Four Languages
+  authors:
+    - family-names: Huseynzade
+      given-names: Rafig
+      email: huseynzaderafig@gmail.com
+      affiliation: Independent Researcher, Baku, Azerbaijan
+  collection-title: >-
+    2nd Republican Conference "Actual Scientific-Practical Problems of
+    Software Engineering"
+  conference:
+    name: >-
+      2nd Republican Conference "Actual Scientific-Practical Problems of
+      Software Engineering"
+    city: Baku
+    country: AZ
+    date-start: 2026-11-25
+    date-end: 2026-11-25
+  institution:
+    name: >-
+      Institute of Information Technology, Ministry of Science and Education
+      of Azerbaijan
+    city: Baku
+    country: AZ
+  year: 2026
+  status: in-press

@@ -1,0 +1,938 @@
+{
+ "retrieved_utc": "2026-09-16T23:48:58.287747+00:00",
+ "query": "language:Java stars:>=5000 archived:false fork:false pushed:>=2026-01-01 sort=stars",
+ "criteria": {
+  "gh": "Java",
+  "ext": [
+   ".java"
+  ],
+  "lo": 20000,
+  "hi": 600000
+ },
+ "snapshot_order": [
+  {
+   "full_name": "krahets/hello-algo",
+   "stargazers_count": 130167,
+   "size": 478300,
+   "pushed_at": "2026-08-17T20:58:58Z",
+   "default_branch": "main",
+   "license": {
+    "key": "other",
+    "name": "Other",
+    "spdx_id": "NOASSERTION",
+    "url": null,
+    "node_id": "MDc6TGljZW5zZTA="
+   },
+   "html_url": "https://github.com/krahets/hello-algo",
+   "language": "Java"
+  },
+  {
+   "full_name": "iluwatar/java-design-patterns",
+   "stargazers_count": 94701,
+   "size": 48722,
+   "pushed_at": "2026-09-13T06:53:54Z",
+   "default_branch": "master",
+   "license": {
+    "key": "other",
+    "name": "Other",
+    "spdx_id": "NOASSERTION",
+    "url": null,
+    "node_id": "MDc6TGljZW5zZTA="
+   },
+   "html_url": "https://github.com/iluwatar/java-design-patterns",
+   "language": "Java"
+  },
+  {
+   "full_name": "macrozheng/mall",
+   "stargazers_count": 84782,
+   "size": 58744,
+   "pushed_at": "2026-09-15T02:34:44Z",
+   "default_branch": "master",
+   "license": {
+    "key": "apache-2.0",
+    "name": "Apache License 2.0",
+    "spdx_id": "Apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "node_id": "MDc6TGljZW5zZTI="
+   },
+   "html_url": "https://github.com/macrozheng/mall",
+   "language": "Java"
+  },
+  {
+   "full_name": "spring-projects/spring-boot",
+   "stargazers_count": 81451,
+   "size": 219014,
+   "pushed_at": "2026-09-16T22:11:30Z",
+   "default_branch": "main",
+   "license": {
+    "key": "apache-2.0",
+    "name": "Apache License 2.0",
+    "spdx_id": "Apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "node_id": "MDc6TGljZW5zZTI="
+   },
+   "html_url": "https://github.com/spring-projects/spring-boot",
+   "language": "Java"
+  },
+  {
+   "full_name": "doocs/advanced-java",
+   "stargazers_count": 79115,
+   "size": 34457,
+   "pushed_at": "2026-09-12T03:17:49Z",
+   "default_branch": "main",
+   "license": {
+    "key": "cc-by-sa-4.0",
+    "name": "Creative Commons Attribution Share Alike 4.0 International",
+    "spdx_id": "CC-BY-SA-4.0",
+    "url": "https://api.github.com/licenses/cc-by-sa-4.0",
+    "node_id": "MDc6TGljZW5zZTI2"
+   },
+   "html_url": "https://github.com/doocs/advanced-java",
+   "language": "Java"
+  },
+  {
+   "full_name": "elastic/elasticsearch",
+   "stargazers_count": 77919,
+   "size": 1769433,
+   "pushed_at": "2026-09-16T23:32:30Z",
+   "default_branch": "main",
+   "license": {
+    "key": "other",
+    "name": "Other",
+    "spdx_id": "NOASSERTION",
+    "url": null,
+    "node_id": "MDc6TGljZW5zZTA="
+   },
+   "html_url": "https://github.com/elastic/elasticsearch",
+   "language": "Java"
+  },
+  {
+   "full_name": "NationalSecurityAgency/ghidra",
+   "stargazers_count": 77751,
+   "size": 416747,
+   "pushed_at": "2026-09-15T16:02:22Z",
+   "default_branch": "master",
+   "license": {
+    "key": "apache-2.0",
+    "name": "Apache License 2.0",
+    "spdx_id": "Apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "node_id": "MDc6TGljZW5zZTI="
+   },
+   "html_url": "https://github.com/NationalSecurityAgency/ghidra",
+   "language": "Java"
+  },
+  {
+   "full_name": "MisterBooo/LeetCodeAnimation",
+   "stargazers_count": 76702,
+   "size": 510338,
+   "pushed_at": "2026-06-12T13:49:06Z",
+   "default_branch": "master",
+   "license": null,
+   "html_url": "https://github.com/MisterBooo/LeetCodeAnimation",
+   "language": "Java"
+  },
+  {
+   "full_name": "TheAlgorithms/Java",
+   "stargazers_count": 66260,
+   "size": 7662,
+   "pushed_at": "2026-09-16T21:44:53Z",
+   "default_branch": "master",
+   "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+   },
+   "html_url": "https://github.com/TheAlgorithms/Java",
+   "language": "Java"
+  },
+  {
+   "full_name": "termux/termux-app",
+   "stargazers_count": 60930,
+   "size": 5273,
+   "pushed_at": "2026-09-16T16:17:14Z",
+   "default_branch": "master",
+   "license": {
+    "key": "other",
+    "name": "Other",
+    "spdx_id": "NOASSERTION",
+    "url": null,
+    "node_id": "MDc6TGljZW5zZTA="
+   },
+   "html_url": "https://github.com/termux/termux-app",
+   "language": "Java"
+  },
+  {
+   "full_name": "spring-projects/spring-framework",
+   "stargazers_count": 60245,
+   "size": 245292,
+   "pushed_at": "2026-09-16T16:02:48Z",
+   "default_branch": "main",
+   "license": {
+    "key": "apache-2.0",
+    "name": "Apache License 2.0",
+    "spdx_id": "Apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "node_id": "MDc6TGljZW5zZTI="
+   },
+   "html_url": "https://github.com/spring-projects/spring-framework",
+   "language": "Java"
+  },
+  {
+   "full_name": "google/guava",
+   "stargazers_count": 51906,
+   "size": 1411319,
+   "pushed_at": "2026-09-15T21:33:22Z",
+   "default_branch": "master",
+   "license": {
+    "key": "apache-2.0",
+    "name": "Apache License 2.0",
+    "spdx_id": "Apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "node_id": "MDc6TGljZW5zZTI="
+   },
+   "html_url": "https://github.com/google/guava",
+   "language": "Java"
+  },
+  {
+   "full_name": "dbeaver/dbeaver",
+   "stargazers_count": 51783,
+   "size": 220174,
+   "pushed_at": "2026-09-16T21:53:56Z",
+   "default_branch": "devel",
+   "license": {
+    "key": "apache-2.0",
+    "name": "Apache License 2.0",
+    "spdx_id": "Apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "node_id": "MDc6TGljZW5zZTI="
+   },
+   "html_url": "https://github.com/dbeaver/dbeaver",
+   "language": "Java"
+  },
+  {
+   "full_name": "skylot/jadx",
+   "stargazers_count": 50489,
+   "size": 26020,
+   "pushed_at": "2026-09-12T18:25:15Z",
+   "default_branch": "master",
+   "license": {
+    "key": "apache-2.0",
+    "name": "Apache License 2.0",
+    "spdx_id": "Apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "node_id": "MDc6TGljZW5zZTI="
+   },
+   "html_url": "https://github.com/skylot/jadx",
+   "language": "Java"
+  },
+  {
+   "full_name": "ReactiveX/RxJava",
+   "stargazers_count": 48201,
+   "size": 179883,
+   "pushed_at": "2026-09-14T05:02:34Z",
+   "default_branch": "4.x",
+   "license": {
+    "key": "apache-2.0",
+    "name": "Apache License 2.0",
+    "spdx_id": "Apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "node_id": "MDc6TGljZW5zZTI="
+   },
+   "html_url": "https://github.com/ReactiveX/RxJava",
+   "language": "Java"
+  },
+  {
+   "full_name": "jeecgboot/JeecgBoot",
+   "stargazers_count": 47848,
+   "size": 101883,
+   "pushed_at": "2026-09-11T09:53:29Z",
+   "default_branch": "main",
+   "license": {
+    "key": "apache-2.0",
+    "name": "Apache License 2.0",
+    "spdx_id": "Apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "node_id": "MDc6TGljZW5zZTI="
+   },
+   "html_url": "https://github.com/jeecgboot/JeecgBoot",
+   "language": "Java"
+  },
+  {
+   "full_name": "lysine-dev/retrofit",
+   "stargazers_count": 43940,
+   "size": 7521,
+   "pushed_at": "2026-09-09T20:57:39Z",
+   "default_branch": "trunk",
+   "license": {
+    "key": "apache-2.0",
+    "name": "Apache License 2.0",
+    "spdx_id": "Apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "node_id": "MDc6TGljZW5zZTI="
+   },
+   "html_url": "https://github.com/lysine-dev/retrofit",
+   "language": "Java"
+  },
+  {
+   "full_name": "apache/dubbo",
+   "stargazers_count": 41569,
+   "size": 61788,
+   "pushed_at": "2026-09-15T02:34:30Z",
+   "default_branch": "3.3",
+   "license": {
+    "key": "apache-2.0",
+    "name": "Apache License 2.0",
+    "spdx_id": "Apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "node_id": "MDc6TGljZW5zZTI="
+   },
+   "html_url": "https://github.com/apache/dubbo",
+   "language": "Java"
+  },
+  {
+   "full_name": "ashishps1/awesome-system-design-resources",
+   "stargazers_count": 41477,
+   "size": 2340,
+   "pushed_at": "2026-02-16T18:32:29Z",
+   "default_branch": "main",
+   "license": {
+    "key": "gpl-3.0",
+    "name": "GNU General Public License v3.0",
+    "spdx_id": "GPL-3.0",
+    "url": "https://api.github.com/licenses/gpl-3.0",
+    "node_id": "MDc6TGljZW5zZTk="
+   },
+   "html_url": "https://github.com/ashishps1/awesome-system-design-resources",
+   "language": "Java"
+  },
+  {
+   "full_name": "halo-dev/halo",
+   "stargazers_count": 39762,
+   "size": 88729,
+   "pushed_at": "2026-09-16T14:34:16Z",
+   "default_branch": "main",
+   "license": {
+    "key": "gpl-3.0",
+    "name": "GNU General Public License v3.0",
+    "spdx_id": "GPL-3.0",
+    "url": "https://api.github.com/licenses/gpl-3.0",
+    "node_id": "MDc6TGljZW5zZTk="
+   },
+   "html_url": "https://github.com/halo-dev/halo",
+   "language": "Java"
+  },
+  {
+   "full_name": "TeamNewPipe/NewPipe",
+   "stargazers_count": 39705,
+   "size": 89540,
+   "pushed_at": "2026-08-31T12:57:33Z",
+   "default_branch": "dev",
+   "license": {
+    "key": "gpl-3.0",
+    "name": "GNU General Public License v3.0",
+    "spdx_id": "GPL-3.0",
+    "url": "https://api.github.com/licenses/gpl-3.0",
+    "node_id": "MDc6TGljZW5zZTk="
+   },
+   "html_url": "https://github.com/TeamNewPipe/NewPipe",
+   "language": "Java"
+  },
+  {
+   "full_name": "YunaiV/ruoyi-vue-pro",
+   "stargazers_count": 39308,
+   "size": 198689,
+   "pushed_at": "2026-09-04T01:51:59Z",
+   "default_branch": "master",
+   "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+   },
+   "html_url": "https://github.com/YunaiV/ruoyi-vue-pro",
+   "language": "Java"
+  },
+  {
+   "full_name": "alibaba/arthas",
+   "stargazers_count": 37541,
+   "size": 74735,
+   "pushed_at": "2026-09-08T07:19:20Z",
+   "default_branch": "master",
+   "license": {
+    "key": "apache-2.0",
+    "name": "Apache License 2.0",
+    "spdx_id": "Apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "node_id": "MDc6TGljZW5zZTI="
+   },
+   "html_url": "https://github.com/alibaba/arthas",
+   "language": "Java"
+  },
+  {
+   "full_name": "eugenp/tutorials",
+   "stargazers_count": 37323,
+   "size": 132590,
+   "pushed_at": "2026-09-15T15:14:20Z",
+   "default_branch": "master",
+   "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+   },
+   "html_url": "https://github.com/eugenp/tutorials",
+   "language": "Java"
+  },
+  {
+   "full_name": "keycloak/keycloak",
+   "stargazers_count": 36811,
+   "size": 618325,
+   "pushed_at": "2026-09-16T23:03:38Z",
+   "default_branch": "main",
+   "license": {
+    "key": "apache-2.0",
+    "name": "Apache License 2.0",
+    "spdx_id": "Apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "node_id": "MDc6TGljZW5zZTI="
+   },
+   "html_url": "https://github.com/keycloak/keycloak",
+   "language": "Java"
+  },
+  {
+   "full_name": "doocs/leetcode",
+   "stargazers_count": 36603,
+   "size": 841815,
+   "pushed_at": "2026-09-16T11:18:14Z",
+   "default_branch": "main",
+   "license": {
+    "key": "cc-by-sa-4.0",
+    "name": "Creative Commons Attribution Share Alike 4.0 International",
+    "spdx_id": "CC-BY-SA-4.0",
+    "url": "https://api.github.com/licenses/cc-by-sa-4.0",
+    "node_id": "MDc6TGljZW5zZTI2"
+   },
+   "html_url": "https://github.com/doocs/leetcode",
+   "language": "Java"
+  },
+  {
+   "full_name": "airbnb/lottie-android",
+   "stargazers_count": 35722,
+   "size": 137398,
+   "pushed_at": "2026-02-15T22:03:57Z",
+   "default_branch": "master",
+   "license": {
+    "key": "apache-2.0",
+    "name": "Apache License 2.0",
+    "spdx_id": "Apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "node_id": "MDc6TGljZW5zZTI="
+   },
+   "html_url": "https://github.com/airbnb/lottie-android",
+   "language": "Java"
+  },
+  {
+   "full_name": "netty/netty",
+   "stargazers_count": 35060,
+   "size": 114129,
+   "pushed_at": "2026-09-16T18:57:02Z",
+   "default_branch": "4.2",
+   "license": {
+    "key": "apache-2.0",
+    "name": "Apache License 2.0",
+    "spdx_id": "Apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "node_id": "MDc6TGljZW5zZTI="
+   },
+   "html_url": "https://github.com/netty/netty",
+   "language": "Java"
+  },
+  {
+   "full_name": "bumptech/glide",
+   "stargazers_count": 35024,
+   "size": 98381,
+   "pushed_at": "2026-09-14T23:55:46Z",
+   "default_branch": "master",
+   "license": {
+    "key": "other",
+    "name": "Other",
+    "spdx_id": "NOASSERTION",
+    "url": null,
+    "node_id": "MDc6TGljZW5zZTA="
+   },
+   "html_url": "https://github.com/bumptech/glide",
+   "language": "Java"
+  },
+  {
+   "full_name": "SeleniumHQ/selenium",
+   "stargazers_count": 34493,
+   "size": 2390745,
+   "pushed_at": "2026-09-16T22:57:29Z",
+   "default_branch": "trunk",
+   "license": {
+    "key": "apache-2.0",
+    "name": "Apache License 2.0",
+    "spdx_id": "Apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "node_id": "MDc6TGljZW5zZTI="
+   },
+   "html_url": "https://github.com/SeleniumHQ/selenium",
+   "language": "Java"
+  },
+  {
+   "full_name": "zxing/zxing",
+   "stargazers_count": 34094,
+   "size": 244304,
+   "pushed_at": "2026-09-07T06:52:57Z",
+   "default_branch": "master",
+   "license": {
+    "key": "apache-2.0",
+    "name": "Apache License 2.0",
+    "spdx_id": "Apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "node_id": "MDc6TGljZW5zZTI="
+   },
+   "html_url": "https://github.com/zxing/zxing",
+   "language": "Java"
+  },
+  {
+   "full_name": "yuliskov/SmartTube",
+   "stargazers_count": 33763,
+   "size": 105420,
+   "pushed_at": "2026-09-16T19:56:09Z",
+   "default_branch": "master",
+   "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+   },
+   "html_url": "https://github.com/yuliskov/SmartTube",
+   "language": "Java"
+  },
+  {
+   "full_name": "apache/kafka",
+   "stargazers_count": 33740,
+   "size": 314775,
+   "pushed_at": "2026-09-16T20:25:49Z",
+   "default_branch": "trunk",
+   "license": {
+    "key": "apache-2.0",
+    "name": "Apache License 2.0",
+    "spdx_id": "Apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "node_id": "MDc6TGljZW5zZTI="
+   },
+   "html_url": "https://github.com/apache/kafka",
+   "language": "Java"
+  },
+  {
+   "full_name": "alibaba/nacos",
+   "stargazers_count": 33376,
+   "size": 112431,
+   "pushed_at": "2026-09-16T12:37:53Z",
+   "default_branch": "develop",
+   "license": {
+    "key": "apache-2.0",
+    "name": "Apache License 2.0",
+    "spdx_id": "Apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "node_id": "MDc6TGljZW5zZTI="
+   },
+   "html_url": "https://github.com/alibaba/nacos",
+   "language": "Java"
+  },
+  {
+   "full_name": "binarywang/WxJava",
+   "stargazers_count": 33096,
+   "size": 20649,
+   "pushed_at": "2026-09-13T07:35:40Z",
+   "default_branch": "develop",
+   "license": {
+    "key": "apache-2.0",
+    "name": "Apache License 2.0",
+    "spdx_id": "Apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "node_id": "MDc6TGljZW5zZTI="
+   },
+   "html_url": "https://github.com/binarywang/WxJava",
+   "language": "Java"
+  },
+  {
+   "full_name": "conductor-oss/conductor",
+   "stargazers_count": 32204,
+   "size": 62005,
+   "pushed_at": "2026-09-16T21:27:16Z",
+   "default_branch": "main",
+   "license": {
+    "key": "apache-2.0",
+    "name": "Apache License 2.0",
+    "spdx_id": "Apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "node_id": "MDc6TGljZW5zZTI="
+   },
+   "html_url": "https://github.com/conductor-oss/conductor",
+   "language": "Java"
+  },
+  {
+   "full_name": "xuxueli/xxl-job",
+   "stargazers_count": 30558,
+   "size": 39073,
+   "pushed_at": "2026-07-21T16:01:12Z",
+   "default_branch": "master",
+   "license": {
+    "key": "gpl-3.0",
+    "name": "GNU General Public License v3.0",
+    "spdx_id": "GPL-3.0",
+    "url": "https://api.github.com/licenses/gpl-3.0",
+    "node_id": "MDc6TGljZW5zZTk="
+   },
+   "html_url": "https://github.com/xuxueli/xxl-job",
+   "language": "Java"
+  },
+  {
+   "full_name": "chinabugotech/hutool",
+   "stargazers_count": 30272,
+   "size": 75368,
+   "pushed_at": "2026-09-11T21:29:57Z",
+   "default_branch": "v5-master",
+   "license": {
+    "key": "mulanpsl-2.0",
+    "name": "Mulan Permissive Software License, Version 2",
+    "spdx_id": "MulanPSL-2.0",
+    "url": "https://api.github.com/licenses/mulanpsl-2.0",
+    "node_id": "L_kgCsbXVsYW5wc2wtMi4w"
+   },
+   "html_url": "https://github.com/chinabugotech/hutool",
+   "language": "Java"
+  },
+  {
+   "full_name": "DrKLO/Telegram",
+   "stargazers_count": 29881,
+   "size": 747144,
+   "pushed_at": "2026-09-16T22:17:46Z",
+   "default_branch": "master",
+   "license": {
+    "key": "gpl-2.0",
+    "name": "GNU General Public License v2.0",
+    "spdx_id": "GPL-2.0",
+    "url": "https://api.github.com/licenses/gpl-2.0",
+    "node_id": "MDc6TGljZW5zZTg="
+   },
+   "html_url": "https://github.com/DrKLO/Telegram",
+   "language": "Java"
+  },
+  {
+   "full_name": "apolloconfig/apollo",
+   "stargazers_count": 29806,
+   "size": 57856,
+   "pushed_at": "2026-09-06T11:37:17Z",
+   "default_branch": "master",
+   "license": {
+    "key": "apache-2.0",
+    "name": "Apache License 2.0",
+    "spdx_id": "Apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "node_id": "MDc6TGljZW5zZTI="
+   },
+   "html_url": "https://github.com/apolloconfig/apollo",
+   "language": "Java"
+  },
+  {
+   "full_name": "alibaba/canal",
+   "stargazers_count": 29731,
+   "size": 24261,
+   "pushed_at": "2026-07-30T07:40:52Z",
+   "default_branch": "master",
+   "license": {
+    "key": "apache-2.0",
+    "name": "Apache License 2.0",
+    "spdx_id": "Apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "node_id": "MDc6TGljZW5zZTI="
+   },
+   "html_url": "https://github.com/alibaba/canal",
+   "language": "Java"
+  },
+  {
+   "full_name": "opendataloader-project/opendataloader-pdf",
+   "stargazers_count": 29297,
+   "size": 87862,
+   "pushed_at": "2026-09-16T06:01:14Z",
+   "default_branch": "main",
+   "license": {
+    "key": "apache-2.0",
+    "name": "Apache License 2.0",
+    "spdx_id": "Apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "node_id": "MDc6TGljZW5zZTI="
+   },
+   "html_url": "https://github.com/opendataloader-project/opendataloader-pdf",
+   "language": "Java"
+  },
+  {
+   "full_name": "alibaba/spring-cloud-alibaba",
+   "stargazers_count": 29172,
+   "size": 56414,
+   "pushed_at": "2026-09-09T08:24:37Z",
+   "default_branch": "2025.1.x",
+   "license": {
+    "key": "apache-2.0",
+    "name": "Apache License 2.0",
+    "spdx_id": "Apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "node_id": "MDc6TGljZW5zZTI="
+   },
+   "html_url": "https://github.com/alibaba/spring-cloud-alibaba",
+   "language": "Java"
+  },
+  {
+   "full_name": "Anuken/Mindustry",
+   "stargazers_count": 29009,
+   "size": 1980992,
+   "pushed_at": "2026-09-16T16:42:48Z",
+   "default_branch": "master",
+   "license": {
+    "key": "gpl-3.0",
+    "name": "GNU General Public License v3.0",
+    "spdx_id": "GPL-3.0",
+    "url": "https://api.github.com/licenses/gpl-3.0",
+    "node_id": "MDc6TGljZW5zZTk="
+   },
+   "html_url": "https://github.com/Anuken/Mindustry",
+   "language": "Java"
+  },
+  {
+   "full_name": "alibaba/druid",
+   "stargazers_count": 28176,
+   "size": 94025,
+   "pushed_at": "2026-08-01T11:32:54Z",
+   "default_branch": "master",
+   "license": {
+    "key": "apache-2.0",
+    "name": "Apache License 2.0",
+    "spdx_id": "Apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "node_id": "MDc6TGljZW5zZTI="
+   },
+   "html_url": "https://github.com/alibaba/druid",
+   "language": "Java"
+  },
+  {
+   "full_name": "kestra-io/kestra",
+   "stargazers_count": 28141,
+   "size": 135888,
+   "pushed_at": "2026-09-16T17:58:06Z",
+   "default_branch": "develop",
+   "license": {
+    "key": "apache-2.0",
+    "name": "Apache License 2.0",
+    "spdx_id": "Apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "node_id": "MDc6TGljZW5zZTI="
+   },
+   "html_url": "https://github.com/kestra-io/kestra",
+   "language": "Java"
+  },
+  {
+   "full_name": "OtterMind/Chat2DB",
+   "stargazers_count": 28131,
+   "size": 57504,
+   "pushed_at": "2026-09-16T17:12:54Z",
+   "default_branch": "main",
+   "license": {
+    "key": "other",
+    "name": "Other",
+    "spdx_id": "NOASSERTION",
+    "url": null,
+    "node_id": "MDc6TGljZW5zZTA="
+   },
+   "html_url": "https://github.com/OtterMind/Chat2DB",
+   "language": "Java"
+  },
+  {
+   "full_name": "ashishps1/awesome-low-level-design",
+   "stargazers_count": 26838,
+   "size": 15979,
+   "pushed_at": "2026-08-19T08:47:42Z",
+   "default_branch": "main",
+   "license": {
+    "key": "gpl-3.0",
+    "name": "GNU General Public License v3.0",
+    "spdx_id": "GPL-3.0",
+    "url": "https://api.github.com/licenses/gpl-3.0",
+    "node_id": "MDc6TGljZW5zZTk="
+   },
+   "html_url": "https://github.com/ashishps1/awesome-low-level-design",
+   "language": "Java"
+  },
+  {
+   "full_name": "OpenAPITools/openapi-generator",
+   "stargazers_count": 26742,
+   "size": 1005370,
+   "pushed_at": "2026-09-16T10:51:31Z",
+   "default_branch": "master",
+   "license": {
+    "key": "apache-2.0",
+    "name": "Apache License 2.0",
+    "spdx_id": "Apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "node_id": "MDc6TGljZW5zZTI="
+   },
+   "html_url": "https://github.com/OpenAPITools/openapi-generator",
+   "language": "Java"
+  },
+  {
+   "full_name": "jenkinsci/jenkins",
+   "stargazers_count": 26552,
+   "size": 173498,
+   "pushed_at": "2026-09-16T18:12:07Z",
+   "default_branch": "master",
+   "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+   },
+   "html_url": "https://github.com/jenkinsci/jenkins",
+   "language": "Java"
+  }
+ ],
+ "accepted": [
+  {
+   "repo": "krahets/hello-algo",
+   "sha": "28c1e74c1d3594fca7cc41b78a6bd18b700c5ce9",
+   "stars": 130167,
+   "license": "NOASSERTION",
+   "files": 435,
+   "loc": 29100,
+   "default_branch": "main",
+   "clone_dir": "data\\raw_repos\\krahets__hello-algo"
+  },
+  {
+   "repo": "iluwatar/java-design-patterns",
+   "sha": "4cabb204f240240bea319605a5ffa46ded728001",
+   "stars": 94701,
+   "license": "NOASSERTION",
+   "files": 2042,
+   "loc": 120930,
+   "default_branch": "master",
+   "clone_dir": "data\\raw_repos\\iluwatar__java-design-patterns"
+  },
+  {
+   "repo": "macrozheng/mall",
+   "sha": "dcaa93b3150352e5044708d7211b5bed0af4509f",
+   "stars": 84782,
+   "license": "Apache-2.0",
+   "files": 524,
+   "loc": 68627,
+   "default_branch": "master",
+   "clone_dir": "data\\raw_repos\\macrozheng__mall"
+  },
+  {
+   "repo": "TheAlgorithms/Java",
+   "sha": "b6fb8ad0fac794f16e8de4f8bb4a37360034606a",
+   "stars": 66260,
+   "license": "MIT",
+   "files": 1609,
+   "loc": 123689,
+   "default_branch": "master",
+   "clone_dir": "data\\raw_repos\\TheAlgorithms__Java"
+  },
+  {
+   "repo": "termux/termux-app",
+   "sha": "084d709fbf23ea83b5cb85fd3d795c775be06676",
+   "stars": 60930,
+   "license": "NOASSERTION",
+   "files": 201,
+   "loc": 39623,
+   "default_branch": "master",
+   "clone_dir": "data\\raw_repos\\termux__termux-app"
+  },
+  {
+   "repo": "skylot/jadx",
+   "sha": "2fb1b16386941660fda07e9017285aec40fcb37f",
+   "stars": 50489,
+   "license": "Apache-2.0",
+   "files": 1947,
+   "loc": 159567,
+   "default_branch": "master",
+   "clone_dir": "data\\raw_repos\\skylot__jadx"
+  },
+  {
+   "repo": "ReactiveX/RxJava",
+   "sha": "ec327a2fef842e80bfdefb42de81a08a14027b6a",
+   "stars": 48201,
+   "license": "Apache-2.0",
+   "files": 2072,
+   "loc": 379413,
+   "default_branch": "4.x",
+   "clone_dir": "data\\raw_repos\\ReactiveX__RxJava"
+  },
+  {
+   "repo": "lysine-dev/retrofit",
+   "sha": "e27d855b7b029e7f907dfc52205fdb3e9c603c16",
+   "stars": 43940,
+   "license": "Apache-2.0",
+   "files": 306,
+   "loc": 34182,
+   "default_branch": "trunk",
+   "clone_dir": "data\\raw_repos\\lysine-dev__retrofit"
+  }
+ ],
+ "skipped": [
+  {
+   "repo": "spring-projects/spring-boot",
+   "reason": "clone failed: Command '['git', 'clone', '--depth', '1', '--quiet', 'https://github.com/spring-projects/spring-boot.git', '<LOCAL_PATH>/OneDrive\\\\Documents\\\\Conferences\\\\research\\\\data\\\\raw_repos\\\\spring-projects__spring-boot']' returned non-zero exit status 128."
+  },
+  {
+   "repo": "doocs/advanced-java",
+   "reason": "LOC 8 outside [20000, 600000]",
+   "files": 1,
+   "loc": 8
+  },
+  {
+   "repo": "elastic/elasticsearch",
+   "reason": "repo size 1769433 KB > 1.5 GB"
+  },
+  {
+   "repo": "NationalSecurityAgency/ghidra",
+   "reason": "LOC 2762918 outside [20000, 600000]",
+   "files": 15583,
+   "loc": 2762918
+  },
+  {
+   "repo": "MisterBooo/LeetCodeAnimation",
+   "reason": "LOC 281 outside [20000, 600000]",
+   "files": 11,
+   "loc": 281
+  },
+  {
+   "repo": "spring-projects/spring-framework",
+   "reason": "clone failed: Command '['git', 'clone', '--depth', '1', '--quiet', 'https://github.com/spring-projects/spring-framework.git', '<LOCAL_PATH>/OneDrive\\\\Documents\\\\Conferences\\\\research\\\\data\\\\raw_repos\\\\spring-projects__spring-framework']' returned non-zero exit status 128."
+  },
+  {
+   "repo": "google/guava",
+   "reason": "LOC 703317 outside [20000, 600000]",
+   "files": 3268,
+   "loc": 703317
+  },
+  {
+   "repo": "dbeaver/dbeaver",
+   "reason": "LOC 828547 outside [20000, 600000]",
+   "files": 6616,
+   "loc": 828547
+  },
+  {
+   "repo": "jeecgboot/JeecgBoot",
+   "reason": "clone failed: Command '['git', 'clone', '--depth', '1', '--quiet', 'https://github.com/jeecgboot/JeecgBoot.git', '<LOCAL_PATH>/OneDrive\\\\Documents\\\\Conferences\\\\research\\\\data\\\\raw_repos\\\\jeecgboot__JeecgBoot']' returned non-zero exit status 128."
+  }
+ ]
+}

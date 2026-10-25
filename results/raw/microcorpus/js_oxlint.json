@@ -1,0 +1,4031 @@
+[
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 4,
+  "end_line": 6,
+  "name": "c01_empty",
+  "value": 0,
+  "metric": "cognitive",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {
+   "cyclomatic": 1,
+   "points": []
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 4,
+  "end_line": 6,
+  "name": "c01_empty",
+  "value": 1,
+  "metric": "cyclomatic",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 8,
+  "end_line": 13,
+  "name": "c02_if",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {
+   "cyclomatic": 2,
+   "points": [
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 9,
+       "column": 2
+      },
+      "end": {
+       "line": 11,
+       "column": 3
+      }
+     },
+     "message": "+1: if"
+    }
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 8,
+  "end_line": 13,
+  "name": "c02_if",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 15,
+  "end_line": 21,
+  "name": "c03_if_else",
+  "value": 2,
+  "metric": "cognitive",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {
+   "cyclomatic": 2,
+   "points": [
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 16,
+       "column": 2
+      },
+      "end": {
+       "line": 20,
+       "column": 3
+      }
+     },
+     "message": "+1: if"
+    },
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 16,
+       "column": 2
+      },
+      "end": {
+       "line": 20,
+       "column": 3
+      }
+     },
+     "message": "+1: else"
+    }
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 15,
+  "end_line": 21,
+  "name": "c03_if_else",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 23,
+  "end_line": 33,
+  "name": "c04_if_elseif_elseif_else",
+  "value": 4,
+  "metric": "cognitive",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {
+   "cyclomatic": 4,
+   "points": [
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 24,
+       "column": 2
+      },
+      "end": {
+       "line": 32,
+       "column": 3
+      }
+     },
+     "message": "+1: if"
+    },
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 26,
+       "column": 9
+      },
+      "end": {
+       "line": 32,
+       "column": 3
+      }
+     },
+     "message": "+1: else if"
+    },
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 28,
+       "column": 9
+      },
+      "end": {
+       "line": 32,
+       "column": 3
+      }
+     },
+     "message": "+1: else if"
+    },
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 28,
+       "column": 9
+      },
+      "end": {
+       "line": 32,
+       "column": 3
+      }
+     },
+     "message": "+1: else"
+    }
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 23,
+  "end_line": 33,
+  "name": "c04_if_elseif_elseif_else",
+  "value": 4,
+  "metric": "cyclomatic",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 35,
+  "end_line": 37,
+  "name": "c05_ternary",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {
+   "cyclomatic": 2,
+   "points": [
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 36,
+       "column": 9
+      },
+      "end": {
+       "line": 36,
+       "column": 18
+      }
+     },
+     "message": "+1: ternary operator"
+    }
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 35,
+  "end_line": 37,
+  "name": "c05_ternary",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 39,
+  "end_line": 48,
+  "name": "c06_switch",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {
+   "cyclomatic": 3,
+   "points": [
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 40,
+       "column": 2
+      },
+      "end": {
+       "line": 47,
+       "column": 3
+      }
+     },
+     "message": "+1: switch"
+    }
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 39,
+  "end_line": 48,
+  "name": "c06_switch",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 50,
+  "end_line": 54,
+  "name": "c07_for",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {
+   "cyclomatic": 2,
+   "points": [
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 51,
+       "column": 2
+      },
+      "end": {
+       "line": 53,
+       "column": 3
+      }
+     },
+     "message": "+1: for"
+    }
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 50,
+  "end_line": 54,
+  "name": "c07_for",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 56,
+  "end_line": 60,
+  "name": "c07b_for_of",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {
+   "cyclomatic": 2,
+   "points": [
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 57,
+       "column": 2
+      },
+      "end": {
+       "line": 59,
+       "column": 3
+      }
+     },
+     "message": "+1: for-of"
+    }
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 56,
+  "end_line": 60,
+  "name": "c07b_for_of",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 62,
+  "end_line": 66,
+  "name": "c07c_for_in",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {
+   "cyclomatic": 2,
+   "points": [
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 63,
+       "column": 2
+      },
+      "end": {
+       "line": 65,
+       "column": 3
+      }
+     },
+     "message": "+1: for-in"
+    }
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 62,
+  "end_line": 66,
+  "name": "c07c_for_in",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 68,
+  "end_line": 73,
+  "name": "c08_while",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {
+   "cyclomatic": 2,
+   "points": [
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 69,
+       "column": 2
+      },
+      "end": {
+       "line": 71,
+       "column": 3
+      }
+     },
+     "message": "+1: while"
+    }
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 68,
+  "end_line": 73,
+  "name": "c08_while",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 75,
+  "end_line": 80,
+  "name": "c08b_do_while",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {
+   "cyclomatic": 2,
+   "points": [
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 76,
+       "column": 2
+      },
+      "end": {
+       "line": 78,
+       "column": 18
+      }
+     },
+     "message": "+1: do-while"
+    }
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 75,
+  "end_line": 80,
+  "name": "c08b_do_while",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 82,
+  "end_line": 88,
+  "name": "c09_try_catch",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {
+   "cyclomatic": 2,
+   "points": [
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 85,
+       "column": 4
+      },
+      "end": {
+       "line": 87,
+       "column": 3
+      }
+     },
+     "message": "+1: catch"
+    }
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 82,
+  "end_line": 88,
+  "name": "c09_try_catch",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 90,
+  "end_line": 96,
+  "name": "c09b_optional_catch_binding",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {
+   "cyclomatic": 2,
+   "points": [
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 93,
+       "column": 4
+      },
+      "end": {
+       "line": 95,
+       "column": 3
+      }
+     },
+     "message": "+1: catch"
+    }
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 90,
+  "end_line": 96,
+  "name": "c09b_optional_catch_binding",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 98,
+  "end_line": 104,
+  "name": "c12_try_finally",
+  "value": 0,
+  "metric": "cognitive",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {
+   "cyclomatic": 1,
+   "points": []
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 98,
+  "end_line": 104,
+  "name": "c12_try_finally",
+  "value": 1,
+  "metric": "cyclomatic",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 106,
+  "end_line": 114,
+  "name": "c13_try_catch_finally",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {
+   "cyclomatic": 2,
+   "points": [
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 109,
+       "column": 4
+      },
+      "end": {
+       "line": 111,
+       "column": 3
+      }
+     },
+     "message": "+1: catch"
+    }
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 106,
+  "end_line": 114,
+  "name": "c13_try_catch_finally",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 116,
+  "end_line": 123,
+  "name": "c14_if_in_if",
+  "value": 3,
+  "metric": "cognitive",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {
+   "cyclomatic": 3,
+   "points": [
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 117,
+       "column": 2
+      },
+      "end": {
+       "line": 121,
+       "column": 3
+      }
+     },
+     "message": "+1: if"
+    },
+    {
+     "complexity": 2,
+     "location": {
+      "start": {
+       "line": 118,
+       "column": 4
+      },
+      "end": {
+       "line": 120,
+       "column": 5
+      }
+     },
+     "message": "+2 (incl. 1 for nesting): if"
+    }
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 116,
+  "end_line": 123,
+  "name": "c14_if_in_if",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 125,
+  "end_line": 134,
+  "name": "c15_if_in_for_in_while",
+  "value": 6,
+  "metric": "cognitive",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {
+   "cyclomatic": 4,
+   "points": [
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 126,
+       "column": 2
+      },
+      "end": {
+       "line": 132,
+       "column": 3
+      }
+     },
+     "message": "+1: while"
+    },
+    {
+     "complexity": 2,
+     "location": {
+      "start": {
+       "line": 127,
+       "column": 4
+      },
+      "end": {
+       "line": 131,
+       "column": 5
+      }
+     },
+     "message": "+2 (incl. 1 for nesting): for-of"
+    },
+    {
+     "complexity": 3,
+     "location": {
+      "start": {
+       "line": 128,
+       "column": 6
+      },
+      "end": {
+       "line": 130,
+       "column": 7
+      }
+     },
+     "message": "+3 (incl. 2 for nesting): if"
+    }
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 125,
+  "end_line": 134,
+  "name": "c15_if_in_for_in_while",
+  "value": 4,
+  "metric": "cyclomatic",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 136,
+  "end_line": 145,
+  "name": "c16_if_in_catch",
+  "value": 3,
+  "metric": "cognitive",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {
+   "cyclomatic": 3,
+   "points": [
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 139,
+       "column": 4
+      },
+      "end": {
+       "line": 143,
+       "column": 3
+      }
+     },
+     "message": "+1: catch"
+    },
+    {
+     "complexity": 2,
+     "location": {
+      "start": {
+       "line": 140,
+       "column": 4
+      },
+      "end": {
+       "line": 142,
+       "column": 5
+      }
+     },
+     "message": "+2 (incl. 1 for nesting): if"
+    }
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 136,
+  "end_line": 145,
+  "name": "c16_if_in_catch",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 147,
+  "end_line": 156,
+  "name": "c17_if_in_try",
+  "value": 2,
+  "metric": "cognitive",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {
+   "cyclomatic": 3,
+   "points": [
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 149,
+       "column": 4
+      },
+      "end": {
+       "line": 151,
+       "column": 5
+      }
+     },
+     "message": "+1: if"
+    },
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 152,
+       "column": 4
+      },
+      "end": {
+       "line": 154,
+       "column": 3
+      }
+     },
+     "message": "+1: catch"
+    }
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 147,
+  "end_line": 156,
+  "name": "c17_if_in_try",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 158,
+  "end_line": 167,
+  "name": "c18_if_in_else",
+  "value": 4,
+  "metric": "cognitive",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {
+   "cyclomatic": 3,
+   "points": [
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 159,
+       "column": 2
+      },
+      "end": {
+       "line": 165,
+       "column": 3
+      }
+     },
+     "message": "+1: if"
+    },
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 159,
+       "column": 2
+      },
+      "end": {
+       "line": 165,
+       "column": 3
+      }
+     },
+     "message": "+1: else"
+    },
+    {
+     "complexity": 2,
+     "location": {
+      "start": {
+       "line": 162,
+       "column": 4
+      },
+      "end": {
+       "line": 164,
+       "column": 5
+      }
+     },
+     "message": "+2 (incl. 1 for nesting): if"
+    }
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 158,
+  "end_line": 167,
+  "name": "c18_if_in_else",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 169,
+  "end_line": 178,
+  "name": "c19_if_in_elseif",
+  "value": 4,
+  "metric": "cognitive",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {
+   "cyclomatic": 4,
+   "points": [
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 170,
+       "column": 2
+      },
+      "end": {
+       "line": 176,
+       "column": 3
+      }
+     },
+     "message": "+1: if"
+    },
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 172,
+       "column": 9
+      },
+      "end": {
+       "line": 176,
+       "column": 3
+      }
+     },
+     "message": "+1: else if"
+    },
+    {
+     "complexity": 2,
+     "location": {
+      "start": {
+       "line": 173,
+       "column": 4
+      },
+      "end": {
+       "line": 175,
+       "column": 5
+      }
+     },
+     "message": "+2 (incl. 1 for nesting): if"
+    }
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 169,
+  "end_line": 178,
+  "name": "c19_if_in_elseif",
+  "value": 4,
+  "metric": "cyclomatic",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 180,
+  "end_line": 182,
+  "name": "c20_nested_ternary",
+  "value": 3,
+  "metric": "cognitive",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {
+   "cyclomatic": 3,
+   "points": [
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 181,
+       "column": 9
+      },
+      "end": {
+       "line": 181,
+       "column": 28
+      }
+     },
+     "message": "+1: ternary operator"
+    },
+    {
+     "complexity": 2,
+     "location": {
+      "start": {
+       "line": 181,
+       "column": 18
+      },
+      "end": {
+       "line": 181,
+       "column": 27
+      }
+     },
+     "message": "+2 (incl. 1 for nesting): ternary operator"
+    }
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 180,
+  "end_line": 182,
+  "name": "c20_nested_ternary",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 184,
+  "end_line": 189,
+  "name": "c21_ternary_in_if_condition",
+  "value": 2,
+  "metric": "cognitive",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {
+   "cyclomatic": 3,
+   "points": [
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 185,
+       "column": 2
+      },
+      "end": {
+       "line": 187,
+       "column": 3
+      }
+     },
+     "message": "+1: if"
+    },
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 185,
+       "column": 6
+      },
+      "end": {
+       "line": 185,
+       "column": 16
+      }
+     },
+     "message": "+1: ternary operator"
+    }
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 184,
+  "end_line": 189,
+  "name": "c21_ternary_in_if_condition",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 191,
+  "end_line": 196,
+  "name": "c22_ternary_in_while_condition",
+  "value": 2,
+  "metric": "cognitive",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {
+   "cyclomatic": 3,
+   "points": [
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 192,
+       "column": 2
+      },
+      "end": {
+       "line": 194,
+       "column": 3
+      }
+     },
+     "message": "+1: while"
+    },
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 192,
+       "column": 10
+      },
+      "end": {
+       "line": 192,
+       "column": 19
+      }
+     },
+     "message": "+1: ternary operator"
+    }
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 191,
+  "end_line": 196,
+  "name": "c22_ternary_in_while_condition",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 198,
+  "end_line": 203,
+  "name": "c23_and",
+  "value": 2,
+  "metric": "cognitive",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {
+   "cyclomatic": 3,
+   "points": [
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 199,
+       "column": 2
+      },
+      "end": {
+       "line": 201,
+       "column": 3
+      }
+     },
+     "message": "+1: if"
+    },
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 199,
+       "column": 6
+      },
+      "end": {
+       "line": 199,
+       "column": 12
+      }
+     },
+     "message": "+1: logical operator '&&'"
+    }
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 198,
+  "end_line": 203,
+  "name": "c23_and",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 205,
+  "end_line": 210,
+  "name": "c24_and_and",
+  "value": 2,
+  "metric": "cognitive",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {
+   "cyclomatic": 4,
+   "points": [
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 206,
+       "column": 2
+      },
+      "end": {
+       "line": 208,
+       "column": 3
+      }
+     },
+     "message": "+1: if"
+    },
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 206,
+       "column": 6
+      },
+      "end": {
+       "line": 206,
+       "column": 17
+      }
+     },
+     "message": "+1: logical operator '&&'"
+    }
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 205,
+  "end_line": 210,
+  "name": "c24_and_and",
+  "value": 4,
+  "metric": "cyclomatic",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 212,
+  "end_line": 217,
+  "name": "c25_or",
+  "value": 2,
+  "metric": "cognitive",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {
+   "cyclomatic": 3,
+   "points": [
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 213,
+       "column": 2
+      },
+      "end": {
+       "line": 215,
+       "column": 3
+      }
+     },
+     "message": "+1: if"
+    },
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 213,
+       "column": 6
+      },
+      "end": {
+       "line": 213,
+       "column": 12
+      }
+     },
+     "message": "+1: logical operator '||'"
+    }
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 212,
+  "end_line": 217,
+  "name": "c25_or",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 219,
+  "end_line": 224,
+  "name": "c26_and_or",
+  "value": 3,
+  "metric": "cognitive",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {
+   "cyclomatic": 4,
+   "points": [
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 220,
+       "column": 2
+      },
+      "end": {
+       "line": 222,
+       "column": 3
+      }
+     },
+     "message": "+1: if"
+    },
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 220,
+       "column": 6
+      },
+      "end": {
+       "line": 220,
+       "column": 17
+      }
+     },
+     "message": "+1: logical operator '||'"
+    },
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 220,
+       "column": 6
+      },
+      "end": {
+       "line": 220,
+       "column": 12
+      }
+     },
+     "message": "+1: logical operator '&&'"
+    }
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 219,
+  "end_line": 224,
+  "name": "c26_and_or",
+  "value": 4,
+  "metric": "cyclomatic",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 226,
+  "end_line": 231,
+  "name": "c27_or_and_or",
+  "value": 3,
+  "metric": "cognitive",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {
+   "cyclomatic": 5,
+   "points": [
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 227,
+       "column": 2
+      },
+      "end": {
+       "line": 229,
+       "column": 3
+      }
+     },
+     "message": "+1: if"
+    },
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 227,
+       "column": 6
+      },
+      "end": {
+       "line": 227,
+       "column": 22
+      }
+     },
+     "message": "+1: logical operator '||'"
+    },
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 227,
+       "column": 11
+      },
+      "end": {
+       "line": 227,
+       "column": 17
+      }
+     },
+     "message": "+1: logical operator '&&'"
+    }
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 226,
+  "end_line": 231,
+  "name": "c27_or_and_or",
+  "value": 5,
+  "metric": "cyclomatic",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 233,
+  "end_line": 238,
+  "name": "c28_and_not_paren_and",
+  "value": 3,
+  "metric": "cognitive",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {
+   "cyclomatic": 4,
+   "points": [
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 234,
+       "column": 2
+      },
+      "end": {
+       "line": 236,
+       "column": 3
+      }
+     },
+     "message": "+1: if"
+    },
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 234,
+       "column": 6
+      },
+      "end": {
+       "line": 234,
+       "column": 20
+      }
+     },
+     "message": "+1: logical operator '&&'"
+    },
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 234,
+       "column": 13
+      },
+      "end": {
+       "line": 234,
+       "column": 19
+      }
+     },
+     "message": "+1: logical operator '&&'"
+    }
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 233,
+  "end_line": 238,
+  "name": "c28_and_not_paren_and",
+  "value": 4,
+  "metric": "cyclomatic",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 240,
+  "end_line": 245,
+  "name": "c29_and_paren_or",
+  "value": 3,
+  "metric": "cognitive",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {
+   "cyclomatic": 4,
+   "points": [
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 241,
+       "column": 2
+      },
+      "end": {
+       "line": 243,
+       "column": 3
+      }
+     },
+     "message": "+1: if"
+    },
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 241,
+       "column": 6
+      },
+      "end": {
+       "line": 241,
+       "column": 19
+      }
+     },
+     "message": "+1: logical operator '&&'"
+    },
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 241,
+       "column": 12
+      },
+      "end": {
+       "line": 241,
+       "column": 18
+      }
+     },
+     "message": "+1: logical operator '||'"
+    }
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 240,
+  "end_line": 245,
+  "name": "c29_and_paren_or",
+  "value": 4,
+  "metric": "cyclomatic",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 247,
+  "end_line": 252,
+  "name": "c30_and_paren_and",
+  "value": 3,
+  "metric": "cognitive",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {
+   "cyclomatic": 4,
+   "points": [
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 248,
+       "column": 2
+      },
+      "end": {
+       "line": 250,
+       "column": 3
+      }
+     },
+     "message": "+1: if"
+    },
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 248,
+       "column": 6
+      },
+      "end": {
+       "line": 248,
+       "column": 19
+      }
+     },
+     "message": "+1: logical operator '&&'"
+    },
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 248,
+       "column": 12
+      },
+      "end": {
+       "line": 248,
+       "column": 18
+      }
+     },
+     "message": "+1: logical operator '&&'"
+    }
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 247,
+  "end_line": 252,
+  "name": "c30_and_paren_and",
+  "value": 4,
+  "metric": "cyclomatic",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 254,
+  "end_line": 257,
+  "name": "c31_bool_in_assignment",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {
+   "cyclomatic": 2,
+   "points": [
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 255,
+       "column": 12
+      },
+      "end": {
+       "line": 255,
+       "column": 18
+      }
+     },
+     "message": "+1: logical operator '&&'"
+    }
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 254,
+  "end_line": 257,
+  "name": "c31_bool_in_assignment",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 259,
+  "end_line": 261,
+  "name": "c32_bool_in_return",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {
+   "cyclomatic": 2,
+   "points": [
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 260,
+       "column": 9
+      },
+      "end": {
+       "line": 260,
+       "column": 15
+      }
+     },
+     "message": "+1: logical operator '||'"
+    }
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 259,
+  "end_line": 261,
+  "name": "c32_bool_in_return",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 263,
+  "end_line": 265,
+  "name": "c33_bool_in_call",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {
+   "cyclomatic": 2,
+   "points": [
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 264,
+       "column": 17
+      },
+      "end": {
+       "line": 264,
+       "column": 23
+      }
+     },
+     "message": "+1: logical operator '&&'"
+    }
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 263,
+  "end_line": 265,
+  "name": "c33_bool_in_call",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 267,
+  "end_line": 270,
+  "name": "c34_or_default_idiom",
+  "value": 0,
+  "metric": "cognitive",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {
+   "cyclomatic": 2,
+   "points": []
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 267,
+  "end_line": 270,
+  "name": "c34_or_default_idiom",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 272,
+  "end_line": 277,
+  "name": "c35_and_or_and",
+  "value": 4,
+  "metric": "cognitive",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {
+   "cyclomatic": 5,
+   "points": [
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 273,
+       "column": 2
+      },
+      "end": {
+       "line": 275,
+       "column": 3
+      }
+     },
+     "message": "+1: if"
+    },
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 273,
+       "column": 6
+      },
+      "end": {
+       "line": 273,
+       "column": 22
+      }
+     },
+     "message": "+1: logical operator '||'"
+    },
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 273,
+       "column": 6
+      },
+      "end": {
+       "line": 273,
+       "column": 12
+      }
+     },
+     "message": "+1: logical operator '&&'"
+    },
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 273,
+       "column": 16
+      },
+      "end": {
+       "line": 273,
+       "column": 22
+      }
+     },
+     "message": "+1: logical operator '&&'"
+    }
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 272,
+  "end_line": 277,
+  "name": "c35_and_or_and",
+  "value": 5,
+  "metric": "cyclomatic",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 279,
+  "end_line": 289,
+  "name": "c36_unlabeled_break_continue",
+  "value": 5,
+  "metric": "cognitive",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {
+   "cyclomatic": 4,
+   "points": [
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 280,
+       "column": 2
+      },
+      "end": {
+       "line": 287,
+       "column": 3
+      }
+     },
+     "message": "+1: for-of"
+    },
+    {
+     "complexity": 2,
+     "location": {
+      "start": {
+       "line": 281,
+       "column": 4
+      },
+      "end": {
+       "line": 283,
+       "column": 5
+      }
+     },
+     "message": "+2 (incl. 1 for nesting): if"
+    },
+    {
+     "complexity": 2,
+     "location": {
+      "start": {
+       "line": 284,
+       "column": 4
+      },
+      "end": {
+       "line": 286,
+       "column": 5
+      }
+     },
+     "message": "+2 (incl. 1 for nesting): if"
+    }
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 279,
+  "end_line": 289,
+  "name": "c36_unlabeled_break_continue",
+  "value": 4,
+  "metric": "cyclomatic",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 291,
+  "end_line": 297,
+  "name": "c37_early_return",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {
+   "cyclomatic": 2,
+   "points": [
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 292,
+       "column": 2
+      },
+      "end": {
+       "line": 294,
+       "column": 3
+      }
+     },
+     "message": "+1: if"
+    }
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 291,
+  "end_line": 297,
+  "name": "c37_early_return",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 299,
+  "end_line": 304,
+  "name": "c38_recursion_direct",
+  "value": 2,
+  "metric": "cognitive",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {
+   "cyclomatic": 2,
+   "points": [
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 300,
+       "column": 2
+      },
+      "end": {
+       "line": 302,
+       "column": 3
+      }
+     },
+     "message": "+1: if"
+    },
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 303,
+       "column": 13
+      },
+      "end": {
+       "line": 303,
+       "column": 40
+      }
+     },
+     "message": "+1: recursive call"
+    }
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 299,
+  "end_line": 304,
+  "name": "c38_recursion_direct",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 306,
+  "end_line": 311,
+  "name": "c39_recursion_indirect_a",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {
+   "cyclomatic": 2,
+   "points": [
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 307,
+       "column": 2
+      },
+      "end": {
+       "line": 309,
+       "column": 3
+      }
+     },
+     "message": "+1: if"
+    }
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 306,
+  "end_line": 311,
+  "name": "c39_recursion_indirect_a",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 313,
+  "end_line": 318,
+  "name": "c39_recursion_indirect_b",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {
+   "cyclomatic": 2,
+   "points": [
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 314,
+       "column": 2
+      },
+      "end": {
+       "line": 316,
+       "column": 3
+      }
+     },
+     "message": "+1: if"
+    }
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 313,
+  "end_line": 318,
+  "name": "c39_recursion_indirect_b",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 321,
+  "end_line": 321,
+  "name": "f",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {
+   "cyclomatic": 2,
+   "points": [
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 321,
+       "column": 28
+      },
+      "end": {
+       "line": 321,
+       "column": 37
+      }
+     },
+     "message": "+1: ternary operator"
+    }
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 321,
+  "end_line": 321,
+  "name": "f",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 320,
+  "end_line": 323,
+  "name": "c40_arrow_with_ternary",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {
+   "cyclomatic": 1,
+   "points": [
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 321,
+       "column": 12
+      },
+      "end": {
+       "line": 321,
+       "column": 38
+      }
+     },
+     "message": "+1: nested arrow function"
+    }
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 320,
+  "end_line": 323,
+  "name": "c40_arrow_with_ternary",
+  "value": 1,
+  "metric": "cyclomatic",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 326,
+  "end_line": 330,
+  "name": "r",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {
+   "cyclomatic": 2,
+   "points": [
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 327,
+       "column": 4
+      },
+      "end": {
+       "line": 329,
+       "column": 5
+      }
+     },
+     "message": "+1: if"
+    }
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 326,
+  "end_line": 330,
+  "name": "r",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 325,
+  "end_line": 333,
+  "name": "c41_arrow_with_if",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {
+   "cyclomatic": 1,
+   "points": [
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 326,
+       "column": 12
+      },
+      "end": {
+       "line": 330,
+       "column": 3
+      }
+     },
+     "message": "+1: nested arrow function"
+    }
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 325,
+  "end_line": 333,
+  "name": "c41_arrow_with_if",
+  "value": 1,
+  "metric": "cyclomatic",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 336,
+  "end_line": 341,
+  "name": "inner",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {
+   "cyclomatic": 2,
+   "points": [
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 337,
+       "column": 4
+      },
+      "end": {
+       "line": 339,
+       "column": 5
+      }
+     },
+     "message": "+1: if"
+    }
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 336,
+  "end_line": 341,
+  "name": "inner",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 335,
+  "end_line": 343,
+  "name": "c42_nested_function_only",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {
+   "cyclomatic": 1,
+   "points": [
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 336,
+       "column": 2
+      },
+      "end": {
+       "line": 341,
+       "column": 3
+      }
+     },
+     "message": "+1: nested function"
+    }
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 335,
+  "end_line": 343,
+  "name": "c42_nested_function_only",
+  "value": 1,
+  "metric": "cyclomatic",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 347,
+  "end_line": 351,
+  "name": "r",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {
+   "cyclomatic": 2,
+   "points": [
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 348,
+       "column": 6
+      },
+      "end": {
+       "line": 350,
+       "column": 7
+      }
+     },
+     "message": "+1: if"
+    }
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 347,
+  "end_line": 351,
+  "name": "r",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 345,
+  "end_line": 355,
+  "name": "c43_arrow_inside_if",
+  "value": 2,
+  "metric": "cognitive",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {
+   "cyclomatic": 2,
+   "points": [
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 346,
+       "column": 2
+      },
+      "end": {
+       "line": 353,
+       "column": 3
+      }
+     },
+     "message": "+1: if"
+    },
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 347,
+       "column": 14
+      },
+      "end": {
+       "line": 351,
+       "column": 5
+      }
+     },
+     "message": "+1: nested arrow function"
+    }
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 345,
+  "end_line": 355,
+  "name": "c43_arrow_inside_if",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 360,
+  "end_line": 365,
+  "name": "anonymous_51",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {
+   "cyclomatic": 2,
+   "points": [
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 361,
+       "column": 4
+      },
+      "end": {
+       "line": 363,
+       "column": 5
+      }
+     },
+     "message": "+1: if"
+    }
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 360,
+  "end_line": 365,
+  "name": "anonymous_51",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 357,
+  "end_line": 367,
+  "name": "c44_declarative_outer",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {
+   "cyclomatic": 1,
+   "points": [
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 360,
+       "column": 14
+      },
+      "end": {
+       "line": 365,
+       "column": 3
+      }
+     },
+     "message": "+1: nested function"
+    }
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 357,
+  "end_line": 367,
+  "name": "c44_declarative_outer",
+  "value": 1,
+  "metric": "cyclomatic",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 375,
+  "end_line": 380,
+  "name": "anonymous_53",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {
+   "cyclomatic": 2,
+   "points": [
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 376,
+       "column": 4
+      },
+      "end": {
+       "line": 378,
+       "column": 5
+      }
+     },
+     "message": "+1: if"
+    }
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 375,
+  "end_line": 380,
+  "name": "anonymous_53",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 369,
+  "end_line": 382,
+  "name": "c45_non_declarative_outer",
+  "value": 2,
+  "metric": "cognitive",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {
+   "cyclomatic": 2,
+   "points": [
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 371,
+       "column": 2
+      },
+      "end": {
+       "line": 373,
+       "column": 3
+      }
+     },
+     "message": "+1: if"
+    },
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 375,
+       "column": 14
+      },
+      "end": {
+       "line": 380,
+       "column": 3
+      }
+     },
+     "message": "+1: nested function"
+    }
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 369,
+  "end_line": 382,
+  "name": "c45_non_declarative_outer",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 384,
+  "end_line": 395,
+  "name": "c55_deep_nesting_4",
+  "value": 10,
+  "metric": "cognitive",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {
+   "cyclomatic": 5,
+   "points": [
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 385,
+       "column": 2
+      },
+      "end": {
+       "line": 393,
+       "column": 3
+      }
+     },
+     "message": "+1: if"
+    },
+    {
+     "complexity": 2,
+     "location": {
+      "start": {
+       "line": 386,
+       "column": 4
+      },
+      "end": {
+       "line": 392,
+       "column": 5
+      }
+     },
+     "message": "+2 (incl. 1 for nesting): if"
+    },
+    {
+     "complexity": 3,
+     "location": {
+      "start": {
+       "line": 387,
+       "column": 6
+      },
+      "end": {
+       "line": 391,
+       "column": 7
+      }
+     },
+     "message": "+3 (incl. 2 for nesting): if"
+    },
+    {
+     "complexity": 4,
+     "location": {
+      "start": {
+       "line": 388,
+       "column": 8
+      },
+      "end": {
+       "line": 390,
+       "column": 9
+      }
+     },
+     "message": "+4 (incl. 3 for nesting): if"
+    }
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 384,
+  "end_line": 395,
+  "name": "c55_deep_nesting_4",
+  "value": 5,
+  "metric": "cyclomatic",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 397,
+  "end_line": 407,
+  "name": "c56_for_in_catch_in_for",
+  "value": 6,
+  "metric": "cognitive",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {
+   "cyclomatic": 4,
+   "points": [
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 398,
+       "column": 2
+      },
+      "end": {
+       "line": 406,
+       "column": 3
+      }
+     },
+     "message": "+1: for-of"
+    },
+    {
+     "complexity": 2,
+     "location": {
+      "start": {
+       "line": 401,
+       "column": 6
+      },
+      "end": {
+       "line": 405,
+       "column": 5
+      }
+     },
+     "message": "+2 (incl. 1 for nesting): catch"
+    },
+    {
+     "complexity": 3,
+     "location": {
+      "start": {
+       "line": 402,
+       "column": 6
+      },
+      "end": {
+       "line": 404,
+       "column": 7
+      }
+     },
+     "message": "+3 (incl. 2 for nesting): for-of"
+    }
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 397,
+  "end_line": 407,
+  "name": "c56_for_in_catch_in_for",
+  "value": 4,
+  "metric": "cyclomatic",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 409,
+  "end_line": 417,
+  "name": "c57_two_sequential_ifs",
+  "value": 2,
+  "metric": "cognitive",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {
+   "cyclomatic": 3,
+   "points": [
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 410,
+       "column": 2
+      },
+      "end": {
+       "line": 412,
+       "column": 3
+      }
+     },
+     "message": "+1: if"
+    },
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 413,
+       "column": 2
+      },
+      "end": {
+       "line": 415,
+       "column": 3
+      }
+     },
+     "message": "+1: if"
+    }
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 409,
+  "end_line": 417,
+  "name": "c57_two_sequential_ifs",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 419,
+  "end_line": 430,
+  "name": "c58_elseif_nested_if",
+  "value": 5,
+  "metric": "cognitive",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {
+   "cyclomatic": 4,
+   "points": [
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 420,
+       "column": 2
+      },
+      "end": {
+       "line": 429,
+       "column": 3
+      }
+     },
+     "message": "+1: if"
+    },
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 422,
+       "column": 9
+      },
+      "end": {
+       "line": 429,
+       "column": 3
+      }
+     },
+     "message": "+1: else if"
+    },
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 422,
+       "column": 9
+      },
+      "end": {
+       "line": 429,
+       "column": 3
+      }
+     },
+     "message": "+1: else"
+    },
+    {
+     "complexity": 2,
+     "location": {
+      "start": {
+       "line": 423,
+       "column": 4
+      },
+      "end": {
+       "line": 425,
+       "column": 5
+      }
+     },
+     "message": "+2 (incl. 1 for nesting): if"
+    }
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 419,
+  "end_line": 430,
+  "name": "c58_elseif_nested_if",
+  "value": 4,
+  "metric": "cyclomatic",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 432,
+  "end_line": 443,
+  "name": "c63_labeled_continue",
+  "value": 7,
+  "metric": "cognitive",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {
+   "cyclomatic": 4,
+   "points": [
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 434,
+       "column": 7
+      },
+      "end": {
+       "line": 441,
+       "column": 3
+      }
+     },
+     "message": "+1: for"
+    },
+    {
+     "complexity": 2,
+     "location": {
+      "start": {
+       "line": 435,
+       "column": 4
+      },
+      "end": {
+       "line": 439,
+       "column": 5
+      }
+     },
+     "message": "+2 (incl. 1 for nesting): for"
+    },
+    {
+     "complexity": 3,
+     "location": {
+      "start": {
+       "line": 436,
+       "column": 6
+      },
+      "end": {
+       "line": 438,
+       "column": 7
+      }
+     },
+     "message": "+3 (incl. 2 for nesting): if"
+    },
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 437,
+       "column": 8
+      },
+      "end": {
+       "line": 437,
+       "column": 21
+      }
+     },
+     "message": "+1: continue to label 'OUT'"
+    }
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 432,
+  "end_line": 443,
+  "name": "c63_labeled_continue",
+  "value": 4,
+  "metric": "cyclomatic",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 445,
+  "end_line": 452,
+  "name": "c64_labeled_break_to_enclosing",
+  "value": 4,
+  "metric": "cognitive",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {
+   "cyclomatic": 3,
+   "points": [
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 446,
+       "column": 8
+      },
+      "end": {
+       "line": 450,
+       "column": 3
+      }
+     },
+     "message": "+1: for-of"
+    },
+    {
+     "complexity": 2,
+     "location": {
+      "start": {
+       "line": 447,
+       "column": 4
+      },
+      "end": {
+       "line": 449,
+       "column": 5
+      }
+     },
+     "message": "+2 (incl. 1 for nesting): if"
+    },
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 448,
+       "column": 6
+      },
+      "end": {
+       "line": 448,
+       "column": 17
+      }
+     },
+     "message": "+1: break to label 'LOOP'"
+    }
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 445,
+  "end_line": 452,
+  "name": "c64_labeled_break_to_enclosing",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 454,
+  "end_line": 464,
+  "name": "c74_switch_with_nested_if",
+  "value": 3,
+  "metric": "cognitive",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {
+   "cyclomatic": 3,
+   "points": [
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 455,
+       "column": 2
+      },
+      "end": {
+       "line": 463,
+       "column": 3
+      }
+     },
+     "message": "+1: switch"
+    },
+    {
+     "complexity": 2,
+     "location": {
+      "start": {
+       "line": 457,
+       "column": 6
+      },
+      "end": {
+       "line": 459,
+       "column": 7
+      }
+     },
+     "message": "+2 (incl. 1 for nesting): if"
+    }
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 454,
+  "end_line": 464,
+  "name": "c74_switch_with_nested_if",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 467,
+  "end_line": 472,
+  "name": "anonymous_62",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {
+   "cyclomatic": 2,
+   "points": [
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 468,
+       "column": 4
+      },
+      "end": {
+       "line": 470,
+       "column": 5
+      }
+     },
+     "message": "+1: if"
+    }
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 467,
+  "end_line": 472,
+  "name": "anonymous_62",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 467,
+  "end_line": 472,
+  "name": "f",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {
+   "cyclomatic": 1,
+   "points": [
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 467,
+       "column": 27
+      },
+      "end": {
+       "line": 472,
+       "column": 3
+      }
+     },
+     "message": "+1: nested arrow function"
+    }
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 467,
+  "end_line": 472,
+  "name": "f",
+  "value": 1,
+  "metric": "cyclomatic",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 466,
+  "end_line": 474,
+  "name": "c76_arrow_in_arrow",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {
+   "cyclomatic": 1,
+   "points": [
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 467,
+       "column": 12
+      },
+      "end": {
+       "line": 472,
+       "column": 3
+      }
+     },
+     "message": "+1: nested arrow function"
+    }
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 466,
+  "end_line": 474,
+  "name": "c76_arrow_in_arrow",
+  "value": 1,
+  "metric": "cyclomatic",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 476,
+  "end_line": 481,
+  "name": "c79_or_not_paren_or",
+  "value": 3,
+  "metric": "cognitive",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {
+   "cyclomatic": 4,
+   "points": [
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 477,
+       "column": 2
+      },
+      "end": {
+       "line": 479,
+       "column": 3
+      }
+     },
+     "message": "+1: if"
+    },
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 477,
+       "column": 6
+      },
+      "end": {
+       "line": 477,
+       "column": 20
+      }
+     },
+     "message": "+1: logical operator '||'"
+    },
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 477,
+       "column": 13
+      },
+      "end": {
+       "line": 477,
+       "column": 19
+      }
+     },
+     "message": "+1: logical operator '||'"
+    }
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 476,
+  "end_line": 481,
+  "name": "c79_or_not_paren_or",
+  "value": 4,
+  "metric": "cyclomatic",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 483,
+  "end_line": 486,
+  "name": "c80_bool_and_ternary_top_level",
+  "value": 2,
+  "metric": "cognitive",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {
+   "cyclomatic": 3,
+   "points": [
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 484,
+       "column": 12
+      },
+      "end": {
+       "line": 484,
+       "column": 28
+      }
+     },
+     "message": "+1: ternary operator"
+    },
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 484,
+       "column": 13
+      },
+      "end": {
+       "line": 484,
+       "column": 19
+      }
+     },
+     "message": "+1: logical operator '||'"
+    }
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 483,
+  "end_line": 486,
+  "name": "c80_bool_and_ternary_top_level",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 488,
+  "end_line": 490,
+  "name": "c81_nullish_coalescing",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {
+   "cyclomatic": 2,
+   "points": [
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 489,
+       "column": 9
+      },
+      "end": {
+       "line": 489,
+       "column": 15
+      }
+     },
+     "message": "+1: logical operator '??'"
+    }
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 488,
+  "end_line": 490,
+  "name": "c81_nullish_coalescing",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 492,
+  "end_line": 494,
+  "name": "c82_optional_chaining",
+  "value": 0,
+  "metric": "cognitive",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {
+   "cyclomatic": 3,
+   "points": []
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 492,
+  "end_line": 494,
+  "name": "c82_optional_chaining",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 496,
+  "end_line": 498,
+  "name": "c83_nullish_then_or",
+  "value": 2,
+  "metric": "cognitive",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {
+   "cyclomatic": 3,
+   "points": [
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 497,
+       "column": 9
+      },
+      "end": {
+       "line": 497,
+       "column": 22
+      }
+     },
+     "message": "+1: logical operator '||'"
+    },
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 497,
+       "column": 10
+      },
+      "end": {
+       "line": 497,
+       "column": 16
+      }
+     },
+     "message": "+1: logical operator '??'"
+    }
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 496,
+  "end_line": 498,
+  "name": "c83_nullish_then_or",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 501,
+  "end_line": 501,
+  "name": "anonymous_70",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {
+   "cyclomatic": 2,
+   "points": [
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 501,
+       "column": 29
+      },
+      "end": {
+       "line": 501,
+       "column": 39
+      }
+     },
+     "message": "+1: logical operator '&&'"
+    }
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 501,
+  "end_line": 501,
+  "name": "anonymous_70",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 500,
+  "end_line": 502,
+  "name": "c84_and_in_jsx_like_callback",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {
+   "cyclomatic": 1,
+   "points": [
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 501,
+       "column": 22
+      },
+      "end": {
+       "line": 501,
+       "column": 39
+      }
+     },
+     "message": "+1: nested arrow function"
+    }
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 500,
+  "end_line": 502,
+  "name": "c84_and_in_jsx_like_callback",
+  "value": 1,
+  "metric": "cyclomatic",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 504,
+  "end_line": 507,
+  "name": "c85_async_await",
+  "value": 0,
+  "metric": "cognitive",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {
+   "cyclomatic": 1,
+   "points": []
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 504,
+  "end_line": 507,
+  "name": "c85_async_await",
+  "value": 1,
+  "metric": "cyclomatic",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 509,
+  "end_line": 513,
+  "name": "c86_generator",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {
+   "cyclomatic": 2,
+   "points": [
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 510,
+       "column": 2
+      },
+      "end": {
+       "line": 512,
+       "column": 3
+      }
+     },
+     "message": "+1: for-of"
+    }
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 509,
+  "end_line": 513,
+  "name": "c86_generator",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 516,
+  "end_line": 521,
+  "name": "c87_method_if",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {
+   "cyclomatic": 2,
+   "points": [
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 517,
+       "column": 4
+      },
+      "end": {
+       "line": 519,
+       "column": 5
+      }
+     },
+     "message": "+1: if"
+    }
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 516,
+  "end_line": 521,
+  "name": "c87_method_if",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 523,
+  "end_line": 525,
+  "name": "c88_getter_ternary",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {
+   "cyclomatic": 2,
+   "points": [
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 524,
+       "column": 11
+      },
+      "end": {
+       "line": 524,
+       "column": 25
+      }
+     },
+     "message": "+1: ternary operator"
+    }
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 523,
+  "end_line": 525,
+  "name": "c88_getter_ternary",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 527,
+  "end_line": 532,
+  "name": "c89_method_recursion",
+  "value": 2,
+  "metric": "cognitive",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {
+   "cyclomatic": 2,
+   "points": [
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 528,
+       "column": 4
+      },
+      "end": {
+       "line": 530,
+       "column": 5
+      }
+     },
+     "message": "+1: if"
+    },
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 531,
+       "column": 11
+      },
+      "end": {
+       "line": 531,
+       "column": 43
+      }
+     },
+     "message": "+1: recursive call"
+    }
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 527,
+  "end_line": 532,
+  "name": "c89_method_recursion",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 534,
+  "end_line": 534,
+  "name": "x",
+  "value": 0,
+  "metric": "cognitive",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {
+   "cyclomatic": 1,
+   "points": []
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 534,
+  "end_line": 534,
+  "name": "x",
+  "value": 1,
+  "metric": "cyclomatic",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 537,
+  "end_line": 542,
+  "name": "c90_arrow_const",
+  "value": 2,
+  "metric": "cognitive",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {
+   "cyclomatic": 3,
+   "points": [
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 538,
+       "column": 2
+      },
+      "end": {
+       "line": 540,
+       "column": 3
+      }
+     },
+     "message": "+1: if"
+    },
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 538,
+       "column": 6
+      },
+      "end": {
+       "line": 538,
+       "column": 12
+      }
+     },
+     "message": "+1: logical operator '&&'"
+    }
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 537,
+  "end_line": 542,
+  "name": "c90_arrow_const",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 544,
+  "end_line": 549,
+  "name": "c91_typeof_guard",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {
+   "cyclomatic": 2,
+   "points": [
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 545,
+       "column": 2
+      },
+      "end": {
+       "line": 547,
+       "column": 3
+      }
+     },
+     "message": "+1: if"
+    }
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 544,
+  "end_line": 549,
+  "name": "c91_typeof_guard",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 566,
+  "end_line": 584,
+  "name": "anonymous_80",
+  "value": 7,
+  "metric": "cognitive",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {
+   "cyclomatic": 5,
+   "points": [
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 568,
+       "column": 10
+      },
+      "end": {
+       "line": 582,
+       "column": 11
+      }
+     },
+     "message": "+1: if"
+    },
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 568,
+       "column": 10
+      },
+      "end": {
+       "line": 582,
+       "column": 11
+      }
+     },
+     "message": "+1: else"
+    },
+    {
+     "complexity": 2,
+     "location": {
+      "start": {
+       "line": 573,
+       "column": 12
+      },
+      "end": {
+       "line": 575,
+       "column": 13
+      }
+     },
+     "message": "+2 (incl. 1 for nesting): if"
+    },
+    {
+     "complexity": 2,
+     "location": {
+      "start": {
+       "line": 576,
+       "column": 12
+      },
+      "end": {
+       "line": 579,
+       "column": 13
+      }
+     },
+     "message": "+2 (incl. 1 for nesting): if"
+    },
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 583,
+       "column": 10
+      },
+      "end": {
+       "line": 583,
+       "column": 53
+      }
+     },
+     "message": "+1: logical operator '&&'"
+    }
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 566,
+  "end_line": 584,
+  "name": "anonymous_80",
+  "value": 5,
+  "metric": "cyclomatic",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 560,
+  "end_line": 585,
+  "name": "anonymous_81",
+  "value": 4,
+  "metric": "cognitive",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {
+   "cyclomatic": 4,
+   "points": [
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 561,
+       "column": 6
+      },
+      "end": {
+       "line": 564,
+       "column": 7
+      }
+     },
+     "message": "+1: if"
+    },
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 562,
+       "column": 8
+      },
+      "end": {
+       "line": 562,
+       "column": 44
+      }
+     },
+     "message": "+1: logical operator '&&'"
+    },
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 565,
+       "column": 16
+      },
+      "end": {
+       "line": 565,
+       "column": 50
+      }
+     },
+     "message": "+1: ternary operator"
+    },
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 566,
+       "column": 17
+      },
+      "end": {
+       "line": 584,
+       "column": 9
+      }
+     },
+     "message": "+1: nested function"
+    }
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 560,
+  "end_line": 585,
+  "name": "anonymous_81",
+  "value": 4,
+  "metric": "cyclomatic",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 553,
+  "end_line": 587,
+  "name": "save",
+  "value": 3,
+  "metric": "cognitive",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {
+   "cyclomatic": 3,
+   "points": [
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 555,
+       "column": 4
+      },
+      "end": {
+       "line": 558,
+       "column": 5
+      }
+     },
+     "message": "+1: if"
+    },
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 559,
+       "column": 4
+      },
+      "end": {
+       "line": 559,
+       "column": 29
+      }
+     },
+     "message": "+1: logical operator '||'"
+    },
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 560,
+       "column": 34
+      },
+      "end": {
+       "line": 585,
+       "column": 5
+      }
+     },
+     "message": "+1: nested function"
+    }
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 553,
+  "end_line": 587,
+  "name": "save",
+  "value": 3,
+  "metric": "cyclomatic",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {}
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 591,
+  "end_line": 596,
+  "name": "c103_recursion_two_calls",
+  "value": 2,
+  "metric": "cognitive",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {
+   "cyclomatic": 2,
+   "points": [
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 592,
+       "column": 2
+      },
+      "end": {
+       "line": 594,
+       "column": 3
+      }
+     },
+     "message": "+1: if"
+    },
+    {
+     "complexity": 1,
+     "location": {
+      "start": {
+       "line": 595,
+       "column": 9
+      },
+      "end": {
+       "line": 595,
+       "column": 40
+      }
+     },
+     "message": "+1: recursive call"
+    }
+   ]
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 591,
+  "end_line": 596,
+  "name": "c103_recursion_two_calls",
+  "value": 2,
+  "metric": "cyclomatic",
+  "tool": "oxlint-plugin-complexity",
+  "extra": {}
+ },
+ {
+  "file": "",
+  "line": null,
+  "end_line": null,
+  "name": "",
+  "value": null,
+  "metric": "meta",
+  "tool": "oxlint",
+  "extra": {
+   "errors": [],
+   "n_errors": 0
+  }
+ }
+]

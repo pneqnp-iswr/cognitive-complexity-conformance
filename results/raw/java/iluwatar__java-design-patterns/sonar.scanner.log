@@ -1,0 +1,121 @@
+04:06:05.918 INFO  Scanner configuration file: <LOCAL_PATH>/OneDrive\Documents\Conferences\research\tools\sonar-scanner-8.1.0.6389-windows-x64\bin\..\conf\sonar-scanner.properties
+04:06:05.921 INFO  Project root configuration file: NONE
+04:06:05.935 INFO  SonarScanner CLI 8.1.0.6389
+04:06:05.941 INFO  Windows 11 10.0 amd64
+04:06:08.737 INFO  Communicating with SonarQube Community Build 26.9.0.129388
+04:06:08.737 INFO  JRE provisioning: os[windows], arch[amd64]
+04:06:09.137 INFO  Starting SonarScanner Engine...
+04:06:09.138 INFO  Java 21.0.11 Eclipse Adoptium (64-bit)
+04:06:11.907 INFO  Load global settings
+04:06:11.997 INFO  Load global settings (done) | time=88ms
+04:06:12.000 INFO  Server id: 147B411E-AaCseIXKLwHTWvrBJNod
+04:06:12.008 INFO  Loading required plugins
+04:06:12.008 INFO  Load plugins index
+04:06:12.020 INFO  Load plugins index (done) | time=12ms
+04:06:12.020 INFO  Load/download plugins
+04:06:12.048 INFO  Load/download plugins (done) | time=28ms
+04:06:12.409 INFO  Process project properties
+04:06:12.433 INFO  Process project properties (done) | time=23ms
+04:06:12.446 INFO  Project key: cc-java-iluwatar__java-design-patterns
+04:06:12.446 INFO  Base dir: <LOCAL_PATH>/OneDrive\Documents\Conferences\research\data\raw_repos\iluwatar__java-design-patterns
+04:06:12.447 INFO  Working dir: <LOCAL_PATH>/OneDrive\Documents\Conferences\research\data\raw_repos\iluwatar__java-design-patterns\.scannerwork
+04:06:12.456 INFO  Load project settings for component key: 'cc-java-iluwatar__java-design-patterns'
+04:06:12.485 INFO  Load quality profiles
+04:06:12.526 INFO  Load quality profiles (done) | time=42ms
+04:06:12.562 INFO  Load active rules
+04:06:12.740 INFO  Load active rules (done) | time=178ms
+04:06:12.748 INFO  Load analysis cache
+04:06:12.752 INFO  Load analysis cache (404) | time=5ms
+04:06:13.033 INFO  Preprocessing files...
+04:06:20.501 INFO  1 language detected in 2042 preprocessed files (done) | time=7468ms
+04:06:20.502 INFO  1813 files ignored because of inclusion/exclusion patterns
+04:06:20.503 INFO  Loading plugins for detected languages
+04:06:20.504 INFO  Load/download plugins
+04:06:20.517 INFO  Load/download plugins (done) | time=13ms
+04:06:20.646 INFO  Load project repositories
+04:06:20.653 INFO  Load project repositories (done) | time=6ms
+04:06:20.670 INFO  Indexing files...
+04:06:20.670 INFO  Project configuration:
+04:06:20.670 INFO    Included sources: **/*.java
+04:06:20.670 INFO    Excluded sources: **/node_modules/**, **/vendor/**, **/third_party/**, **/*.min.js
+04:06:20.671 INFO    Excluded sources for duplication: **/*
+04:06:20.871 INFO  2042 files indexed (done) | time=200ms
+04:06:20.872 INFO  Quality profile for java: cc-study-java
+04:06:20.872 INFO  ------------- Run sensors on module cc-java-iluwatar__java-design-patterns
+04:06:20.938 INFO  Load metrics repository
+04:06:20.957 INFO  Load metrics repository (done) | time=21ms
+04:06:21.539 INFO  Sensor IaC YAML File Type Classification Sensor [iac]
+04:06:21.570 INFO  Sensor IaC YAML File Type Classification Sensor [iac] (done) | time=32ms
+04:06:21.570 INFO  Sensor JavaSensor [java]
+04:06:21.620 INFO  Configured Java source version (sonar.java.source): 21, preview features enabled (sonar.java.enablePreview): false
+04:06:21.664 INFO  Server-side caching is enabled. The Java analyzer will not try to leverage data from a previous analysis.
+04:06:21.669 INFO  Using ECJ batch to parse 2042 Main java source files with batch size 421 KB.
+04:06:22.127 INFO  Starting batch processing.
+04:06:22.932 INFO  The Java analyzer cannot skip unchanged files in this context. A full analysis is performed for all files.
+04:06:43.118 INFO  100% analyzed
+04:06:43.118 INFO  Batch processing: Done.
+04:06:43.119 INFO  Did not optimize analysis for any files, performed a full analysis for all 2042 files.
+04:06:43.119 WARN  Missing 'sonar.java.libraries' property. You might end up with less precise analysis results.
+04:06:43.123 WARN  Unresolved imports/types have been detected during analysis. Enable DEBUG mode to see them.
+04:06:43.125 WARN  Use of preview features have been detected during analysis. Enable DEBUG mode to see them.
+04:06:43.126 INFO  No "Test" source files to scan.
+04:06:43.126 INFO  No "Generated" source files to scan.
+04:06:43.127 INFO  Sensor JavaSensor [java] (done) | time=21558ms
+04:06:43.128 INFO  Sensor JaCoCo XML Report Importer [jacoco]
+04:06:43.129 INFO  'sonar.coverage.jacoco.xmlReportPaths' is not defined. Using default locations: target/site/jacoco/jacoco.xml,target/site/jacoco-it/jacoco.xml,build/reports/jacoco/test/jacocoTestReport.xml
+04:06:43.130 INFO  No report imported, no coverage information will be imported by JaCoCo XML Report Importer
+04:06:43.130 INFO  Sensor JaCoCo XML Report Importer [jacoco] (done) | time=3ms
+04:06:43.130 INFO  Sensor IaC hadolint report Sensor [iac]
+04:06:43.131 INFO  Sensor IaC hadolint report Sensor [iac] (done) | time=0ms
+04:06:43.131 INFO  Sensor Java Config Sensor [iac]
+04:06:43.131 INFO  There are no files to be analyzed for the Java language
+04:06:43.131 INFO  Sensor Java Config Sensor [iac] (done) | time=0ms
+04:06:43.131 INFO  Sensor IaC Docker Sensor [iac]
+04:06:43.154 INFO  There are no files to be analyzed for the Docker language
+04:06:43.154 INFO  Sensor IaC Docker Sensor [iac] (done) | time=21ms
+04:06:43.154 INFO  Sensor SurefireSensor [java]
+04:06:43.154 INFO  parsing [<LOCAL_PATH>/OneDrive\Documents\Conferences\research\data\raw_repos\iluwatar__java-design-patterns\target\surefire-reports]
+04:06:43.155 INFO  Sensor SurefireSensor [java] (done) | time=2ms
+04:06:43.155 INFO  Sensor TextAndSecretsSensor [text]
+04:06:43.213 INFO  Available processors: 24
+04:06:43.213 INFO  Using 24 threads for analysis.
+04:06:43.431 INFO  The property "sonar.tests" is not set. To improve the analysis accuracy, we categorize a file as a test file if any of the following is true:
+  * The filename starts with "test"
+  * The filename contains "test." or "tests."
+  * Any directory in the file path is named: "doc", "docs", "test", "tests", "mock" or "mocks"
+  * Any directory in the file path has a name ending in "test" or "tests"
+
+04:06:43.467 INFO  Start fetching files for the text and secrets analysis
+04:06:43.578 INFO  Using Git CLI to retrieve dirty files
+04:06:43.797 INFO  Retrieving language associated files and files included via "sonar.text.inclusions" that are tracked by git
+04:06:43.799 INFO  Starting the text and secrets analysis
+04:06:43.803 INFO  2042 source files to be analyzed for the text and secrets analysis
+04:06:44.178 INFO  2042/2042 source files have been analyzed for the text and secrets analysis
+04:06:44.178 INFO  Skipped 655 file(s) in the secrets analysis due to automatic test file detection
+04:06:44.188 INFO  Sensor TextAndSecretsSensor [text] (done) | time=1031ms
+04:06:44.198 INFO  ------------- Run sensors on project
+04:06:44.400 INFO  Sensor JaCoCo Aggregate XML Report Importer [jacoco]
+04:06:44.401 INFO  Sensor JaCoCo Aggregate XML Report Importer [jacoco] (done) | time=0ms
+04:06:44.401 INFO  Sensor IaC Project Sensor [iac]
+04:06:44.402 INFO  Sensor IaC Project Sensor [iac] (done) | time=1ms
+04:06:44.402 INFO  Sensor JavaProjectSensor [java]
+04:06:44.405 INFO  Sensor JavaProjectSensor [java] (done) | time=3ms
+04:06:44.405 INFO  Sensor Zero Coverage Sensor
+04:06:45.448 INFO  Sensor Zero Coverage Sensor (done) | time=1042ms
+04:06:45.448 INFO  Sensor Java CPD Block Indexer
+04:06:45.449 INFO  Sensor Java CPD Block Indexer (done) | time=1ms
+04:06:45.449 INFO  ------------- Gather SCA dependencies on project
+04:06:45.454 INFO  Dependency analysis skipped
+04:06:45.456 INFO  SCM Publisher is disabled
+04:06:45.457 INFO  CPD Executor Calculating CPD for 0 files
+04:06:45.457 INFO  CPD Executor CPD calculation finished (done) | time=0ms
+04:06:48.081 INFO  Analysis report generated in 2148ms, dir size=9.0 MB
+04:07:54.325 INFO  Analysis report compressed in 66243ms, zip size=6.0 MB
+04:07:54.535 INFO  Analysis report uploaded in 209ms
+04:07:54.537 INFO  ANALYSIS SUCCESSFUL, you can find the results at: http://localhost:9000/dashboard?id=cc-java-iluwatar__java-design-patterns
+04:07:54.537 INFO  Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+04:07:54.537 INFO  More about the report processing at http://localhost:9000/api/ce/task?id=d9d436f2-4414-4e85-b26a-53a3fa90b1fa
+04:07:57.969 INFO  Analysis total time: 1:45.869 s
+04:07:57.997 INFO  SonarScanner Engine completed successfully
+04:07:58.059 INFO  EXECUTION SUCCESS
+04:07:58.060 INFO  Total time: 1:52.145s

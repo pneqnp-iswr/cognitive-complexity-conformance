@@ -1,0 +1,114 @@
+Copyright (c) 2026 Rafig Huseynzade
+
+This package is not covered by a single licence. Three regimes apply, by path.
+
+================================================================================
+1. MIT LICENSE — the author's software
+================================================================================
+
+Applies to the build, harness and analysis code written for this study:
+
+  src/                     the measurement library (ccstudy) and the Node adapters
+  scripts/                 the harness, analysis, figure/table and audit-sampling
+                           scripts, including the shell script
+                           scripts/reproduce_analysis.sh
+  experiments/pmd-cc.xml, experiments/sandbox/pmd-cc.xml,
+  experiments/sandbox/.oxlintrc.json                   tool configuration
+  experiments/sandbox*/, experiments/go_err_probe/     author-written probe inputs
+  experiments/ccts_probe/a2.ts, a3.ts                  author-written probe inputs
+  experiments/microcorpus/{python,java,javascript,go}/ the micro-corpus sources,
+                           EXCEPT the cases derived from the white paper's worked
+                           examples, which regime 3 covers
+
+SPDX-License-Identifier: MIT
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+================================================================================
+2. CREATIVE COMMONS ATTRIBUTION 4.0 INTERNATIONAL (CC BY 4.0) — the author's
+   data, documentation and figures
+================================================================================
+
+Applies to the measurements, tables, figures and written research record:
+
+  data/                    the corpus selection and its manifests
+  results/                 raw tool outputs and processed result tables
+  figures/                 the generated figures
+  tables/                  the generated tables
+  experiments/microcorpus/expected.csv     the expected values, ambiguity labels,
+                           target rules and notes of the micro-corpus
+  reproduction/            the reproduction documentation and pinned environment
+  the documentation and metadata at the repository root: RESEARCH_CONTRACT.md,
+  EXPERIMENT_PROTOCOL.md, README.md, CITATION.cff, ARTIFACT_MANIFEST.json
+
+SPDX-License-Identifier: CC-BY-4.0
+
+You are free to share and adapt this material for any purpose, including
+commercially, provided you give appropriate credit, link to the licence, and
+indicate whether changes were made. The full licence text is at
+https://creativecommons.org/licenses/by/4.0/legalcode
+
+Suggested attribution: Rafig Huseynzade, "One Specification, Many Numbers:
+Conformance of Cognitive Complexity Implementations Across Four Languages",
+replication package, 2026, CC BY 4.0.
+
+Note on the measurements: the file paths, function names and repository names
+inside data/ and results/ are identifiers of third-party repositories. The
+CC BY 4.0 grant above covers this study's compilation and measurements; it does
+not, and cannot, relicense anything belonging to those repositories. See
+THIRD_PARTY_NOTICE.md section 1.
+
+================================================================================
+3. EVERYTHING ELSE — see THIRD_PARTY_NOTICE.md
+================================================================================
+
+Neither grant above applies to third-party material. THIRD_PARTY_NOTICE.md
+enumerates every third-party item that remains in this package, names the rights
+holder, states the basis on which it is included, and says what a re-user must do.
+In particular, and without limiting that file:
+
+  references/spec/cognitive_complexity_spec_rules.md
+        is the author's paraphrase of the SonarSource Cognitive Complexity white
+        paper v1.7 (Copyright SonarSource S.A., 2023, Switzerland; "All content
+        is copyright protected") and of the RSPEC-3776 rule description, and is
+        CC BY 4.0 as the author's own writing — except for the short quoted
+        phrases it carries, which remain SonarSource's and are excluded from both
+        grants above. THIRD_PARTY_NOTICE.md section 3 measures their extent.
+
+  the Appendix C and Appendix A.3 cases inside experiments/microcorpus/
+        are derived from the white paper's worked examples and, for Appendix C,
+        from the upstream projects it names. Excluded from both grants above.
+        See experiments/microcorpus/ATTRIBUTION.md.
+
+  the analyzer messages and increment labels inside results/raw/microcorpus/sonar_*.json
+  and the scanner logs results/raw/*/*/sonar.scanner.log and
+  results/raw/microcorpus/sonar_*.scanner.log
+        are emitted by SonarSource software and remain SonarSource's.
+
+  the npm and PyPI metadata in reproduction/
+        describes third-party packages that are not distributed here; each
+        package is governed by its own licence when you install it.
+
+  the subject repositories measured by this study
+        are not distributed here at all. Re-obtain them at the commit SHAs in
+        data/repos/manifest.csv, under each repository's own licence; several are
+        non-commercial, source-available or copyleft (see data/repos/LICENSES.md).
+
+If this file and THIRD_PARTY_NOTICE.md ever disagree about a path, the more
+restrictive reading applies until the discrepancy is resolved.

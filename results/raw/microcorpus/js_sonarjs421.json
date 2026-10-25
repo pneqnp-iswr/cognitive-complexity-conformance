@@ -1,0 +1,819 @@
+[
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 8,
+  "end_line": 8,
+  "name": "",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "eslint-plugin-sonarjs-4.2.1",
+  "extra": {
+   "secondaries": null
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 15,
+  "end_line": 15,
+  "name": "",
+  "value": 2,
+  "metric": "cognitive",
+  "tool": "eslint-plugin-sonarjs-4.2.1",
+  "extra": {
+   "secondaries": null
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 23,
+  "end_line": 23,
+  "name": "",
+  "value": 4,
+  "metric": "cognitive",
+  "tool": "eslint-plugin-sonarjs-4.2.1",
+  "extra": {
+   "secondaries": null
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 35,
+  "end_line": 35,
+  "name": "",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "eslint-plugin-sonarjs-4.2.1",
+  "extra": {
+   "secondaries": null
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 39,
+  "end_line": 39,
+  "name": "",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "eslint-plugin-sonarjs-4.2.1",
+  "extra": {
+   "secondaries": null
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 50,
+  "end_line": 50,
+  "name": "",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "eslint-plugin-sonarjs-4.2.1",
+  "extra": {
+   "secondaries": null
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 56,
+  "end_line": 56,
+  "name": "",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "eslint-plugin-sonarjs-4.2.1",
+  "extra": {
+   "secondaries": null
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 62,
+  "end_line": 62,
+  "name": "",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "eslint-plugin-sonarjs-4.2.1",
+  "extra": {
+   "secondaries": null
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 68,
+  "end_line": 68,
+  "name": "",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "eslint-plugin-sonarjs-4.2.1",
+  "extra": {
+   "secondaries": null
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 75,
+  "end_line": 75,
+  "name": "",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "eslint-plugin-sonarjs-4.2.1",
+  "extra": {
+   "secondaries": null
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 82,
+  "end_line": 82,
+  "name": "",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "eslint-plugin-sonarjs-4.2.1",
+  "extra": {
+   "secondaries": null
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 90,
+  "end_line": 90,
+  "name": "",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "eslint-plugin-sonarjs-4.2.1",
+  "extra": {
+   "secondaries": null
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 106,
+  "end_line": 106,
+  "name": "",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "eslint-plugin-sonarjs-4.2.1",
+  "extra": {
+   "secondaries": null
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 116,
+  "end_line": 116,
+  "name": "",
+  "value": 3,
+  "metric": "cognitive",
+  "tool": "eslint-plugin-sonarjs-4.2.1",
+  "extra": {
+   "secondaries": null
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 125,
+  "end_line": 125,
+  "name": "",
+  "value": 6,
+  "metric": "cognitive",
+  "tool": "eslint-plugin-sonarjs-4.2.1",
+  "extra": {
+   "secondaries": null
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 136,
+  "end_line": 136,
+  "name": "",
+  "value": 3,
+  "metric": "cognitive",
+  "tool": "eslint-plugin-sonarjs-4.2.1",
+  "extra": {
+   "secondaries": null
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 147,
+  "end_line": 147,
+  "name": "",
+  "value": 2,
+  "metric": "cognitive",
+  "tool": "eslint-plugin-sonarjs-4.2.1",
+  "extra": {
+   "secondaries": null
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 158,
+  "end_line": 158,
+  "name": "",
+  "value": 4,
+  "metric": "cognitive",
+  "tool": "eslint-plugin-sonarjs-4.2.1",
+  "extra": {
+   "secondaries": null
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 169,
+  "end_line": 169,
+  "name": "",
+  "value": 4,
+  "metric": "cognitive",
+  "tool": "eslint-plugin-sonarjs-4.2.1",
+  "extra": {
+   "secondaries": null
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 180,
+  "end_line": 180,
+  "name": "",
+  "value": 3,
+  "metric": "cognitive",
+  "tool": "eslint-plugin-sonarjs-4.2.1",
+  "extra": {
+   "secondaries": null
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 184,
+  "end_line": 184,
+  "name": "",
+  "value": 2,
+  "metric": "cognitive",
+  "tool": "eslint-plugin-sonarjs-4.2.1",
+  "extra": {
+   "secondaries": null
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 191,
+  "end_line": 191,
+  "name": "",
+  "value": 2,
+  "metric": "cognitive",
+  "tool": "eslint-plugin-sonarjs-4.2.1",
+  "extra": {
+   "secondaries": null
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 198,
+  "end_line": 198,
+  "name": "",
+  "value": 2,
+  "metric": "cognitive",
+  "tool": "eslint-plugin-sonarjs-4.2.1",
+  "extra": {
+   "secondaries": null
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 205,
+  "end_line": 205,
+  "name": "",
+  "value": 2,
+  "metric": "cognitive",
+  "tool": "eslint-plugin-sonarjs-4.2.1",
+  "extra": {
+   "secondaries": null
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 212,
+  "end_line": 212,
+  "name": "",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "eslint-plugin-sonarjs-4.2.1",
+  "extra": {
+   "secondaries": null
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 219,
+  "end_line": 219,
+  "name": "",
+  "value": 2,
+  "metric": "cognitive",
+  "tool": "eslint-plugin-sonarjs-4.2.1",
+  "extra": {
+   "secondaries": null
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 226,
+  "end_line": 226,
+  "name": "",
+  "value": 2,
+  "metric": "cognitive",
+  "tool": "eslint-plugin-sonarjs-4.2.1",
+  "extra": {
+   "secondaries": null
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 233,
+  "end_line": 233,
+  "name": "",
+  "value": 3,
+  "metric": "cognitive",
+  "tool": "eslint-plugin-sonarjs-4.2.1",
+  "extra": {
+   "secondaries": null
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 240,
+  "end_line": 240,
+  "name": "",
+  "value": 2,
+  "metric": "cognitive",
+  "tool": "eslint-plugin-sonarjs-4.2.1",
+  "extra": {
+   "secondaries": null
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 247,
+  "end_line": 247,
+  "name": "",
+  "value": 2,
+  "metric": "cognitive",
+  "tool": "eslint-plugin-sonarjs-4.2.1",
+  "extra": {
+   "secondaries": null
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 254,
+  "end_line": 254,
+  "name": "",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "eslint-plugin-sonarjs-4.2.1",
+  "extra": {
+   "secondaries": null
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 263,
+  "end_line": 263,
+  "name": "",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "eslint-plugin-sonarjs-4.2.1",
+  "extra": {
+   "secondaries": null
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 272,
+  "end_line": 272,
+  "name": "",
+  "value": 3,
+  "metric": "cognitive",
+  "tool": "eslint-plugin-sonarjs-4.2.1",
+  "extra": {
+   "secondaries": null
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 279,
+  "end_line": 279,
+  "name": "",
+  "value": 5,
+  "metric": "cognitive",
+  "tool": "eslint-plugin-sonarjs-4.2.1",
+  "extra": {
+   "secondaries": null
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 291,
+  "end_line": 291,
+  "name": "",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "eslint-plugin-sonarjs-4.2.1",
+  "extra": {
+   "secondaries": null
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 299,
+  "end_line": 299,
+  "name": "",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "eslint-plugin-sonarjs-4.2.1",
+  "extra": {
+   "secondaries": null
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 306,
+  "end_line": 306,
+  "name": "",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "eslint-plugin-sonarjs-4.2.1",
+  "extra": {
+   "secondaries": null
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 313,
+  "end_line": 313,
+  "name": "",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "eslint-plugin-sonarjs-4.2.1",
+  "extra": {
+   "secondaries": null
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 321,
+  "end_line": 321,
+  "name": "",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "eslint-plugin-sonarjs-4.2.1",
+  "extra": {
+   "secondaries": null
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 326,
+  "end_line": 326,
+  "name": "",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "eslint-plugin-sonarjs-4.2.1",
+  "extra": {
+   "secondaries": null
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 336,
+  "end_line": 336,
+  "name": "",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "eslint-plugin-sonarjs-4.2.1",
+  "extra": {
+   "secondaries": null
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 345,
+  "end_line": 345,
+  "name": "",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "eslint-plugin-sonarjs-4.2.1",
+  "extra": {
+   "secondaries": null
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 347,
+  "end_line": 347,
+  "name": "",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "eslint-plugin-sonarjs-4.2.1",
+  "extra": {
+   "secondaries": null
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 360,
+  "end_line": 360,
+  "name": "",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "eslint-plugin-sonarjs-4.2.1",
+  "extra": {
+   "secondaries": null
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 369,
+  "end_line": 369,
+  "name": "",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "eslint-plugin-sonarjs-4.2.1",
+  "extra": {
+   "secondaries": null
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 375,
+  "end_line": 375,
+  "name": "",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "eslint-plugin-sonarjs-4.2.1",
+  "extra": {
+   "secondaries": null
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 384,
+  "end_line": 384,
+  "name": "",
+  "value": 10,
+  "metric": "cognitive",
+  "tool": "eslint-plugin-sonarjs-4.2.1",
+  "extra": {
+   "secondaries": null
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 397,
+  "end_line": 397,
+  "name": "",
+  "value": 6,
+  "metric": "cognitive",
+  "tool": "eslint-plugin-sonarjs-4.2.1",
+  "extra": {
+   "secondaries": null
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 409,
+  "end_line": 409,
+  "name": "",
+  "value": 2,
+  "metric": "cognitive",
+  "tool": "eslint-plugin-sonarjs-4.2.1",
+  "extra": {
+   "secondaries": null
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 419,
+  "end_line": 419,
+  "name": "",
+  "value": 5,
+  "metric": "cognitive",
+  "tool": "eslint-plugin-sonarjs-4.2.1",
+  "extra": {
+   "secondaries": null
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 432,
+  "end_line": 432,
+  "name": "",
+  "value": 7,
+  "metric": "cognitive",
+  "tool": "eslint-plugin-sonarjs-4.2.1",
+  "extra": {
+   "secondaries": null
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 445,
+  "end_line": 445,
+  "name": "",
+  "value": 4,
+  "metric": "cognitive",
+  "tool": "eslint-plugin-sonarjs-4.2.1",
+  "extra": {
+   "secondaries": null
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 454,
+  "end_line": 454,
+  "name": "",
+  "value": 3,
+  "metric": "cognitive",
+  "tool": "eslint-plugin-sonarjs-4.2.1",
+  "extra": {
+   "secondaries": null
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 467,
+  "end_line": 467,
+  "name": "",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "eslint-plugin-sonarjs-4.2.1",
+  "extra": {
+   "secondaries": null
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 476,
+  "end_line": 476,
+  "name": "",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "eslint-plugin-sonarjs-4.2.1",
+  "extra": {
+   "secondaries": null
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 483,
+  "end_line": 483,
+  "name": "",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "eslint-plugin-sonarjs-4.2.1",
+  "extra": {
+   "secondaries": null
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 501,
+  "end_line": 501,
+  "name": "",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "eslint-plugin-sonarjs-4.2.1",
+  "extra": {
+   "secondaries": null
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 509,
+  "end_line": 509,
+  "name": "",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "eslint-plugin-sonarjs-4.2.1",
+  "extra": {
+   "secondaries": null
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 516,
+  "end_line": 516,
+  "name": "",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "eslint-plugin-sonarjs-4.2.1",
+  "extra": {
+   "secondaries": null
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 523,
+  "end_line": 523,
+  "name": "",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "eslint-plugin-sonarjs-4.2.1",
+  "extra": {
+   "secondaries": null
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 527,
+  "end_line": 527,
+  "name": "",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "eslint-plugin-sonarjs-4.2.1",
+  "extra": {
+   "secondaries": null
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 537,
+  "end_line": 537,
+  "name": "",
+  "value": 2,
+  "metric": "cognitive",
+  "tool": "eslint-plugin-sonarjs-4.2.1",
+  "extra": {
+   "secondaries": null
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 544,
+  "end_line": 544,
+  "name": "",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "eslint-plugin-sonarjs-4.2.1",
+  "extra": {
+   "secondaries": null
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 553,
+  "end_line": 553,
+  "name": "",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "eslint-plugin-sonarjs-4.2.1",
+  "extra": {
+   "secondaries": null
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 560,
+  "end_line": 560,
+  "name": "",
+  "value": 3,
+  "metric": "cognitive",
+  "tool": "eslint-plugin-sonarjs-4.2.1",
+  "extra": {
+   "secondaries": null
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 566,
+  "end_line": 566,
+  "name": "",
+  "value": 7,
+  "metric": "cognitive",
+  "tool": "eslint-plugin-sonarjs-4.2.1",
+  "extra": {
+   "secondaries": null
+  }
+ },
+ {
+  "file": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\microcorpus\\javascript\\micro.ts",
+  "line": 591,
+  "end_line": 591,
+  "name": "",
+  "value": 1,
+  "metric": "cognitive",
+  "tool": "eslint-plugin-sonarjs-4.2.1",
+  "extra": {
+   "secondaries": null
+  }
+ },
+ {
+  "file": "",
+  "line": null,
+  "end_line": null,
+  "name": "",
+  "value": null,
+  "metric": "meta",
+  "tool": "sonarjs421",
+  "extra": {
+   "errors": [],
+   "n_errors": 0
+  }
+ }
+]

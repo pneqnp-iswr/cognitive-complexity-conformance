@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local inputs and tools for re-running the measurements (see reproduction/README.md)
+data/raw_repos/
+data/sonar_token.txt
+tools/
+tools_venv/
+node_modules/
+.scannerwork/
+logs/
+
+# Written by scripts/audit_sample.py: source excerpts of third-party repositories, not redistributed
+results/processed/audit_*_snippets.txt
+
+# OS files
+.DS_Store
+Thumbs.db

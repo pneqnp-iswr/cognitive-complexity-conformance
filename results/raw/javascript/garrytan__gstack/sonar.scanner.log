@@ -1,0 +1,126 @@
+04:22:16.630 INFO  Scanner configuration file: <LOCAL_PATH>/OneDrive\Documents\Conferences\research\tools\sonar-scanner-8.1.0.6389-windows-x64\bin\..\conf\sonar-scanner.properties
+04:22:16.632 INFO  Project root configuration file: NONE
+04:22:16.645 INFO  SonarScanner CLI 8.1.0.6389
+04:22:16.652 INFO  Windows 11 10.0 amd64
+04:22:19.967 INFO  Communicating with SonarQube Community Build 26.9.0.129388
+04:22:19.968 INFO  JRE provisioning: os[windows], arch[amd64]
+04:22:20.643 INFO  Starting SonarScanner Engine...
+04:22:20.645 INFO  Java 21.0.11 Eclipse Adoptium (64-bit)
+04:22:24.899 INFO  Load global settings
+04:22:25.005 INFO  Load global settings (done) | time=102ms
+04:22:25.008 INFO  Server id: 147B411E-AaCseIXKLwHTWvrBJNod
+04:22:25.016 INFO  Loading required plugins
+04:22:25.017 INFO  Load plugins index
+04:22:25.029 INFO  Load plugins index (done) | time=13ms
+04:22:25.030 INFO  Load/download plugins
+04:22:25.057 INFO  Load/download plugins (done) | time=27ms
+04:22:25.394 INFO  Process project properties
+04:22:25.412 INFO  Process project properties (done) | time=19ms
+04:22:25.431 INFO  Project key: cc-javascript-garrytan__gstack
+04:22:25.431 INFO  Base dir: <LOCAL_PATH>/OneDrive\Documents\Conferences\research\data\raw_repos\garrytan__gstack
+04:22:25.432 INFO  Working dir: <LOCAL_PATH>/OneDrive\Documents\Conferences\research\data\raw_repos\garrytan__gstack\.scannerwork
+04:22:25.439 INFO  Load project settings for component key: 'cc-javascript-garrytan__gstack'
+04:22:25.469 INFO  Load quality profiles
+04:22:25.508 INFO  Load quality profiles (done) | time=40ms
+04:22:25.548 INFO  Load active rules
+04:22:25.710 INFO  Load active rules (done) | time=162ms
+04:22:25.717 INFO  Load analysis cache
+04:22:25.721 INFO  Load analysis cache (404) | time=4ms
+04:22:25.971 INFO  Preprocessing files...
+04:22:27.978 INFO  2 languages detected in 1365 preprocessed files (done) | time=2006ms
+04:22:27.978 INFO  953 files ignored because of inclusion/exclusion patterns
+04:22:27.979 INFO  1 directory skipped because of exclusion patterns (content not counted)
+04:22:27.981 INFO  Loading plugins for detected languages
+04:22:27.981 INFO  Load/download plugins
+04:22:27.984 INFO  Load/download plugins (done) | time=3ms
+04:22:28.099 INFO  Load project repositories
+04:22:28.103 INFO  Load project repositories (done) | time=4ms
+04:22:28.125 INFO  Indexing files...
+04:22:28.125 INFO  Project configuration:
+04:22:28.125 INFO    Included sources: **/*.js, **/*.jsx, **/*.mjs, **/*.cjs, **/*.ts, **/*.tsx
+04:22:28.125 INFO    Excluded sources: **/node_modules/**, **/vendor/**, **/third_party/**, **/*.min.js
+04:22:28.125 INFO    Excluded sources for duplication: **/*
+04:22:28.277 INFO  1365 files indexed (done) | time=152ms
+04:22:28.277 INFO  Quality profile for js: cc-study-js
+04:22:28.277 INFO  Quality profile for ts: cc-study-ts
+04:22:28.278 INFO  ------------- Run sensors on module cc-javascript-garrytan__gstack
+04:22:28.332 INFO  Load metrics repository
+04:22:28.351 INFO  Load metrics repository (done) | time=19ms
+04:22:28.833 INFO  Reflections took 94 ms to scan 1 urls, producing 30 keys and 295 values
+04:22:29.047 INFO  Sensor IaC YAML File Type Classification Sensor [iac]
+04:22:29.067 INFO  Sensor IaC YAML File Type Classification Sensor [iac] (done) | time=19ms
+04:22:29.067 INFO  Sensor IaC hadolint report Sensor [iac]
+04:22:29.069 INFO  Sensor IaC hadolint report Sensor [iac] (done) | time=2ms
+04:22:29.069 INFO  Sensor Java Config Sensor [iac]
+04:22:29.069 INFO  There are no files to be analyzed for the Java language
+04:22:29.069 INFO  Sensor Java Config Sensor [iac] (done) | time=1ms
+04:22:29.070 INFO  Sensor IaC Docker Sensor [iac]
+04:22:29.091 INFO  There are no files to be analyzed for the Docker language
+04:22:29.091 INFO  Sensor IaC Docker Sensor [iac] (done) | time=22ms
+04:22:29.091 INFO  Sensor HTML [web]
+04:22:29.106 INFO  Sensor HTML [web] (done) | time=14ms
+04:22:29.106 INFO  Sensor JavaScript/TypeScript module configuration [javascript]
+04:22:29.111 INFO  Sensor JavaScript/TypeScript module configuration [javascript] (done) | time=5ms
+04:22:29.112 INFO  Sensor TextAndSecretsSensor [text]
+04:22:29.179 INFO  Available processors: 24
+04:22:29.179 INFO  Using 24 threads for analysis.
+04:22:29.533 INFO  The property "sonar.tests" is not set. To improve the analysis accuracy, we categorize a file as a test file if any of the following is true:
+  * The filename starts with "test"
+  * The filename contains "test." or "tests."
+  * Any directory in the file path is named: "doc", "docs", "test", "tests", "mock" or "mocks"
+  * Any directory in the file path has a name ending in "test" or "tests"
+
+04:22:29.585 INFO  Start fetching files for the text and secrets analysis
+04:22:29.703 INFO  Using Git CLI to retrieve dirty files
+04:22:29.855 INFO  Retrieving language associated files and files included via "sonar.text.inclusions" that are tracked by git
+04:22:29.855 INFO  Starting the text and secrets analysis
+04:22:29.856 INFO  1365 source files to be analyzed for the text and secrets analysis
+04:22:30.346 WARN  Invalid character encountered in file <LOCAL_PATH>/OneDrive/Documents/Conferences/research/data/raw_repos/garrytan__gstack/browse/test/sanitize.test.ts at line 12 for encoding UTF-8. Please fix file content or configure the encoding to be used using property 'sonar.sourceEncoding'.
+04:22:30.464 WARN  Invalid character encountered in file <LOCAL_PATH>/OneDrive/Documents/Conferences/research/data/raw_repos/garrytan__gstack/ios-qa/daemon/test/audit.test.ts at line 91 for encoding UTF-8. Please fix file content or configure the encoding to be used using property 'sonar.sourceEncoding'.
+04:22:30.618 WARN  Invalid character encountered in file <LOCAL_PATH>/OneDrive/Documents/Conferences/research/data/raw_repos/garrytan__gstack/browse/test/build-command-response.test.ts at line 17 for encoding UTF-8. Please fix file content or configure the encoding to be used using property 'sonar.sourceEncoding'.
+04:22:30.661 WARN  Invalid character encountered in file <LOCAL_PATH>/OneDrive/Documents/Conferences/research/data/raw_repos/garrytan__gstack/make-pdf/src/render.ts at line 325 for encoding UTF-8. Please fix file content or configure the encoding to be used using property 'sonar.sourceEncoding'.
+04:22:30.942 WARN  Invalid character encountered in file <LOCAL_PATH>/OneDrive/Documents/Conferences/research/data/raw_repos/garrytan__gstack/ios-qa/daemon/src/audit.ts at line 96 for encoding UTF-8. Please fix file content or configure the encoding to be used using property 'sonar.sourceEncoding'.
+04:22:30.953 WARN  Invalid character encountered in file <LOCAL_PATH>/OneDrive/Documents/Conferences/research/data/raw_repos/garrytan__gstack/browse/test/server-sanitize-surrogates.test.ts at line 28 for encoding UTF-8. Please fix file content or configure the encoding to be used using property 'sonar.sourceEncoding'.
+04:22:30.992 WARN  Invalid character encountered in file <LOCAL_PATH>/OneDrive/Documents/Conferences/research/data/raw_repos/garrytan__gstack/browse/src/sanitize.ts at line 17 for encoding UTF-8. Please fix file content or configure the encoding to be used using property 'sonar.sourceEncoding'.
+04:22:31.173 WARN  Invalid character encountered in file <LOCAL_PATH>/OneDrive/Documents/Conferences/research/data/raw_repos/garrytan__gstack/browse/test/sse-helpers.test.ts at line 189 for encoding UTF-8. Please fix file content or configure the encoding to be used using property 'sonar.sourceEncoding'.
+04:22:31.255 WARN  Invalid character encountered in file <LOCAL_PATH>/OneDrive/Documents/Conferences/research/data/raw_repos/garrytan__gstack/test/memorable-user-prompt-hook.test.ts at line 262 for encoding UTF-8. Please fix file content or configure the encoding to be used using property 'sonar.sourceEncoding'.
+04:22:31.314 INFO  1365/1365 source files have been analyzed for the text and secrets analysis
+04:22:31.314 INFO  Skipped 1056 file(s) in the secrets analysis due to automatic test file detection
+04:22:31.316 INFO  Sensor TextAndSecretsSensor [text] (done) | time=2205ms
+04:22:31.319 INFO  ------------- Run sensors on project
+04:22:31.546 INFO  Sensor JavaScript/TypeScript/CSS analysis [javascript]
+04:22:32.349 INFO  Detected os: Windows 11 arch: amd64 alpine: false. Platform: WIN_X64
+04:22:32.350 INFO  Deploy location <LOCAL_PATH>/.sonar\js\node-runtime, tagetRuntime: <LOCAL_PATH>/.sonar\js\node-runtime\node.exe,  version: <LOCAL_PATH>/.sonar\js\node-runtime\version.txt
+04:22:32.390 INFO  Configured Node.js --max-old-space-size=8192.
+04:22:32.390 INFO  Using embedded Node.js runtime.
+04:22:32.390 INFO  Using Node.js executable: '<LOCAL_PATH>/.sonar\js\node-runtime\node.exe'.
+04:22:38.544 INFO  Memory configuration: OS (32127 MB), Node.js (8384 MB).
+04:22:38.559 INFO  gRPC analyze-project server listening on 127.0.0.1:61764
+04:22:38.711 INFO  Plugin version: [13.8.0.44569]
+04:22:40.671 INFO  Some of the project files were automatically excluded because they looked like generated code. Enable debug logging to see which files were excluded. You can disable bundle detection by setting sonar.javascript.detectBundles=false
+04:23:22.516 INFO  Found 0 tsconfig.json file(s): []
+04:23:22.516 INFO  1363 source files to be analyzed
+04:23:22.516 INFO  Analyzing 1363 file(s) using default options [lib: lib.esnext.d.ts, lib.dom.d.ts]
+04:23:22.527 INFO  1363/1363 source files have been analyzed
+04:23:22.569 INFO  Hit the cache for 0 out of 1365
+04:23:22.570 INFO  Miss the cache for 1365 out of 1365: ANALYSIS_MODE_INELIGIBLE [1365/1365]
+04:23:22.570 INFO  Sensor JavaScript/TypeScript/CSS analysis [javascript] (done) | time=51022ms
+04:23:22.570 INFO  Sensor IaC Project Sensor [iac]
+04:23:22.571 INFO  Sensor IaC Project Sensor [iac] (done) | time=1ms
+04:23:22.571 INFO  Sensor Zero Coverage Sensor
+04:23:23.445 INFO  Sensor Zero Coverage Sensor (done) | time=874ms
+04:23:23.447 INFO  ------------- Gather SCA dependencies on project
+04:23:23.453 INFO  Dependency analysis skipped
+04:23:23.455 INFO  SCM Publisher is disabled
+04:23:23.456 INFO  CPD Executor Calculating CPD for 0 files
+04:23:23.456 INFO  CPD Executor CPD calculation finished (done) | time=0ms
+04:23:27.122 INFO  Analysis report generated in 2954ms, dir size=51.9 MB
+04:24:38.584 INFO  Analysis report compressed in 71461ms, zip size=26.5 MB
+04:24:39.005 INFO  Analysis report uploaded in 422ms
+04:24:39.009 INFO  ANALYSIS SUCCESSFUL, you can find the results at: http://localhost:9000/dashboard?id=cc-javascript-garrytan__gstack
+04:24:39.009 INFO  Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+04:24:39.009 INFO  More about the report processing at http://localhost:9000/api/ce/task?id=37328390-bed5-40c0-95d0-fdde9af75ce0
+04:24:41.294 INFO  Analysis total time: 2:16.197 s
+04:24:41.327 INFO  SonarScanner Engine completed successfully
+04:24:41.396 INFO  EXECUTION SUCCESS
+04:24:41.398 INFO  Total time: 2:24.769s

@@ -1,0 +1,269 @@
+{
+ "meta": {
+  "project_key": "go-err-probe",
+  "source_dir": "<LOCAL_PATH>/OneDrive\\Documents\\Conferences\\research\\experiments\\go_err_probe",
+  "lang": "go",
+  "scan_seconds": 11.5,
+  "analysis_id": "c56d80d2-b580-45ef-a7ff-93bd56266655",
+  "server_version": "26.9.0.129388",
+  "n_issues": 13,
+  "n_cognitive": 13,
+  "n_cyclomatic": 0
+ },
+ "rows": [
+  {
+   "file": "probe2.go",
+   "rule": "go:S3776",
+   "kind": "cognitive",
+   "line": 13,
+   "start_line": 13,
+   "start_col": 5,
+   "end_line": 13,
+   "value": 1,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 1 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 15,
+     "col": 1,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "probe2.go",
+   "rule": "go:S3776",
+   "kind": "cognitive",
+   "line": 21,
+   "start_line": 21,
+   "start_col": 5,
+   "end_line": 21,
+   "value": 2,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 2 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 23,
+     "col": 1,
+     "msg": "+1"
+    },
+    {
+     "line": 25,
+     "col": 3,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "probe2.go",
+   "rule": "go:S3776",
+   "kind": "cognitive",
+   "line": 31,
+   "start_line": 31,
+   "start_col": 5,
+   "end_line": 31,
+   "value": 1,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 1 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 33,
+     "col": 1,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "probe2.go",
+   "rule": "go:S3776",
+   "kind": "cognitive",
+   "line": 39,
+   "start_line": 39,
+   "start_col": 5,
+   "end_line": 39,
+   "value": 1,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 1 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 42,
+     "col": 2,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "probe2.go",
+   "rule": "go:S3776",
+   "kind": "cognitive",
+   "line": 60,
+   "start_line": 60,
+   "start_col": 5,
+   "end_line": 60,
+   "value": 2,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 2 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 62,
+     "col": 1,
+     "msg": "+1"
+    },
+    {
+     "line": 62,
+     "col": 15,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "probe2.go",
+   "rule": "go:S3776",
+   "kind": "cognitive",
+   "line": 76,
+   "start_line": 76,
+   "start_col": 5,
+   "end_line": 76,
+   "value": 1,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 1 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 82,
+     "col": 1,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "probe.go",
+   "rule": "go:S3776",
+   "kind": "cognitive",
+   "line": 36,
+   "start_line": 36,
+   "start_col": 5,
+   "end_line": 36,
+   "value": 1,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 1 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 37,
+     "col": 1,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "probe.go",
+   "rule": "go:S3776",
+   "kind": "cognitive",
+   "line": 43,
+   "start_line": 43,
+   "start_col": 5,
+   "end_line": 43,
+   "value": 1,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 1 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 44,
+     "col": 1,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "probe.go",
+   "rule": "go:S3776",
+   "kind": "cognitive",
+   "line": 50,
+   "start_line": 50,
+   "start_col": 5,
+   "end_line": 50,
+   "value": 2,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 2 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 52,
+     "col": 1,
+     "msg": "+1"
+    },
+    {
+     "line": 54,
+     "col": 3,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "probe.go",
+   "rule": "go:S3776",
+   "kind": "cognitive",
+   "line": 59,
+   "start_line": 59,
+   "start_col": 5,
+   "end_line": 59,
+   "value": 2,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 2 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 61,
+     "col": 1,
+     "msg": "+1"
+    },
+    {
+     "line": 61,
+     "col": 15,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "probe.go",
+   "rule": "go:S3776",
+   "kind": "cognitive",
+   "line": 67,
+   "start_line": 67,
+   "start_col": 5,
+   "end_line": 67,
+   "value": 1,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 1 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 68,
+     "col": 1,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "probe.go",
+   "rule": "go:S3776",
+   "kind": "cognitive",
+   "line": 84,
+   "start_line": 84,
+   "start_col": 5,
+   "end_line": 84,
+   "value": 1,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 1 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 86,
+     "col": 1,
+     "msg": "+1"
+    }
+   ]
+  },
+  {
+   "file": "probe.go",
+   "rule": "go:S3776",
+   "kind": "cognitive",
+   "line": 92,
+   "start_line": 92,
+   "start_col": 5,
+   "end_line": 92,
+   "value": 1,
+   "message": "Refactor this method to reduce its Cognitive Complexity from 1 to the 0 allowed.",
+   "increments": [
+    {
+     "line": 93,
+     "col": 1,
+     "msg": "+1"
+    }
+   ]
+  }
+ ]
+}

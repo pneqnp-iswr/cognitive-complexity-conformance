@@ -1,0 +1,120 @@
+04:46:17.788 INFO  Scanner configuration file: <LOCAL_PATH>/OneDrive\Documents\Conferences\research\tools\sonar-scanner-8.1.0.6389-windows-x64\bin\..\conf\sonar-scanner.properties
+04:46:17.791 INFO  Project root configuration file: NONE
+04:46:17.804 INFO  SonarScanner CLI 8.1.0.6389
+04:46:17.811 INFO  Windows 11 10.0 amd64
+04:46:19.985 INFO  Communicating with SonarQube Community Build 26.9.0.129388
+04:46:19.986 INFO  JRE provisioning: os[windows], arch[amd64]
+04:46:20.340 INFO  Starting SonarScanner Engine...
+04:46:20.340 INFO  Java 21.0.11 Eclipse Adoptium (64-bit)
+04:46:22.693 INFO  Load global settings
+04:46:22.778 INFO  Load global settings (done) | time=81ms
+04:46:22.781 INFO  Server id: 147B411E-AaCseIXKLwHTWvrBJNod
+04:46:22.788 INFO  Loading required plugins
+04:46:22.788 INFO  Load plugins index
+04:46:22.800 INFO  Load plugins index (done) | time=10ms
+04:46:22.800 INFO  Load/download plugins
+04:46:22.819 INFO  Load/download plugins (done) | time=20ms
+04:46:23.087 INFO  Process project properties
+04:46:23.103 INFO  Process project properties (done) | time=16ms
+04:46:23.118 INFO  Project key: micro-java
+04:46:23.119 INFO  Base dir: <LOCAL_PATH>/OneDrive\Documents\Conferences\research\experiments\microcorpus\java
+04:46:23.119 INFO  Working dir: <LOCAL_PATH>/OneDrive\Documents\Conferences\research\experiments\microcorpus\java\.scannerwork
+04:46:23.131 INFO  Load project settings for component key: 'micro-java'
+04:46:23.141 INFO  Load project settings for component key: 'micro-java' (done) | time=10ms
+04:46:23.173 INFO  Load quality profiles
+04:46:23.218 INFO  Load quality profiles (done) | time=45ms
+04:46:23.249 INFO  Load active rules
+04:46:23.452 INFO  Load active rules (done) | time=202ms
+04:46:23.458 INFO  Load analysis cache
+04:46:23.486 INFO  Load analysis cache (76 bytes) | time=28ms
+04:46:23.658 INFO  Preprocessing files...
+04:46:23.673 INFO  1 language detected in 1 preprocessed file (done) | time=15ms
+04:46:23.673 INFO  0 files ignored because of inclusion/exclusion patterns
+04:46:23.674 INFO  Loading plugins for detected languages
+04:46:23.675 INFO  Load/download plugins
+04:46:23.794 INFO  Load/download plugins (done) | time=119ms
+04:46:23.903 INFO  Load project repositories
+04:46:24.062 INFO  Load project repositories (done) | time=160ms
+04:46:24.080 INFO  Indexing files...
+04:46:24.080 INFO  Project configuration:
+04:46:24.080 INFO    Included sources: **/*.java
+04:46:24.080 INFO    Excluded sources: **/node_modules/**, **/vendor/**, **/third_party/**, **/*.min.js
+04:46:24.080 INFO    Excluded sources for duplication: **/*
+04:46:24.089 INFO  1 file indexed (done) | time=9ms
+04:46:24.090 INFO  Quality profile for java: cc-study-java
+04:46:24.090 INFO  ------------- Run sensors on module micro-java
+04:46:24.163 INFO  Load metrics repository
+04:46:24.183 INFO  Load metrics repository (done) | time=19ms
+04:46:24.771 INFO  Sensor IaC YAML File Type Classification Sensor [iac]
+04:46:24.773 INFO  Sensor IaC YAML File Type Classification Sensor [iac] (done) | time=2ms
+04:46:24.773 INFO  Sensor JavaSensor [java]
+04:46:24.794 INFO  Configured Java source version (sonar.java.source): 21, preview features enabled (sonar.java.enablePreview): false
+04:46:24.809 INFO  Server-side caching is enabled. The Java analyzer will not try to leverage data from a previous analysis.
+04:46:24.813 INFO  Using ECJ batch to parse 1 Main java source files with batch size 421 KB.
+04:46:25.156 INFO  Starting batch processing.
+04:46:25.778 INFO  The Java analyzer cannot skip unchanged files in this context. A full analysis is performed for all files.
+04:46:26.108 INFO  100% analyzed
+04:46:26.108 INFO  Batch processing: Done.
+04:46:26.108 INFO  Did not optimize analysis for any files, performed a full analysis for all 1 files.
+04:46:26.109 WARN  Missing 'sonar.java.libraries' property. You might end up with less precise analysis results.
+04:46:26.111 WARN  Unresolved imports/types have been detected during analysis. Enable DEBUG mode to see them.
+04:46:26.112 INFO  No "Test" source files to scan.
+04:46:26.112 INFO  No "Generated" source files to scan.
+04:46:26.112 INFO  Sensor JavaSensor [java] (done) | time=1339ms
+04:46:26.113 INFO  Sensor JaCoCo XML Report Importer [jacoco]
+04:46:26.114 INFO  'sonar.coverage.jacoco.xmlReportPaths' is not defined. Using default locations: target/site/jacoco/jacoco.xml,target/site/jacoco-it/jacoco.xml,build/reports/jacoco/test/jacocoTestReport.xml
+04:46:26.115 INFO  No report imported, no coverage information will be imported by JaCoCo XML Report Importer
+04:46:26.115 INFO  Sensor JaCoCo XML Report Importer [jacoco] (done) | time=2ms
+04:46:26.115 INFO  Sensor IaC hadolint report Sensor [iac]
+04:46:26.115 INFO  Sensor IaC hadolint report Sensor [iac] (done) | time=0ms
+04:46:26.116 INFO  Sensor Java Config Sensor [iac]
+04:46:26.116 INFO  There are no files to be analyzed for the Java language
+04:46:26.116 INFO  Sensor Java Config Sensor [iac] (done) | time=1ms
+04:46:26.116 INFO  Sensor IaC Docker Sensor [iac]
+04:46:26.117 INFO  There are no files to be analyzed for the Docker language
+04:46:26.117 INFO  Sensor IaC Docker Sensor [iac] (done) | time=1ms
+04:46:26.117 INFO  Sensor SurefireSensor [java]
+04:46:26.117 INFO  parsing [<LOCAL_PATH>/OneDrive\Documents\Conferences\research\experiments\microcorpus\java\target\surefire-reports]
+04:46:26.118 INFO  Sensor SurefireSensor [java] (done) | time=1ms
+04:46:26.118 INFO  Sensor TextAndSecretsSensor [text]
+04:46:26.134 INFO  Available processors: 24
+04:46:26.134 INFO  Using 24 threads for analysis.
+04:46:26.354 INFO  The property "sonar.tests" is not set. To improve the analysis accuracy, we categorize a file as a test file if any of the following is true:
+  * The filename starts with "test"
+  * The filename contains "test." or "tests."
+  * Any directory in the file path is named: "doc", "docs", "test", "tests", "mock" or "mocks"
+  * Any directory in the file path has a name ending in "test" or "tests"
+
+04:46:26.385 INFO  Start fetching files for the text and secrets analysis
+04:46:26.482 INFO  Using Git CLI to retrieve dirty files
+04:46:26.528 INFO  Retrieving language associated files and files included via "sonar.text.inclusions" that are tracked by git
+04:46:26.528 INFO  Starting the text and secrets analysis
+04:46:26.529 INFO  1 source file to be analyzed for the text and secrets analysis
+04:46:26.546 INFO  1/1 source file has been analyzed for the text and secrets analysis
+04:46:26.548 INFO  Sensor TextAndSecretsSensor [text] (done) | time=429ms
+04:46:26.550 INFO  ------------- Run sensors on project
+04:46:26.698 INFO  Sensor JaCoCo Aggregate XML Report Importer [jacoco]
+04:46:26.698 INFO  Sensor JaCoCo Aggregate XML Report Importer [jacoco] (done) | time=1ms
+04:46:26.698 INFO  Sensor IaC Project Sensor [iac]
+04:46:26.699 INFO  Sensor IaC Project Sensor [iac] (done) | time=1ms
+04:46:26.699 INFO  Sensor JavaProjectSensor [java]
+04:46:26.701 INFO  Sensor JavaProjectSensor [java] (done) | time=0ms
+04:46:26.701 INFO  Sensor Zero Coverage Sensor
+04:46:26.708 INFO  Sensor Zero Coverage Sensor (done) | time=8ms
+04:46:26.709 INFO  Sensor Java CPD Block Indexer
+04:46:26.710 INFO  Sensor Java CPD Block Indexer (done) | time=1ms
+04:46:26.710 INFO  ------------- Gather SCA dependencies on project
+04:46:26.714 INFO  Dependency analysis skipped
+04:46:26.715 INFO  SCM Publisher is disabled
+04:46:26.717 INFO  CPD Executor Calculating CPD for 0 files
+04:46:26.718 INFO  CPD Executor CPD calculation finished (done) | time=0ms
+04:46:26.844 INFO  Analysis report generated in 108ms, dir size=222.4 kB
+04:46:26.940 INFO  Analysis report compressed in 96ms, zip size=37.9 kB
+04:46:26.962 INFO  Analysis report uploaded in 21ms
+04:46:26.964 INFO  ANALYSIS SUCCESSFUL, you can find the results at: http://localhost:9000/dashboard?id=micro-java
+04:46:26.964 INFO  Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+04:46:26.964 INFO  More about the report processing at http://localhost:9000/api/ce/task?id=7f4773ac-54af-4315-8fbb-4e3f98df350a
+04:46:26.972 INFO  Analysis total time: 4.112 s
+04:46:26.996 INFO  SonarScanner Engine completed successfully
+04:46:27.047 INFO  EXECUTION SUCCESS
+04:46:27.047 INFO  Total time: 9.263s

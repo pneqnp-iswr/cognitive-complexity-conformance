@@ -1,0 +1,110 @@
+03:54:17.634 INFO  Scanner configuration file: <LOCAL_PATH>/OneDrive\Documents\Conferences\research\tools\sonar-scanner-8.1.0.6389-windows-x64\bin\..\conf\sonar-scanner.properties
+03:54:17.638 INFO  Project root configuration file: NONE
+03:54:17.651 INFO  SonarScanner CLI 8.1.0.6389
+03:54:17.658 INFO  Windows 11 10.0 amd64
+03:54:20.188 INFO  Communicating with SonarQube Community Build 26.9.0.129388
+03:54:20.188 INFO  JRE provisioning: os[windows], arch[amd64]
+03:54:20.546 INFO  Starting SonarScanner Engine...
+03:54:20.547 INFO  Java 21.0.11 Eclipse Adoptium (64-bit)
+03:54:22.776 INFO  Load global settings
+03:54:22.862 INFO  Load global settings (done) | time=83ms
+03:54:22.865 INFO  Server id: 147B411E-AaCseIXKLwHTWvrBJNod
+03:54:22.871 INFO  Loading required plugins
+03:54:22.871 INFO  Load plugins index
+03:54:22.883 INFO  Load plugins index (done) | time=11ms
+03:54:22.883 INFO  Load/download plugins
+03:54:22.910 INFO  Load/download plugins (done) | time=26ms
+03:54:23.170 INFO  Process project properties
+03:54:23.192 INFO  Process project properties (done) | time=23ms
+03:54:23.204 INFO  Project key: cc-python-open-webui__open-webui
+03:54:23.204 INFO  Base dir: <LOCAL_PATH>/OneDrive\Documents\Conferences\research\data\raw_repos\open-webui__open-webui
+03:54:23.205 INFO  Working dir: <LOCAL_PATH>/OneDrive\Documents\Conferences\research\data\raw_repos\open-webui__open-webui\.scannerwork
+03:54:23.211 INFO  Load project settings for component key: 'cc-python-open-webui__open-webui'
+03:54:23.237 INFO  Load quality profiles
+03:54:23.310 INFO  Load quality profiles (done) | time=74ms
+03:54:23.341 INFO  Load active rules
+03:54:23.490 INFO  Load active rules (done) | time=149ms
+03:54:23.496 INFO  Load analysis cache
+03:54:23.500 INFO  Load analysis cache (404) | time=4ms
+03:54:23.687 INFO  Preprocessing files...
+03:54:26.808 INFO  1 language detected in 261 preprocessed files (done) | time=3120ms
+03:54:26.808 INFO  4829 files ignored because of inclusion/exclusion patterns
+03:54:26.809 INFO  Loading plugins for detected languages
+03:54:26.809 INFO  Load/download plugins
+03:54:26.812 INFO  Load/download plugins (done) | time=3ms
+03:54:26.952 INFO  Load project repositories
+03:54:26.957 INFO  Load project repositories (done) | time=7ms
+03:54:26.980 INFO  Indexing files...
+03:54:26.981 INFO  Project configuration:
+03:54:26.981 INFO    Included sources: **/*.py
+03:54:26.981 INFO    Excluded sources: **/node_modules/**, **/vendor/**, **/third_party/**, **/*.min.js
+03:54:26.982 INFO    Excluded sources for duplication: **/*
+03:54:27.038 INFO  261 files indexed (done) | time=58ms
+03:54:27.038 INFO  Quality profile for py: cc-study-py
+03:54:27.038 INFO  ------------- Run sensors on module cc-python-open-webui__open-webui
+03:54:27.094 INFO  Load metrics repository
+03:54:27.116 INFO  Load metrics repository (done) | time=22ms
+03:54:27.802 INFO  Sensor IaC YAML File Type Classification Sensor [iac]
+03:54:27.811 INFO  Sensor IaC YAML File Type Classification Sensor [iac] (done) | time=9ms
+03:54:27.812 INFO  Sensor IaC hadolint report Sensor [iac]
+03:54:27.812 INFO  Sensor IaC hadolint report Sensor [iac] (done) | time=1ms
+03:54:27.813 INFO  Sensor Java Config Sensor [iac]
+03:54:27.814 INFO  There are no files to be analyzed for the Java language
+03:54:27.814 INFO  Sensor Java Config Sensor [iac] (done) | time=1ms
+03:54:27.814 INFO  Sensor IaC Docker Sensor [iac]
+03:54:27.818 INFO  There are no files to be analyzed for the Docker language
+03:54:27.819 INFO  Sensor IaC Docker Sensor [iac] (done) | time=4ms
+03:54:27.819 INFO  Sensor Python Sensor [python]
+03:54:28.918 INFO  Starting global symbols computation
+03:54:28.921 INFO  261 source files to be analyzed
+03:54:34.494 INFO  261/261 source files have been analyzed
+03:54:34.495 INFO  Finished step global symbols computation in 5575ms
+03:54:34.678 INFO  Starting rules execution
+03:54:34.678 INFO  261 source files to be analyzed
+03:54:44.689 INFO  258/261 files analyzed, current files: config.py, main.py, middleware.py
+03:54:50.978 INFO  261/261 source files have been analyzed
+03:54:50.978 INFO  Finished step rules execution in 16299ms
+03:54:50.978 INFO  The Python analyzer was able to leverage cached data from previous analyses for 0 out of 261 files. These files were not parsed.
+03:54:50.980 INFO  Sensor Python Sensor [python] (done) | time=23161ms
+03:54:50.980 INFO  Sensor Cobertura Sensor for Python coverage [python]
+03:54:51.390 INFO  Sensor Cobertura Sensor for Python coverage [python] (done) | time=409ms
+03:54:51.390 INFO  Sensor PythonXUnitSensor [python]
+03:54:51.790 INFO  Sensor PythonXUnitSensor [python] (done) | time=399ms
+03:54:51.790 INFO  Sensor Python Dependency Sensor [python]
+03:54:51.793 INFO  Sensor Python Dependency Sensor [python] (done) | time=3ms
+03:54:51.793 INFO  Sensor TextAndSecretsSensor [text]
+03:54:51.810 INFO  Available processors: 24
+03:54:51.810 INFO  Using 24 threads for analysis.
+03:54:51.974 INFO  The property "sonar.tests" is not set. To improve the analysis accuracy, we categorize a file as a test file if any of the following is true:
+  * The filename starts with "test"
+  * The filename contains "test." or "tests."
+  * Any directory in the file path is named: "doc", "docs", "test", "tests", "mock" or "mocks"
+  * Any directory in the file path has a name ending in "test" or "tests"
+
+03:54:51.995 INFO  Start fetching files for the text and secrets analysis
+03:54:52.110 INFO  Using Git CLI to retrieve dirty files
+03:54:52.318 INFO  Retrieving language associated files and files included via "sonar.text.inclusions" that are tracked by git
+03:54:52.320 INFO  Starting the text and secrets analysis
+03:54:52.320 INFO  261 source files to be analyzed for the text and secrets analysis
+03:54:53.170 INFO  261/261 source files have been analyzed for the text and secrets analysis
+03:54:53.172 INFO  Sensor TextAndSecretsSensor [text] (done) | time=1379ms
+03:54:53.174 INFO  ------------- Run sensors on project
+03:54:53.292 INFO  Sensor IaC Project Sensor [iac]
+03:54:53.293 INFO  Sensor IaC Project Sensor [iac] (done) | time=1ms
+03:54:53.293 INFO  Sensor Zero Coverage Sensor
+03:54:53.482 INFO  Sensor Zero Coverage Sensor (done) | time=188ms
+03:54:53.483 INFO  ------------- Gather SCA dependencies on project
+03:54:53.487 INFO  Dependency analysis skipped
+03:54:53.488 INFO  SCM Publisher is disabled
+03:54:53.490 INFO  CPD Executor Calculating CPD for 0 files
+03:54:53.490 INFO  CPD Executor CPD calculation finished (done) | time=0ms
+03:54:54.024 INFO  Analysis report generated in 459ms, dir size=13.6 MB
+03:55:03.985 INFO  Analysis report compressed in 9961ms, zip size=6.9 MB
+03:55:04.245 INFO  Analysis report uploaded in 260ms
+03:55:04.247 INFO  ANALYSIS SUCCESSFUL, you can find the results at: http://localhost:9000/dashboard?id=cc-python-open-webui__open-webui
+03:55:04.247 INFO  Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+03:55:04.247 INFO  More about the report processing at http://localhost:9000/api/ce/task?id=50e8188e-e3e5-4f53-9911-20e80a26174a
+03:55:04.532 INFO  Analysis total time: 41.587 s
+03:55:04.573 INFO  SonarScanner Engine completed successfully
+03:55:04.694 INFO  EXECUTION SUCCESS
+03:55:04.696 INFO  Total time: 47.064s
